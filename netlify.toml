@@ -1,0 +1,39 @@
+[build]
+command = "npm run build"
+publish = "dist"
+
+[[redirects]]
+from = "http://www.klayconsultants.com/*"
+to = "https://klayconsultants.com/:splat"
+status = 301
+force = true
+
+[[redirects]]
+from = "http://klayconsultants.com/*"
+to = "https://klayconsultants.com/:splat"
+status = 301
+force = true
+
+[[redirects]]
+from = "https://www.klayconsultants.com/*"
+to = "https://klayconsultants.com/:splat"
+status = 301
+force = true
+
+[[headers]]
+for = "/assets/*"
+  [headers.values]
+  Cache-Control = "public, max-age=31536000, immutable"
+  X-Content-Type-Options = "nosniff"
+
+[[headers]]
+for = "/videos/*"
+  [headers.values]
+  Cache-Control = "public, max-age=2592000"
+  X-Content-Type-Options = "nosniff"
+
+[context.deploy-preview]
+  [[context.deploy-preview.headers]]
+  for = "/*"
+    [context.deploy-preview.headers.values]
+    X-Robots-Tag = "noindex, nofollow"
