@@ -18,14 +18,14 @@ export function BlogCard({ title, excerpt, date, image, imageAlt, imageTitle, sl
   return (
     <Link href={`/blog/${slug}`} className="block h-full">
       <GlassCard className="p-0 h-full flex flex-col overflow-hidden group">
-        <div className="relative aspect-[16/10] overflow-hidden">
+        <div className="relative aspect-video overflow-hidden bg-white/70">
           {image ? (
             <Image
               src={image}
               alt={imageAlt ?? title}
               title={imageTitle}
               fill
-              className="object-cover transition-transform duration-500 group-hover:scale-105"
+              className="object-contain"
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             />
           ) : (

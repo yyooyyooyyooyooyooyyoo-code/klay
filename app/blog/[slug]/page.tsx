@@ -3488,6 +3488,1860 @@ const dependentVisaSponsorshipArticle: LongFormArticle = {
   ],
 };
 
+const difcVsAbuDhabiWillsArticle: LongFormArticle = {
+  introduction:
+    'Once you decide to register a will in the UAE, one of the most common questions is which registry you should use. For eligible non-Muslim expats, two established options are the DIFC Wills Service Centre and the Abu Dhabi Judicial Department (ADJD) Wills Registry. Understanding the difference between DIFC Wills vs Abu Dhabi Wills Registry can help you identify which option may be more suitable for your assets, family circumstances and location. Although both options provide mechanisms for non-Muslims to document their wishes, they differ in areas such as registration procedures, jurisdiction, available will options and practical considerations. Whether you live in Dubai, Abu Dhabi, Sharjah or another emirate, choosing the appropriate registry is an important part of your UAE estate-planning process.',
+  sections: [
+    {
+      heading: 'Why Does the Choice of UAE Will Registry Matter?',
+      paragraphs: [
+        'Choosing a will registry is an important part of estate planning because the registration structure and applicable legal framework can affect how your wishes are implemented after your death. Both DIFC and ADJD provide mechanisms for eligible non-Muslims to register wills covering relevant UAE assets.',
+        'However, the most suitable option can depend on several factors, including:',
+        'Rather than choosing a registry simply because it is familiar, compare the available options based on your individual circumstances.',
+      ],
+      bulletList: [
+        'Where you live in the UAE.',
+        'Where your property is located.',
+        'Whether you own a UAE business.',
+        'Whether you have minor children.',
+        'The type of will you require.',
+        'Your preferred registration process.',
+        'Current registration fees.',
+        'Your international estate-planning arrangements.',
+      ],
+    },
+    {
+      heading: 'DIFC Wills Service Centre: Overview',
+      paragraphs: [
+        'The DIFC Wills Service Centre operates within the Dubai International Financial Centre and provides will-registration services for eligible non-Muslims. It is widely known among international residents in Dubai and is commonly considered by expats who want to make formal arrangements for their UAE assets.',
+        'DIFC wills can address different categories of assets and personal arrangements, depending on the type of will and the applicable rules.',
+      ],
+      subsections: [
+        {
+          heading: 'Key Features of DIFC Wills',
+          paragraphs: [
+            'Some features commonly associated with DIFC wills include:',
+          ],
+          bulletList: [
+            'Options for dealing with UAE-based assets.',
+            'An English-language process.',
+            'A common-law-based framework.',
+            'Different will options designed around estate-planning requirements.',
+            'Options addressing property, financial assets and business interests.',
+            'Guardianship arrangements for eligible families.',
+            'A formal registration and signing process.',
+          ],
+        },
+        {
+          heading: 'Will Structures',
+          paragraphs: [
+            'DIFC offers different will structures depending on what you need to cover. For example, an individual may require a comprehensive will covering their estate, while a business owner may require arrangements specifically addressing business interests.',
+          ],
+        },
+        {
+          heading: 'Who Should Consider DIFC Wills?',
+          paragraphs: ['DIFC Wills may be worth considering for:'],
+          bulletList: [
+            'UK expats living in Dubai.',
+            'US expats with UAE assets.',
+            'International entrepreneurs.',
+            'Property investors.',
+            'Business owners.',
+            'Families with minor children.',
+            'Individuals seeking an English-language registration process.',
+          ],
+        },
+        {
+          heading: 'Assess Individual Eligibility',
+          paragraphs: [
+            'The suitability of the registry should be assessed against your individual estate and the current eligibility requirements.',
+          ],
+        },
+      ],
+    },
+    {
+      heading: 'Abu Dhabi Judicial Department Wills Registry: Overview',
+      paragraphs: [
+        'The Abu Dhabi Judicial Department (ADJD) also provides a wills-registration route for eligible non-Muslim individuals. It can be particularly relevant to expats who live in Abu Dhabi or have significant assets registered in the emirate.',
+        'Like DIFC, the ADJD framework allows eligible individuals to formally document their wishes regarding their estate.',
+      ],
+      subsections: [
+        {
+          heading: 'Key Features of ADJD Wills',
+          paragraphs: [
+            'Depending on your circumstances and the current rules, important considerations can include:',
+          ],
+          bulletList: [
+            'Coverage for relevant UAE assets.',
+            'Particular relevance for Abu Dhabi-based residents and assets.',
+            'English-language documentation and procedures.',
+            'A formal registration process.',
+            'Estate-planning arrangements for eligible non-Muslims.',
+            'Options for addressing property and other assets.',
+          ],
+        },
+        {
+          heading: 'Confirm Current Requirements',
+          paragraphs: [
+            'Because registration requirements and fees can change, applicants should confirm the current requirements directly or through qualified professional advisers before registering.',
+          ],
+        },
+        {
+          heading: 'Who Should Consider ADJD Wills?',
+          paragraphs: ['ADJD Wills may be worth considering for:'],
+          bulletList: [
+            'Abu Dhabi residents.',
+            'Property owners in Abu Dhabi.',
+            'Business owners with Abu Dhabi interests.',
+            'International investors.',
+            'Expats seeking UAE estate-planning arrangements.',
+            'Families requiring guardianship planning.',
+          ],
+        },
+        {
+          heading: 'Consider More Than Your Residence',
+          paragraphs: [
+            'Your residential emirate should not be the only factor when deciding which registry to use.',
+          ],
+        },
+      ],
+    },
+    {
+      heading: 'DIFC Wills vs Abu Dhabi Wills: Side-by-Side Comparison',
+      table: {
+        headers: ['Comparison Factor', 'DIFC Wills', 'Abu Dhabi Wills Registry'],
+        rows: [
+          ['Main jurisdiction', 'Dubai International Financial Centre', 'Abu Dhabi Judicial Department'],
+          ['Target users', 'Eligible non-Muslim individuals', 'Eligible non-Muslim individuals'],
+          ['Language', 'English', 'English'],
+          ['Legal framework', 'DIFC legal framework', 'Applicable Abu Dhabi legal framework'],
+          ['UAE asset coverage', 'Subject to will type and applicable rules', 'Subject to will type and applicable rules'],
+          ['Property planning', 'Available subject to requirements', 'Available subject to requirements'],
+          ['Business interests', 'Options available', 'Options available subject to requirements'],
+          ['Guardianship', 'Available through relevant arrangements', 'Available through relevant arrangements'],
+          ['Registration', 'Formal registration process', 'Formal registration process'],
+          ['Fees', 'Check current fee schedule', 'Check current fee schedule'],
+        ],
+      },
+      paragraphs: [
+        'The table provides a general comparison. The precise legal effect and current requirements should always be confirmed for your individual circumstances.',
+      ],
+    },
+    {
+      heading: 'Does It Matter Where You Live?',
+      paragraphs: [
+        'One of the common questions surrounding DIFC Wills vs Abu Dhabi Wills Registry is whether you must choose a registry based on your place of residence. For many eligible non-Muslim expats, the decision is not simply about living in Dubai versus Abu Dhabi.',
+        'The location of your assets, family circumstances and the type of will you need can also be relevant. For example, someone living in Dubai may own property in Abu Dhabi, while an Abu Dhabi resident may have investments or other assets elsewhere in the UAE. This is why it is important to consider your complete UAE asset profile before deciding which registration route is appropriate.',
+      ],
+    },
+    {
+      heading: 'What If You Live in Dubai but Own Abu Dhabi Property?',
+      paragraphs: [
+        'This is a common situation for UAE expats. A person may live in Dubai but own an investment property in Abu Dhabi, or live in Abu Dhabi while owning assets elsewhere in the UAE.',
+        'The question is therefore not simply where you live. The relevant legal rules and the scope of your registered will should be reviewed carefully to ensure that the assets you want to address are appropriately covered. A professional adviser can help you determine which structure is suitable for your circumstances.',
+      ],
+    },
+    {
+      heading: 'What About Expats Living in Sharjah, Ajman or Other Emirates?',
+      paragraphs: [
+        'Expats living outside Dubai and Abu Dhabi may also need to consider their available will-registration options. The decision can depend on their assets, family circumstances and the applicable requirements of each registry.',
+        'For someone living in Sharjah, for example, the most important consideration may be whether they own property, bank accounts or business interests in other parts of the UAE. Instead of assuming that your residential emirate determines the correct registry, consider the complete picture before making a decision.',
+      ],
+    },
+    {
+      heading: 'How to Register a UAE Will',
+      paragraphs: [
+        'While the exact process can vary between registries, the general process may involve several stages.',
+      ],
+      subsections: [
+        {
+          heading: '1. Identify Your UAE Assets',
+          paragraphs: [
+            'Prepare a list of the assets you want your will to address. This may include:',
+          ],
+          bulletList: [
+            'Property.',
+            'Bank accounts.',
+            'Investments.',
+            'Company shares.',
+            'Other UAE-based assets.',
+          ],
+        },
+        {
+          heading: '2. Consider Your Family Circumstances',
+          paragraphs: [
+            'Think about who should inherit your assets and whether you need to address guardianship arrangements for minor children. Consider your beneficiaries, chosen executor and any international family arrangements.',
+          ],
+        },
+        {
+          heading: '3. Choose the Appropriate Will Structure',
+          paragraphs: [
+            'Different will options may be available depending on your requirements. A full estate will, property-related will, business-related will or guardianship arrangement may each address different needs.',
+          ],
+        },
+        {
+          heading: '4. Prepare the Will',
+          paragraphs: [
+            'The document should be prepared carefully so that your wishes are clearly expressed and the relevant requirements are satisfied. If you already have a will in another country, review both documents together to avoid potential conflicts.',
+          ],
+        },
+        {
+          heading: '5. Complete Registration',
+          paragraphs: [
+            'Follow the chosen registry’s current registration process, including identification, appointment and signing requirements. Confirm the latest documentation requirements and fees before proceeding.',
+          ],
+        },
+        {
+          heading: '6. Keep Your Details Updated',
+          paragraphs: [
+            'Your circumstances can change. If you purchase new property, start a company, have children or experience another major life change, review whether your existing estate plan still reflects your wishes.',
+          ],
+        },
+      ],
+    },
+    {
+      heading: 'Common Mistakes When Choosing a Will Registry',
+      paragraphs: [
+        'When comparing DIFC Wills vs Abu Dhabi Wills Registry, expats sometimes make avoidable mistakes.',
+      ],
+      subsections: [
+        {
+          heading: 'Assuming One Registry Only Covers One Emirate',
+          paragraphs: [
+            'The scope of a will should be checked carefully rather than assuming that it only applies to assets in the emirate where it was registered.',
+          ],
+        },
+        {
+          heading: 'Ignoring Current Fees',
+          paragraphs: [
+            'Registration fees and related charges can change. Always check the current fee structure before making your decision.',
+          ],
+        },
+        {
+          heading: 'Choosing Based Only on Location',
+          paragraphs: [
+            'Your place of residence is relevant, but it should not necessarily be the only factor. Your property, business interests, family and estate-planning objectives should also be considered.',
+          ],
+        },
+        {
+          heading: 'Delaying the Decision',
+          paragraphs: [
+            'Some people spend months comparing options and never actually register a will. If estate planning is important to you, obtaining appropriate advice and completing the process can be more useful than leaving your assets subject to uncertainty.',
+          ],
+        },
+        {
+          heading: 'Forgetting to Tell Your Executor',
+          paragraphs: [
+            'Your chosen executor should know that a will exists and understand where the relevant documentation and registration details are kept.',
+          ],
+        },
+      ],
+    },
+  ],
+  faqs: [
+    {
+      question: 'Is DIFC Wills Service Centre better than Abu Dhabi Wills Registry?',
+      answer:
+        'There is no single option that is suitable for every individual. The appropriate registry can depend on your residence, assets, family circumstances and estate-planning requirements.',
+    },
+    {
+      question: 'Can a DIFC will cover property in Abu Dhabi?',
+      answer:
+        'The scope of coverage should be confirmed based on the current DIFC rules and the specific will being registered. If you own property in Abu Dhabi, discuss the asset with your legal adviser before registration.',
+    },
+    {
+      question: 'Can I register a will with both DIFC and ADJD?',
+      answer:
+        'Registering with both is not generally necessary for most individuals, but the correct approach depends on your circumstances. Having multiple wills without careful coordination can also create unnecessary complexity.',
+    },
+    {
+      question: 'Is one registry cheaper?',
+      answer:
+        'Fees can change, so a current comparison is necessary. Rather than relying on historical prices, check the latest official fee schedules before registering.',
+    },
+    {
+      question: 'Do I need a lawyer to register a UAE will?',
+      answer:
+        'Legal assistance may not always be mandatory, but professional guidance can help ensure that your will properly addresses your assets, beneficiaries and other relevant requirements.',
+    },
+    {
+      question: 'Which UAE will should a UK or US expat choose?',
+      answer:
+        'UK and US expats should consider their UAE assets, family circumstances and international estate-planning arrangements before selecting a registry. A professional adviser can help coordinate the UAE will with existing international arrangements.',
+    },
+    {
+      question: 'Can expats living in Sharjah register through DIFC or ADJD?',
+      answer:
+        'Eligible individuals should review the current registration requirements of both registries. Their residence, asset locations and estate-planning needs can help determine the appropriate option.',
+    },
+    {
+      question: 'Should I change my will if I move from Dubai to Abu Dhabi?',
+      answer:
+        'Not automatically. However, moving, purchasing property or changing your business interests may justify reviewing your estate plan to ensure that it continues to reflect your wishes.',
+    },
+  ],
+  cta:
+    'When comparing DIFC Wills vs Abu Dhabi Wills Registry, the decision should be based on your individual circumstances rather than simply choosing the most familiar registry. Consider where you live, where your assets are located, whether you own a business, whether you have minor children and which estate-planning arrangements you need. Both DIFC and ADJD provide established routes for eligible non-Muslim individuals to formally document their wishes in the UAE. Because regulations, fees and registration procedures can change, it is important to obtain up-to-date professional advice before registering your will. A properly planned UAE will can provide greater clarity about what should happen to your assets and family arrangements in the future. For UK, US and GCC expats, understanding the available options is an important part of international estate planning. Klay Consultants works with legal partners to help expats understand their UAE will options and navigate the registration process based on their assets and family circumstances. If you are unsure whether DIFC or ADJD is appropriate for you, speak with Klay Consultants to discuss your circumstances and understand the available options.',
+  disclaimer:
+    'This article is for general informational purposes only and does not constitute legal advice. Eligibility, legal frameworks, registration procedures and fees depend on the relevant registry and individual circumstances. Consult a qualified UAE legal professional before making estate-planning decisions.',
+  relatedLinks: [
+    { href: '/blog/how-to-register-a-non-muslim-will-in-the-uae-step-by-step-klay-consultants', label: 'How to register a non-Muslim will in the UAE' },
+    { href: '/blog/guardianship-for-minor-children-in-a-uae-will-klay-consultants', label: 'Guardianship for minor children in a UAE will' },
+    { href: '/blog/including-business-shares-in-your-uae-will-klay-consultants', label: 'Including business shares in your UAE will' },
+  ],
+};
+
+const nonMuslimWillRegistrationArticle: LongFormArticle = {
+  introduction:
+    'A practical guide to registering a non-Muslim will in the UAE, including documents required, registration steps, appointments, costs and timelines. Deciding to register a will in UAE is an important step for expats who own property, bank accounts, business interests or other assets in the country. For UK, US and GCC expats, however, deciding to make a will is often easier than understanding the actual registration process. What documents do you need? Which registry should you use? Do you need a lawyer? How long does registration take? And what happens after your will has been registered? This guide explains how to register a will in UAE from the initial planning stage through to final registration, helping you understand what to prepare before starting the process.',
+  sections: [
+    {
+      heading: 'Before You Start: Identify What You Want to Protect',
+      paragraphs: [
+        'Before preparing your will, make a clear list of the assets and family arrangements you want it to address. Your estate may include:',
+        'Creating an asset inventory makes the drafting process easier and helps your legal adviser determine which type of will may be appropriate.',
+        'It is also useful to review your existing estate-planning documents in your home country. If you already have a UK, US or other international will, your UAE arrangements should be considered alongside it to avoid unnecessary conflicts or duplication.',
+      ],
+      bulletList: [
+        'UAE bank accounts.',
+        'Residential or commercial property.',
+        'Company shares.',
+        'Investments.',
+        'Vehicles and personal assets.',
+        'Other UAE-based assets.',
+        'Guardianship wishes for minor children.',
+      ],
+    },
+    {
+      heading: 'Step 1: Choose Your UAE Will Registry',
+      paragraphs: [
+        'The first practical step is deciding where to register your will. Eligible non-Muslim expats commonly consider the DIFC Wills Service Centre and the Abu Dhabi Judicial Department (ADJD) Wills Registry. Both provide established mechanisms for eligible non-Muslims to document their wishes regarding relevant UAE assets.',
+        'The right option can depend on factors such as:',
+        'Do not choose a registry based solely on where you live. Your complete asset and family situation should be considered.',
+      ],
+      bulletList: [
+        'Your UAE residence.',
+        'The location of your assets.',
+        'Your family circumstances.',
+        'Whether you own a business.',
+        'Whether you need guardianship arrangements.',
+        'The type of will you want to register.',
+      ],
+    },
+    {
+      heading: 'Step 2: Choose the Right Type of Will',
+      paragraphs: [
+        'When you register a will in UAE, the type of will you choose should reflect what you want to protect. Depending on the registry and your circumstances, options may include different arrangements for your estate, property, business interests or guardianship.',
+        'The most suitable option depends on your circumstances and the current requirements of the relevant registry.',
+      ],
+      subsections: [
+        {
+          heading: 'Full Will',
+          paragraphs: [
+            'A Full Will is designed to provide broader estate coverage and may address multiple categories of assets and personal wishes. This can be relevant for individuals who have several UAE assets and want a comprehensive estate-planning arrangement.',
+          ],
+        },
+        {
+          heading: 'Business Owners Will',
+          paragraphs: [
+            'A Business Owners Will focuses on business interests and company shares. This can be particularly important for entrepreneurs, shareholders and founders who want to plan for what happens to their business interests after death.',
+          ],
+        },
+        {
+          heading: 'Property Will',
+          paragraphs: [
+            'A Property Will can focus specifically on eligible UAE real estate interests. Property owners should ensure that the relevant property details and applicable requirements are properly addressed.',
+          ],
+        },
+        {
+          heading: 'Guardianship Will',
+          paragraphs: [
+            'A Guardianship Will focuses on guardianship arrangements for minor children. For parents living in the UAE, documenting guardianship wishes can be an important part of estate planning.',
+          ],
+        },
+      ],
+    },
+    {
+      heading: 'Step 3: Work With an Experienced Legal Drafter',
+      paragraphs: [
+        'Although some simpler arrangements may have template-based processes, professional legal guidance is strongly recommended for anything beyond straightforward requirements. This is particularly important if you:',
+        'An experienced legal professional can help ensure that your wishes are clearly expressed and that the document is prepared according to the relevant requirements. Errors or unclear provisions can create complications for your executor and beneficiaries later.',
+      ],
+      bulletList: [
+        'Own multiple properties.',
+        'Hold company shares.',
+        'Have international assets.',
+        'Have children living in the UAE.',
+        'Have beneficiaries in different countries.',
+        'Already have a foreign will.',
+        'Have a complex family structure.',
+      ],
+    },
+    {
+      heading: 'Step 4: Nominate Your Executor',
+      paragraphs: [
+        'Your executor is the person responsible for helping implement your instructions after your death. Choosing the right executor is therefore an important part of preparing your will. Consider selecting someone who:',
+        'It is also important to tell your chosen executor that they have been appointed. They should know where your will is registered and how to locate the relevant registration details when necessary.',
+      ],
+      bulletList: [
+        'You trust.',
+        'Understands your wishes.',
+        'Can manage practical responsibilities.',
+        'Is willing to take on the role.',
+        'Can communicate with relevant professionals and authorities when required.',
+      ],
+    },
+    {
+      heading: 'Step 5: Gather the Required Documents',
+      paragraphs: [
+        'The exact documentation can vary depending on the registry, will type and individual circumstances. However, you may typically need documents and information such as:',
+        'It is better to gather your documents before the drafting process begins. Incomplete information can cause delays and may require additional work before the will can be finalised.',
+      ],
+      bulletList: [
+        'A valid passport.',
+        'UAE residency documentation, where applicable.',
+        'Emirates ID, where applicable.',
+        'Details of your UAE assets.',
+        'Property title information.',
+        'Company licence and share information.',
+        'Bank account details.',
+        'Identification details of beneficiaries.',
+        'Executor information.',
+        'Guardian information, where applicable.',
+      ],
+    },
+    {
+      heading: 'Step 6: Book Your Registration Appointment',
+      paragraphs: [
+        'Once your will has been prepared and the required documentation is ready, you can proceed with the registration appointment according to the relevant registry’s process. The final registration stage generally involves identity verification and formal signing requirements.',
+        'Appointment availability can vary, so it is sensible to plan ahead rather than assuming you can register immediately. Before attending, confirm:',
+        'Following the registry’s current instructions can help make the appointment more straightforward.',
+      ],
+      bulletList: [
+        'Appointment date and time.',
+        'Required identification.',
+        'Documents you need to bring.',
+        'Signing requirements.',
+        'Applicable registration fees.',
+        'Whether any additional witnesses or procedures are required.',
+      ],
+    },
+    {
+      heading: 'Step 7: Complete the Signing and Registration',
+      paragraphs: [
+        'At the registration appointment, your identity and documentation will be checked and the will will go through the relevant formal registration process. Once the requirements have been completed, your will becomes formally registered according to the applicable framework.',
+        'Make sure you understand how your registration is recorded and retain the relevant confirmation or certificate securely.',
+      ],
+    },
+    {
+      heading: 'Step 8: Keep Your Registration Details Safe',
+      paragraphs: [
+        'After you register a will in UAE, estate planning does not simply end. Your executor and appropriate family members should know that the will exists and understand which registry holds it.',
+        'You do not necessarily need to give everyone a copy of the entire document, but the people who may need to act should know how to locate or reference the registration. A will that exists but cannot be located when needed can create unnecessary difficulties for your family.',
+      ],
+    },
+    {
+      heading: 'How Long Does It Take to Register a Will in the UAE?',
+      paragraphs: [
+        'The timeline can vary depending on your circumstances. A straightforward will with complete documentation may be completed relatively quickly once a suitable appointment is available. More complicated estates can take longer, particularly where they involve:',
+        'The drafting stage can often take longer than the actual registration appointment because your legal adviser needs to ensure that your wishes are properly documented. For this reason, it is better to begin the process before the will becomes urgently necessary.',
+      ],
+      bulletList: [
+        'Multiple properties.',
+        'Company shares.',
+        'International assets.',
+        'Complex beneficiary arrangements.',
+        'Existing wills in another country.',
+        'Detailed guardianship provisions.',
+      ],
+    },
+    {
+      heading: 'How Much Does It Cost to Register a Will in the UAE?',
+      paragraphs: [
+        'The total cost of registering a UAE will can include more than the registry’s official fee. Potential costs may include:',
+        'Fees can vary according to the registry and type of will, and official fee structures can change. Business-related and more complex wills may also require more legal drafting work than a straightforward arrangement. Always confirm the current fees before proceeding.',
+      ],
+      bulletList: [
+        'Will registration fees.',
+        'Legal drafting fees.',
+        'Professional advisory fees.',
+        'Additional services depending on the complexity of your estate.',
+      ],
+    },
+    {
+      heading: 'Common Mistakes to Avoid',
+      subsections: [
+        {
+          heading: 'Waiting Until Your Assets Become More Valuable',
+          paragraphs: [
+            'You do not need to wait until you become wealthy before considering estate planning. A UAE bank account, property or business interest can be enough to make a will relevant.',
+          ],
+        },
+        {
+          heading: 'Preparing a Complex Will Without Professional Advice',
+          paragraphs: [
+            'International assets and business interests can make estate planning complicated. Professional guidance can help identify potential issues before registration.',
+          ],
+        },
+        {
+          heading: 'Forgetting Business Shares',
+          paragraphs: [
+            'Business owners sometimes focus on personal property and bank accounts while overlooking company shares. Your business interests should be reviewed as part of your overall estate plan.',
+          ],
+        },
+        {
+          heading: 'Not Informing Your Executor',
+          paragraphs: [
+            'Your executor needs to know about their appointment and where the will is registered.',
+          ],
+        },
+        {
+          heading: 'Never Reviewing Your Will',
+          paragraphs: [
+            'Your circumstances can change. You should consider reviewing your will after major life events such as marriage, divorce, birth of a child, death of a beneficiary, buying property, starting or selling a business, moving countries or major changes to your assets.',
+          ],
+        },
+      ],
+    },
+  ],
+  faqs: [
+    {
+      question: 'Do I need to be a UAE resident to register a will?',
+      answer:
+        'Eligibility requirements can vary depending on the registry and your circumstances. Individuals with UAE assets or relevant connections should confirm their eligibility before starting the registration process.',
+    },
+    {
+      question: 'Can I register a UAE will without a lawyer?',
+      answer:
+        'Some processes may allow individuals to prepare certain documents without full legal representation. However, professional guidance is recommended, particularly if you have business interests, multiple assets, children or international estate arrangements.',
+    },
+    {
+      question: 'Can I register a will covering only my business shares?',
+      answer:
+        'Depending on the available will types and your circumstances, business-specific arrangements may be possible. Business owners should discuss their company structure and shareholding with a qualified adviser before registration.',
+    },
+    {
+      question: 'What documents do I need to register a UAE will?',
+      answer:
+        'Requirements vary, but you may need identification documents, residency information where applicable, asset details and information about beneficiaries, executors and guardians. Always confirm the current document requirements with the relevant registry or your legal adviser.',
+    },
+    {
+      question: 'How long does it take to register a UAE will?',
+      answer:
+        'There is no single timeline for every case. The overall process depends on drafting complexity, document availability and appointment availability. Straightforward wills can generally be completed faster than complex estates involving businesses or multiple assets.',
+    },
+    {
+      question: 'What happens if I move to another emirate after registering my will?',
+      answer:
+        'Moving within the UAE does not necessarily mean that your existing will needs to be replaced. However, you should review your estate plan after significant changes to your residence, assets or family circumstances.',
+    },
+  ],
+  cta:
+    'Knowing how to register a will in UAE is the first step toward creating a clearer estate plan. For UK, US and GCC expats, appropriate planning can help address UAE property, bank accounts, business interests and family arrangements. The process generally involves identifying your assets, selecting an appropriate registry and will type, preparing the document, gathering the required information and completing the formal registration process. Klay Consultants works with legal partners to coordinate the UAE will process, from initial asset assessment and documentation through to registration. If you are considering registering a non-Muslim will in the UAE, speak to Klay Consultants to understand the available options for your assets and family circumstances.',
+  disclaimer:
+    'This article is for general informational purposes only and does not constitute legal advice. Eligibility, registration procedures, fees and requirements depend on the relevant registry and individual circumstances. Consult a qualified UAE legal professional before making estate-planning decisions.',
+  relatedLinks: [
+    { href: '/blog/guardianship-for-minor-children-in-a-uae-will-klay-consultants', label: 'Guardianship for minor children in a UAE will' },
+    { href: '/blog/including-business-shares-in-your-uae-will-klay-consultants', label: 'Including business shares in your UAE will' },
+    { href: '/blog/uae-will-vs-home-country-will-do-expats-need-both-klay-consultants', label: 'UAE will vs home country will for expats' },
+  ],
+};
+
+const uaeImportExportLicenseArticle: LongFormArticle = {
+  introduction:
+    'The UAE’s strategic location, ports and logistics network make it an important base for international trade. But starting an import or export business involves more than obtaining a trade licence. You need to choose a suitable company jurisdiction and activity, understand customs registration, check whether your products require approvals, and prepare for the documentation and compliance obligations that apply to your shipments. This guide explains the main steps for obtaining an import export license in the UAE and setting up a trading operation.',
+  sections: [
+    {
+      heading: 'What Is an Import Export License in the UAE?',
+      paragraphs: [
+        'An import export license is generally a commercial trade licence issued by the relevant UAE licensing authority for the activities the company intends to conduct. The approved activities should reflect what you actually plan to trade, such as general trading, importing or exporting specific product categories, or wholesale and distribution.',
+        'A trade licence and customs registration are separate requirements. A company may need to register with the customs authority responsible for its port or emirate and obtain an importer or customs code before it can clear goods. Additional approvals may apply to controlled or regulated products. Confirm the requirements with the licensing authority, customs authority and product regulator relevant to your business.',
+      ],
+    },
+    {
+      heading: 'Choose the Right Business Jurisdiction',
+      paragraphs: [
+        'Your jurisdiction affects where the company is licensed, its permitted activities, office and visa requirements, customs arrangements and how it can serve customers. The right option depends on your supply chain and commercial model rather than on a single headline cost.',
+      ],
+      subsections: [
+        {
+          heading: 'Mainland Company',
+          paragraphs: [
+            'A mainland company may suit businesses that need to sell directly within the UAE market or work with local customers and suppliers. The relevant emirate’s economic department or licensing authority will determine the available activities, legal form, approvals and office requirements. Customs registration is still handled separately.',
+          ],
+        },
+        {
+          heading: 'Free Zone Company',
+          paragraphs: [
+            'A free zone can be appropriate for businesses focused on international trade, re-export, logistics or operations linked to a particular free zone. Each authority has its own activity list, facilities, customs procedures and rules for moving goods into the UAE mainland. Verify how goods can be imported, stored, transferred or sold in your intended markets before choosing a free zone.',
+          ],
+        },
+        {
+          heading: 'Compare the Full Operating Model',
+          paragraphs: [
+            'Before deciding, map where goods will be sourced, stored, cleared and sold. Also consider the intended ports, warehouse needs, number of visas, customer locations and whether you need a mainland presence. A structure that looks inexpensive at setup may not be suitable if it adds operational steps later.',
+          ],
+        },
+      ],
+    },
+    {
+      heading: 'How to Set Up an Import Export Business',
+      subsections: [
+        {
+          heading: '1. Define Your Products and Trade Routes',
+          paragraphs: [
+            'Identify the goods you plan to trade, their country of origin, destination markets, suppliers, customers and expected shipping route. Product details matter: goods in regulated categories may need approvals, certificates, labelling or special storage before they can be imported or sold.',
+          ],
+        },
+        {
+          heading: '2. Select the Correct Licensed Activities',
+          paragraphs: [
+            'Check that the proposed licence activities cover the products and commercial actions involved, including importing, exporting, wholesale, distribution or e-commerce where relevant. Do not rely on a broad description such as “trading” without confirming that the authority’s activity wording fits your business.',
+          ],
+        },
+        {
+          heading: '3. Choose a Jurisdiction and Legal Structure',
+          paragraphs: [
+            'Compare mainland and free zone options against your actual trade flows, facilities, market access, ownership needs, costs and visa requirements. Confirm the selected authority can license the relevant activity and that any necessary external or product approvals are obtainable.',
+          ],
+        },
+        {
+          heading: '4. Reserve the Name and Obtain the Trade Licence',
+          paragraphs: [
+            'Complete the licensing authority’s name reservation, application, document submission and payment steps. Depending on the activity and jurisdiction, the authority may request initial or external approvals, shareholder information, incorporation documents, a lease or other evidence before issuing the licence.',
+          ],
+        },
+        {
+          heading: '5. Register with Customs',
+          paragraphs: [
+            'After incorporation, check the registration process for the customs authority through which your shipments will be cleared. The authority may require company and licence documents, authorised signatory details and other information before issuing a customs or importer code. Procedures, accepted documents and account arrangements vary between emirates and customs systems.',
+          ],
+        },
+        {
+          heading: '6. Obtain Product-Specific Approvals',
+          paragraphs: [
+            'Check with the relevant regulator whether your goods require permits, conformity certification, registration, labelling or inspection. Food, cosmetics, medical products, chemicals, telecom equipment and other controlled goods can have requirements beyond the trade licence and customs registration. Confirm requirements before ordering or shipping goods.',
+          ],
+        },
+        {
+          heading: '7. Prepare Your Logistics and Compliance Processes',
+          paragraphs: [
+            'Arrange suitable shipping, freight forwarding, insurance and storage, and establish a process for reviewing invoices, packing lists, origin documents, product certificates and customs declarations. Keep accurate records and confirm the applicable tax and accounting obligations with qualified advisers.',
+          ],
+        },
+      ],
+    },
+    {
+      heading: 'Documents Commonly Needed',
+      paragraphs: [
+        'The exact document list depends on the licensing authority, customs authority, company structure, product and shipment. Businesses are commonly asked to prepare some of the following:',
+      ],
+      bulletList: [
+        'Shareholder and manager identification documents.',
+        'Trade name reservation and initial approval, where applicable.',
+        'Company incorporation documents and a valid trade licence.',
+        'Lease or facility details if required by the licensing authority.',
+        'Authorised signatory and company contact information.',
+        'Product descriptions and relevant activity details.',
+        'Commercial invoices and packing lists for shipments.',
+        'Certificate of origin and transport documents where required.',
+        'Product conformity, health, safety or other regulator approvals, where applicable.',
+        'Customs declarations and supporting documents required for the shipment.',
+      ],
+    },
+    {
+      heading: 'Customs, Duties and Product Requirements',
+      paragraphs: [
+        'Customs procedures depend on the goods, origin, destination, customs territory, declared value and applicable trade arrangements. Customs classification using the correct tariff or HS code is important because it can affect duty treatment, restrictions and documentation. Incorrect product descriptions or classification can lead to delays, reassessment or penalties.',
+        'Some goods are prohibited or restricted, and others require advance permits or conformity checks. The applicable customs duty, exemptions and product controls should be verified for each product and route with the relevant authorities or a qualified customs broker. Do not assume that every product is subject to the same rate or clearance requirements.',
+      ],
+    },
+    {
+      heading: 'How Much Does an Import Export License Cost?',
+      paragraphs: [
+        'There is no single UAE-wide price for an import export business licence. The total setup and operating costs can include:',
+      ],
+      bulletList: [
+        'Company registration and trade licence fees.',
+        'Name reservation, approvals and document processing charges.',
+        'Office, warehouse, storage or facility costs.',
+        'Visa and establishment-related fees.',
+        'Customs registration or service charges, if applicable.',
+        'Product testing, certification, permits or registration.',
+        'Freight, insurance, customs broker and clearance costs.',
+        'Accounting, tax and ongoing compliance expenses.',
+      ],
+    },
+    {
+      heading: 'Tax and Ongoing Compliance',
+      paragraphs: [
+        'A UAE trading company should assess its corporate tax, VAT, accounting and record-keeping obligations based on its activities, transactions and legal structure. Import VAT, export treatment and free zone tax conditions are not identical for every business, and eligibility for any special treatment depends on the applicable rules and facts.',
+        'Maintain complete records of sales, purchases, inventory, shipping, customs declarations and product approvals. Seek advice from a qualified tax professional about registration, invoicing, returns and any obligations that apply to your company.',
+      ],
+    },
+    {
+      heading: 'Common Mistakes to Avoid',
+      bulletList: [
+        'Choosing a licence activity that does not cover the products or transactions you intend to conduct.',
+        'Assuming the trade licence automatically provides customs registration.',
+        'Selecting a jurisdiction without checking how goods will reach customers in the UAE.',
+        'Shipping regulated goods before confirming permits, labelling or conformity requirements.',
+        'Using an incorrect or overly broad product description or tariff classification.',
+        'Budgeting only for the licence and overlooking warehouse, freight, clearance and compliance costs.',
+        'Assuming VAT, customs duty or free zone tax treatment without professional confirmation.',
+      ],
+    },
+    {
+      heading: 'Plan Your Trading Business Before You Apply',
+      paragraphs: [
+        'A smooth setup begins with a clear picture of your product range, markets, suppliers, logistics and expected trading volumes. With those details, you can compare licensing jurisdictions, verify activity wording, identify customs and product approvals, and build a more realistic budget before committing to a structure.',
+        'Because licensing and product rules vary and can change, confirm current requirements with the relevant authority and obtain professional guidance for your particular goods and trade routes.',
+      ],
+    },
+  ],
+  faqs: [
+    {
+      question: 'Do I need a separate customs code after getting a UAE trade licence?',
+      answer:
+        'A trade licence and customs registration are separate. A company generally needs to check with the relevant customs authority whether it must register and obtain an importer or customs code for its shipments. The process depends on the emirate and customs system.',
+    },
+    {
+      question: 'Can a free zone company import goods into the UAE mainland?',
+      answer:
+        'Goods moving from a free zone into the mainland may need to follow customs clearance and other applicable procedures. The precise route depends on the goods, the free zone, the importer and current regulations. Confirm the process before choosing your operating structure.',
+    },
+    {
+      question: 'What products need special approval to import into the UAE?',
+      answer:
+        'Requirements depend on the product category. Certain food, medical, cosmetic, chemical, telecom and other regulated goods may need permits, registration, conformity checks or other approvals. Verify product-specific rules with the relevant regulator before shipping.',
+    },
+    {
+      question: 'How much does an import export license cost in the UAE?',
+      answer:
+        'Costs vary by emirate, jurisdiction, activity, office or warehouse needs, visa allocation and any product approvals. Also budget for customs, freight, insurance, clearance, tax and annual renewal obligations. Obtain a current quote based on your business model.',
+    },
+    {
+      question: 'Can I use a general trading licence for any product?',
+      answer:
+        'No. The licensed activities and any external approvals must cover the goods and transactions involved. Restricted or regulated products can require additional permissions even if the company has a broad trading activity.',
+    },
+    {
+      question: 'What documents are needed to clear an import shipment?',
+      answer:
+        'Common documents may include a commercial invoice, packing list, transport document, certificate of origin, customs declaration and product approvals where required. The exact requirements depend on the goods and route; confirm them with the relevant customs authority or broker.',
+    },
+    {
+      question: 'Do UAE importers pay customs duty on every product?',
+      answer:
+        'Customs duty treatment depends on the tariff classification, origin, destination, applicable trade arrangements and any exemption or restriction. Verify the classification and rate for each product and route with the relevant authority or a customs professional.',
+    },
+    {
+      question: 'Should I choose a mainland or free zone trading company?',
+      answer:
+        'It depends on your customers, supply chain, storage and how you plan to distribute goods. Compare the full operating requirements, including licence scope, customs processes, market access, facilities and costs, before selecting a jurisdiction.',
+    },
+  ],
+  cta:
+    'Launching an import export business in the UAE requires the right licence, customs arrangements and product approvals for your goods and trade routes. Klay Consultants can help you compare company setup options, identify the licensing steps and coordinate your incorporation planning. Contact the team to discuss your trading model and the requirements you should confirm before applying.',
+  disclaimer:
+    'This article is for general informational purposes only and does not constitute legal, customs, tax or financial advice. Licensing, customs, duty, product approval and tax requirements vary by jurisdiction, product and transaction, and may change. Confirm current requirements with the relevant UAE authorities and qualified professionals before trading.',
+  relatedLinks: [
+    { href: '/blog/how-to-choose-uae-free-zone', label: 'How to choose the right UAE Free Zone' },
+    { href: '/blog/uae-business-setup-costs-2025', label: 'UAE business setup costs guide' },
+    { href: '/contact', label: 'Contact Klay Consultants' },
+  ],
+};
+
+const dyingWithoutUaeWillArticle: LongFormArticle = {
+  introduction:
+    'Thinking about what happens if you die without a will in the UAE can feel uncomfortable, but it is an important part of protecting the people and assets you leave behind. Without a valid will that applies to your circumstances, the distribution and administration of your UAE estate may be determined by the relevant laws and procedures rather than by a plan you have set out yourself. For expats, the position can involve additional questions about nationality, religion, family circumstances, asset location and any will registered in the UAE or abroad. Understanding the possible consequences can help you decide what steps to take before a crisis occurs.',
+  sections: [
+    {
+      heading: 'What Does It Mean to Die Without a Will in the UAE?',
+      paragraphs: [
+        'Dying without a valid will that governs your UAE assets is commonly described as dying intestate. In that situation, your estate is dealt with under the inheritance rules and court or registry procedures that apply to your circumstances. The outcome may not match the distribution you would have chosen, and family members may need to complete formal steps before assets can be administered or transferred.',
+        'The rules are not identical for every person or asset. Factors can include whether you are Muslim or non-Muslim, your nationality and residence, where the asset is located, the applicable personal status framework and whether a valid will is recognised for that asset. Do not assume that one general rule applies to every UAE estate.',
+      ],
+    },
+    {
+      heading: 'Which Inheritance Rules May Apply?',
+      paragraphs: [
+        'UAE inheritance matters are governed by applicable federal laws and, in some cases, the rules and procedures of a relevant court or will registry. UAE law provides specific frameworks for matters involving Muslim and non-Muslim individuals, while the circumstances of a foreign national and the location or type of an asset can also be relevant.',
+        'Non-Muslim residents may have options to record their wishes through an eligible UAE will-registration route. The availability, scope and effect of a will depend on the registry, the document and the individual facts. Muslim estates and other cases may be governed by different rules. A qualified UAE lawyer should assess the applicable framework rather than relying on assumptions based only on residence or nationality.',
+      ],
+    },
+    {
+      heading: 'What Can Happen to Your UAE Assets?',
+      subsections: [
+        {
+          heading: 'Bank Accounts and Financial Assets',
+          paragraphs: [
+            'After a death is reported, a bank may restrict access to accounts while it follows applicable legal requirements and receives the documents or directions needed to deal with the account. The process and treatment of accounts can depend on ownership, the bank’s procedures, applicable law and any court orders. Joint accounts and liabilities should not be assumed to work in a particular way without checking the account terms and getting legal advice.',
+          ],
+        },
+        {
+          heading: 'Property',
+          paragraphs: [
+            'UAE real estate may need to go through formal succession or court procedures before it can be transferred or otherwise dealt with. This can affect beneficiaries who need to maintain, sell or manage the property. The process may differ according to the property location, ownership structure and applicable legal framework.',
+          ],
+        },
+        {
+          heading: 'Business Shares and Company Interests',
+          paragraphs: [
+            'A deceased person’s shares or other business interests may be subject to succession procedures as well as the company’s constitutional documents, shareholder agreements and licensing authority requirements. A change in ownership can affect decision-making, signing authority and the company’s ability to operate. Business owners should plan for both the inheritance of shares and continuity of the business.',
+          ],
+        },
+        {
+          heading: 'Personal Belongings and Other Assets',
+          paragraphs: [
+            'Vehicles, investments and other assets may also require proof of authority before they can be transferred or managed. Keep a current record of what you own, how it is held and where the supporting documents can be found.',
+          ],
+        },
+      ],
+    },
+    {
+      heading: 'What About Minor Children and Guardianship?',
+      paragraphs: [
+        'If you have minor children, dying without a will can leave your family without a formally documented record of your guardianship wishes. The authorities or court may need to consider the children’s circumstances and applicable law before deciding how their care should be arranged. A will may provide a way for eligible parents to record nominated guardians, but the appointment and effect of those provisions remain subject to the relevant legal framework and authorities.',
+        'Parents should consider who they would want to care for their children, whether the proposed guardian is willing and able to do so, and how the children’s practical and financial needs would be met. Cross-border family arrangements can make advance planning particularly important.',
+      ],
+    },
+    {
+      heading: 'How Can the Process Affect Your Family?',
+      paragraphs: [
+        'When there is no clear will, family members may need to identify the applicable process, gather evidence of relationships and assets, obtain the necessary court or authority documents, and coordinate with banks, property registries or company authorities. This can take time and may require additional legal or translation support, especially where documents or beneficiaries are in different countries.',
+        'The precise steps and timeframes depend on the estate and the relevant authorities. A will does not necessarily remove every succession or administrative requirement, but a valid and appropriately registered document can help make your intentions clearer and may assist the administration process.',
+      ],
+    },
+    {
+      heading: 'What Should Expats Consider About a Home-Country Will?',
+      paragraphs: [
+        'An existing will in your home country may not automatically address every UAE asset or satisfy the requirements of a UAE authority. Conversely, making a separate UAE will without coordinating it with an existing will can create inconsistencies or unintentionally revoke provisions elsewhere.',
+        'Review your estate as a whole. Ask a qualified adviser to consider the wording and scope of each will, the assets it covers, the applicable law and the formalities required in each jurisdiction. The right approach depends on your personal circumstances and where your assets are held.',
+      ],
+    },
+    {
+      heading: 'Practical Steps to Protect Your Family and Estate',
+      paragraphs: [
+        'Estate planning can help you express your wishes and prepare your family for the legal and practical steps that may follow. Consider taking the following actions with qualified professional guidance:',
+      ],
+      bulletList: [
+        'List your UAE and overseas assets, including accounts, property and business interests.',
+        'Identify how each asset is owned and where its key records are kept.',
+        'Consider who you want to benefit from your estate and who could act as executor.',
+        'If you are a parent, consider guardianship wishes for your minor children.',
+        'Review any existing home-country will before preparing another document.',
+        'Ask a UAE legal professional which will-registration options and inheritance rules may apply to you.',
+        'Tell the appropriate trusted people where your will and important records can be located.',
+        'Review your estate plan after major changes in your family, residence or assets.',
+      ],
+    },
+    {
+      heading: 'When Should You Get Legal Advice?',
+      paragraphs: [
+        'Seek individual advice if your family has more than one nationality, you own property or a business in different emirates, you have minor children, you already have a foreign will, or there may be disagreement among beneficiaries. These situations can raise questions that cannot be answered safely with a generic checklist.',
+        'A legal adviser can review your circumstances, explain the available options and help you understand what a will can and cannot accomplish. Confirm current laws, eligibility criteria and registration procedures with the relevant professional or authority before making decisions.',
+      ],
+    },
+  ],
+  faqs: [
+    {
+      question: 'What happens if an expat dies in the UAE without a will?',
+      answer:
+        'The estate is administered under the inheritance rules and procedures that apply to the person and their assets. The result can depend on factors such as religion, nationality, asset location and the applicable legal framework. A UAE lawyer should review the individual facts.',
+    },
+    {
+      question: 'Are assets automatically distributed under Sharia if there is no will?',
+      answer:
+        'There is no safe one-size-fits-all answer. The applicable rules can depend on the person’s circumstances, the type and location of assets and the relevant legal framework. Obtain advice from a qualified UAE legal professional before relying on a general statement.',
+    },
+    {
+      question: 'Can a bank freeze my account after I die in the UAE?',
+      answer:
+        'A bank may restrict transactions after it is notified of a death while it follows applicable legal requirements and receives the necessary documentation or directions. The exact treatment depends on the account, ownership, bank procedures and legal circumstances.',
+    },
+    {
+      question: 'Who will look after my children if I die without a will?',
+      answer:
+        'The relevant authorities or court may need to consider the children’s circumstances and applicable law. Without a will, your preferred guardian may not be formally recorded. Parents should get legal advice on how to document guardianship wishes and understand the limits of a nomination.',
+    },
+    {
+      question: 'Will my home-country will cover my UAE assets?',
+      answer:
+        'It may not automatically cover or be accepted for every UAE asset or procedure. The answer depends on the will’s wording, applicable laws and local requirements. Coordinate wills in different countries with qualified legal advisers.',
+    },
+    {
+      question: 'Does having a UAE will avoid all probate or court procedures?',
+      answer:
+        'No. A will can document your wishes and may assist with estate administration, but it does not necessarily remove formal court, registry or asset-transfer requirements. Confirm the process that applies to your will and assets.',
+    },
+    {
+      question: 'Can a business continue operating if an owner dies without a will?',
+      answer:
+        'The effect depends on the company’s structure, ownership records, governing documents, applicable succession process and who has authority to act. Business owners should review their succession arrangements with legal and corporate advisers.',
+    },
+    {
+      question: 'How can I reduce uncertainty for my family?',
+      answer:
+        'Keep an up-to-date asset inventory, review any existing wills, consider appropriate UAE will-registration options and seek tailored legal advice. Make sure trusted people know how to locate relevant documents and professional contacts.',
+    },
+  ],
+  cta:
+    'A clear estate plan can help your family understand your wishes and prepare for the formalities that may arise after a death. If you live in the UAE or hold UAE assets, consider getting tailored legal advice on wills, succession, business interests and guardianship. Klay Consultants can help you understand the available UAE will-registration options and coordinate next steps with legal partners.',
+  disclaimer:
+    'This article is for general informational purposes only and does not constitute legal advice. Inheritance laws, court procedures and will-registration requirements depend on the individual, asset and applicable legal framework, and may change. Consult a qualified UAE legal professional for advice about your circumstances.',
+  relatedLinks: [
+    { href: '/blog/legal-heir-certificate-uae-will-probate-guide', label: 'UAE legal heir certificate and probate guide' },
+    { href: '/blog/how-to-register-a-non-muslim-will-in-the-uae-step-by-step-klay-consultants', label: 'How to register a non-Muslim will in the UAE' },
+    { href: '/blog/guardianship-for-minor-children-in-a-uae-will-klay-consultants', label: 'Guardianship for minor children in a UAE will' },
+  ],
+};
+
+const guardianshipUaeWillArticle: LongFormArticle = {
+  introduction:
+    'Of everything a UAE will can address, guardianship for minor children is one of the most personal and important considerations for expat parents. Many parents assume that if something happens to them, their children will automatically be cared for by the person they would have chosen. However, guardianship arrangements can involve legal and judicial considerations, particularly when the family lives in one country while relatives live elsewhere. For UK, US and GCC expat families living in the UAE, understanding guardianship in a UAE will can help parents formally document their wishes and plan for their children’s future.',
+  sections: [
+    {
+      heading: 'Why Does Guardianship Matter for Expat Families?',
+      paragraphs: [
+        'Expat families often have grandparents, siblings or close relatives living outside the UAE. A parent may already know exactly who they would want to care for their children if they were no longer able to do so. However, simply discussing this preference with family members does not provide the same level of formal documentation as making appropriate legal arrangements.',
+        'A properly prepared and registered UAE will with guardianship provisions can provide a clear record of the parents’ wishes, subject to applicable UAE law and the oversight of the relevant authorities and courts. This can be particularly important when:',
+      ],
+      bulletList: [
+        'Both parents are living in the UAE.',
+        'Children are under the age of majority.',
+        'Potential guardians live outside the UAE.',
+        'The family has international connections.',
+        'Children have UAE residency.',
+        'Parents want their children to relocate to another country.',
+        'Parents have assets that need to be managed for their children.',
+      ],
+    },
+    {
+      heading: 'What Does Guardianship in a UAE Will Cover?',
+      paragraphs: [
+        'A guardianship provision can allow parents to formally state who they wish to care for their minor children if guardianship becomes necessary. Depending on the applicable legal framework and the structure of the will, parents may also address related practical considerations. These can include:',
+      ],
+      bulletList: [
+        'Naming a primary guardian.',
+        'Naming an alternate or backup guardian.',
+        'Stating preferences about where the children should live.',
+        'Providing guidance about relocation to another country.',
+        'Addressing the management of assets intended for children.',
+        'Providing relevant information about the children’s care and upbringing.',
+      ],
+      subsections: [
+        {
+          heading: 'Legal Effect Depends on the Applicable Requirements',
+          paragraphs: [
+            'The exact legal effect of each provision depends on the applicable UAE law and the requirements of the relevant will registry.',
+          ],
+        },
+      ],
+    },
+    {
+      heading: 'Can You Nominate a Guardian Who Lives Outside the UAE?',
+      paragraphs: [
+        'For many expat families, the preferred guardian may live in their home country. For example, parents living in Dubai may want a grandparent or sibling in the UK, US or another country to care for their children if necessary. It may be possible to nominate a person who lives outside the UAE, depending on the applicable requirements and circumstances. However, parents should consider the practical implications carefully. These may include:',
+      ],
+      bulletList: [
+        'Whether the proposed guardian is willing to take responsibility.',
+        'Whether the children would relocate internationally.',
+        'Travel arrangements.',
+        'Immigration and residency requirements.',
+        'Education and healthcare arrangements.',
+        'Management of the children’s assets.',
+        'The relationship between the guardian and children.',
+      ],
+      subsections: [
+        {
+          heading: 'Discuss International Arrangements With an Adviser',
+          paragraphs: [
+            'These issues should be discussed with an experienced legal professional when preparing your guardianship UAE will arrangements.',
+          ],
+        },
+      ],
+    },
+    {
+      heading: 'Guardianship Will vs Full Will: Which Do You Need?',
+      paragraphs: [
+        'When considering a UAE will with guardianship, parents may have different options depending on the registry and their circumstances.',
+      ],
+      subsections: [
+        {
+          heading: 'Guardianship Will',
+          paragraphs: [
+            'A dedicated Guardianship Will may focus primarily on arrangements for minor children.',
+          ],
+        },
+        {
+          heading: 'Full Will',
+          paragraphs: [
+            'A Full Will, on the other hand, can address guardianship alongside broader estate-planning matters. For example, a Full Will may address:',
+          ],
+          bulletList: [
+            'UAE property.',
+            'Bank accounts.',
+            'Business shares.',
+            'Investments.',
+            'Other assets.',
+            'Beneficiaries.',
+            'Guardianship arrangements.',
+          ],
+        },
+        {
+          heading: 'Choosing the Appropriate Structure',
+          paragraphs: [
+            'Many parents prefer broader estate planning because it allows family and financial arrangements to be considered together. However, the appropriate structure depends on your individual circumstances and the options available through the relevant registry.',
+          ],
+        },
+      ],
+    },
+    {
+      heading: 'What Happens Without a Registered Guardianship Nomination?',
+      paragraphs: [
+        'If parents have not made appropriate guardianship arrangements, questions about who should care for minor children may need to be addressed through the relevant legal and judicial processes. This can create uncertainty for families at an already difficult time.',
+        'The absence of a documented nomination does not mean that children will simply be left without care. The relevant authorities and courts have processes for dealing with guardianship matters. However, parents may prefer to formally express their wishes in advance rather than leaving the decision entirely to circumstances that arise after their death.',
+        'This is one of the key reasons why guardianship in a UAE will can be an important part of family estate planning.',
+      ],
+    },
+    {
+      heading: 'Choosing the Right Guardian: What Should Parents Consider?',
+      paragraphs: [
+        'Choosing a guardian requires more thought than simply selecting a close relative. Parents should consider the person’s relationship with their children and their practical ability to take on the responsibility. Important considerations include:',
+      ],
+      subsections: [
+        {
+          heading: 'Relationship With Your Children',
+          paragraphs: [
+            'Choose someone who already has a strong, positive relationship with your children and understands their personalities and needs.',
+          ],
+        },
+        {
+          heading: 'Location',
+          paragraphs: [
+            'Consider where the proposed guardian lives and whether the children would remain in the UAE or relocate to another country.',
+          ],
+        },
+        {
+          heading: 'Willingness to Take Responsibility',
+          paragraphs: [
+            'A person should not be nominated without first discussing the role with them. Guardianship can involve significant emotional, financial and practical responsibilities.',
+          ],
+        },
+        {
+          heading: 'Financial and Practical Capacity',
+          paragraphs: [
+            'Consider whether the proposed guardian can realistically manage the responsibilities associated with caring for your children.',
+          ],
+        },
+        {
+          heading: 'Family Circumstances',
+          paragraphs: [
+            'The guardian’s own family situation may also be relevant. Their employment, location, children, housing and other responsibilities could affect their ability to take on guardianship.',
+          ],
+        },
+        {
+          heading: 'Values and Parenting Preferences',
+          paragraphs: [
+            'Parents may also want to consider whether the proposed guardian’s approach to education, family life and upbringing broadly aligns with their own wishes.',
+          ],
+        },
+      ],
+    },
+    {
+      heading: 'Why Should You Name an Alternate Guardian?',
+      paragraphs: [
+        'Naming only one potential guardian can leave an important gap in your planning. Circumstances can change. Your chosen guardian may move abroad, become unable to take responsibility or decide that they can no longer fulfil the role.',
+        'For this reason, parents may wish to nominate an alternate guardian where the relevant legal framework permits it. The alternate guardian provides another person who can be considered if the first choice cannot fulfil the role. Discussing both the primary and alternate nominations with the people involved can help avoid surprises later.',
+      ],
+    },
+    {
+      heading: 'Can Both Parents Name Different Guardians?',
+      paragraphs: [
+        'Parents should carefully coordinate their guardianship wishes. If each parent names a completely different person without discussing the arrangements, this could potentially create uncertainty or conflict.',
+        'Many families therefore choose to agree on a primary guardian and, where appropriate, an alternate guardian. The exact legal effect of different nominations can depend on the applicable law and the wording of the registered documents. Parents with different preferences should obtain professional legal advice before finalising their wills.',
+      ],
+    },
+    {
+      heading: 'What About the Children’s Assets?',
+      paragraphs: [
+        'Guardianship planning can also involve financial considerations. Minor children may inherit money, property or other assets. Parents should therefore consider how assets intended for their children will be managed until they reach the relevant age.',
+        'The appropriate structure can depend on the type of asset, the applicable law and the terms of the will. A legal adviser can explain how these provisions can be incorporated into an overall estate plan.',
+      ],
+    },
+    {
+      heading: 'How Often Should You Review Your Guardianship Arrangements?',
+      paragraphs: [
+        'A guardianship nomination should not necessarily be treated as something you prepare once and never revisit. Family circumstances can change significantly over time. Consider reviewing your arrangements after events such as:',
+      ],
+      bulletList: [
+        'Birth of another child.',
+        'Death of a nominated guardian.',
+        'Marriage or divorce.',
+        'Moving to another country.',
+        'A guardian moving abroad.',
+        'Changes in your relationship with the nominated guardian.',
+        'Changes to your children’s needs.',
+        'Major changes in your financial circumstances.',
+      ],
+      subsections: [
+        {
+          heading: 'Keep Your Will Current',
+          paragraphs: [
+            'Regular reviews help ensure that your UAE will guardianship arrangements continue to reflect your current wishes.',
+          ],
+        },
+      ],
+    },
+    {
+      heading: 'Common Mistakes Expat Parents Make',
+      subsections: [
+        {
+          heading: 'Assuming a Home-Country Will Is Enough',
+          paragraphs: [
+            'A will prepared in the UK, US or another country may not automatically deal with UAE guardianship matters in the way parents expect. International estate planning should be reviewed carefully.',
+          ],
+        },
+        {
+          heading: 'Naming Someone Without Asking Them',
+          paragraphs: [
+            'Do not assume that a relative or friend will automatically agree to become a guardian. Discuss the responsibility with them before making the nomination.',
+          ],
+        },
+        {
+          heading: 'Failing to Name an Alternative',
+          paragraphs: [
+            'Having a backup option can provide additional planning flexibility if the primary nominee becomes unable to act.',
+          ],
+        },
+        {
+          heading: 'Ignoring International Relocation',
+          paragraphs: [
+            'If your chosen guardian lives abroad, consider how your children’s relocation would work in practice.',
+          ],
+        },
+        {
+          heading: 'Waiting Until Later',
+          paragraphs: [
+            'Parents sometimes postpone guardianship planning because they assume they have plenty of time. Estate planning is most useful when it is completed before it becomes urgent.',
+          ],
+        },
+      ],
+    },
+  ],
+  faqs: [
+    {
+      question: 'Is guardianship in a UAE will legally binding?',
+      answer:
+        'A properly registered guardianship nomination can provide significant evidence of a parent’s wishes. However, guardianship remains subject to applicable UAE law and the oversight of the relevant authorities and courts.',
+    },
+    {
+      question: 'Can I nominate a guardian who lives outside the UAE?',
+      answer:
+        'Depending on the applicable legal framework and circumstances, parents may be able to nominate someone who lives outside the UAE. The practical implications of international relocation should be considered carefully.',
+    },
+    {
+      question: 'Should both parents nominate the same guardian?',
+      answer:
+        'Parents should ideally discuss and coordinate their wishes to minimise potential uncertainty. A primary guardian and an agreed alternate can provide a clearer plan.',
+    },
+    {
+      question: 'Can I name an alternate guardian?',
+      answer:
+        'Depending on the applicable will structure, parents may be able to name an alternate guardian in case their first choice cannot take responsibility.',
+    },
+    {
+      question: 'Do I need a separate Guardianship Will?',
+      answer:
+        'Not necessarily. Depending on your circumstances and the available registry options, guardianship can potentially be addressed through a dedicated Guardianship Will or included within a broader Full Will.',
+    },
+    {
+      question: 'Can a guardianship will cover all my children?',
+      answer:
+        'A guardianship arrangement can generally be structured to address the family’s minor children, but the precise wording and legal requirements should be confirmed with a qualified adviser.',
+    },
+    {
+      question: 'Should I review my guardianship arrangements?',
+      answer:
+        'Yes. Parents should consider reviewing their arrangements after major changes to their family circumstances, residence, relationships or nominated guardian.',
+    },
+  ],
+  cta:
+    'For expat parents, guardianship in a UAE will is about more than paperwork. It is about making your wishes clear regarding who you would want to care for your children if you were no longer able to do so. A properly prepared estate plan can address guardianship alongside property, bank accounts, business interests and other assets, creating a more comprehensive plan for your family’s future. Klay Consultants works with legal partners to help expat parents understand their UAE will and guardianship options and coordinate the relevant registration process. If you have minor children living in the UAE and have not yet documented your guardianship wishes, consider seeking professional advice about your options.',
+  disclaimer:
+    'This article is for general informational purposes only and does not constitute legal advice. Guardianship arrangements are subject to applicable UAE laws, relevant registry requirements and judicial oversight. Consult a qualified UAE legal professional before making estate-planning decisions.',
+  relatedLinks: [
+    { href: '/blog/uae-will-vs-home-country-will-do-expats-need-both-klay-consultants', label: 'UAE will vs home country will for expats' },
+    { href: '/blog/estate-planning-for-blended-families-and-unmarried-couples-in-the-uae-klay-consultants', label: 'UAE estate planning for modern families' },
+    { href: '/blog/legal-heir-certificate-uae-will-probate-guide', label: 'UAE legal heir certificate and probate guide' },
+  ],
+};
+
+const businessSharesInUaeWillArticle: LongFormArticle = {
+  introduction:
+    'For UAE business owners, preparing a will is not only about personal assets. It can also be an important part of protecting the future of your company. If you own shares in a UAE business, failing to include those interests in your estate-planning arrangements can create uncertainty for your family, co-founders, employees and other stakeholders. Including business shares in a UAE will allows business owners to formally document their wishes regarding ownership and succession, subject to the applicable legal and corporate requirements. Whether you are a sole shareholder, founder or part of a multi-shareholder company, business succession should be considered alongside your personal estate planning.',
+  sections: [
+    {
+      heading: 'Why Do Business Shares Need Specific Attention?',
+      paragraphs: [
+        'Company shares are different from ordinary personal possessions. Your shareholding may determine voting rights, ownership percentages, dividends and influence over important company decisions. A general estate plan that does not properly address your business interests can therefore leave important questions unanswered. For example:',
+        'These questions become particularly important when you are a founder, majority shareholder or key decision-maker. This is why a Business Owners Will or appropriately drafted Full Will can form an important part of business succession planning.',
+      ],
+      bulletList: [
+        'Who should inherit your shares?',
+        'Should beneficiaries become active shareholders?',
+        'Should your co-founders have an option to purchase the shares?',
+        'Who manages the company during the succession process?',
+        'How should the ownership structure change after your death?',
+      ],
+    },
+    {
+      heading: 'What Can Happen Without Business Succession Planning?',
+      paragraphs: [
+        'If a business owner dies without clear arrangements for their company interests, the succession process can become more complicated. Depending on the circumstances and applicable laws, the deceased shareholder’s interests may need to be dealt with through the relevant estate and legal procedures.',
+        'Potential issues can include:',
+      ],
+      subsections: [
+        {
+          heading: 'Uncertainty Around Ownership',
+          paragraphs: [
+            'Family members, beneficiaries and surviving shareholders may need to establish how the deceased person’s shares should be dealt with.',
+          ],
+        },
+        {
+          heading: 'Disruption to Decision-Making',
+          paragraphs: [
+            'If the deceased owner was responsible for important company decisions, their absence can create operational uncertainty. This can be particularly significant where the company relies on a small number of shareholders or where certain decisions require shareholder approval.',
+          ],
+        },
+        {
+          heading: 'Difficulties for Co-Founders',
+          paragraphs: [
+            'Surviving founders may suddenly find themselves dealing with beneficiaries who have different expectations about the business. A co-founder may want to continue operating the company, while a beneficiary may simply want to realise the financial value of inherited shares.',
+          ],
+        },
+        {
+          heading: 'Impact on Employees and Clients',
+          paragraphs: [
+            'Uncertainty around ownership can also create concerns among employees, suppliers and clients. For businesses where the founder plays a central role, clear succession planning can help provide greater continuity during a transition.',
+          ],
+        },
+      ],
+    },
+    {
+      heading: 'What Does a Business Owners Will Typically Address?',
+      paragraphs: [
+        'A properly structured business shares in UAE will arrangement can address several important questions. Depending on your circumstances and the applicable legal framework, this may include:',
+        'The precise wording and legal effect will depend on the company structure and the applicable UAE laws and regulations.',
+      ],
+      bulletList: [
+        'Who should inherit your company shares.',
+        'The proportion each beneficiary should receive.',
+        'Whether beneficiaries should become active shareholders.',
+        'Whether beneficiaries should hold shares passively.',
+        'How business interests should be managed during succession.',
+        'Relevant buy-sell arrangements.',
+        'Coordination with existing shareholder agreements.',
+        'Other succession instructions relating to the ownership structure.',
+      ],
+    },
+    {
+      heading: 'Who Should Inherit Your Business Shares?',
+      paragraphs: [
+        'This is one of the most important decisions for business owners. You may want your shares to pass to:',
+        'However, inheritance and company ownership are not always the same thing from an operational perspective. For example, your children may inherit your shares but may not have the experience or desire to run the company. This is why business succession planning should consider both ownership and management.',
+      ],
+      bulletList: [
+        'Your spouse.',
+        'Your children.',
+        'Other family members.',
+        'A business partner.',
+        'Multiple beneficiaries.',
+        'A family holding structure.',
+        'Another person or entity permitted under the applicable arrangements.',
+      ],
+    },
+    {
+      heading: 'Active vs Passive Shareholders',
+      paragraphs: [
+        'When preparing your will, consider whether your beneficiaries should actually participate in the business. An active shareholder may be involved in:',
+        'A passive shareholder, on the other hand, may simply hold an ownership interest without becoming involved in daily management. Making this distinction in your succession planning can help your advisers understand the outcome you are trying to achieve.',
+      ],
+      bulletList: [
+        'Strategic decisions.',
+        'Management.',
+        'Voting.',
+        'Company growth.',
+        'Business operations.',
+      ],
+    },
+    {
+      heading: 'Coordinate Your Will With Your Shareholder Agreement',
+      paragraphs: [
+        'One of the most important considerations when including business shares in a UAE will is ensuring that your will does not conflict with your company’s existing documents. These may include:',
+        'For example, a shareholder agreement may give existing shareholders certain rights if one shareholder wants or needs to transfer their shares. Your will should therefore be reviewed alongside your company’s governing documents. This is particularly important for companies with multiple founders or family-owned businesses.',
+      ],
+      bulletList: [
+        'Memorandum of Association.',
+        'Articles or constitutional documents.',
+        'Shareholder agreements.',
+        'Buy-sell agreements.',
+        'Transfer restrictions.',
+        'Rights of first refusal.',
+        'Other corporate arrangements.',
+      ],
+    },
+    {
+      heading: 'What Is a Buy-Sell Arrangement?',
+      paragraphs: [
+        'A buy-sell arrangement can establish what happens to a shareholder’s interest following specific events, which may include death. Depending on the agreement, surviving shareholders may have rights or obligations relating to the purchase of the deceased shareholder’s interest.',
+        'This can provide a structured mechanism for handling ownership changes. However, the arrangement needs to be properly drafted and coordinated with the company’s governing documents and estate-planning arrangements. Business owners should obtain professional legal advice before relying on a buy-sell arrangement.',
+      ],
+    },
+    {
+      heading: 'Holding Companies as a Succession Planning Tool',
+      paragraphs: [
+        'Some entrepreneurs own multiple businesses or investments. In these circumstances, a holding company may be used to consolidate ownership of different businesses or assets. Instead of dealing with multiple operating-company interests individually, the ownership structure may allow succession planning to focus on the holding company itself.',
+        'This can potentially simplify the ownership structure, although whether a holding company is appropriate depends on the business, tax, regulatory and family circumstances involved. A professional adviser can help assess whether such a structure fits your long-term objectives.',
+      ],
+    },
+    {
+      heading: 'UAE Foundations and Business Succession',
+      paragraphs: [
+        'A UAE foundation can be another structure considered by certain business owners and families. Rather than transferring company shares directly to individual beneficiaries upon death, a foundation may hold certain assets or shares according to its governing documents and the founder’s intentions.',
+        'This can be relevant to families seeking a longer-term succession structure. A foundation may potentially provide a framework for:',
+        'However, a foundation is not automatically a better alternative to a will. The appropriate structure depends on your objectives, business arrangements, family circumstances and applicable laws.',
+      ],
+      bulletList: [
+        'Holding business interests.',
+        'Managing family wealth.',
+        'Establishing governance arrangements.',
+        'Supporting multigenerational succession.',
+        'Separating ownership from day-to-day management.',
+      ],
+    },
+    {
+      heading: 'Step-by-Step: Protecting Your Business Through Your Will',
+      subsections: [
+        {
+          heading: '1. Review Your Current Shareholding',
+          paragraphs: ['Start by documenting exactly what you own. Review:'],
+          bulletList: [
+            'Company name.',
+            'Shareholding percentage.',
+            'Number of shares.',
+            'Ownership structure.',
+            'Other companies you have interests in.',
+          ],
+        },
+        {
+          heading: '2. Review Existing Corporate Agreements',
+          paragraphs: [
+            'Check your Memorandum of Association, shareholder agreement and any other documents affecting the transfer of shares.',
+          ],
+        },
+        {
+          heading: '3. Decide Who Should Receive Your Shares',
+          paragraphs: [
+            'Identify your intended beneficiaries and determine how you want the ownership to be divided.',
+          ],
+        },
+        {
+          heading: '4. Consider Their Role',
+          paragraphs: [
+            'Decide whether beneficiaries should become active participants in the business or simply hold the shares as an investment.',
+          ],
+        },
+        {
+          heading: '5. Consider Alternative Structures',
+          paragraphs: [
+            'Depending on your circumstances, consider whether a holding company, foundation or buy-sell arrangement may support your succession objectives.',
+          ],
+        },
+        {
+          heading: '6. Prepare Your Will With Professional Guidance',
+          paragraphs: [
+            'A Business Owners Will or Full Will can then be prepared to reflect your wishes and coordinate with the company’s documents.',
+          ],
+        },
+        {
+          heading: '7. Communicate Where Appropriate',
+          paragraphs: [
+            'Where suitable, discuss the succession plan with co-founders, shareholders and other key stakeholders.',
+          ],
+        },
+        {
+          heading: '8. Review the Plan Regularly',
+          paragraphs: [
+            'Business ownership can change quickly, so your will and succession arrangements should be reviewed when your company structure or personal circumstances change.',
+          ],
+        },
+      ],
+    },
+    {
+      heading: 'What Happens in a Multi-Shareholder Company?',
+      paragraphs: [
+        'Succession planning can become particularly important when several shareholders own a company together. Imagine a business with three founders. If one founder dies without appropriate succession arrangements, the surviving founders may suddenly have to work with the deceased person’s beneficiaries.',
+        'Those beneficiaries may have different expectations from the original business owner. They may want to:',
+        'Clear succession planning can help reduce uncertainty by documenting the intended outcome in advance.',
+      ],
+      bulletList: [
+        'Keep the shares.',
+        'Sell the shares.',
+        'Receive dividends.',
+        'Participate in company decisions.',
+        'Transfer their interest to another person.',
+      ],
+    },
+    {
+      heading: 'Common Mistakes Business Owners Make',
+      subsections: [
+        {
+          heading: 'Ignoring Company Shares',
+          paragraphs: [
+            'Some business owners prepare a will covering their personal assets but forget to address their company ownership.',
+          ],
+        },
+        {
+          heading: 'Failing to Review Shareholder Agreements',
+          paragraphs: [
+            'Your will should be considered alongside existing corporate documents.',
+          ],
+        },
+        {
+          heading: 'Assuming a Business Partner Automatically Inherits Your Shares',
+          paragraphs: [
+            'A business partner does not necessarily become the owner of your shares simply because they are your co-founder. Specific succession or buy-sell arrangements may be required.',
+          ],
+        },
+        {
+          heading: 'Not Planning for Interim Management',
+          paragraphs: [
+            'If you are the main decision-maker, consider what happens to the business immediately following your death.',
+          ],
+        },
+        {
+          heading: 'Ignoring Changes in Shareholding',
+          paragraphs: [
+            'If you acquire another company or change your ownership percentage, your estate plan may need to be reviewed.',
+          ],
+        },
+        {
+          heading: 'Assuming a Foundation Is Always Necessary',
+          paragraphs: [
+            'A foundation can be useful in certain circumstances, but it is not appropriate for every business owner.',
+          ],
+        },
+      ],
+    },
+  ],
+  faqs: [
+    {
+      question: 'Can I include business shares in a UAE will?',
+      answer:
+        'Business interests can potentially be addressed through an appropriately prepared UAE will, subject to the applicable legal and corporate requirements.',
+    },
+    {
+      question: 'Will my business partner automatically receive my shares?',
+      answer:
+        'Not necessarily. Without specific arrangements, your shares may pass according to the applicable succession framework rather than automatically transferring to your business partner.',
+    },
+    {
+      question: 'Can a Business Owners Will cover Free Zone companies?',
+      answer:
+        'The appropriate estate-planning structure can depend on the company’s jurisdiction, legal structure and applicable rules. Free Zone and Mainland businesses should be reviewed individually.',
+    },
+    {
+      question: 'Should my will match my shareholder agreement?',
+      answer:
+        'Your will and shareholder agreement should be coordinated carefully. Conflicting provisions can create uncertainty, so both documents should be reviewed together with qualified legal advisers.',
+    },
+    {
+      question: 'Should I use a foundation instead of a will?',
+      answer:
+        'It depends on your objectives. A will can provide instructions for the transfer of assets following death, while a foundation may provide an ongoing ownership and governance structure. The appropriate solution depends on your business and family circumstances.',
+    },
+    {
+      question: 'Can my children inherit my company shares?',
+      answer:
+        'Depending on the applicable legal and corporate framework, children may potentially be beneficiaries of business interests. However, business owners should consider whether their children are intended to become active shareholders or simply receive the economic benefit of the ownership.',
+    },
+    {
+      question: 'Should I update my will if my shareholding changes?',
+      answer:
+        'Yes. Significant changes to your ownership structure, company interests or family circumstances should prompt a review of your estate plan.',
+    },
+  ],
+  cta:
+    'For entrepreneurs and shareholders, business shares in a UAE will should be considered as part of a broader succession strategy. Your company may represent years of work, investment and relationships. Without appropriate planning, the transition of ownership can create uncertainty for your family and business partners. A properly coordinated plan can address your business shares alongside your personal assets and family arrangements. Klay Consultants works with legal partners to help UAE business owners explore wills, holding companies and foundation structures for business succession and long-term planning. If you own shares in a UAE company, consider reviewing your succession arrangements before an unexpected event makes them necessary.',
+  disclaimer:
+    'This article is for general informational purposes only and does not constitute legal advice. Business succession, inheritance and share-transfer requirements depend on the applicable legal framework, company structure and individual circumstances. Consult qualified UAE legal professionals before making estate-planning or ownership decisions.',
+  relatedLinks: [
+    { href: '/blog/uae-will-vs-home-country-will-do-expats-need-both-klay-consultants', label: 'UAE will vs home country will for expats' },
+    { href: '/blog/uae-shareholder-agreement-guide', label: 'UAE shareholder agreement guide' },
+    { href: '/blog/transfer-shareholders-uae-company', label: 'Transferring shareholders in a UAE company' },
+  ],
+};
+
+const powerOfAttorneyUaeArticle: LongFormArticle = {
+  introduction:
+    'A Power of Attorney (POA) is an important legal document that allows one person to authorise another individual to act on their behalf for specified matters. In the UAE, it can be useful for business owners, property investors, entrepreneurs and expatriates who need someone they trust to handle legal, financial or administrative responsibilities. Whether you are managing a company, selling property, handling government procedures or living outside the UAE, understanding how a Power of Attorney works can help you manage important responsibilities when you cannot attend personally. This guide explains the different types of Power of Attorney in the UAE, how to obtain one, the documents required, notarisation procedures and important considerations for business owners and expats.',
+  sections: [
+    {
+      heading: 'What Is a Power of Attorney in the UAE?',
+      paragraphs: [
+        'A Power of Attorney is a legal authorisation through which one person, known as the principal, appoints another person, known as the agent or attorney-in-fact, to perform specified lawful actions on their behalf.',
+        'The agent can only exercise the authority granted under the document and must act within its terms and applicable law.',
+        'For example, a UAE resident who travels frequently may appoint a trusted representative to manage certain property-related transactions, while a business owner may authorise another person to handle specified company administration matters.',
+        'A properly prepared and notarised POA can help individuals and businesses manage responsibilities without requiring the principal to personally attend every transaction.',
+      ],
+    },
+    {
+      heading: 'Why Do People Need a Power of Attorney in the UAE?',
+      paragraphs: [
+        'People use Power of Attorney documents for different personal, financial and business purposes. Some common reasons include:',
+        'For expatriates, a POA can be particularly useful when they have responsibilities in the UAE but cannot always be physically present.',
+        'However, banks, government departments, courts and property authorities may have their own requirements. The document should be drafted for the intended transaction rather than assuming that one general POA will be accepted everywhere.',
+      ],
+      bulletList: [
+        'Managing property transactions while living abroad.',
+        'Authorising someone to represent a business before relevant authorities.',
+        'Handling specified banking or financial matters where the institution accepts the authority.',
+        'Completing administrative and government procedures.',
+        'Managing rental properties and tenancy-related matters.',
+        'Representing an individual in permitted legal proceedings.',
+        'Handling specified vehicle-related transactions.',
+        'Managing certain company registration and licensing matters.',
+      ],
+    },
+    {
+      heading: 'Types of Power of Attorney in the UAE',
+      paragraphs: [
+        'The appropriate type of Power of Attorney depends on the authority being granted and the purpose for which it will be used.',
+      ],
+      subsections: [
+        {
+          heading: '1. General Power of Attorney',
+          paragraphs: [
+            'A General Power of Attorney provides broader authority within the limits of the applicable law and the wording of the document. It may be used for specified management and administrative responsibilities.',
+            'For example, a person may authorise a representative to handle certain routine matters while they are travelling or living abroad.',
+            'However, broader wording does not automatically authorise every possible transaction. Certain important actions, including property sales, mortgages and other specific dispositions, may require express and transaction-specific authority.',
+          ],
+        },
+        {
+          heading: '2. Special Power of Attorney',
+          paragraphs: [
+            'A Special Power of Attorney grants authority for a defined purpose or transaction. It is often considered when the principal wants to authorise a representative to perform a particular action rather than manage a broader range of responsibilities. Examples may include:',
+          ],
+          bulletList: [
+            'Selling a specified property.',
+            'Purchasing a particular asset.',
+            'Completing a defined company transaction.',
+            'Representing someone in a particular legal matter.',
+            'Handling a specific vehicle transfer.',
+            'Completing a particular administrative procedure.',
+          ],
+        },
+        {
+          heading: '3. Business Power of Attorney',
+          paragraphs: [
+            'Business owners may use a POA to authorise another person to handle specified corporate matters. Depending on the document and applicable company requirements, this may include:',
+          ],
+          bulletList: [
+            'Representing the company before licensing authorities.',
+            'Handling specified registration procedures.',
+            'Signing authorised business documents.',
+            'Managing defined administrative responsibilities.',
+            'Representing the business in approved transactions.',
+          ],
+        },
+        {
+          heading: '4. Property Power of Attorney',
+          paragraphs: [
+            'Property owners may appoint a representative to handle specified real estate transactions. Depending on the intended authority, this may include:',
+          ],
+          bulletList: [
+            'Managing rental arrangements.',
+            'Handling property administration.',
+            'Representing the owner before relevant property authorities.',
+            'Completing an authorised sale or purchase.',
+            'Handling specified property transfer procedures.',
+          ],
+        },
+        {
+          heading: '5. Litigation Power of Attorney',
+          paragraphs: [
+            'A Litigation Power of Attorney relates to representation in specified legal proceedings. The applicable rules may restrict who can act as a representative in particular proceedings. For example, professional legal representation requirements should be checked before appointing someone who is not a qualified lawyer.',
+            'The document should identify the intended legal authority and be prepared according to the relevant court requirements.',
+          ],
+        },
+      ],
+    },
+    {
+      heading: 'General Power of Attorney vs Special Power of Attorney',
+      table: {
+        headers: ['Feature', 'General POA', 'Special POA'],
+        rows: [
+          ['Scope', 'Broader management authority within legal limits', 'Defined authority for particular matters'],
+          ['Purpose', 'Multiple permitted management activities', 'Specific transaction or responsibility'],
+          ['Flexibility', 'Broader within its stated scope', 'Limited to the stated purpose'],
+          ['Drafting', 'Requires careful definition of management powers', 'Requires clear transaction-specific details'],
+          ['Suitable for', 'Certain ongoing administrative arrangements', 'Property sales, specific transactions and defined legal matters'],
+        ],
+      },
+      paragraphs: [
+        'Under the UAE Civil Transactions Law framework in force from 1 June 2026, the distinction between general management authority and special authority for particular dispositions is especially important. Do not assume a general POA authorises property sales, mortgages or other specific transactions. Confirm the wording with a qualified UAE legal professional and the receiving authority.',
+      ],
+    },
+    {
+      heading: 'How to Get a Power of Attorney in the UAE',
+      paragraphs: [
+        'Obtaining a Power of Attorney generally involves preparing the document, submitting the required information and completing the applicable notarisation procedure.',
+      ],
+      subsections: [
+        {
+          heading: 'Step 1: Identify the Purpose',
+          paragraphs: [
+            'First, decide why you need a POA. Are you authorising someone to manage property, represent your company, complete administrative procedures or handle a specific legal matter? Clearly identifying the purpose helps determine the correct type of document.',
+          ],
+        },
+        {
+          heading: 'Step 2: Choose Your Representative',
+          paragraphs: [
+            'Select someone you trust and who is capable of carrying out the authorised responsibilities. This may be a family member, business partner, professional representative or another suitable person, subject to the applicable requirements.',
+          ],
+        },
+        {
+          heading: 'Step 3: Prepare the Document',
+          paragraphs: ['The POA should clearly identify:'],
+          bulletList: [
+            'The principal.',
+            'The appointed representative.',
+            'The purpose of the authorisation.',
+            'The specific powers being granted.',
+            'Any limitations or conditions.',
+            'The validity period.',
+            'Relevant property, company or transaction details, where applicable.',
+          ],
+        },
+        {
+          heading: 'Step 4: Submit the Required Documents',
+          paragraphs: [
+            'Prepare the identification and supporting documents requested by the relevant notary or authority. Additional documents may be necessary for company-related, property-related or overseas transactions.',
+          ],
+        },
+        {
+          heading: 'Step 5: Complete Notarisation',
+          paragraphs: [
+            'Submit the application through the appropriate UAE notary service. Depending on the jurisdiction and service, notarisation may be completed through an in-person appointment, a remote meeting or an approved digital process.',
+            'The UAE Ministry of Justice provides digital Power of Attorney services for certain document categories and transactions.',
+          ],
+        },
+        {
+          heading: 'Step 6: Receive and Verify the Document',
+          paragraphs: [
+            'After approval and completion of the applicable formalities, obtain the notarised document. Check that the names, identification details, authority granted and transaction information are correct.',
+          ],
+        },
+        {
+          heading: 'Step 7: Submit It to the Relevant Institution',
+          paragraphs: [
+            'Provide the POA to the bank, government department, property authority, court or other institution where the representative needs to act. Always confirm acceptance requirements with that institution before relying on the document.',
+          ],
+        },
+      ],
+    },
+    {
+      heading: 'Documents Required for a Power of Attorney in the UAE',
+      paragraphs: [
+        'The exact documents depend on the purpose of the POA and the relevant notary or authority. Commonly requested documents may include:',
+        'The receiving authority may request additional information depending on the transaction.',
+      ],
+      bulletList: [
+        'Valid Emirates ID of the principal, where applicable.',
+        'Passport copy of the principal.',
+        'Identification details of the appointed representative.',
+        'Draft Power of Attorney.',
+        'UAE company trade licence for corporate matters.',
+        'Memorandum of Association or relevant constitutional documents.',
+        'Board or shareholder resolution, where required.',
+        'Property ownership or transaction documents for real estate matters.',
+        'Supporting authorisation documents, where applicable.',
+        'Certified Arabic translation and attestation for foreign-issued documents, where required.',
+      ],
+    },
+    {
+      heading: 'How Much Does a Power of Attorney Cost in the UAE?',
+      paragraphs: [
+        'The cost depends on the type of POA, the issuing authority, its validity period, the complexity of the document and any additional services required. Potential costs include:',
+        'Always confirm current fees with the relevant notary before submitting an application.',
+        'For example, Abu Dhabi Judicial Department publishes a fee of AED 100 for each year of POA validity for its general POA notarisation service, with an additional AED 500 where signature authorisation is added. This is an authority-specific example, not a UAE-wide fixed price.',
+      ],
+      table: {
+        headers: ['Cost Component', 'What It Covers'],
+        rows: [
+          ['Drafting fees', 'Preparing the POA document'],
+          ['Notarisation fees', 'Official authentication of the document'],
+          ['Translation fees', 'Certified Arabic translation where required'],
+          ['Attestation fees', 'Authentication of foreign-issued documents where applicable'],
+          ['Professional fees', 'Legal or business advisory assistance'],
+        ],
+      },
+    },
+    {
+      heading: 'Can You Issue a Power of Attorney While Outside the UAE?',
+      paragraphs: [
+        'Yes. UAE residents and overseas individuals may be able to arrange a Power of Attorney while outside the country, depending on the applicable procedure and the receiving authority’s requirements. The available route may involve:',
+        'The exact process depends on the country where the document is signed and the authority where it will be used. Before preparing an overseas POA, confirm the required attestation chain with the receiving UAE institution.',
+      ],
+      bulletList: [
+        'Executing the document before an appropriate UAE diplomatic mission, where the service is available.',
+        'Having the document notarised by an authorised foreign notary.',
+        'Completing the required authentication and attestation procedures.',
+        'Arranging a certified Arabic translation where necessary.',
+      ],
+    },
+    {
+      heading: 'How Long Is a Power of Attorney Valid in the UAE?',
+      paragraphs: [
+        'The validity period depends on the document, its wording, the applicable legal rules and the relevant authority. A POA may specify a defined validity period or another arrangement permitted under the applicable framework.',
+        'For example, the Abu Dhabi Judicial Department publishes a maximum validity period of three Gregorian years for its general POA service, subject to its stated conditions. Specific litigation-related rules and other categories may differ.',
+        'The principal should review the expiry date and confirm whether renewal or a replacement document is necessary.',
+      ],
+    },
+    {
+      heading: 'Can You Cancel or Revoke a Power of Attorney?',
+      paragraphs: [
+        'A principal may wish to revoke a POA when the authorised task is complete, the representative is no longer suitable, or the principal’s circumstances have changed. Revocation should be handled through the applicable legal and procedural requirements.',
+        'A general process may involve:',
+        'Do not assume that simply telling the representative to stop acting is sufficient for every institutional purpose. The effect of revocation and the treatment of actions already undertaken should be reviewed with a qualified UAE legal professional.',
+      ],
+      list: [
+        'Reviewing the existing POA and its conditions.',
+        'Preparing the appropriate revocation documentation.',
+        'Completing the required formalities with the relevant notary or authority.',
+        'Notifying the appointed representative.',
+        'Informing banks, government departments, property authorities and other institutions that previously relied on the POA.',
+        'Retaining evidence of the revocation.',
+      ],
+    },
+    {
+      heading: 'Power of Attorney for Business Owners in the UAE',
+      paragraphs: [
+        'For entrepreneurs and company owners, a POA can help manage business responsibilities when they are travelling, operating internationally or unable to attend certain transactions personally. For example, a company owner may authorise a representative to handle specified licensing or registration procedures.',
+        'A POA does not automatically give the representative unrestricted control over the company or override the company’s constitutional documents. Business owners should coordinate the document with their corporate governance and legal arrangements. Business-related POAs also require careful consideration of:',
+      ],
+      bulletList: [
+        'The company’s legal structure.',
+        'The principal’s authority to grant the POA.',
+        'Existing shareholder and board approval requirements.',
+        'The scope of the representative’s authority.',
+        'The intended transactions.',
+        'The requirements of the licensing authority and receiving institutions.',
+      ],
+    },
+    {
+      heading: 'Difference Between a Power of Attorney and a Will',
+      paragraphs: [
+        'A Power of Attorney and a will serve different legal purposes. A POA authorises another person to act on the principal’s behalf during the principal’s lifetime, within the scope of the document and applicable law.',
+        'A will records a person’s estate-planning instructions and is intended to operate in accordance with the applicable legal framework following death.',
+        'A POA should not be treated as a substitute for a will. A person’s estate-planning arrangements should be reviewed separately.',
+      ],
+      table: {
+        headers: ['Feature', 'Power of Attorney', 'Will'],
+        rows: [
+          ['Main purpose', 'Authorises another person to act on your behalf', 'Records estate-planning instructions'],
+          ['When it operates', 'During the principal’s lifetime, subject to applicable law', 'Following death, subject to applicable law'],
+          ['Main focus', 'Representation and authorised transactions', 'Beneficiaries, assets and estate administration'],
+          ['Common use', 'Property, business and administrative matters', 'Inheritance and succession planning'],
+          ['Main document', 'Notarised POA where required', 'Properly prepared and registered will where applicable'],
+        ],
+      },
+    },
+    {
+      heading: 'Common Mistakes to Avoid When Preparing a UAE Power of Attorney',
+      subsections: [
+        {
+          heading: 'Giving Excessively Broad Authority',
+          paragraphs: ['Granting more authority than necessary can create avoidable risks. Clearly define what the representative can and cannot do.'],
+        },
+        {
+          heading: 'Using a General POA for Every Transaction',
+          paragraphs: ['Some transactions require specific authority and detailed wording. Always confirm the requirements for the intended transaction.'],
+        },
+        {
+          heading: 'Choosing the Wrong Representative',
+          paragraphs: ['A POA can grant significant legal authority. Select someone trustworthy, capable and appropriate for the responsibilities.'],
+        },
+        {
+          heading: 'Ignoring Expiry Dates',
+          paragraphs: ['Keep track of the document’s validity and check whether the receiving institution requires a current POA.'],
+        },
+        {
+          heading: 'Forgetting to Notify Relevant Institutions',
+          paragraphs: ['When a POA is revoked or replaced, notify the institutions that may still rely on the earlier document.'],
+        },
+        {
+          heading: 'Overlooking Overseas Attestation',
+          paragraphs: ['A document signed outside the UAE may need additional authentication and translation before it can be used.'],
+        },
+      ],
+    },
+  ],
+  faqs: [
+    {
+      question: 'Can an expat issue a Power of Attorney in the UAE?',
+      answer:
+        'Yes. Expats can generally apply for a POA through the relevant UAE notary procedures, subject to the applicable eligibility, documentation and transaction requirements.',
+    },
+    {
+      question: 'Can I give someone Power of Attorney to sell my Dubai property?',
+      answer:
+        'A property sale requires appropriately specific authority and compliance with the relevant property registration requirements. A general POA should not be assumed to authorise the sale.',
+    },
+    {
+      question: 'Can I issue a Power of Attorney online in the UAE?',
+      answer:
+        'Yes. The Ministry of Justice provides digital POA services for eligible document types. Other jurisdictions may provide their own electronic or remote notarisation procedures.',
+    },
+    {
+      question: 'Can a Power of Attorney be issued from another country?',
+      answer:
+        'It may be possible. The document must satisfy the applicable authentication, attestation and translation requirements for use in the UAE.',
+    },
+    {
+      question: 'Can a Power of Attorney be cancelled?',
+      answer:
+        'A POA can generally be revoked by the principal through the applicable procedure, subject to the terms of the document and relevant law. Institutions that hold or rely on it should be notified.',
+    },
+    {
+      question: 'Does a Power of Attorney continue after the principal dies?',
+      answer:
+        'A POA should not be relied upon as authority to administer the deceased principal’s estate. Following death, estate administration is governed by the applicable succession and court procedures. A will and appropriate court documentation may be relevant.',
+    },
+    {
+      question: 'Can a business owner authorise an employee through a POA?',
+      answer:
+        'A business owner may authorise a representative to perform specified lawful actions, subject to the company’s legal structure, the principal’s authority and applicable approval requirements.',
+    },
+    {
+      question: 'Is a General Power of Attorney sufficient for property transactions?',
+      answer:
+        'Not necessarily. Property sales, mortgages and other specific dispositions may require express authority identifying the transaction and relevant property details. Confirm the required wording with the receiving authority.',
+    },
+  ],
+  cta:
+    'A Power of Attorney can make it easier to manage personal, financial, property and business responsibilities when you cannot attend transactions yourself. However, the document must be prepared carefully. The type of POA, wording, validity, notarisation and supporting documents should all match the intended purpose. Whether you are an expat managing UAE property, a business owner authorising a representative or an investor handling international affairs, understanding the applicable requirements can help you avoid unnecessary delays. Klay Consultants can help you understand the administrative requirements and coordinate the relevant documentation with appropriate legal professionals. Contact Klay Consultants to discuss your Power of Attorney requirements and understand the next steps for your situation.',
+  disclaimer:
+    'This article is for general informational purposes only and does not constitute legal advice. UAE Power of Attorney requirements depend on the applicable federal and local laws, the transaction, the issuing authority and the receiving institution. Notarisation, validity periods, fees and eligibility requirements may vary. Consult a qualified UAE legal professional before granting or relying on a Power of Attorney.',
+  relatedLinks: [
+    { href: '/blog/uae-will-vs-home-country-will-do-expats-need-both-klay-consultants', label: 'UAE will vs home country will for expats' },
+    { href: '/blog/legal-heir-certificate-uae-will-probate-guide', label: 'UAE legal heir certificate and probate guide' },
+    { href: '/blog/updating-revoking-and-amending-your-uae-will-klay-consultants', label: 'Updating or revoking a UAE will' },
+  ],
+};
+
 export default function BlogArticlePage() {
   const { slug = '' } = useParams<{ slug: string }>();
   const article = BLOG_PREVIEW.find((post) => post.slug === slug);
@@ -3526,7 +5380,21 @@ export default function BlogArticlePage() {
                                     ? uaeWillReviewArticle
                                     : slug === 'uae-will-vs-home-country-will-do-expats-need-both-klay-consultants'
                                       ? uaeWillVsHomeCountryWillArticle
-                    : null;
+                                      : slug === 'power-of-attorney-in-the-uae-a-guide-for-business-owners-expats-klay-consultants'
+                                        ? powerOfAttorneyUaeArticle
+                                        : slug === 'including-business-shares-in-your-uae-will-klay-consultants'
+                                          ? businessSharesInUaeWillArticle
+                                          : slug === 'guardianship-for-minor-children-in-a-uae-will-klay-consultants'
+                                            ? guardianshipUaeWillArticle
+                                            : slug === 'how-to-register-a-non-muslim-will-in-the-uae-step-by-step-klay-consultants'
+                                              ? nonMuslimWillRegistrationArticle
+                                              : slug === 'difc-wills-vs-abu-dhabi-wills-registry-which-should-you-choose-klay-consultants'
+                                                ? difcVsAbuDhabiWillsArticle
+                                                : slug === 'what-happens-if-you-die-without-a-will-in-the-uae'
+                                                  ? dyingWithoutUaeWillArticle
+                                                  : slug === 'uae-import-export-license-how-to-start-a-trading-business'
+                                                    ? uaeImportExportLicenseArticle
+                                                    : null;
 
   useEffect(() => {
     if (!article) return;
@@ -3542,40 +5410,40 @@ export default function BlogArticlePage() {
 
   return (
     <>
-      <article className="section-padding pb-12 pt-12 sm:pt-16">
+      <article className="section-padding pb-12 pt-6 sm:pt-8">
         <div className="mx-auto max-w-4xl">
-          <Link href="/blog" className="mb-7 inline-flex items-center gap-2 text-sm font-semibold text-black hover:text-palette-gold">
+          <Link href="/blog" className="mb-4 inline-flex items-center gap-2 text-sm font-semibold text-black hover:text-palette-gold">
             <ArrowRight className="h-4 w-4 rotate-180" />
             All articles
           </Link>
-          <div className="mb-5">
-            <span className="rounded-full bg-gold-500/15 px-3 py-1 text-xs font-semibold text-palette-gold">{article.category}</span>
-          </div>
-          <h1 className="text-balance text-3xl font-bold leading-tight text-black sm:text-5xl">{article.title}</h1>
-          <div className="mt-5 flex items-center gap-2 text-sm text-black">
-            <Calendar className="h-4 w-4" />
-            {article.date}
-          </div>
-          {'tags' in article && article.tags && (
-            <div className="mt-4 flex flex-wrap gap-2" aria-label="Article tags">
-              {article.tags.map((tag) => (
-                <span key={tag} className="rounded-full border border-black/10 px-3 py-1 text-xs text-black">
-                  {tag}
-                </span>
-              ))}
-            </div>
-          )}
           {article.image && (
-            <div className="relative mt-8 aspect-[16/8] overflow-hidden rounded-3xl">
+            <div className="relative mt-3 aspect-video overflow-hidden rounded-3xl bg-white/70">
               <Image
                 src={article.image}
                 alt={article.title}
                 title={'imageTitle' in article ? article.imageTitle : undefined}
                 fill
                 priority
-                className="object-cover"
+                className="object-contain"
                 sizes="(max-width: 1024px) 100vw, 896px"
               />
+            </div>
+          )}
+          <div className="mb-3">
+            <span className="rounded-full bg-gold-500/15 px-3 py-1 text-xs font-semibold text-palette-gold">{article.category}</span>
+          </div>
+          <h1 className="text-balance text-3xl font-bold leading-tight text-black sm:text-5xl">{article.title}</h1>
+          <div className="mt-3 flex items-center gap-2 text-sm text-black">
+            <Calendar className="h-4 w-4" />
+            {article.date}
+          </div>
+          {'tags' in article && article.tags && (
+            <div className="mt-3 flex flex-wrap gap-2" aria-label="Article tags">
+              {article.tags.map((tag) => (
+                <span key={tag} className="rounded-full border border-black/10 px-3 py-1 text-xs text-black">
+                  {tag}
+                </span>
+              ))}
             </div>
           )}
           <GlassCard className="mt-8 p-6 sm:p-10">
