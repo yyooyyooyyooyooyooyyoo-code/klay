@@ -8,11 +8,13 @@ interface BlogCardProps {
   excerpt: string;
   date?: string;
   image?: string;
+  imageAlt?: string;
+  imageTitle?: string;
   slug: string;
   category?: string;
 }
 
-export function BlogCard({ title, excerpt, date, image, slug, category }: BlogCardProps) {
+export function BlogCard({ title, excerpt, date, image, imageAlt, imageTitle, slug, category }: BlogCardProps) {
   return (
     <Link href={`/blog/${slug}`} className="block h-full">
       <GlassCard className="p-0 h-full flex flex-col overflow-hidden group">
@@ -20,7 +22,8 @@ export function BlogCard({ title, excerpt, date, image, slug, category }: BlogCa
           {image ? (
             <Image
               src={image}
-              alt={title}
+              alt={imageAlt ?? title}
+              title={imageTitle}
               fill
               className="object-cover transition-transform duration-500 group-hover:scale-105"
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"

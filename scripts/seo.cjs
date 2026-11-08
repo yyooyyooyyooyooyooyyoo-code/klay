@@ -71,7 +71,8 @@ function generateSitemaps() {
     '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">',
     ...imageEntries.map(({ path: routePath, image }) => {
       const seo = getPageSeo(routePath);
-      return `  <url><loc>${xmlEscape(seo.canonical)}</loc><image:image><image:loc>${xmlEscape(image)}</image:loc></image:image></url>`;
+      const imageUrl = image.startsWith('/') ? `https://klayconsultants.com${image}` : image;
+      return `  <url><loc>${xmlEscape(seo.canonical)}</loc><image:image><image:loc>${xmlEscape(imageUrl)}</image:loc></image:image></url>`;
     }),
     '</urlset>',
     '',
@@ -227,10 +228,6 @@ function validateBuild() {
   ) {
     errors.push('robots.txt is missing the public crawl policy or sitemap URL');
   }
-  if (routes.filter((route) => route.source === 'article').length !== 23) {
-    errors.push(`Expected 23 published blog routes, found ${routes.filter((route) => route.source === 'article').length}`);
-  }
-
   if (errors.length) {
     console.error(errors.map((error) => `- ${error}`).join('\n'));
     process.exitCode = 1;

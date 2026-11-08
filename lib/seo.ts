@@ -60,7 +60,11 @@ function fromRecord(
     description: metadata.description,
     keyword: metadata.keyword ?? '',
     canonical: canonicalFor(path),
-    image: metadata.image ?? defaultImage,
+    image: metadata.image
+      ? metadata.image.startsWith('/')
+        ? `${SITE_ORIGIN}${metadata.image}`
+        : metadata.image
+      : defaultImage,
     type: metadata.type ?? 'website',
   };
 }
@@ -77,7 +81,7 @@ export function getPageSeo(pathname: string): PageSeo {
       return fromRecord(path, {
         title: article.metaTitle,
         description: article.metaDescription,
-        keyword: article.metaKeywords,
+        keyword: 'focusKeyword' in article ? article.focusKeyword : article.metaKeywords,
         image: article.image,
         type: 'article',
       });
@@ -215,7 +219,7 @@ export function getStructuredData(pathname: string): object {
       '@id': `${seo.canonical}#article`,
       headline: article.title,
       description: article.metaDescription,
-      image: article.image,
+      image: seo.image,
       datePublished: Number.isNaN(datePublished.getTime()) ? undefined : datePublished.toISOString(),
       mainEntityOfPage: { '@id': `${seo.canonical}#webpage` },
       publisher: { '@id': `${SITE_ORIGIN}/#organization` },
