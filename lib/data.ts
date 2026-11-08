@@ -829,6 +829,110 @@ export const FAQS = {
 
 export const BLOG_PREVIEW = [
   {
+    slug: 'uae-offshore-company-formation-rak-icc-vs-jafza-klay-consultants',
+    title: 'UAE Offshore Company Formation: RAK ICC vs JAFZA',
+    excerpt:
+      'Compare RAK ICC vs JAFZA for UAE offshore company formation. Explore costs, benefits, property ownership, requirements and the right offshore structure.',
+    date: '8 Nov 2026',
+    category: 'Blog',
+    image: '/blog-img/UAE%20Offshore%20Company%20Formation%20Guide.png',
+    imageAlt: 'Guide to UAE offshore company formation and jurisdiction options',
+    imageTitle: 'UAE Offshore Company Formation Guide',
+    metaTitle: 'UAE Offshore Company Formation: RAK ICC vs JAFZA | Klay Consultants',
+    metaDescription:
+      'Compare RAK ICC vs JAFZA for UAE offshore company formation. Explore costs, benefits, property ownership, requirements and the right offshore structure.',
+    metaKeywords:
+      'Dubai Business Setup, Free Zone vs Mainland UAE, Inheritance Planning UAE, klay consultants, Open Bank Account UAE Company, UAE Company Formation',
+    focusKeyword: 'UAE offshore company formation',
+    tags: [
+      'Dubai Business Setup',
+      'Free Zone vs Mainland UAE',
+      'Inheritance Planning UAE',
+      'klay consultants',
+      'Open Bank Account UAE Company',
+      'UAE Company Formation',
+    ],
+    audience: 'International entrepreneurs, investors and families considering an offshore company',
+  },
+  {
+    slug: 'how-to-sponsor-employee-visas-in-the-uae-business-owners-guide',
+    title: "How to Sponsor Employee Visas in the UAE: Business Owner's Guide",
+    excerpt:
+      'Learn how employee visa sponsorship works in the UAE, including work permits, visa quotas, medical tests, Emirates ID, costs and employer responsibilities.',
+    date: '8 Nov 2026',
+    category: 'Blog',
+    image: '/blog-img/UAE%20Employee%20Visa%20Sponsorship%20Guide.png',
+    imageAlt: 'UAE employee visa sponsorship consultation between a business owner and employee',
+    imageTitle: 'UAE Employee Visa Sponsorship Guide',
+    metaTitle: "How to Sponsor Employee Visas in the UAE: Business Owner's Guide",
+    metaDescription:
+      'Learn how employee visa sponsorship UAE works, including work permits, visa quotas, medical tests, Emirates ID, costs and employer responsibilities.',
+    metaKeywords:
+      'Dubai Business Registration, Dubai Business Setup, Estate Planning UAE, klay consultants, Open Bank Account UAE Company, UAE Company Formation, UAE Trade License Requirements',
+    focusKeyword: 'employee visa sponsorship UAE',
+    tags: [
+      'Dubai Business Registration',
+      'Dubai Business Setup',
+      'Estate Planning UAE',
+      'klay consultants',
+      'Open Bank Account UAE Company',
+      'UAE Company Formation',
+      'UAE Trade License Requirements',
+    ],
+    audience: 'UAE business owners planning to hire employees',
+  },
+  {
+    slug: 'dubai-vs-abu-dhabi-vs-sharjah-best-emirate-for-your-business',
+    title: 'Dubai vs Abu Dhabi vs Sharjah: Best Emirate for Your Business',
+    excerpt:
+      'Compare Dubai, Abu Dhabi and Sharjah for business setup costs, Free Zones, industries, licensing and market opportunities. Find the right UAE emirate.',
+    date: '8 Nov 2026',
+    category: 'Blog',
+    image: '/blog-img/UAE%20Skylines_%20Dubai,%20Abu%20Dhabi,%20Sharjah.png',
+    imageAlt: 'Skyline views representing Dubai, Abu Dhabi and Sharjah',
+    imageTitle: 'UAE Skylines: Dubai, Abu Dhabi, Sharjah',
+    metaTitle: 'Dubai vs Abu Dhabi vs Sharjah: Best Emirate for Your Business',
+    metaDescription:
+      'Compare Dubai, Abu Dhabi and Sharjah for business setup costs, Free Zones, industries, licensing and market opportunities. Find the right UAE emirate.',
+    metaKeywords:
+      'Dubai Business Setup, klay consultants, Open Bank Account UAE Company, UAE Company Formation, UAE Company Incorporation, UAE Trade License Requirements',
+    focusKeyword: 'Comparing Dubai, Abu Dhabi and Sharjah for business setup—costs',
+    tags: [
+      'Dubai Business Setup',
+      'klay consultants',
+      'Open Bank Account UAE Company',
+      'UAE Company Formation',
+      'UAE Company Incorporation',
+      'UAE Trade License Requirements',
+    ],
+    audience: 'Entrepreneurs comparing UAE emirates for a new business',
+  },
+  {
+    slug: 'how-to-set-up-an-e-commerce-business-in-the-uae-klay-consultants',
+    title: 'How to Set Up an E-Commerce Business in the UAE',
+    excerpt:
+      'Learn how to set up an e-commerce business in the UAE, including licensing, Free Zones, banking, payment gateways, logistics and VAT requirements.',
+    date: '8 Nov 2026',
+    category: 'Blog',
+    image: '/blog-img/E-Commerce%20Warehouse%20Shopping%20Workspace.png',
+    imageAlt: 'E-commerce order packing and warehouse workspace',
+    imageTitle: 'E-Commerce Warehouse Shopping Workspace',
+    metaTitle: 'How to Set Up an E-Commerce Business in the UAE | Klay Consultants',
+    metaDescription:
+      'Learn how to set up an e-commerce business in the UAE, including licensing, Free Zones, banking, payment gateways, logistics and VAT requirements.',
+    metaKeywords:
+      'Dubai Business Registration, klay consultants, Open Bank Account UAE Company, UAE Company Formation, UAE Trade License Requirements',
+    focusKeyword: 'e-commerce business setup UAE',
+    tags: [
+      'Dubai Business Registration',
+      'klay consultants',
+      'Open Bank Account UAE Company',
+      'UAE Company Formation',
+      'UAE Trade License Requirements',
+    ],
+    audience: 'Entrepreneurs launching or expanding an online business in the UAE',
+  },
+  {
     slug: 'uae-import-export-license-how-to-start-a-trading-business',
     title: 'UAE Import Export License: How to Start a Trading Business',
     excerpt:
