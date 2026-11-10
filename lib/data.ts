@@ -829,6 +829,211 @@ export const FAQS = {
 
 export const BLOG_PREVIEW = [
   {
+    slug: 'uae-tourist-bank-account-explained-dubai-banking-guide',
+    title: 'UAE Tourist Bank Account Explained | Dubai Banking Guide',
+    excerpt:
+      'A practical guide to UAE tourist bank accounts, covering visitor eligibility, balance requirements, account limitations, validity and banking options in Dubai.',
+    date: '10 Nov 2026',
+    category: 'Blog',
+    image: '/blog-img/UAE%20Tourist%20Banking%20Guide%20in%20Dubai.png',
+    imageAlt: 'UAE tourist bank account and visitor banking guide for Dubai',
+    imageTitle: 'UAE Tourist Banking Guide in Dubai',
+    imageCaption:
+      'Understand visitor banking eligibility and account terms before applying in Dubai.',
+    imageDescription:
+      'Guide to UAE tourist bank accounts, including eligibility, minimum balances, account limitations, validity and banking options for visitors.',
+    imageTags: [
+      'UAE Tourist Bank Account',
+      'Dubai Tourist Bank Account',
+      'Bank Account for UAE Visitors',
+      'Non Resident Bank Account UAE',
+      'Tourist Banking Dubai',
+    ],
+    metaTitle: 'UAE Tourist Bank Account Explained | Dubai Banking Guide',
+    metaDescription:
+      'Learn how a UAE tourist bank account works, including eligibility, minimum balance requirements, account limitations, validity and banking options for visitors in Dubai.',
+    metaKeywords:
+      'UAE Tourist Bank Account, Dubai Tourist Bank Account, Bank Account for UAE Visitors, Non Resident Bank Account UAE, UAE Digital Banking, Tourist Banking Dubai, UAE Banking for Foreigners, ADCB Tourist Banking, Dubai Banking Guide, UAE Banking Requirements',
+    focusKeyword: 'UAE Tourist Bank Account',
+    tags: [
+      'Dubai Business Setup',
+      'klay consultants',
+      'Open Bank Account UAE Company',
+      'UAE Company Formation',
+      'UAE Company Incorporation',
+      'UAE Trade License Requirements',
+      'UAE Tourist Bank Account',
+      'Dubai Banking',
+      'Non Resident Banking',
+      'UAE Digital Banking',
+    ],
+    audience: 'Visitors and non-residents comparing personal banking options in Dubai',
+  },
+  {
+    slug: 'why-dubai-business-market-is-becoming-more-selective',
+    title: 'Why Dubai Business Market Is Becoming More Selective',
+    excerpt:
+      'Explore how changing investor and customer expectations are raising the importance of credibility, compliance, positioning and sustainable growth in Dubai.',
+    date: '10 Nov 2026',
+    category: 'Blog',
+    image: '/blog-img/Dubai%E2%80%99s%20Selective%20Business%20Market.png',
+    imageAlt: 'Dubai business market trends and changing investor expectations',
+    imageTitle: 'Dubai’s Selective Business Market',
+    imageCaption:
+      'Credibility, compliance and a clear value proposition help businesses respond to a changing market.',
+    imageDescription:
+      'Guide to Dubai market trends, including investor expectations, business credibility, compliance, strategic positioning and sustainable growth.',
+    imageTags: [
+      'Dubai Business Market',
+      'Dubai Business Environment',
+      'Dubai Market Trends',
+      'Business Credibility Dubai',
+      'Investor Confidence UAE',
+    ],
+    metaTitle: 'Why Dubai Business Market Is Becoming More Selective',
+    metaDescription:
+      'Discover why the Dubai business market is becoming more selective. Explore changing investor expectations, business credibility, compliance, positioning and sustainable growth.',
+    metaKeywords:
+      'Dubai Business Market, Dubai Business Environment, UAE Business Growth, Dubai Investment Opportunities, UAE Business Setup, Business Credibility Dubai, Dubai Market Trends, UAE Corporate Compliance, Dubai Business Strategy, Investor Confidence UAE, Business Sustainability UAE, UAE Market Positioning',
+    focusKeyword: 'Dubai Business Market',
+    tags: [
+      'Dubai Business Setup',
+      'klay consultants',
+      'UAE Company Formation',
+      'UAE Company Incorporation',
+      'Dubai Business Market',
+      'UAE Business Growth',
+      'Investor Confidence',
+      'Business Strategy',
+      'Market Positioning',
+      'UAE Business Compliance',
+    ],
+    audience: 'Dubai entrepreneurs, business owners, investors and companies evaluating the UAE market',
+  },
+  {
+    slug: 'the-real-cost-of-cheap-business-setup-in-dubai',
+    title: 'The Real Cost Of Cheap Business Setup In Dubai',
+    excerpt:
+      'Understand what low-cost Dubai business setup packages include and where licensing, banking, compliance or restructuring costs may arise.',
+    date: '10 Nov 2026',
+    category: 'Blog',
+    image: '/blog-img/The%20Real%20Cost%20of%20Cheap%20Dubai%20Business%20Setup.png',
+    imageAlt: 'Guide to the real costs and trade-offs of cheap business setup in Dubai',
+    imageTitle: 'The Real Cost of Cheap Dubai Business Setup',
+    imageCaption:
+      'Compare the full cost and suitability of a Dubai business setup package before committing.',
+    imageDescription:
+      'Guide to potential hidden costs of cheap Dubai business setup, including licensing scope, banking, compliance, facilities, visas and restructuring.',
+    imageTags: [
+      'The Real Cost Of Cheap Business',
+      'Cheap Business Setup Dubai',
+      'Dubai Company Formation Costs',
+      'Hidden Business Setup Costs',
+      'UAE Business Compliance',
+    ],
+    metaTitle: 'The Real Cost Of Cheap Business Setup In Dubai',
+    metaDescription:
+      'Discover the hidden costs of cheap business setup in Dubai, including banking complications, licensing limitations, compliance risks and expensive restructuring.',
+    metaKeywords:
+      'The Real Cost Of Cheap Business, Cheap Business Setup Dubai, Dubai Company Formation Costs, UAE Business Setup, Hidden Business Setup Costs, UAE Corporate Banking, UAE Trade Licence, Dubai Business Consultants, UAE Business Compliance, Mainland vs Free Zone, UAE Company Formation Strategy',
+    focusKeyword: 'The Real Cost Of Cheap Business',
+    tags: [
+      'Dubai Business Setup',
+      'klay consultants',
+      'Open Bank Account UAE Company',
+      'UAE Company Formation',
+      'UAE Company Incorporation',
+      'UAE Trade License Requirements',
+      'Cheap Business Setup Dubai',
+      'UAE Business Compliance',
+      'Corporate Banking UAE',
+      'Business Growth UAE',
+    ],
+    audience: 'Entrepreneurs comparing Dubai company setup packages and total operating costs',
+  },
+  {
+    slug: 'why-trust-is-becoming-the-most-valuable-currency-in-dubai-business',
+    title: 'Why Trust Is Becoming The Most Valuable Currency In Dubai Business',
+    excerpt:
+      'Discover how credibility, transparency, compliance and strong relationships can help Dubai businesses build trust and support sustainable growth.',
+    date: '10 Nov 2026',
+    category: 'Blog',
+    image: '/blog-img/Trust_%20Dubai%E2%80%99s%20Business%20Currency.png',
+    imageAlt: 'Building trust, credibility and transparency in Dubai business',
+    imageTitle: 'Trust: Dubai’s Business Currency',
+    imageCaption:
+      'Trust grows through credible promises, transparent practices and consistent business relationships.',
+    imageDescription:
+      'Guide to business trust in Dubai, including credibility, transparency, compliance, reputation, investor confidence and client relationships.',
+    imageTags: [
+      'Trust Is Becoming The Most Valuable Currency',
+      'Dubai Business Trust',
+      'Trust in UAE Business',
+      'Business Credibility Dubai',
+      'Investor Confidence UAE',
+    ],
+    metaTitle: 'Why Trust Is Becoming The Most Valuable Currency In Dubai Business',
+    metaDescription:
+      'Discover why trust is becoming the most valuable currency in Dubai business. Learn how credibility, transparency, compliance and strong relationships drive sustainable growth.',
+    metaKeywords:
+      'Trust Is Becoming The Most Valuable Currency, Dubai Business Trust, Trust in UAE Business, Business Credibility Dubai, UAE Business Growth, Investor Confidence UAE, Business Reputation Dubai, Corporate Transparency UAE, Business Authority Dubai, Client Relationship Management, UAE Business Strategy',
+    focusKeyword: 'Trust Is Becoming The Most Valuable Currency',
+    tags: [
+      'Dubai Business Setup',
+      'klay consultants',
+      'UAE Company Formation',
+      'UAE Company Incorporation',
+      'Dubai Business Trust',
+      'Business Credibility',
+      'Investor Confidence',
+      'UAE Business Growth',
+      'Business Strategy',
+      'Corporate Transparency',
+    ],
+    audience: 'Dubai business owners, entrepreneurs, investors and leaders building trusted relationships',
+  },
+  {
+    slug: 'tourist-bank-accounts-in-the-uae',
+    title: 'Tourist Bank Accounts in the UAE: What Visitors Need to Know Before Applying',
+    excerpt:
+      'Learn how visitor and non-resident banking options work in the UAE, including eligibility, documents, account limitations, fees and alternatives.',
+    date: '10 Nov 2026',
+    category: 'Blog',
+    image: '/blog-img/Dubai%20Tourist%20Banking%20Guide.png',
+    imageAlt: 'Guide to UAE bank account options for tourists and visitors',
+    imageTitle: 'Dubai Tourist Banking Guide',
+    imageCaption:
+      'Understand visitor and non-resident banking requirements before applying in the UAE.',
+    imageDescription:
+      'Guide to tourist bank accounts in the UAE, including non-resident eligibility, documentation, account limitations, banking fees and alternatives.',
+    imageTags: [
+      'Tourist bank Accounts',
+      'Tourist Bank Accounts in UAE',
+      'UAE Bank Account for Tourists',
+      'Non-Resident Bank Account UAE',
+      'UAE Banking for Visitors',
+    ],
+    metaTitle: 'Tourist Bank Accounts in the UAE: What Visitors Need to Know Before Applying',
+    metaDescription:
+      'Learn how tourist bank accounts in the UAE work, including eligibility, documentation, account limitations, banking fees and options for visitors planning to invest or relocate.',
+    metaKeywords:
+      'Tourist bank Accounts, Tourist Bank Accounts in UAE, UAE Bank Account for Tourists, Non-Resident Bank Account UAE, UAE Banking for Visitors, Open Bank Account in Dubai, UAE Digital Banking, UAE Banking Requirements, Business Banking UAE, UAE Banking for Non-Residents, UAE Financial Planning',
+    focusKeyword: 'Tourist bank Accounts',
+    tags: [
+      'Dubai Business Setup',
+      'klay consultants',
+      'Open Bank Account UAE Company',
+      'UAE Company Formation',
+      'UAE Company Incorporation',
+      'UAE Trade License Requirements',
+      'Tourist Bank Accounts',
+      'UAE Banking',
+      'Non-Resident Banking',
+      'UAE Financial Planning',
+    ],
+    audience: 'Visitors, non-residents, prospective investors and people considering relocation to the UAE',
+  },
+  {
     slug: 'business-sustainability-uae-guide-long-term-growth',
     title: 'Business Sustainability UAE: A Guide to Long-Term Growth',
     excerpt:
