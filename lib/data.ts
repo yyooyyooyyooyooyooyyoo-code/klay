@@ -829,6 +829,289 @@ export const FAQS = {
 
 export const BLOG_PREVIEW = [
   {
+    slug: 'business-sustainability-uae-guide-long-term-growth',
+    title: 'Business Sustainability UAE: A Guide to Long-Term Growth',
+    excerpt:
+      'Explore how resilient financial planning, operational excellence, risk management and customer trust can support sustainable business growth in the UAE.',
+    date: '10 Nov 2026',
+    category: 'Blog',
+    image: '/blog-img/Sustainable%20Business%20Growth%20in%20UAE.png',
+    imageAlt: 'Sustainable business growth and long-term planning in the UAE',
+    imageTitle: 'Sustainable Business Growth in UAE',
+    imageCaption:
+      'Long-term business growth depends on resilient planning and responsible operations.',
+    imageDescription:
+      'Guide to business sustainability in the UAE, including financial stability, operational excellence, risk management, investor confidence and long-term strategy.',
+    imageTags: [
+      'Business Sustainability UAE',
+      'Business Sustainability in UAE',
+      'Sustainable Business Growth UAE',
+      'UAE Business Strategy',
+      'Long-Term Business Growth',
+    ],
+    metaTitle: 'Business Sustainability UAE: A Guide to Long-Term Growth',
+    metaDescription:
+      'Discover how business sustainability in the UAE drives long-term growth. Learn about financial stability, operational excellence, investor confidence and sustainable business strategies.',
+    metaKeywords:
+      'Business Sustainability UAE, Business Sustainability in UAE, Sustainable Business Growth UAE, UAE Business Strategy, Long-Term Business Growth, Business Operational Excellence, UAE Business Environment, Business Risk Management, Investor Confidence UAE, Business Planning Dubai, Sustainable Business Strategy',
+    focusKeyword: 'Business Sustainability UAE',
+    tags: [
+      'Dubai Business Setup',
+      'klay consultants',
+      'UAE Company Formation',
+      'UAE Business Strategy',
+      'Business Sustainability',
+      'Sustainable Business Growth',
+      'Business Development',
+      'Long-Term Business Planning',
+    ],
+    audience: 'UAE entrepreneurs, business owners and leadership teams planning resilient long-term growth',
+  },
+  {
+    slug: 'why-market-positioning-matters-more-than-ever-in-uae',
+    title: 'Why Market Positioning Matters More Than Ever in the UAE',
+    excerpt:
+      'Learn how UAE businesses can clarify their value, stand out from competitors, build customer trust and support sustainable growth through market positioning.',
+    date: '10 Nov 2026',
+    category: 'Blog',
+    image: '/blog-img/Market%20Positioning%20in%20the%20UAE_%20Stand%20Out%20and%20Grow%20(1).png',
+    imageAlt: 'Market positioning strategy for businesses in the UAE',
+    imageTitle: 'Market Positioning in the UAE: Stand Out and Grow',
+    imageCaption:
+      'A clear market position helps UAE businesses communicate their value and earn customer trust.',
+    imageDescription:
+      'Guide to market positioning in the UAE, including differentiation, branding, customer trust, market entry and sustainable business growth.',
+    imageTags: [
+      'Why Market Positioning',
+      'Market Positioning in UAE',
+      'UAE Business Strategy',
+      'Brand Positioning',
+      'Business Growth in Dubai',
+    ],
+    metaTitle: 'Why Market Positioning Matters More Than Ever in the UAE',
+    metaDescription:
+      'Discover why market positioning matters more than ever in the UAE. Learn how businesses can build differentiation, customer trust, stronger branding and sustainable growth.',
+    metaKeywords:
+      'Why Market Positioning, Market Positioning in UAE, UAE Business Strategy, Business Growth in Dubai, Brand Positioning, Competitive Advantage UAE, Business Differentiation, UAE Market Entry Strategy, Customer Trust and Branding, Business Development UAE, Strategic Business Consulting',
+    focusKeyword: 'Why Market Positioning',
+    tags: [
+      'Dubai Business Setup',
+      'klay consultants',
+      'UAE Company Formation',
+      'UAE Business Strategy',
+      'Market Positioning',
+      'Business Growth UAE',
+      'Brand Strategy',
+      'Business Development',
+    ],
+    audience: 'UAE founders, business owners and leadership teams seeking differentiated, sustainable growth',
+  },
+  {
+    slug: 'dubai-business-setup-uk',
+    title: 'Dubai Business Setup UK: Costs, Tax & Complete Guide',
+    excerpt:
+      'Planning a move from the UK to Dubai? Compare setup options, costs, visas, banking and the UAE and UK tax considerations for your business.',
+    date: '10 Nov 2026',
+    category: 'Blog',
+    image: '/blog-img/Dubai%20Business%20Setup_%20UK%20Guide.png',
+    imageAlt: 'Guide to setting up a Dubai business from the UK',
+    imageTitle: 'Dubai Business Setup: UK Guide',
+    imageCaption:
+      'A practical overview of Dubai company formation for UK entrepreneurs.',
+    imageDescription:
+      'Guide to Dubai business setup from the UK, covering company formation, Mainland and Free Zone options, tax, visas, banking and costs.',
+    imageTags: [
+      'Dubai Business Setup UK',
+      'Set Up a Business in Dubai from UK',
+      'Dubai Company Formation for UK Citizens',
+      'UAE Business Setup for British Entrepreneurs',
+      'UK UAE Business Expansion',
+    ],
+    metaTitle: 'Dubai Business Setup UK: Costs, Tax & Complete Guide',
+    metaDescription:
+      'Planning Dubai business setup from the UK? Explore company formation costs, Free Zone vs Mainland, UAE corporate tax, visas, banking and UK tax obligations.',
+    metaKeywords:
+      'Dubai Business Setup UK, Set Up a Business in Dubai from UK, Dubai Company Formation for UK Citizens, UAE Business Setup for British Entrepreneurs, Dubai Business Setup Cost, UAE Free Zone Company, UAE Mainland Company, UK UAE Double Tax Treaty, UAE Corporate Tax, Dubai Business Licence, Open a UAE Business Bank Account',
+    focusKeyword: 'Dubai Business Setup UK',
+    tags: [
+      'Dubai Business Setup',
+      'klay consultants',
+      'Open Bank Account UAE Company',
+      'UAE Company Formation',
+      'UAE Company Incorporation',
+      'UAE Trade License Requirements',
+      'Dubai Business Setup UK',
+      'UK Entrepreneurs',
+      'UK UAE Business Expansion',
+      'UAE Corporate Tax',
+    ],
+    audience: 'UK entrepreneurs and businesses planning to set up or expand in Dubai',
+  },
+  {
+    slug: 'uk-uae-double-tax-treaty',
+    title: 'UK UAE Double Tax Treaty: Complete Guide for Business Owners',
+    excerpt:
+      'Understand how the UK–UAE tax treaty may apply to residency, company management, dividends and UAE business structures for British entrepreneurs.',
+    date: '10 Nov 2026',
+    category: 'Blog',
+    image: '/blog-img/UK%E2%80%93UAE%20Double%20Tax%20Treaty%20Guide.png',
+    imageAlt: 'Guide to UK–UAE tax treaty considerations for business owners',
+    imageTitle: 'UK–UAE Double Tax Treaty Guide',
+    imageCaption:
+      'A guide to UK–UAE double tax treaty considerations for British business owners.',
+    imageDescription:
+      'Guide to the UK–UAE Double Taxation Agreement, HMRC rules, tax residency, company management, dividend taxation and international tax planning.',
+    imageTags: [
+      'UK UAE Double Tax Treaty',
+      'UK UAE Double Taxation Agreement',
+      'UK Tax Residency',
+      'UAE Corporate Tax',
+      'International Tax Planning',
+    ],
+    metaTitle: 'UK UAE Double Tax Treaty: Complete Guide for Business Owners',
+    metaDescription:
+      'Understand the UK UAE Double Tax Treaty, including HMRC rules, tax residency, company management, dividend taxation and how British entrepreneurs can structure UAE businesses.',
+    metaKeywords:
+      'UK UAE Double Tax Treaty, UK UAE Double Taxation Agreement, UK UAE Tax Treaty, HMRC UAE Tax Rules, UK Tax Residency, UAE Company Tax Residency, Central Management and Control, UAE Company Formation for UK Citizens, UK Business Owners in Dubai, UK Tax on UAE Dividends, International Tax Planning',
+    focusKeyword: 'UK UAE Double Tax Treaty',
+    tags: [
+      'Dubai Business Setup',
+      'klay consultants',
+      'UAE Company Formation',
+      'UAE Company Incorporation',
+      'UAE Trade License Requirements',
+      'Open Bank Account UAE Company',
+      'UK UAE Double Tax Treaty',
+      'UK Tax Residency',
+      'UAE Corporate Tax',
+      'UK Entrepreneurs',
+      'International Tax Planning',
+    ],
+    audience: 'UK entrepreneurs and business owners with UAE companies, income or cross-border operations',
+  },
+  {
+    slug: 'free-zone-or-mainland-for-uk-entrepreneurs',
+    title: 'Free Zone or Mainland for UK Entrepreneurs?',
+    excerpt:
+      'Compare UAE Free Zone and Mainland company setup for UK entrepreneurs, including costs, ownership, licensing, visas, banking and remote operations.',
+    date: '10 Nov 2026',
+    category: 'Blog',
+    image: '/blog-img/UK%20Entrepreneurs%E2%80%99%20UAE%20Business%20Structure%20Guide.png',
+    imageAlt: 'Free Zone and Mainland company structure guide for UK entrepreneurs',
+    imageTitle: 'UK Entrepreneurs’ UAE Business Structure Guide',
+    imageCaption:
+      'Compare Free Zone and Mainland options before setting up a UAE business from the UK.',
+    imageDescription:
+      'Guide for UK entrepreneurs comparing UAE Free Zone and Mainland companies, including setup costs, ownership, licences, visas, banking and remote operations.',
+    imageTags: [
+      'Free Zone or Mainland for UK Entrepreneurs',
+      'Dubai Business Setup for UK Citizens',
+      'UAE Free Zone Company',
+      'UAE Mainland Company',
+      'UK Entrepreneurs in Dubai',
+    ],
+    metaTitle: 'Free Zone or Mainland for UK Entrepreneurs?',
+    metaDescription:
+      'Choosing Free Zone or Mainland for UK Entrepreneurs? Compare UAE company setup costs, ownership, licensing, visas, banking and remote business operations.',
+    metaKeywords:
+      'Free Zone or Mainland for UK Entrepreneurs, Dubai Business Setup for UK Citizens, UAE Free Zone Company, UAE Mainland Company, UK Entrepreneurs in Dubai, Dubai Company Formation, UAE Business Setup from UK, Free Zone vs Mainland UAE, UAE Company Ownership, Dubai Business Licence, UAE Dual Licence',
+    focusKeyword: 'Free Zone or Mainland for UK Entrepreneurs',
+    tags: [
+      'Dubai Business Setup',
+      'klay consultants',
+      'UAE Company Formation',
+      'UAE Company Incorporation',
+      'UAE Trade License Requirements',
+      'UK Entrepreneurs',
+      'Free Zone Company',
+      'Mainland Company',
+    ],
+    audience: 'UK entrepreneurs and business owners choosing a UAE company structure',
+  },
+  {
+    slug: 'uae-golden-visa-for-uk-citizens-eligibility-costs-how-business-owners-qualify',
+    title: 'UAE Golden Visa for UK Citizens: Eligibility, Costs & How Business Owners Qualify',
+    excerpt:
+      'A guide for UK citizens to UAE Golden Visa eligibility, property and business routes, costs, family sponsorship and the application process.',
+    date: '10 Nov 2026',
+    category: 'Blog',
+    image: '/blog-img/UAE%20Golden%20Visa%20Guide%20for%20UK%20Citizens.png',
+    imageAlt: 'UAE Golden Visa eligibility and application guide for UK citizens',
+    imageTitle: 'UAE Golden Visa Guide for UK Citizens',
+    imageCaption:
+      'Golden Visa eligibility, investment and application considerations for British citizens.',
+    imageDescription:
+      'Guide to UAE Golden Visa routes for UK citizens, including property and business eligibility, application costs, family sponsorship and renewal.',
+    imageTags: [
+      'UAE Golden Visa for UK Citizens',
+      'UAE Golden Visa for British Citizens',
+      'Dubai Golden Visa for UK Investors',
+      'UAE Residency for UK Entrepreneurs',
+      'UAE Investor Visa',
+    ],
+    metaTitle: 'UAE Golden Visa for UK Citizens: Eligibility, Costs & How Business Owners Qualify',
+    metaDescription:
+      'Discover UAE Golden Visa for UK Citizens, including eligibility, AED 2 million property investment, business ownership requirements, costs, family sponsorship and application process.',
+    metaKeywords:
+      'UAE Golden Visa for UK Citizens, UAE Golden Visa for British Citizens, Dubai Golden Visa for UK Investors, UAE Residency for UK Entrepreneurs, UAE Golden Visa Requirements, Dubai Property Investment Visa, UAE Investor Visa, UAE Business Owner Visa, Golden Visa UAE Cost, UAE Company Formation, Dubai Long-Term Residency',
+    focusKeyword: 'UAE Golden Visa for UK Citizens',
+    tags: [
+      'Dubai Business Setup',
+      'klay consultants',
+      'Open Bank Account UAE Company',
+      'UAE Company Formation',
+      'UAE Company Incorporation',
+      'UAE Trade License Requirements',
+      'UAE Golden Visa',
+      'Golden Visa for UK Citizens',
+      'Dubai Investor Visa',
+      'UAE Residency',
+    ],
+    audience: 'UK citizens, investors and business owners considering long-term UAE residence',
+  },
+  {
+    slug: 'setting-up-a-company-in-dubai-from-europe-a-guide-for-eu-entrepreneurs-and-smes',
+    title: 'Setting Up a Company in Dubai from Europe: A Guide for EU Entrepreneurs and SMEs',
+    excerpt:
+      'A practical guide to Dubai company formation for European founders, covering Mainland and Free Zone options, tax, VAT, banking and setup costs.',
+    date: '10 Nov 2026',
+    category: 'Blog',
+    image: '/blog-img/Dubai%20Company%20Setup%20Guide%20for%20EU%20Entrepreneurs.png',
+    imageAlt: 'Guide to setting up a Dubai company for European entrepreneurs',
+    imageTitle: 'Dubai Company Setup Guide for EU Entrepreneurs',
+    imageCaption:
+      'Key company formation considerations for European entrepreneurs and SMEs expanding to Dubai.',
+    imageDescription:
+      'Guide to Dubai company formation from Europe, including jurisdiction choices, tax treaties, VAT, banking, costs and cross-border compliance.',
+    imageTags: [
+      'Setting Up a Company in Dubai from Europe',
+      'Dubai Company Formation for Europeans',
+      'UAE Business Setup for EU Citizens',
+      'European Entrepreneurs in Dubai',
+      'European SMEs Expanding to Dubai',
+    ],
+    metaTitle:
+      'Setting Up a Company in Dubai from Europe: A Guide for EU Entrepreneurs and SMEs',
+    metaDescription:
+      'Learn how to set up a company in Dubai from Europe. Explore UAE company formation, Free Zone vs Mainland, tax treaties, VAT, banking and costs for EU entrepreneurs.',
+    metaKeywords:
+      'Setting Up a Company in Dubai from Europe, Dubai Company Formation for Europeans, UAE Business Setup for EU Citizens, European Entrepreneurs in Dubai, Dubai Business Setup, UAE Free Zone Company Formation, UAE Mainland Company Formation, Dubai Company Registration, UAE Corporate Tax for European Businesses, UAE Double Taxation Agreements, European SMEs Expanding to Dubai',
+    focusKeyword: 'Setting Up a Company in Dubai from Europe',
+    tags: [
+      'Dubai Company Formation for Europeans',
+      'UAE Business Setup for EU Citizens',
+      'European Entrepreneurs in Dubai',
+      'Dubai Business Setup',
+      'UAE Free Zone Company Formation',
+      'UAE Mainland Company Formation',
+      'Dubai Company Registration',
+      'UAE Corporate Tax for European Businesses',
+      'UAE Double Taxation Agreements',
+      'European SMEs Expanding to Dubai',
+    ],
+    audience: 'EU entrepreneurs and SMEs planning to establish or expand operations in Dubai',
+  },
+  {
     slug: 'uae-corporate-tax-vs-eu-corporate-tax-a-side-by-side-comparison-for-european-founders',
     title: 'UAE Corporate Tax vs EU Corporate Tax: A Side-by-Side Comparison for European Founders',
     excerpt:
