@@ -2172,6 +2172,48 @@ export const BLOG_PREVIEW = [
     audience: 'UAE business owners planning tax registration and ongoing compliance',
   },
   {
+    slug: 'uae-is-not-a-tax-haven-anymore-its-a-tax-strategy-hub',
+    title: 'UAE Is Not a Tax Haven Anymore — It’s a Tax Strategy Hub',
+    excerpt:
+      'Discover why the UAE is now a tax strategy hub. Explore 2026 Corporate Tax rules, Free Zone benefits, holding companies and international tax planning.',
+    date: '11 Nov 2026',
+    category: 'Blog',
+    image: '/blog-img/UAE%20Tax%20Strategy%20Hub%20Infographic.png',
+    imageAlt:
+      'UAE tax strategy hub featuring Dubai skyline, corporate tax planning and international business structures.',
+    imageTitle: 'UAE Tax Strategy Hub Infographic',
+    imageCaption:
+      'A strategic overview of UAE corporate tax, Free Zone conditions and international business planning.',
+    imageDescription:
+      'Infographic illustrating Dubai, UAE corporate tax planning, Free Zone structures and international business strategy.',
+    imageTags: [
+      'UAE tax strategy',
+      'UAE corporate tax',
+      'UAE Free Zone tax benefits',
+      'UAE holding company',
+      'UAE compliance laws',
+    ],
+    metaTitle: 'UAE Tax Strategy Hub: Corporate Tax Guide 2026',
+    metaDescription:
+      'Discover why the UAE is now a tax strategy hub. Explore 2026 Corporate Tax rules, Free Zone benefits, holding companies and international tax planning.',
+    metaKeywords:
+      'UAE tax strategy, UAE corporate tax, UAE Free Zone tax benefits, tax optimization UAE, UAE holding company benefits, corporate tax UAE 2026, UAE tax residency, UAE compliance laws',
+    focusKeyword: 'UAE tax strategy',
+    tags: [
+      'UAE Corporate Tax',
+      'UAE Tax Strategy',
+      'UAE Free Zone Tax Benefits',
+      'Business Setup UAE',
+      'Tax Optimization UAE',
+      'UAE Holding Company',
+      'UAE Tax Residency',
+      'Corporate Tax UAE 2026',
+      'UAE Compliance Laws',
+      'International Business Setup',
+    ],
+    audience: 'Business owners and international investors assessing UAE tax and holding structures',
+  },
+  {
     slug: 'open-business-bank-account-uae',
     title: 'Open a Business Bank Account in UAE: Complete 2026 Guide',
     excerpt:

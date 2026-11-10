@@ -1,7 +1,8 @@
-import { ArrowRight, Calendar } from 'lucide-react';
+import { ArrowRight, Calendar, Instagram } from 'lucide-react';
 import { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { BLOG_PREVIEW } from '@/lib/data';
+import { CONTACT_CHANNELS } from '@/lib/contact';
 import { PageCTA } from '@/components/sections/MarketingPages';
 import { GlassCard } from '@/components/ui/glass-card';
 import { Link } from '@/components/ui/link';
@@ -4013,6 +4014,90 @@ const uaeCorporateTaxAndVatGuideArticle: LongFormArticle = {
     { href: '/blog/uae-corporate-tax-for-startups', label: 'UAE Corporate Tax guide for startups' },
     { href: '/blog/uae-vat-registration-guide', label: 'UAE VAT registration guide' },
     { href: '/blog/uae-company-setup-cost-breakdown-2026-klay-consultants', label: 'UAE company setup cost breakdown' },
+  ],
+};
+
+const uaeTaxStrategyHubArticle: LongFormArticle = {
+  ...uaeCorporateTaxAndVatGuideArticle,
+  introduction:
+    'The UAE is not simply a low-tax destination; it is a jurisdiction where business owners need to plan around Corporate Tax, VAT, Free Zone conditions, substance, reporting and cross-border obligations. A sound UAE tax strategy starts with the actual business model and ownership structure, not assumptions about zero tax or automatic exemptions. This 2026 overview explains how tax registration and compliance fit into a broader strategy and why any holding-company or international structure should be assessed with qualified tax and legal advisers.',
+  sections: [
+    {
+      heading: 'From “Tax Haven” Thinking to Tax Strategy',
+      paragraphs: [
+        'The UAE has introduced a federal Corporate Tax regime alongside its existing VAT framework and other compliance obligations. Businesses should understand their registration, filing, payment and record-keeping duties rather than relying on outdated claims that a company will face no tax or reporting.',
+        'A tax strategy is a lawful plan that aligns the company’s activities, ownership, locations, income, contracts, people and records with applicable rules. It should consider the UAE requirements and the tax laws of any other countries connected to the business or its owners.',
+      ],
+      bulletList: [
+        'Map where the business is incorporated, managed and operated.',
+        'Identify the taxable persons, activities and income streams.',
+        'Review ownership, related-party arrangements and cross-border transactions.',
+        'Plan for registrations, filing deadlines, accounting records and evidence.',
+        'Reassess the structure when business facts or relevant laws change.',
+      ],
+    },
+    ...uaeCorporateTaxAndVatGuideArticle.sections,
+    {
+      heading: 'Free Zone Tax Benefits Are Conditional',
+      paragraphs: [
+        'A Free Zone company is not automatically exempt from UAE Corporate Tax. A Qualifying Free Zone Person may be eligible for a 0% rate on qualifying income only when the statutory requirements and conditions are met. The appropriate analysis depends on the entity, activities, income, substance and current rules.',
+        'Do not choose a Free Zone solely on a claim of tax-free status. Confirm licensing, operational and substance requirements, qualifying income treatment, transfer-pricing compliance, audit obligations and the consequences of non-qualifying income with qualified advisers.',
+      ],
+    },
+    {
+      heading: 'Holding Companies and International Structures',
+      paragraphs: [
+        'A UAE holding company may be used to own shares in subsidiaries, investments or other assets and to organise group governance. Potential benefits depend on the commercial purpose and the facts; a holding company does not automatically reduce tax, remove reporting obligations, protect assets from claims or make distributions tax-free.',
+        'Before establishing or reorganising a group, assess the business rationale, ownership and control, management and substance, financing, transfer pricing, tax residence, beneficial ownership reporting and rules in every relevant jurisdiction. A structure that is appropriate for one group may be unsuitable for another.',
+      ],
+      bulletList: [
+        'Document a genuine commercial purpose and the roles of each entity.',
+        'Consider where strategic decisions and management are actually carried out.',
+        'Review intercompany services, financing, royalties and other related-party transactions.',
+        'Check tax residence, withholding taxes and treaty requirements across jurisdictions.',
+        'Account for incorporation, annual administration, accounting and audit costs.',
+      ],
+    },
+    {
+      heading: 'Tax Residency and Cross-Border Planning',
+      paragraphs: [
+        'UAE residence, a UAE company registration or a residence visa does not automatically determine an individual’s or company’s tax residence for every country. Tax residence depends on the applicable domestic law, facts, treaties and relevant evidence.',
+        'International founders should consider where they live, where they work, where decisions are made, the location of family and economic ties, and whether reporting or tax obligations continue in their previous country. Obtain advice in each relevant jurisdiction before relying on a tax-residence position.',
+      ],
+    },
+    {
+      heading: 'Build Compliance into the Business Structure',
+      paragraphs: [
+        'A practical structure should be manageable as well as legally and commercially appropriate. Keep licence activities, contracts, invoices, accounting, bank transactions and tax filings consistent with the real operations of the business.',
+      ],
+      bulletList: [
+        'Maintain reliable books, supporting documents and a clear audit trail.',
+        'Calendar tax registration, return, payment and licence-renewal deadlines.',
+        'Review VAT treatment and Corporate Tax positions separately.',
+        'Maintain evidence for ownership, source of funds, business activity and substance.',
+        'Monitor changes in ownership, activities, income, operations and applicable law.',
+      ],
+    },
+    {
+      heading: 'A Practical UAE Tax Strategy Checklist',
+      list: [
+        'Define the business model, activities, customers, markets and operating locations.',
+        'Compare relevant Mainland and Free Zone options based on licensing, operations and compliance—not headline tax claims.',
+        'Identify the relevant Corporate Tax and VAT registration requirements and current filing deadlines.',
+        'Assess any Free Zone treatment against all current qualifying conditions.',
+        'Review whether a holding company has a real commercial purpose and manageable ongoing obligations.',
+        'Map the tax-residence and reporting position of the company, owners and connected entities in each relevant jurisdiction.',
+        'Coordinate tax planning with company formation, banking, accounting and governance arrangements.',
+        'Have qualified advisers review the plan before implementing cross-border changes or transferring assets.',
+      ],
+    },
+  ],
+  relatedLinks: [
+    { href: '/blog/uae-company-formation-guide-2026-complete-step-by-step-setup-strategy', label: 'UAE Company Formation Guide 2026' },
+    { href: '/blog/free-zone-vs-mainland-uae-the-only-decision-framework-you-need-before-setting-up-your-business', label: 'Free Zone vs Mainland UAE' },
+    { href: '/blog/golden-visa-uae-2026-complete-guide-for-investors-entrepreneurs', label: 'Golden Visa UAE 2026' },
+    { href: '/blog/open-bank-account-uae-company-why-banking-takes-longer-than-the-license', label: 'Open Bank Account UAE Company' },
+    { href: '/blog/inheritance-planning-uae-expats', label: 'Inheritance Planning UAE' },
   ],
 };
 
@@ -10518,6 +10603,8 @@ export default function BlogArticlePage() {
       ? uaeBusinessSetupForGccNationalsArticle
       : slug === 'uae-corporate-tax-registration-guide'
       ? uaeCorporateTaxAndVatGuideArticle
+      : slug === 'uae-is-not-a-tax-haven-anymore-its-a-tax-strategy-hub'
+      ? uaeTaxStrategyHubArticle
       : slug === 'open-business-bank-account-uae'
       ? openBusinessBankAccountUaeArticle
       : slug === 'open-bank-account-uae-company-why-banking-takes-longer-than-the-license'
@@ -10591,8 +10678,8 @@ export default function BlogArticlePage() {
   if (!article) return <NotFoundPage />;
 
   return (
-    <>
-      <article className="section-padding pb-12 pt-6 sm:pt-8">
+    <div className="relative z-[1]">
+      <article className="section-padding pb-12 pt-20 sm:pt-24">
         <div className="mx-auto max-w-4xl">
           <Link href="/blog" className="mb-4 inline-flex items-center gap-2 text-sm font-semibold text-black hover:text-palette-gold">
             <ArrowRight className="h-4 w-4 rotate-180" />
@@ -10600,15 +10687,14 @@ export default function BlogArticlePage() {
           </Link>
           {article.image && (
             <figure className="mt-3">
-              <div className="relative aspect-video overflow-hidden rounded-3xl bg-white/70">
+              <div className="overflow-hidden rounded-3xl bg-white/70">
                 <Image
                   src={article.image}
                   alt={'imageAlt' in article ? article.imageAlt : article.title}
                   title={'imageTitle' in article ? article.imageTitle : undefined}
                   aria-describedby={'imageDescription' in article ? 'article-image-description' : undefined}
-                  fill
                   priority
-                  className="object-contain"
+                  className="h-auto w-full object-contain"
                   sizes="(max-width: 1024px) 100vw, 896px"
                 />
               </div>
@@ -10623,7 +10709,7 @@ export default function BlogArticlePage() {
           <div className="mb-3">
             <span className="rounded-full bg-gold-500/15 px-3 py-1 text-xs font-semibold text-palette-gold">{article.category}</span>
           </div>
-          <h1 className="text-balance text-3xl font-bold leading-tight text-black sm:text-5xl">{article.title}</h1>
+          <h1 className="text-balance text-3xl font-bold leading-tight text-black sm:text-4xl">{article.title}</h1>
           <div className="mt-3 flex items-center gap-2 text-sm text-black">
             <Calendar className="h-4 w-4" />
             {article.date}
@@ -10637,12 +10723,12 @@ export default function BlogArticlePage() {
               ))}
             </div>
           )}
-          <GlassCard className="mt-8 p-6 sm:p-10">
+          <GlassCard className="mt-4 p-6 sm:p-10">
             {longFormArticle ? (
-                <div className="space-y-8 text-black">
+                <div className="space-y-6 text-black">
                   <p className="text-lg leading-relaxed">{longFormArticle.introduction}</p>
                   {longFormArticle.sections.map((section) => (
-                    <section key={section.heading} className="space-y-4">
+                    <section key={section.heading} className="space-y-3">
                       <h2 className="text-2xl font-bold leading-tight text-black">{section.heading}</h2>
                       {section.paragraphs?.map((paragraph) => (
                         <p key={paragraph} className="leading-relaxed">{paragraph}</p>
@@ -10746,7 +10832,7 @@ export default function BlogArticlePage() {
             ) : (
             <>
             <p className="text-lg leading-relaxed text-black">{article.excerpt}</p>
-            <div className="mt-7 space-y-5">
+            <div className="mt-6 space-y-4">
                 {(articleNotes[slug] ?? [
                   'This article outlines the practical considerations for this topic, helping founders plan decisions with a stronger understanding of the relevant UAE market requirements and compliance obligations.',
                   'A good decision depends on your business model, jurisdiction, timing and the documentation needed for approvals and ongoing operations.',
@@ -10758,9 +10844,21 @@ export default function BlogArticlePage() {
               </>
               )}
           </GlassCard>
+          <div className="mt-5 flex justify-center">
+            <a
+              href={CONTACT_CHANNELS.instagramUrl}
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Follow Klay Consultants on Instagram"
+              className="inline-flex items-center gap-2 rounded-full border border-black/10 px-4 py-2 text-sm font-semibold text-black transition-colors hover:border-palette-gold hover:text-palette-gold focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-palette-gold"
+            >
+              <Instagram className="h-4 w-4" aria-hidden="true" />
+              Follow us on Instagram
+            </a>
+          </div>
         </div>
       </article>
       {!longFormArticle && <PageCTA title="Need help with your UAE plans?" />}
-    </>
+    </div>
   );
 }
