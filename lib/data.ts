@@ -829,6 +829,84 @@ export const FAQS = {
 
 export const BLOG_PREVIEW = [
   {
+    slug: 'open-foreign-company-branch-in-uae',
+    title: 'How to Open a Foreign Company Branch in the UAE: Complete Guide',
+    excerpt:
+      'Discover how to open a foreign company branch in the UAE with this comprehensive guide. Learn about branch registration requirements, permitted business activities, parent company document attestation, trade licensing, office requirements, corporate tax registration, visa eligibility and setup costs. Explore the key differences between a branch office and a UAE LLC and understand the ongoing compliance obligations for international businesses expanding into the UAE with Klay Consultants.',
+    date: '10 Nov 2026',
+    category: 'Business Setup UAE',
+    image: '/blog-img/uae-foreign-company-branch-registration-guide.png',
+    imageAlt: 'UAE foreign company branch registration guide infographic',
+    imageTitle: 'UAE Branch Registration Guide Infographic',
+    imageCaption: 'Key registration and licensing considerations for a foreign company branch in the UAE.',
+    imageDescription:
+      'Infographic guide to foreign company branch registration in the UAE, including parent company documents, licensing, premises and compliance.',
+    imageTags: [
+      'Foreign Company Branch UAE',
+      'Foreign company branch registration UAE',
+      'UAE branch office setup',
+      'Open a branch office in Dubai',
+      'UAE branch office licence',
+      'Dubai Business Setup',
+    ],
+    metaTitle: 'How to Open a Foreign Company Branch in the UAE: Complete Guide',
+    metaDescription:
+      'Learn how to open a foreign company branch in the UAE. Explore registration steps, document attestation, licensing, costs, office requirements and compliance.',
+    metaKeywords:
+      'Foreign Company Branch UAE, Foreign company branch registration UAE, UAE branch office setup, Open a branch office in Dubai, Foreign company registration Dubai, UAE branch office licence, Mainland branch office UAE, UAE company incorporation, Dubai business registration, Klay Consultants, UAE Company Formation, Dubai Business Setup, UAE Trade License Requirements, Dubai Business Registration, UAE Company Incorporation Guide',
+    focusKeyword: 'Foreign Company Branch UAE',
+    tags: [
+      'Klay Consultants',
+      'UAE Company Formation',
+      'Dubai Business Setup',
+      'UAE Trade License Requirements',
+      'Dubai Business Registration',
+      'UAE Company Incorporation Guide',
+      'Foreign Company Branch UAE',
+      'UAE Branch Office Setup',
+    ],
+    audience: 'International businesses planning to establish a UAE branch',
+  },
+  {
+    slug: 'opening-a-restaurant-or-cafe-in-the-uae-guide',
+    title: 'Opening a Restaurant or Café in the UAE: Licensing & Approvals Guide',
+    excerpt:
+      'Learn how to open a restaurant or café in the UAE with this complete F&B business setup guide. Discover the licensing process, Mainland vs Free Zone options, food safety approvals, Civil Defense requirements, business setup costs, timelines and essential permits. Get expert guidance from Klay Consultants to plan your restaurant or café launch in Dubai and across the UAE.',
+    date: '10 Nov 2026',
+    category: 'Food & Beverage',
+    image: '/blog-img/dubai-restaurant-cafe-opening-guide.png',
+    imageAlt: 'Opening a Restaurant or Café in the UAE – Business Setup Guide',
+    imageTitle: 'Restaurant and Café Business Setup in UAE',
+    imageCaption: 'A practical guide to restaurant and café licensing and approvals in the UAE.',
+    imageDescription:
+      'Guide to opening a restaurant or café in the UAE, including business licensing, food safety approvals, Civil Defense requirements and setup planning.',
+    imageTags: [
+      'Opening a Restaurant or Café',
+      'F&B business setup UAE',
+      'Restaurant business setup Dubai',
+      'Café business setup UAE',
+      'UAE restaurant licensing',
+      'Restaurant license Dubai',
+    ],
+    metaTitle: 'Opening a Restaurant or Café in UAE: Complete Guide',
+    metaDescription:
+      'Learn how to open a restaurant or café in the UAE. Explore business licensing, food safety approvals, Civil Defense requirements, costs and timelines.',
+    metaKeywords:
+      'Opening a Restaurant or Café, F&B business setup UAE, Restaurant business setup Dubai, Café business setup UAE, UAE restaurant licensing, Food business licence UAE, Restaurant license Dubai, Dubai Business Setup, Klay Consultants, UAE Company Formation, Restaurant Business Setup UAE, Cafe Business Setup Dubai, Restaurant License UAE, Food Business License UAE',
+    focusKeyword: 'Opening a Restaurant or Café',
+    tags: [
+      'Dubai Business Setup',
+      'F&B Business Setup UAE',
+      'Klay Consultants',
+      'UAE Company Formation',
+      'Restaurant Business Setup UAE',
+      'Cafe Business Setup Dubai',
+      'Restaurant License UAE',
+      'Food Business License UAE',
+    ],
+    audience: 'Entrepreneurs planning to open a restaurant or café in Dubai or elsewhere in the UAE',
+  },
+  {
     slug: 'the-gcc-unified-economic-agreement-and-uae-company-formation-what-gcc-nationals-should-know-before-starting-a-business',
     title: 'The GCC Unified Economic Agreement and UAE Company Formation',
     excerpt:
