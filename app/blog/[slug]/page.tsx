@@ -54,6 +54,616 @@ type LongFormArticle = {
   relatedLinks: readonly { href: string; label: string }[];
 };
 
+const economicSubstanceRegulationsUaeArticle: LongFormArticle = {
+  introduction:
+    'The UAE Economic Substance Regulations (ESR) introduced reporting and substance requirements for certain UAE businesses carrying on specified activities and earning relevant income. The framework has since changed: Cabinet Decision No. 98 of 2024 addressed the application of ESR to later financial years. Businesses should distinguish any historical reporting exposure from their current obligations and verify the rules for each financial period with the relevant authority or a qualified adviser.',
+  sections: [
+    {
+      heading: 'What Were the UAE Economic Substance Regulations?',
+      paragraphs: [
+        'The ESR framework required certain UAE onshore and Free Zone companies and other business forms to assess whether they carried on a Relevant Activity and earned income from it during a financial period. Depending on the applicable rules and facts, an in-scope entity could have had notification, reporting and economic-substance requirements.',
+        'ESR was designed to address whether relevant business activity had an appropriate economic presence in the UAE. A company’s licence description alone does not necessarily establish whether it was in scope: its actual activities, income, legal form, financial year and any applicable exclusions or exemptions all mattered.',
+      ],
+    },
+    {
+      heading: 'The 2024 Update and Current Position',
+      paragraphs: [
+        'Cabinet Decision No. 98 of 2024 amended the UAE ESR framework. The update generally discontinued ESR requirements for financial years commencing on or after 1 January 2023. It did not mean that historical periods can automatically be disregarded: obligations and potential consequences relating to earlier financial years may still need to be reviewed under the rules applicable to those periods.',
+        'Accordingly, do not treat ESR as a routine current-year filing requirement, or assume every company has historical exposure. Identify the company’s financial-year start dates and review the official decision and authority guidance that applied to each period. Other compliance frameworks, including UAE Corporate Tax, are separate and may continue to apply.',
+      ],
+    },
+    {
+      heading: 'Which Activities Were Relevant Under the Historical Rules?',
+      paragraphs: [
+        'The historical ESR rules listed specific Relevant Activities. Whether an entity carried on one depended on its actual operations and the definitions in force for the relevant period. The list included:',
+      ],
+      bulletList: [
+        'Banking business.',
+        'Insurance business.',
+        'Investment fund management business.',
+        'Lease-finance business.',
+        'Headquarters business.',
+        'Shipping business.',
+        'Holding company business.',
+        'Intellectual property business.',
+        'Distribution and service centre business.',
+      ],
+      subsections: [
+        {
+          heading: 'A Relevant Activity did not automatically mean a filing was due',
+          paragraphs: [
+            'The activity, income, entity status, exemptions and financial period all needed to be considered together. A business should not classify itself solely by its trade licence wording or assume that a holding-company structure is automatically in or out of scope. Review the historical rules and supporting records for the particular entity and year.',
+          ],
+        },
+      ],
+    },
+    {
+      heading: 'Historical Economic Substance Test',
+      paragraphs: [
+        'For a relevant historical period, an in-scope entity generally had to consider whether its relevant income-generating activity was directed and managed in the UAE and whether it conducted the applicable Core Income-Generating Activities in the UAE. The historical framework also considered whether the entity had adequate and appropriate employees, premises and expenditure in the UAE for the activity.',
+        'The expected level of substance depended on the nature and scale of the business. The analysis was fact-specific and should be supported by contemporaneous documents rather than reconstructed from assumptions. The precise test and reporting rules applicable to the entity’s financial year should be checked against the legislation and guidance then in force.',
+      ],
+    },
+    {
+      heading: 'Historical ESR Notifications, Reports and Penalties',
+      paragraphs: [
+        'During the periods in which ESR applied, entities could have had notification or Economic Substance Report obligations through the relevant filing process, including where they did not ultimately meet the substance test. Deadlines, reporting scope, responsible authorities and consequences varied with the applicable rules and facts.',
+        'The 2024 change does not by itself establish whether a past notification was made correctly, whether a report was required, or whether an assessment or penalty remains relevant. Review filed submissions, authority correspondence and any decisions relating to each historical period. Do not rely on a general statement of a penalty amount or deadline without confirming the rule that applied.',
+      ],
+    },
+    {
+      heading: 'How to Review Historical ESR Compliance',
+      paragraphs: [
+        'A structured review can help determine whether a UAE company has any unresolved ESR matter for a pre-2023 financial year. Start with the actual periods and evidence; do not assume that the company was in scope simply because it held a UAE licence.',
+      ],
+      list: [
+        'List the entity’s financial years and identify which began before 1 January 2023.',
+        'For each historical period, confirm the legal form, activities actually carried on and whether relevant income was earned.',
+        'Assess applicable exclusions, exemptions, notification and reporting requirements under the rules for that period.',
+        'Locate copies of any ESR notifications, reports, supporting calculations and authority communications.',
+        'Retain evidence relevant to management, operations, personnel, premises, expenditure and Core Income-Generating Activities where applicable.',
+        'Ask the relevant authority or a qualified adviser to review apparent omissions, late filings, assessments or unresolved penalties.',
+        'Separately assess ongoing obligations under Corporate Tax, VAT, licensing and other applicable regimes.',
+      ],
+    },
+    {
+      heading: 'Records to Keep for a Historical Review',
+      paragraphs: [
+        'The appropriate records depend on the company and financial period. Useful material may include:',
+      ],
+      bulletList: [
+        'Financial statements, ledgers and records of income by activity.',
+        'Trade licences, constitutional documents and group structure charts.',
+        'Board minutes and evidence showing where strategic decisions were made.',
+        'Employment, payroll, premises and operating expenditure records.',
+        'Contracts, invoices and operational records relevant to the activity.',
+        'Copies of ESR notifications, reports, filings, acknowledgements and authority correspondence.',
+        'Documents supporting any claimed exclusion or exemption.',
+      ],
+    },
+    {
+      heading: 'ESR and UAE Corporate Tax Are Separate',
+      paragraphs: [
+        'ESR and Corporate Tax are distinct regimes with different legal tests, filings and purposes. The 2024 ESR update should not be read as ending or replacing Corporate Tax registration, return, payment or recordkeeping obligations. Likewise, a Corporate Tax filing does not necessarily resolve a historical ESR question.',
+        'Businesses should identify each regime separately and follow current Federal Tax Authority requirements for Corporate Tax and VAT, as applicable. Seek tax advice based on the company’s facts and relevant periods.',
+      ],
+    },
+    {
+      heading: 'How Klay Consultants Can Help',
+      paragraphs: [
+        'Klay Consultants can help businesses organise company records, identify historical financial periods for review and coordinate a discussion of potential ESR questions with appropriate advisers. The appropriate scope depends on the company’s activities, filings and authority correspondence.',
+        'Any assessment of legal exposure, filing obligations, exemptions or penalties should be confirmed against official UAE sources and, where needed, by a qualified legal or tax professional.',
+      ],
+    },
+  ],
+  faqs: [
+    {
+      question: 'Do UAE Economic Substance Regulations still apply?',
+      answer:
+        'Cabinet Decision No. 98 of 2024 generally discontinued ESR requirements for financial years commencing on or after 1 January 2023. Historical periods may still require review, and current obligations under other regimes are separate.',
+    },
+    {
+      question: 'Can a company ignore ESR because of the 2024 update?',
+      answer:
+        'Not without checking its past financial years. The update does not automatically settle whether a notification or report was required for an earlier period, or whether an authority matter remains open.',
+    },
+    {
+      question: 'Were all UAE companies required to file an ESR report?',
+      answer:
+        'No. The historical rules depended on the entity, its actual Relevant Activities, income, financial period and applicable exclusions or exemptions. Confirm the requirements for the specific entity and year.',
+    },
+    {
+      question: 'Does a UAE holding company automatically have ESR obligations?',
+      answer:
+        'No blanket conclusion applies. The historical definition and facts—including the entity’s activity and income, legal form and applicable rules—must be reviewed for each relevant period.',
+    },
+    {
+      question: 'Does the ESR update affect UAE Corporate Tax?',
+      answer:
+        'ESR and Corporate Tax are separate regimes. The ESR update does not by itself cancel Corporate Tax registration, filing, payment or recordkeeping obligations.',
+    },
+    {
+      question: 'What should I do if I find a missed historical ESR filing?',
+      answer:
+        'Gather the records for the relevant financial year and review the applicable rules, filing history and authority correspondence. Consult the relevant authority or a qualified adviser before deciding how to address a possible omission.',
+    },
+  ],
+  cta:
+    'Reviewing historical ESR exposure or unsure how the 2024 update affects your company? Klay Consultants can help organise your records and coordinate a review of the requirements that may apply. Contact us for support, and confirm any legal, tax or filing position with the relevant UAE authority or a qualified adviser.',
+  disclaimer:
+    'This article is for general information only and is not legal, tax or regulatory advice. UAE laws, decisions and authority guidance may change. ESR analysis is period- and fact-specific; confirm the rules, deadlines and any outstanding matter with official sources and qualified professionals before relying on this information.',
+  relatedLinks: [
+    { href: '/blog/uae-holding-company-setup-complete-guide', label: 'UAE holding company setup guide' },
+    { href: '/blog/uae-company-liquidation-guide-klay-consultants', label: 'UAE company liquidation guide' },
+    { href: '/blog/uae-trade-license-renewal-guide-klay-consultants', label: 'UAE trade license renewal guide' },
+  ],
+};
+
+const uaeTradeLicenseRenewalArticle: LongFormArticle = {
+  introduction:
+    'UAE trade license renewal is an essential recurring requirement for many businesses operating in the Emirates. Renewing on time helps a company maintain a valid licence and avoid disruption, but requirements and renewal cycles depend on the specific licensing authority, company and activity. Mainland and Free Zone procedures differ. Confirm the current renewal window, documents and fees directly with the authority before applying.',
+  sections: [
+    {
+      heading: 'What Is UAE Trade License Renewal?',
+      paragraphs: [
+        'Trade licence renewal extends the validity of a company’s business licence through the authority that issued it. Many UAE business licences renew annually, but validity periods and renewal procedures are set by the relevant authority and should be checked on the actual licence and official guidance.',
+        'The company may need to meet applicable conditions, submit updated documents, maintain an acceptable office or facility arrangement, obtain activity-specific approvals and pay current fees. Renewal of a trade licence is distinct from other obligations such as tax filings, visa renewals or lease renewals.',
+      ],
+    },
+    {
+      heading: 'Why Renew on Time?',
+      paragraphs: [
+        'A valid licence supports lawful operation within the company’s authorised activities. If it expires, the consequences depend on the authority, the length of the lapse and the company’s circumstances. Possible outcomes may include late fees, restrictions on government transactions, visa-processing complications or additional steps to restore or cancel the licence. Banks may also conduct compliance reviews or apply account terms, but outcomes depend on the bank and the account.',
+        'Do not assume a universal grace period or penalty. Check the rules that apply to the particular Mainland department or Free Zone and act before the stated expiry date where possible.',
+      ],
+    },
+    {
+      heading: 'Documents Required for Renewal',
+      paragraphs: [
+        'The document checklist varies by jurisdiction, legal form, activity and company record. Commonly requested items may include:',
+      ],
+      bulletList: [
+        'Existing trade licence or company registration details.',
+        'Passport copies and identification records for shareholders or managers, where required.',
+        'A valid Ejari-registered tenancy contract for Mainland companies where the authority requires it.',
+        'A renewed flexi-desk, shared-office or commercial lease agreement for Free Zone companies, as applicable.',
+        'Updated constitutional or shareholder documents if company details have changed.',
+        'Current approvals from external regulators for regulated activities, where required.',
+        'Any additional forms, clearances or records requested by the licensing authority.',
+      ],
+    },
+    {
+      heading: 'Step-by-Step UAE Trade License Renewal Process',
+      paragraphs: [
+        'The process and permitted submission window differ between authorities. Use the authority’s official instructions for the company rather than relying on a general number of weeks before expiry.',
+      ],
+      list: [
+        'Check the licence expiry date and confirm the applicable renewal cycle and application window.',
+        'Ask the licensing authority for the current document checklist and any company-specific conditions.',
+        'Renew the required office, tenancy, flexi-desk or facility agreement where applicable.',
+        'Review company records, activities and any external approvals that need updating.',
+        'Check for outstanding authority fees or requirements relevant to the renewal application.',
+        'Submit the application through the authority or its authorised service channel and pay current charges.',
+        'After approval, verify the renewed licence details and update company records and relevant parties.',
+      ],
+    },
+    {
+      heading: 'Compliance Checks Before Applying',
+      paragraphs: [
+        'Before submission, check the licence details, company contacts, shareholder or manager records, facility documents and regulated-activity approvals. Resolve requirements specifically identified by the licensing authority. Corporate Tax and VAT registration, returns and payments are separate tax obligations: their status does not necessarily mean a trade-licence renewal will automatically be delayed, but any actual outstanding requirement should be addressed with the appropriate authority.',
+        'Visa and employee records also follow separate procedures. Confirm visa validity and renewal needs with the relevant immigration and labour authorities rather than assuming that a trade licence renewal automatically renews or cancels an individual’s residence status.',
+      ],
+    },
+    {
+      heading: 'How Much Does UAE Trade License Renewal Cost?',
+      paragraphs: [
+        'There is no single fixed renewal fee for every UAE company. The amount depends on the licensing authority, activities, legal form, facility, visa arrangements and any required external approvals. Request a current quotation for the company’s exact licence and distinguish authority charges from service fees and other renewals.',
+      ],
+      bulletList: [
+        'Annual trade licence renewal and government service fees.',
+        'Ejari, office lease, flexi-desk or facility renewal costs, where applicable.',
+        'Visa or establishment-related charges if separately due.',
+        'Activity-specific approval or inspection fees.',
+        'Any late charges or outstanding amounts confirmed by the authority.',
+      ],
+    },
+    {
+      heading: 'What Happens If a Licence Expires?',
+      paragraphs: [
+        'The licensing authority determines how an expired licence is handled, including applicable charges, restrictions, renewal eligibility or cancellation steps. Consequences depend on the authority and duration of expiry. Contact the authority promptly to confirm the required route and do not assume that continued operation is permitted while a licence is expired.',
+        'An expired licence may prompt a bank compliance review or service restriction under the bank’s terms, but this is not automatic or uniform. Contact the company’s bank directly about its requirements.',
+      ],
+    },
+    {
+      heading: 'Can You Update Company Details During Renewal?',
+      paragraphs: [
+        'Some authorities allow certain amendments to be submitted alongside a renewal; others require a separate application or approval first. Changes to activities, shareholders, contact information, office premises or visa allocation can involve additional documents, fees or external approvals. Confirm the process and timing before combining amendments with renewal.',
+      ],
+      bulletList: [
+        'Adding or removing business activities.',
+        'Changing shareholder, manager or company information.',
+        'Updating office premises or facility details.',
+        'Requesting changes to visa allocation, subject to eligibility and authority approval.',
+      ],
+    },
+    {
+      heading: 'Common Renewal Mistakes to Avoid',
+      paragraphs: [
+        'Preparing early and following the issuing authority’s checklist can help reduce delays. Keep reminders for the licence and related company documents, but verify requirements rather than relying only on automated notifications.',
+      ],
+      bulletList: [
+        'Waiting until the expiry date to check renewal requirements.',
+        'Allowing an applicable Ejari, office lease or flexi-desk agreement to lapse.',
+        'Assuming every authority has the same renewal window, fees or late penalties.',
+        'Overlooking activity-specific approvals or updated company details.',
+        'Treating tax, visa or banking matters as if they were automatically completed by licence renewal.',
+        'Relying entirely on automatic reminders instead of checking the official expiry date.',
+      ],
+    },
+  ],
+  faqs: [
+    {
+      question: 'How often must a UAE trade licence be renewed?',
+      answer:
+        'Many licences renew annually, but the validity period and cycle depend on the issuing authority. Check the licence and current authority guidance.',
+    },
+    {
+      question: 'How early can I renew my UAE trade licence?',
+      answer:
+        'The permitted application window varies by Mainland and Free Zone authority. Confirm the renewal window directly with the authority rather than assuming a universal period.',
+    },
+    {
+      question: 'What documents are required for trade licence renewal in Dubai?',
+      answer:
+        'Requirements vary by authority and company. They may include the current licence, shareholder or manager identification, valid premises evidence such as Ejari where required, and external approvals for regulated activities. Obtain the current checklist.',
+    },
+    {
+      question: 'How much does UAE trade licence renewal cost?',
+      answer:
+        'Costs vary by authority, activity, facility, visa arrangements and other requirements. Request a current itemised quotation for the specific company.',
+    },
+    {
+      question: 'What happens if my UAE trade licence expires?',
+      answer:
+        'The authority may apply fees, restrictions or additional renewal or cancellation procedures depending on its rules and how long the licence has been expired. Contact the licensing authority promptly.',
+    },
+    {
+      question: 'Does Corporate Tax or VAT registration automatically delay renewal?',
+      answer:
+        'Tax registrations, filings and payments are separate obligations. They do not necessarily mean a licence renewal is automatically delayed; confirm any outstanding requirement with the relevant authority.',
+    },
+    {
+      question: 'Are Mainland and Free Zone renewal requirements the same?',
+      answer:
+        'No. Document lists, facilities, fees, renewal windows and approval procedures vary by authority and company. Confirm requirements with the authority that issued the licence.',
+    },
+  ],
+  cta:
+    'Klay Consultants supports UAE trade licence renewal for Mainland and Free Zone businesses, including application assistance, document preparation, office or lease coordination, PRO services and guidance on applicable compliance requirements. Contact Klay Consultants to discuss the renewal process for your licence.',
+  disclaimer:
+    'This article is for general information only and is not legal, tax or regulatory advice. Licence validity, renewal windows, document requirements, fees, penalties and enforcement procedures vary by licensing authority and company and may change. Corporate Tax, VAT, immigration, banking and labour matters are separate and follow their own requirements. Confirm current details with the relevant authorities and your bank or qualified advisers.',
+  relatedLinks: [
+    { href: '/blog/uae-company-liquidation-guide-klay-consultants', label: 'UAE company liquidation guide' },
+    { href: '/blog/uae-trade-license-types-explained-klay-consultants', label: 'UAE trade licence types explained' },
+    { href: '/blog/uae-company-setup-cost-breakdown-2026-klay-consultants', label: 'UAE company setup cost breakdown' },
+  ],
+};
+
+const uaeCompanyLiquidationArticle: LongFormArticle = {
+  introduction:
+    'UAE company liquidation is the formal process of closing a registered business and ending its legal obligations in the country. Whether a company has stopped operating, completed its purpose or is no longer viable, following the correct procedure helps address outstanding regulatory, employee, creditor and tax matters. Allowing a trade licence to expire does not automatically dissolve a company. The process depends on the licensing authority, legal form and the company’s circumstances.',
+  sections: [
+    {
+      heading: 'What Is UAE Company Liquidation?',
+      paragraphs: [
+        'Company liquidation is the formal process of winding up a company, addressing its affairs and completing the steps required to remove or cancel it with the relevant authority. Depending on the company structure and jurisdiction, this may involve an owner or shareholder resolution, a liquidator where required, creditor procedures, visa and employment matters, tax filings or deregistration, and final licence cancellation.',
+        'Mainland, Free Zone and Offshore entities can have different procedures. Confirm the current checklist with the company’s licensing authority before taking action. A company that has ceased trading may still have outstanding filings, fees, contracts or regulatory obligations.',
+      ],
+    },
+    {
+      heading: 'Why Formal Closure Matters',
+      paragraphs: [
+        'Leaving a company inactive or allowing its licence to expire may not complete its legal closure. Depending on the circumstances, unresolved matters can include continuing licence or administrative fees, employee or residence records, tax returns, creditor claims, bank facilities and other contractual obligations.',
+        'Completing the required process and retaining final closure evidence helps demonstrate that the company’s affairs were addressed. It does not erase liabilities or resolve disputes automatically; outstanding obligations should be handled through the applicable legal and authority procedures.',
+      ],
+    },
+    {
+      heading: 'Step-by-Step UAE Company Liquidation Process',
+      paragraphs: [
+        'The sequence varies by jurisdiction, legal form, solvency and company circumstances. The following is a general planning guide, not a universal checklist or fixed order. The licensing authority may require different steps, forms or clearances.',
+      ],
+    },
+    {
+      heading: '1. Confirm the Closure Route and Obtain Owner Approval',
+      paragraphs: [
+        'Review the company’s legal form, licensing authority, financial position, contracts, employees, visas and tax registrations. Ask the authority for its current voluntary liquidation or cancellation requirements. Owners or shareholders generally need to document the decision to close and authorise the relevant representative; the form and approvals depend on the company documents and applicable rules.',
+      ],
+    },
+    {
+      heading: '2. Appoint a Liquidator Where Required',
+      paragraphs: [
+        'A licensed liquidator may be required for some company types or jurisdictions, but not every company follows the same procedure. Confirm the requirement with the authority. Where an appointment is required, the liquidator’s scope may include reviewing company records, identifying assets and liabilities, preparing reports and completing prescribed notices or filings.',
+      ],
+    },
+    {
+      heading: '3. Address Employees, Visas and Labour Records',
+      paragraphs: [
+        'Identify all employees and residence visas sponsored through the company and confirm the applicable cancellation and closure steps with the relevant immigration and labour authorities. Settle wages, end-of-service benefits and other employee entitlements in accordance with applicable requirements. The order of visa, labour and licence cancellation steps can vary, so obtain the authority’s sequence before submitting applications.',
+        'Company liquidation does not automatically create travel restrictions for owners or employees. Any immigration consequences depend on the individual’s status and circumstances; obtain separate advice where needed.',
+      ],
+    },
+    {
+      heading: '4. Settle Liabilities and Notify Creditors',
+      paragraphs: [
+        'Prepare a complete list of company obligations, including suppliers, landlords, banks, employees, government fees and taxes. Resolve claims and liabilities through the appropriate process. Some jurisdictions or structures require publication of a notice or provide a creditor claim period, while others may apply different procedures. Do not assume a universal notice period; confirm the applicable requirement with the licensing authority and liquidator, if appointed.',
+      ],
+    },
+    {
+      heading: '5. Complete Corporate Tax and VAT Requirements',
+      paragraphs: [
+        'A company registered for UAE Corporate Tax or VAT should review its filing, payment and deregistration obligations separately with the Federal Tax Authority. Corporate Tax deregistration and VAT deregistration have different procedures, criteria and applicable deadlines. Company licence cancellation does not necessarily complete either tax process.',
+        'File outstanding returns, settle amounts due and retain evidence of tax deregistration where required. Confirm which applications and deadlines apply to the company’s facts with the FTA or a qualified tax adviser.',
+      ],
+    },
+    {
+      heading: '6. Close Bank Accounts and Other Services',
+      paragraphs: [
+        'Ask the bank what it requires to close the company’s account, facilities, cards and guarantees, and coordinate this with the licensing authority’s closure sequence. The timing is not identical for every case: some authorities may require particular bank evidence, while the bank may need closure approvals or company documents. Also review leases, utilities, insurance, telecom services, payment platforms and other contracts for notice and termination requirements.',
+      ],
+    },
+    {
+      heading: '7. Obtain Final Clearances and Closure Confirmation',
+      paragraphs: [
+        'Submit the required final documents and clearances to the licensing authority. Once its process is complete, obtain the final liquidation certificate, deregistration confirmation or other official evidence applicable to the company. Keep these records with the company’s resolutions, tax documents, employee records, financial statements and proof of settled obligations.',
+      ],
+    },
+    {
+      heading: 'Documents Required for UAE Company Liquidation',
+      paragraphs: [
+        'The exact document list varies by company type, authority and circumstances. Request the current checklist before preparing or attesting documents. Commonly requested items may include:',
+      ],
+      bulletList: [
+        'Current or previous trade licence and company registration documents.',
+        'Shareholder or board resolution approving closure and authorising a representative.',
+        'Passport and Emirates ID copies of shareholders or authorised signatories, where applicable.',
+        'Liquidator appointment and report, if required.',
+        'Company accounts, financial statements and records of assets and liabilities.',
+        'Employee, labour and sponsored-visa cancellation evidence, where requested.',
+        'Tax filings, settlement or deregistration evidence, where applicable.',
+        'Creditor notice or other publication evidence, if required by the jurisdiction.',
+        'Bank, landlord or other clearance documents where required by the authority.',
+      ],
+    },
+    {
+      heading: 'How Long Does UAE Company Liquidation Take?',
+      paragraphs: [
+        'There is no single timeline for every UAE company. Straightforward cases may take a few months, while creditor procedures, authority review, employee matters, unpaid liabilities, tax issues, disputes or incomplete documentation can extend the process. Any notice or waiting period depends on the jurisdiction and company type.',
+        'Ask the relevant authority or appointed liquidator for a realistic, case-specific estimate, and allow time for tax, immigration, labour and bank procedures that may run separately or in a required sequence.',
+      ],
+    },
+    {
+      heading: 'What Is the Cost of UAE Company Liquidation?',
+      paragraphs: [
+        'There is no fixed liquidation price for every business. Total costs depend on the licensing authority, legal form, liquidator requirement, outstanding licence fees, creditors, employees, visas, tax work and any required publication or professional services. Request a written itemised estimate before starting.',
+      ],
+      bulletList: [
+        'Liquidator or professional service fees, where applicable.',
+        'Government, licence cancellation and deregistration charges.',
+        'Creditor notice or publication fees where required.',
+        'Employee settlement, visa and labour cancellation costs.',
+        'Outstanding rent, supplier, bank and government obligations.',
+        'Accounting, tax filing and Corporate Tax or VAT deregistration support.',
+      ],
+    },
+    {
+      heading: 'Common Mistakes to Avoid',
+      paragraphs: [
+        'A careful closure plan can help avoid repeated submissions, extra costs and unresolved obligations. Confirm the applicable process rather than relying on another company’s experience or a general online checklist.',
+      ],
+      bulletList: [
+        'Assuming an expired trade licence means the company is dissolved.',
+        'Starting cancellation without checking the jurisdiction-specific sequence.',
+        'Leaving employee or sponsored-visa matters unresolved.',
+        'Ignoring outstanding Corporate Tax or VAT returns and separate deregistration steps.',
+        'Failing to address creditor, supplier, landlord or bank obligations.',
+        'Assuming every entity requires a liquidator or the same notice period.',
+        'Losing the final liquidation certificate and supporting records.',
+      ],
+    },
+  ],
+  faqs: [
+    {
+      question: 'Does an expired UAE trade licence mean the company is closed?',
+      answer:
+        'Not necessarily. Licence expiry does not automatically dissolve a company. Confirm and complete the formal closure procedure required by the relevant authority.',
+    },
+    {
+      question: 'Does every UAE company need a liquidator?',
+      answer:
+        'No single procedure applies to every company. A liquidator is required for some structures or authorities; confirm the current rule for the company’s legal form and jurisdiction.',
+    },
+    {
+      question: 'Is there a universal creditor notice period for UAE company liquidation?',
+      answer:
+        'No. Notice and creditor procedures can differ by jurisdiction and company type. Confirm the applicable period and publication requirements with the licensing authority or liquidator.',
+    },
+    {
+      question: 'Are Corporate Tax and VAT deregistration the same process?',
+      answer:
+        'No. Corporate Tax and VAT deregistration are separate FTA procedures with their own criteria and deadlines. Assess each obligation independently.',
+    },
+    {
+      question: 'How long does it take to liquidate a UAE company?',
+      answer:
+        'Timing depends on the authority, company structure, liabilities, notice requirements and employee, tax or dispute matters. Ask for a case-specific estimate.',
+    },
+    {
+      question: 'Does company liquidation automatically restrict an owner from travelling?',
+      answer:
+        'No automatic travel restriction should be assumed. Immigration consequences depend on the individual’s circumstances and are separate from the company closure process.',
+    },
+    {
+      question: 'What documents should I keep after liquidation?',
+      answer:
+        'Retain the final closure or deregistration confirmation, owner resolutions, tax records, employee and visa records, financial statements and evidence of settled obligations.',
+    },
+  ],
+  cta:
+    'Klay Consultants can help coordinate UAE company closure procedures for Mainland, Free Zone and Offshore entities, including document preparation, liquidator coordination where required, visa cancellation assistance, tax deregistration support and communication with licensing authorities. Contact Klay Consultants to discuss the requirements that apply to your company.',
+  disclaimer:
+    'This article is for general information only and is not legal, tax, immigration or insolvency advice. Liquidation requirements, liquidator appointments, creditor notice periods, fees, timelines and document checklists vary by company type, jurisdiction and circumstances and may change. Corporate Tax and VAT deregistration are separate processes. Confirm current requirements with the relevant licensing, tax, labour and immigration authorities and qualified professionals.',
+  relatedLinks: [
+    { href: '/blog/uae-company-setup-cost-breakdown-2026-klay-consultants', label: 'UAE company setup cost breakdown' },
+    { href: '/blog/uae-holding-company-setup-complete-guide', label: 'UAE holding company setup guide' },
+    { href: '/blog/setting-up-a-holding-company-in-the-uae-complete-guide-klay-consultants', label: 'Complete guide to setting up a UAE holding company' },
+    { href: '/blog/uae-trade-license-types-explained-klay-consultants', label: 'UAE trade licence types explained' },
+  ],
+};
+
+const buyingPropertyInUaeForeignInvestorArticle: LongFormArticle = {
+  introduction:
+    'Buying property in the UAE can be an investment or personal-use option for international entrepreneurs, business owners and individuals. Foreign ownership is permitted in designated areas and under arrangements set by each emirate. Before paying a deposit, verify the property’s registered ownership type, complete legal and financial due diligence, and budget for transfer and ongoing costs. Property ownership and residency eligibility are separate matters, and neither a purchase nor an advertised investment return guarantees a Golden Visa or profit.',
+  sections: [
+    {
+      heading: 'Can Foreigners Buy Property in the UAE?',
+      paragraphs: [
+        'Foreign nationals can buy property in areas where the relevant emirate permits foreign ownership. Dubai has designated freehold areas that include Dubai Marina, Downtown Dubai, Palm Jumeirah, Business Bay and Jumeirah Village Circle. Eligibility and available ownership rights depend on the specific property and applicable rules; other emirates have their own designated areas and procedures.',
+        'Do not assume every property in a well-known neighbourhood has the same title or that a listing accurately describes the buyer’s legal interest. Confirm ownership eligibility and registration details with the relevant land department or project registrar before signing or transferring funds.',
+      ],
+    },
+    {
+      heading: 'Freehold vs Leasehold Property in the UAE',
+      paragraphs: [
+        'Freehold generally refers to a registered ownership interest in the property, subject to the applicable law and any recorded restrictions. Leasehold and other long-term interests grant rights for a defined period and under specified conditions; they are not automatically equivalent to freehold title. Duration, renewal, transfer, use and responsibility for charges depend on the contract and registration.',
+        'Review the title deed or relevant registry record and the sale documents with a qualified professional. Verify precisely what is included, whether restrictions or encumbrances apply, and what approvals are needed for transfer.',
+      ],
+    },
+    {
+      heading: 'Steps to Buy Property in the UAE as a Foreigner',
+      paragraphs: [
+        'The process varies by emirate, property type, seller and whether the transaction is financed. For a Dubai resale, the transfer is registered through the applicable Dubai Land Department process. Other emirates use their own land registration authorities and procedures. Confirm current requirements, forms and fees for the exact transaction.',
+      ],
+      list: [
+        'Set your budget, ownership structure and investment or personal-use objectives.',
+        'Confirm the property is in an area and ownership category available to you.',
+        'Verify the seller’s authority, title details, property records and any mortgage or dispute.',
+        'Obtain independent legal and technical due diligence before making a binding commitment.',
+        'Review and sign the sale agreement or memorandum of understanding, including conditions and deposit terms.',
+        'For a resale, confirm whether a developer or other no-objection certificate and clearance of outstanding charges are required.',
+        'Arrange financing and prepare the required transaction and identity documents.',
+        'Complete payments and approvals, register the transfer with the competent land authority, and retain the final title documentation.',
+      ],
+    },
+    {
+      heading: 'Costs of Buying Property in the UAE',
+      paragraphs: [
+        'Budget beyond the advertised property price. Charges differ by emirate, property, transaction and financing arrangements. Obtain a current itemised estimate from the land department, registration or trustee service, broker, developer and lender before agreeing to a purchase.',
+      ],
+      bulletList: [
+        'Property transfer or land department registration fees.',
+        'Real estate agent commission and any applicable transaction taxes or service charges.',
+        'Developer or building clearance and no-objection certificate fees, where required.',
+        'Title deed, registration, trustee or other processing charges.',
+        'Mortgage arrangement, valuation, registration and insurance costs, if applicable.',
+        'Ongoing building and community service charges, maintenance, utilities and management.',
+        'Legal, technical inspection and conveyancing expenses.',
+      ],
+    },
+    {
+      heading: 'Mortgages for Non-Resident Foreign Buyers',
+      paragraphs: [
+        'Some UAE banks may offer mortgages to eligible non-resident foreign buyers. Approval, down payment, loan-to-value limits, rates, income evidence and property eligibility vary by lender and applicant. Obtain a written pre-approval and understand its conditions before committing to a purchase deadline.',
+        'Compare total borrowing costs, repayment terms, interest-rate changes, early settlement conditions and the lender’s valuation. Ensure the sale agreement addresses the consequences if financing is not approved, and budget for the deposit and transaction charges in addition to the down payment.',
+      ],
+    },
+    {
+      heading: 'Can Property Investment Qualify for a UAE Golden Visa?',
+      paragraphs: [
+        'A qualifying real estate investment may provide a route to apply for a UAE Golden Visa, subject to the current official eligibility criteria and approval by the competent authority. The property value, title, ownership share, mortgage status and documentation may affect eligibility.',
+        'Buying property does not automatically grant residence. Before relying on a visa outcome, verify current thresholds, eligible property arrangements, valuation and financing rules, application documents and renewal conditions with the official authority.',
+      ],
+    },
+    {
+      heading: 'Off-Plan vs Ready Property',
+      paragraphs: [
+        'Off-plan property is purchased before construction is complete. It may have a staged payment schedule, but it carries risks involving construction, delivery, changes to specifications, project progress and market conditions. Verify the developer and project status with the relevant authority, review the sale and purchase agreement, and understand payment milestones and remedies for delay.',
+        'A ready property can generally be inspected before purchase and may be available for immediate occupation or rental, but it still requires due diligence on title, physical condition, tenancy, service charges and building management. Neither option guarantees rental income or price appreciation; the right choice depends on budget, risk tolerance, timing and investment objectives.',
+      ],
+    },
+    {
+      heading: 'Can a UAE Company Buy Property?',
+      paragraphs: [
+        'Eligible companies may be able to own property in designated areas, subject to the relevant emirate’s ownership rules, registration requirements and the company’s legal form and jurisdiction. Confirm that the land authority will accept the proposed entity as owner before signing or transferring funds.',
+        'Corporate ownership can affect financing, accounting, tax, governance, succession, future transfers and Golden Visa eligibility. It does not automatically provide tax advantages or asset protection. Obtain independent legal and tax advice and compare the total ongoing company costs with individual ownership.',
+      ],
+    },
+    {
+      heading: 'Due Diligence and Common Mistakes to Avoid',
+      paragraphs: [
+        'A property investment carries legal, financial, construction and market risks. Verify the title and seller, inspect the property, check for mortgages or disputes, review service-charge balances and community rules, and assess developer and project information for off-plan purchases. Independently validate payment instructions to reduce fraud risk.',
+      ],
+      bulletList: [
+        'Buying without confirming foreign ownership eligibility and title type.',
+        'Skipping legal, financial or technical due diligence.',
+        'Failing to check the developer, project registration or contract for an off-plan purchase.',
+        'Underestimating registration, mortgage and ongoing service charges.',
+        'Assuming rent, resale value or investment returns are guaranteed.',
+        'Treating property ownership as an automatic route to UAE residency.',
+        'Choosing company ownership without reviewing its legal, tax and financial implications.',
+      ],
+    },
+    {
+      heading: 'Plan Your UAE Property Investment',
+      paragraphs: [
+        'Compare individual and corporate ownership based on the property, investor objectives, financing, administration and relevant legal and tax obligations. Confirm current ownership rules, transfer steps, total costs and any residency criteria with the appropriate authorities and qualified professionals before committing capital.',
+      ],
+    },
+  ],
+  faqs: [
+    {
+      question: 'Can foreigners buy property in Dubai without UAE residency?',
+      answer:
+        'Foreign nationals may buy in areas where foreign ownership is permitted and generally do not need to become UAE residents first. Confirm the specific property’s eligibility and transfer requirements with the relevant authority.',
+    },
+    {
+      question: 'Can non-residents get a UAE property mortgage?',
+      answer:
+        'Some banks offer mortgages to eligible non-residents, but approval and terms vary by lender, borrower and property. Confirm eligibility and obtain written pre-approval before relying on financing.',
+    },
+    {
+      question: 'Does buying property in the UAE automatically provide a Golden Visa?',
+      answer:
+        'No. Property ownership may support an application only when current eligibility criteria are met and the competent authority approves it. Verify the official requirements before purchasing for residency purposes.',
+    },
+    {
+      question: 'Can foreigners buy property anywhere in the UAE?',
+      answer:
+        'No. Foreign ownership is subject to designated areas and rules that vary by emirate and property. Check the exact title and eligibility with the appropriate land authority.',
+    },
+    {
+      question: 'Is off-plan property a good investment for foreigners?',
+      answer:
+        'It depends on your objectives and risk tolerance. Assess the developer, project status, payment schedule, contract terms and delivery risks; future returns are not guaranteed.',
+    },
+    {
+      question: 'Can a foreign investor buy UAE property through a company?',
+      answer:
+        'In some cases an eligible company can own property in a designated area, subject to the emirate’s requirements. Confirm that the authority accepts the specific company and get advice on legal, tax, financing and residency implications.',
+    },
+  ],
+  cta:
+    'Planning a UAE property investment or ownership structure? Klay Consultants supports foreign investors and business owners with UAE company setup and guidance on property-related residency options. Contact Klay Consultants to discuss your plans and coordinate next steps with qualified property, legal and tax professionals.',
+  disclaimer:
+    'This article is for general information only and is not legal, tax, investment, mortgage or property advice. Foreign ownership rules, fees, financing terms and Golden Visa criteria vary by emirate, property and individual circumstances and may change. Property values and returns are not guaranteed. Verify current requirements with the relevant authorities and qualified independent professionals before investing.',
+  relatedLinks: [
+    { href: '/blog/uae-real-estate-investment-for-foreigners', label: 'UAE real estate investment guide for foreigners' },
+    { href: '/blog/uae-golden-visa-2026-eligibility-cost-application-guide', label: 'UAE Golden Visa eligibility and application guide' },
+    { href: '/blog/uae-holding-company-setup-complete-guide', label: 'UAE holding company setup guide' },
+    { href: '/blog/uae-company-setup-cost-breakdown-2026-klay-consultants', label: 'UAE company setup cost breakdown' },
+    { href: '/blog/dubai-mainland-business-license-guide-klay-consultants', label: 'Dubai Mainland business licence guide' },
+  ],
+};
+
 const uaeAmlKycComplianceArticle: LongFormArticle = {
   introduction:
     'Anti-Money Laundering (AML) and Know Your Customer (KYC) controls help prevent and detect money laundering, terrorist financing and other financial crime. In the UAE, obligations depend on the business’s actual activities and applicable regulatory framework. Some Designated Non-Financial Businesses and Professions (DNFBPs), financial institutions and other regulated persons have specific duties. Do not assume every company has identical AML requirements: assess the activities and confirm obligations with the competent authority or a qualified compliance professional.',
@@ -314,9 +924,175 @@ const trademarkRegistrationUaeArticle: LongFormArticle = {
   ],
 };
 
+const trademarkRegistrationIpGuideArticle: LongFormArticle = {
+  introduction:
+    'Trademark registration UAE is an important step for businesses looking to protect their brand identity, products and services. Whether launching a company, expanding an international brand or starting an e-commerce business, registering an eligible mark can help protect it from unauthorised use. A UAE trade licence does not automatically protect a brand as a trademark. Understand the registration process, relevant classes and legal requirements before entering the market.',
+  sections: [
+    {
+      heading: 'Why Is Trademark Registration Important in the UAE?',
+      paragraphs: [
+        'Trademark registration can provide legal protection for eligible brand identifiers, including names, logos and slogans, in relation to the goods and services covered by the registration. It may strengthen the owner’s position when addressing unauthorised use and support brand recognition as a business grows.',
+        'Trademark rights are generally territorial. A registration in another country does not automatically protect the mark in the UAE, so international businesses should assess UAE protection separately.',
+      ],
+      bulletList: [
+        'Protect brand identity and eligible marks.',
+        'Support action against unauthorised use, subject to applicable procedures.',
+        'Help build brand recognition and business credibility.',
+        'Support efforts to address counterfeit activity and commercial disputes.',
+        'Plan for long-term expansion in the UAE market.',
+      ],
+    },
+    {
+      heading: 'What Can Be Registered as a Trademark in the UAE?',
+      paragraphs: [
+        'Depending on the applicable requirements, a business may apply to protect a brand name, logo, slogan, product-related mark, eligible packaging-related mark or certain other distinctive signs. The proposed mark must meet legal requirements and be sufficiently distinctive. Descriptive, misleading, prohibited or conflicting marks may face objections or refusal.',
+        'Consider whether to file a word mark, a logo, or separate applications for both. The protection provided by a stylised logo may not be the same as protection for the words themselves. A qualified trademark professional can advise on the filing strategy for the brand and planned goods or services.',
+      ],
+    },
+    {
+      heading: 'Understand UAE Trademark Classes',
+      paragraphs: [
+        'The UAE uses the Nice Classification system, which organises goods and services into 45 classes. The correct class depends on the products or services for which protection is sought. For example, clothing, software, cosmetics and professional consultancy services fall into different categories.',
+        'A business operating across several sectors may need to seek protection in more than one class. Select the goods and services descriptions carefully: protection is linked to the scope covered by the application, not every product or service the company may offer in the future. Verify the current classification and accepted descriptions before filing.',
+      ],
+    },
+    {
+      heading: 'Trademark Registration UAE: Step-by-Step Process',
+      paragraphs: [
+        'The process generally includes a search, class selection, application preparation, examination, publication and completion of registration formalities. The applicable authority reviews the application and may raise objections. Publication may allow third parties to oppose within the prescribed period; the exact stages and time limits should be confirmed from current official instructions.',
+      ],
+      list: [
+        'Search for identical or similar marks in the relevant classes.',
+        'Select the goods and services and identify the appropriate classes.',
+        'Prepare the applicant details, representation of the mark and supporting documents.',
+        'File through the relevant UAE intellectual-property authority and pay applicable fees.',
+        'Monitor examination and respond to objections or requests within the stated deadlines.',
+        'Follow publication requirements and address any opposition through the applicable process.',
+        'Complete remaining formalities and retain the registration certificate and renewal dates.',
+      ],
+    },
+    {
+      heading: 'Documents Required for Trademark Registration',
+      paragraphs: [
+        'Document requirements depend on the applicant and the type of mark. Confirm the latest checklist, format and any translation or authorisation requirements before submitting an application.',
+      ],
+      bulletList: [
+        'Applicant identification or company documents.',
+        'A clear copy or representation of the proposed trademark or logo.',
+        'Details of the goods and services and selected classes.',
+        'A power of attorney or representative authorisation, where applicable.',
+        'Additional supporting documents requested by the competent authority.',
+      ],
+    },
+    {
+      heading: 'How Much Does Trademark Registration Cost in the UAE?',
+      paragraphs: [
+        'The total cost depends on the number of marks and classes, applicable government fees and any professional services required. Potential expenses include search, application, publication, final registration and certificate fees, as well as agent or legal fees and costs for responding to objections or opposition.',
+        'Multi-class applications may have higher costs than single-class filings. Fee schedules and procedures can change, so request an itemised estimate that identifies official charges and professional fees separately before proceeding.',
+      ],
+    },
+    {
+      heading: 'How Long Does Trademark Registration Take?',
+      paragraphs: [
+        'Registration can take several months, but there is no guaranteed completion date. Processing depends on examination, the completeness of the application, authority requests, publication and whether objections or opposition arise. Allow sufficient time when planning a brand launch or market expansion, and monitor all official notices and deadlines.',
+      ],
+    },
+    {
+      heading: 'Trademark Registration vs Trade Name Registration',
+      paragraphs: [
+        'Trademark registration and trade name registration serve different purposes. A trademark protects an eligible brand identifier as intellectual property for specified goods or services. A trade name identifies a business entity as part of its company licensing and registration process.',
+        'Registering a company name does not automatically provide trademark protection. Businesses may need both registrations to protect their legal identity and brand, depending on their plans and applicable rules.',
+      ],
+    },
+    {
+      heading: 'Can Foreigners Register a Trademark in the UAE?',
+      paragraphs: [
+        'Foreign individuals and businesses may be able to apply for trademark protection in the UAE, subject to applicable requirements and documentation. A trademark registered in the UK, US or another country does not automatically extend to the UAE; separate UAE protection may be needed.',
+      ],
+    },
+    {
+      heading: 'How to Protect Your Brand After Registration',
+      paragraphs: [
+        'Registration is one part of an ongoing brand-protection strategy. Use the mark consistently, monitor the market for potentially unauthorised or confusing use, keep ownership and registration details current, and seek qualified advice if infringement occurs. Any enforcement action depends on the evidence, scope of the registration and applicable legal procedures.',
+        'Trademark registrations are generally valid for 10 years and may be renewed for further 10-year periods, subject to the applicable requirements. Track renewal dates and retain the certificate and supporting records. Consider customs protection measures where appropriate and available.',
+      ],
+      bulletList: [
+        'Monitor for similar or unauthorised brand use.',
+        'Keep ownership, contact and registration details updated.',
+        'Track renewal deadlines and maintain copies of official documents.',
+        'Consider applicable customs measures against counterfeit goods.',
+        'Consult a qualified professional if infringement or a dispute occurs.',
+      ],
+    },
+    {
+      heading: 'Common Trademark Registration Mistakes to Avoid',
+      paragraphs: [
+        'Careful preparation can help reduce delays, added expenses and disputes. Confirm who should own the mark and what goods and services need protection before filing.',
+      ],
+      bulletList: [
+        'Filing without searching for identical or similar marks.',
+        'Selecting classes that do not match the goods or services.',
+        'Assuming a trade licence or company name protects the brand.',
+        'Assuming an overseas registration covers the UAE.',
+        'Submitting incomplete or inconsistent application information.',
+        'Ignoring publication, opposition or examination procedures.',
+        'Missing renewal deadlines.',
+      ],
+    },
+  ],
+  faqs: [
+    {
+      question: 'How do I register a trademark in the UAE?',
+      answer:
+        'Search for conflicts, select the relevant goods and services classes, prepare applicant and mark details, and file with the competent UAE authority. Follow examination, publication and any objection or opposition process.',
+    },
+    {
+      question: 'How long is a UAE trademark valid?',
+      answer:
+        'Registration is generally valid for 10 years from the filing date and may be renewed for additional 10-year periods, subject to applicable requirements.',
+    },
+    {
+      question: 'Can I register a trademark before establishing a UAE company?',
+      answer:
+        'Eligible individuals or entities may be able to apply without first having an active UAE trade licence. Decide who should own the mark and confirm current application requirements before filing.',
+    },
+    {
+      question: 'Does a UK or US trademark protect my brand in the UAE?',
+      answer:
+        'No. Trademark rights are generally territorial, so separate UAE protection may be needed.',
+    },
+    {
+      question: 'Can I register both a brand name and logo?',
+      answer:
+        'It may be possible to file for both, subject to the applicable requirements. Consider the appropriate filing strategy for each brand asset.',
+    },
+    {
+      question: 'How many trademark classes are available in the UAE?',
+      answer:
+        'The Nice Classification system has 45 classes covering goods and services. Select the classes that match the products and services for which protection is sought.',
+    },
+    {
+      question: 'What can I do if someone uses my registered trademark?',
+      answer:
+        'Enforcement options depend on the registration, evidence, nature of the use and applicable procedures. Consult a qualified trademark professional about the specific circumstances.',
+    },
+  ],
+  cta:
+    'Klay Consultants coordinates trademark registration services with its intellectual-property legal partners. Our support can help businesses understand the application process, identify relevant classes and coordinate requirements. Ready to protect your brand? Contact Klay Consultants to discuss your trademark registration UAE requirements.',
+  disclaimer:
+    'This article is for general informational purposes only and is not legal or intellectual-property advice. Registrability, classes, fees, timelines, objections, opposition and renewal requirements depend on the mark and current UAE rules and may change. Registration is subject to authority review and approval. Seek advice from a qualified trademark professional regarding a specific application.',
+  relatedLinks: [
+    { href: '/blog/how-to-set-up-an-e-commerce-business-in-the-uae-klay-consultants', label: 'How to set up an e-commerce business in the UAE' },
+    { href: '/blog/dubai-mainland-business-license-guide-klay-consultants', label: 'Dubai Mainland business licence guide' },
+    { href: '/blog/uae-offshore-company-formation-rak-icc-vs-jafza-klay-consultants', label: 'UAE offshore company formation guide' },
+    { href: '/blog/uae-company-setup-cost-breakdown-2026-klay-consultants', label: 'UAE company setup cost guide' },
+    { href: '/blog/uae-trade-license-types-explained-klay-consultants', label: 'UAE trade licence types explained' },
+  ],
+};
+
 const uaeFreelanceVisaGuide2026Article: LongFormArticle = {
   introduction:
-    'Planning to work independently in the UAE? This 2026 guide explains the difference between a freelance permit or licence and a residence visa, how to compare available Free Zone routes, and what to check before applying. Eligibility, permitted activities, fees, visa availability and renewal rules differ by issuing authority and personal circumstances. Confirm current requirements directly with the relevant Free Zone and immigration authorities before committing.',
+    'A freelance visa UAE option can be attractive for consultants, remote professionals, creatives and independent service providers who want to live and work in the UAE without immediately establishing a full company. Several Free Zones and authorities offer permits for approved professional activities, and some routes may support a separate UAE residence application. This 2026 guide covers eligibility, permits, documents, costs and the difference between a freelance licence and a full company. Rules vary by authority, so confirm current requirements before applying.',
   sections: [
     {
       heading: 'Freelance Permit and Freelance Visa: Understand the Difference',
@@ -332,6 +1108,12 @@ const uaeFreelanceVisaGuide2026Article: LongFormArticle = {
         'Describe the services you intend to provide and compare them with the authority’s exact activity list. Do not assume that one permit covers unrelated consulting, trading, recruitment, regulated or other activities. If your work requires approval from a sector regulator, check that requirement before applying.',
       ],
       bulletList: [
+        'Management and business consultants.',
+        'Marketing professionals and content creators.',
+        'Graphic designers, photographers and other creatives.',
+        'Software developers and IT professionals.',
+        'Writers, editors, coaches, trainers and educators.',
+        'Independent professionals serving UAE or international clients.',
         'Confirm that your profession and services appear on the issuing authority’s permitted activity list.',
         'Check qualification, portfolio, experience or client-document requirements.',
         'Ask whether the permit allows work for multiple clients and what contract or invoicing rules apply.',
@@ -343,6 +1125,7 @@ const uaeFreelanceVisaGuide2026Article: LongFormArticle = {
       heading: 'Compare Free Zone Options',
       paragraphs: [
         'Freelance permits are offered through certain UAE Free Zones and other authorised routes. The available activities, eligibility criteria, application process, facilities, fees and residence options vary. A package that appears inexpensive may not include a residence application, Emirates ID, medical examination, insurance, establishment registration or renewal charges.',
+        'Examples of authorities or communities with freelance-related options have included Dubai Development Authority, Dubai Media City, Dubai Studio City, RAKEZ, Fujairah Creative City and Ajman Free Zone. Availability, eligibility and product names can change; confirm directly with each authority that the proposed activity and applicant qualify.',
         'Compare the issuing authority and its rules rather than choosing by headline price alone. Confirm where and how the permit allows you to operate, whether the work can be performed remotely or at client premises, and what local approvals may apply to your specific services.',
       ],
       bulletList: [
@@ -366,6 +1149,7 @@ const uaeFreelanceVisaGuide2026Article: LongFormArticle = {
         'Submit the permit application and respond to any authority requests.',
         'If eligible and required, complete the separate residence application and immigration steps.',
         'Complete medical fitness screening, Emirates ID and any required biometrics.',
+        'Arrange health insurance if required and explore banking options subject to independent bank KYC and approval.',
         'Keep the permit and residence status valid and follow renewal or cancellation instructions.',
       ],
     },
@@ -394,6 +1178,34 @@ const uaeFreelanceVisaGuide2026Article: LongFormArticle = {
       heading: 'Plan Your Work Before Applying',
       paragraphs: [
         'Before selecting a route, make a practical plan for your services, expected clients, place of work, contracts, pricing and renewals. Confirm that the permit covers the services you will actually provide and that the residence route fits your circumstances. If the planned business includes employees, retail or goods trading, regulated services or multiple unrelated activities, ask whether a different company licence or legal form is required.',
+      ],
+    },
+    {
+      heading: 'Freelance Permit vs Full Company Setup',
+      paragraphs: [
+        'A freelance permit is generally designed for an individual providing approved professional services independently. A full company may be more appropriate if the business plans to hire employees, add shareholders, combine multiple activities, trade goods or grow into a larger operation. The appropriate route depends on the activity, customer model, staffing and long-term plans.',
+        'Compare what each structure permits, whether it can support the required residence process, its setup and renewal costs, banking requirements and tax obligations. Do not select a freelance route solely because its starting price is lower if it does not support the business you intend to operate.',
+      ],
+    },
+    {
+      heading: 'Remote and International Clients',
+      paragraphs: [
+        'A freelance permit may support independent services for international clients when the work falls within the approved activity and the licensing conditions allow it. Check client-location and contracting restrictions with the issuing authority. Keep written contracts, invoices and payment records, and review applicable banking, tax and cross-border compliance obligations with qualified advisers.',
+      ],
+    },
+    {
+      heading: 'Common Mistakes to Avoid',
+      paragraphs: [
+        'Before applying, make sure the permit and any residence option match the real work and personal circumstances. Review the complete first-year and renewal cost rather than relying on an advertised starting price.',
+      ],
+      bulletList: [
+        'Choosing a Free Zone without checking whether the professional activity is approved.',
+        'Assuming every freelance permit includes a residence visa.',
+        'Comparing packages only by their advertised starting price.',
+        'Ignoring annual renewal, medical, Emirates ID, insurance or immigration-related charges.',
+        'Assuming a freelance permit allows employee sponsorship or unrelated activities.',
+        'Overlooking bank KYC requirements and tax obligations.',
+        'Choosing a freelance structure when the business needs a full company.',
       ],
     },
   ],
@@ -428,6 +1240,21 @@ const uaeFreelanceVisaGuide2026Article: LongFormArticle = {
       answer:
         'No. The permit is tied to approved activities and may have other conditions. Check the exact activity list and any sector approvals before providing services.',
     },
+    {
+      question: 'Which UAE authorities offer freelance permits?',
+      answer:
+        'Options have been offered by a number of Free Zones and authorities, including some in Dubai, RAKEZ, Fujairah Creative City and Ajman. Availability, activity lists, eligibility and fees change, so confirm directly with the authority.',
+    },
+    {
+      question: 'Can I open a bank account with a freelance permit?',
+      answer:
+        'You can explore banking options, but account opening is subject to the bank’s independent eligibility, documentation and KYC checks. A permit does not guarantee account approval.',
+    },
+    {
+      question: 'Can I change from a freelance permit to a company later?',
+      answer:
+        'A freelancer may be able to establish a Free Zone or Mainland company as their business grows. The suitable legal form, activities and transition process depend on the intended operations and jurisdiction.',
+    },
   ],
   cta:
     'Considering freelance work in the UAE? Klay Consultants can help you compare business setup routes and prepare for the application process. Confirm your activity, visa eligibility, fees and tax obligations with the relevant authorities and qualified advisers.',
@@ -437,6 +1264,173 @@ const uaeFreelanceVisaGuide2026Article: LongFormArticle = {
     { href: '/blog/uae-investor-visa-vs-partner-visa-guide', label: 'UAE investor visa vs partner visa guide' },
     { href: '/blog/uae-golden-visa-2026-eligibility-cost-application-guide', label: 'UAE Golden Visa eligibility and application guide' },
     { href: '/blog/business-setup-in-uae-2026-guide', label: 'How to set up a business in the UAE' },
+  ],
+};
+
+const settingUpUaeHoldingCompanyArticle: LongFormArticle = {
+  introduction:
+    'UAE holding company setup can help entrepreneurs, investors and family businesses organise ownership of multiple companies and investments under a parent entity. The right structure depends on what the company will own and do, where its subsidiaries and investors are based, and the legal, regulatory, tax and governance requirements that apply. Mainland, Free Zone, ADGM, DIFC and offshore options are not interchangeable. This guide outlines the main decisions and steps to assess before incorporating.',
+  sections: [
+    {
+      heading: 'What Is a Holding Company in the UAE?',
+      paragraphs: [
+        'A holding company is an entity primarily established to own shares or interests in other companies, known as subsidiaries. Depending on its legal form, permitted activities and licence, it may also hold certain investments or assets. The entity must stay within the activities approved by its licensing or registration authority.',
+        'A holding structure creates a central ownership layer while subsidiaries can continue their own operations. It can organise group ownership, investment management and governance, but does not automatically shield assets from claims or produce a particular tax outcome. Each entity must be properly maintained, and legal and financial effects depend on its actual operations and applicable law.',
+      ],
+    },
+    {
+      heading: 'Benefits and Common Uses',
+      paragraphs: [
+        'A holding company may provide a practical structure for managing a group, but the benefits depend on the business and the way the entities are operated. Consider the ongoing cost and compliance obligations alongside any organisational benefit.',
+      ],
+      bulletList: [
+        'Centralise ownership of multiple operating businesses or investments.',
+        'Separate ownership and governance from day-to-day operations in subsidiaries.',
+        'Organise investment by multiple shareholders or prepare a group for external investment.',
+        'Support long-term planning for family business ownership and succession.',
+        'Hold shares or other assets where permitted by the relevant authority and legal framework.',
+      ],
+    },
+    {
+      heading: 'Compare Mainland, Free Zone, ADGM, DIFC and Offshore Options',
+      paragraphs: [
+        'The best jurisdiction depends on the assets to be held, where subsidiaries operate, planned activities, ownership needs, office or registered-address requirements, costs, reporting and any regulatory conditions. Confirm that the proposed entity may hold each intended asset and conduct each intended activity before applying.',
+      ],
+      subsections: [
+        {
+          heading: 'Mainland holding company',
+          paragraphs: [
+            'A Mainland structure may suit certain onshore group arrangements or activities licensed by the relevant emirate authority. Confirm eligible legal forms, activities, ownership and facility requirements with that authority.',
+          ],
+        },
+        {
+          heading: 'Free Zone holding company',
+          paragraphs: [
+            'Some Free Zones permit company forms and activities suited to holding shares and investments. Rules, fees, reporting, substance and operating permissions vary by zone; Free Zone status alone does not authorise every activity or guarantee a particular tax treatment.',
+          ],
+        },
+        {
+          heading: 'ADGM and DIFC structures',
+          paragraphs: [
+            'ADGM and DIFC have their own registries and legal and regulatory frameworks. They may offer structures such as SPVs or prescribed companies subject to specific eligibility, permitted-purpose and filing requirements. Check current registry rules against the proposed owners, assets and transactions.',
+          ],
+        },
+        {
+          heading: 'Offshore holding company',
+          paragraphs: [
+            'Offshore entities may be used for qualifying international holding and asset-ownership purposes under their jurisdiction’s rules. They generally cannot conduct ordinary operating business in the UAE domestic market. Confirm the permitted activities and limitations before choosing an offshore structure.',
+          ],
+        },
+      ],
+    },
+    {
+      heading: 'How to Set Up a Holding Company in the UAE',
+      paragraphs: [
+        'Formation requirements and processing steps vary by jurisdiction. Prepare a group structure and identify the interests, subsidiaries or other assets the company is intended to hold. This helps establish whether the activity and legal form are suitable and which approvals or records may be required.',
+      ],
+      list: [
+        'Define the business purpose, proposed assets, subsidiaries and intended transactions.',
+        'Compare jurisdictions and confirm permitted activities, ownership and ongoing obligations.',
+        'Select the legal form and shareholder, director and beneficial-owner arrangements.',
+        'Reserve an available name and prepare the application and constitutional documents.',
+        'Submit identity and corporate records and obtain any required initial approvals.',
+        'Complete incorporation, licensing, registered-office or premises arrangements and fees.',
+        'Where relevant, transfer subsidiary shares formally and update each company’s records.',
+        'Establish governance, accounting, tax registrations and compliance processes.',
+      ],
+    },
+    {
+      heading: 'Documents, Governance and Compliance',
+      paragraphs: [
+        'Authorities commonly request identity and address records for owners and directors, ownership and beneficial-owner information, constitutional documents, and details of the proposed activities and assets. If an existing company will be a shareholder, the registry may request parent-company records, resolutions and signatory evidence. Attestation, translation and document-validity requirements depend on the jurisdiction and where the records were issued.',
+        'After incorporation, maintain statutory registers, accounting records, resolutions, annual filings, licence renewals and any registered-office or substance arrangements. Use clear shareholder and management arrangements, keep ownership information current, and obtain advice before changing the structure or undertaking activities outside the approved scope.',
+      ],
+    },
+    {
+      heading: 'Corporate Tax and Other Tax Considerations',
+      paragraphs: [
+        'A holding company should not assume it is automatically exempt from UAE Corporate Tax because it does not regularly trade. Dividends, capital gains and other income may receive specific treatment, including a participation exemption, only if the relevant statutory conditions are met. The outcome depends on the income, ownership, holding period and other facts and documentation.',
+        'Assess Corporate Tax registration and filing, accounting, transfer-pricing and related-party obligations with a qualified tax adviser. Economic substance and other jurisdiction-specific requirements may also be relevant depending on the entity and its activities. Free Zone or offshore registration does not by itself guarantee a 0% result or remove applicable compliance duties.',
+      ],
+    },
+    {
+      heading: 'Formation Costs and Annual Budget',
+      paragraphs: [
+        'There is no single UAE-wide holding-company setup cost. Fees depend on the authority, legal form, activities, shareholders, premises or registered-office arrangements and professional services. Request a written itemised quotation separating incorporation and government fees from recurring renewals and compliance costs.',
+      ],
+      bulletList: [
+        'Name reservation, incorporation, licence and annual renewal fees.',
+        'Registered-office, facility, agent or other jurisdiction-specific costs.',
+        'Document preparation, notarisation, legalisation and translation.',
+        'Legal, accounting, tax, audit and company-secretarial services.',
+        'Costs of transferring and registering subsidiary shares or other assets.',
+        'Ongoing reporting, governance, banking and compliance administration.',
+      ],
+    },
+    {
+      heading: 'Common Mistakes to Avoid',
+      paragraphs: [
+        'A holding structure should be designed around the assets and transactions it is meant to support. Choosing a jurisdiction based only on the initial setup price or assuming the entity will automatically deliver tax or asset-protection benefits can lead to rework and unexpected obligations.',
+      ],
+      bulletList: [
+        'Selecting an offshore structure when an operational UAE presence is required.',
+        'Failing to check that the chosen entity may own the intended shares or assets.',
+        'Not completing share transfers and subsidiary record updates correctly.',
+        'Overlooking tax registration, filings, recordkeeping or transfer-pricing obligations.',
+        'Ignoring governance and shareholder decision-making arrangements.',
+        'Assuming a holding company automatically provides tax benefits or asset protection.',
+        'Failing to plan for future investors, restructuring or succession needs.',
+      ],
+    },
+  ],
+  faqs: [
+    {
+      question: 'What is a UAE holding company?',
+      answer:
+        'It is an entity primarily used to own shares or interests in subsidiaries or other permitted assets, subject to the activities and conditions approved by its jurisdiction.',
+    },
+    {
+      question: 'Can a UAE holding company own multiple businesses?',
+      answer:
+        'It may be able to own interests in multiple businesses, subject to the holding company’s permitted activities and the rules that apply to each subsidiary and transaction.',
+    },
+    {
+      question: 'Which jurisdiction is best for a UAE holding company?',
+      answer:
+        'There is no universal best option. Compare Mainland, Free Zone, ADGM, DIFC and offshore structures against the assets, ownership, activities, costs, reporting and operational needs.',
+    },
+    {
+      question: 'Can a UAE holding company own international companies?',
+      answer:
+        'This may be possible, subject to the UAE entity’s permitted activities and the laws, approvals and reporting requirements in the countries where the subsidiaries operate.',
+    },
+    {
+      question: 'Is a UAE holding company subject to Corporate Tax?',
+      answer:
+        'It may have Corporate Tax registration, filing and payment obligations. Specific income may qualify for exemptions or relief only when the applicable legal conditions are satisfied.',
+    },
+    {
+      question: 'Can an offshore company act as a UAE holding company?',
+      answer:
+        'Some offshore structures can hold qualifying shares or assets, but their permitted scope is restricted and they generally cannot conduct ordinary business in the UAE domestic market.',
+    },
+    {
+      question: 'Can a holding company support family business succession planning?',
+      answer:
+        'It may help consolidate ownership and organise future transfers. Coordinate the structure with appropriate legal, tax and estate-planning advice for all relevant jurisdictions.',
+    },
+  ],
+  cta:
+    'Klay Consultants helps entrepreneurs and investors explore UAE holding structures based on their activities, investments and long-term plans. For guidance with jurisdiction selection, incorporation and ownership structuring, contact Klay Consultants to discuss your proposed group and next steps.',
+  disclaimer:
+    'This article is for general informational purposes only and is not legal, tax, investment or financial advice. Jurisdiction eligibility, permitted activities, fees and tax treatment depend on the specific structure and circumstances and may change. A holding company does not guarantee tax exemption, asset protection or a particular investment outcome. Confirm current requirements with the relevant authorities and qualified independent advisers.',
+  relatedLinks: [
+    { href: '/blog/uae-holding-company-setup-complete-guide', label: 'UAE holding company setup: investor guide' },
+    { href: '/blog/uae-offshore-company-formation-rak-icc-vs-jafza-klay-consultants', label: 'UAE offshore company formation: RAK ICC vs JAFZA' },
+    { href: '/blog/dubai-mainland-business-license-guide-klay-consultants', label: 'Dubai Mainland business licence guide' },
+    { href: '/blog/uae-trade-license-types-explained-klay-consultants', label: 'UAE trade licence types explained' },
+    { href: '/blog/uae-company-setup-cost-breakdown-2026-klay-consultants', label: 'UAE company setup cost breakdown' },
+    { href: '/blog/uae-golden-visa-2026-eligibility-cost-application-guide', label: 'UAE Golden Visa guide' },
   ],
 };
 
@@ -8593,11 +9587,23 @@ export default function BlogArticlePage() {
   const { slug = '' } = useParams<{ slug: string }>();
   const article = BLOG_PREVIEW.find((post) => post.slug === slug);
   const longFormArticle =
-    slug === 'uae-aml-kyc-compliance-for-businesses-complete-guide-klay-consultants'
+    slug === 'economic-substance-regulations-uae-klay-consultants'
+      ? economicSubstanceRegulationsUaeArticle
+      : slug === 'uae-trade-license-renewal-guide-klay-consultants'
+      ? uaeTradeLicenseRenewalArticle
+      : slug === 'uae-company-liquidation-guide-klay-consultants'
+      ? uaeCompanyLiquidationArticle
+      : slug === 'trademark-registration-uae-complete-ip-guide-klay-consultants'
+      ? trademarkRegistrationIpGuideArticle
+      : slug === 'setting-up-a-holding-company-in-the-uae-complete-guide-klay-consultants'
+      ? settingUpUaeHoldingCompanyArticle
+      : slug === 'buying-property-in-the-uae-as-a-foreign-investor-guide-klay-consultants'
+      ? buyingPropertyInUaeForeignInvestorArticle
+      : slug === 'uae-aml-kyc-compliance-for-businesses-complete-guide-klay-consultants'
       ? uaeAmlKycComplianceArticle
       : slug === 'trademark-registration-uae-complete-guide-costs-process-klay-consultants'
       ? trademarkRegistrationUaeArticle
-      : slug === 'uae-freelance-visa-freelance-license-guide-2026-klay-consultants-2'
+      : slug === 'uae-freelance-visa-freelance-license-guide-2026-klay-consultants'
       ? uaeFreelanceVisaGuide2026Article
       : slug === 'uae-holding-company-setup-complete-guide'
       ? uaeHoldingCompanySetupArticle
