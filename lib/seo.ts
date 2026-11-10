@@ -214,12 +214,23 @@ export function getStructuredData(pathname: string): object {
   const article = BLOG_PREVIEW.find((post) => `/blog/${post.slug}` === path);
   if (article) {
     const datePublished = new Date(article.date);
+    const articleImage =
+      'imageDescription' in article
+        ? {
+            '@type': 'ImageObject',
+            url: seo.image,
+            name: article.imageTitle,
+            caption: article.imageCaption,
+            description: article.imageDescription,
+            keywords: article.imageTags.join(', '),
+          }
+        : seo.image;
     graph.push({
       '@type': 'Article',
       '@id': `${seo.canonical}#article`,
       headline: article.title,
       description: article.metaDescription,
-      image: seo.image,
+      image: articleImage,
       datePublished: Number.isNaN(datePublished.getTime()) ? undefined : datePublished.toISOString(),
       mainEntityOfPage: { '@id': `${seo.canonical}#webpage` },
       publisher: { '@id': `${SITE_ORIGIN}/#organization` },

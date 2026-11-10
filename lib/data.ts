@@ -829,6 +829,495 @@ export const FAQS = {
 
 export const BLOG_PREVIEW = [
   {
+    slug: 'the-gcc-unified-economic-agreement-and-uae-company-formation-what-gcc-nationals-should-know-before-starting-a-business',
+    title: 'The GCC Unified Economic Agreement and UAE Company Formation',
+    excerpt:
+      'Learn how the GCC Unified Economic Agreement relates to UAE company formation, regional trade and investment, and what GCC nationals should verify before setting up.',
+    date: '10 Nov 2026',
+    category: 'Blog',
+    image: '/blog-img/GCC%20Agreement%20and%20UAE%20Business%20Formation.png',
+    imageAlt: 'GCC economic integration and business formation in the UAE',
+    imageTitle: 'GCC Agreement and UAE Business Formation',
+    imageCaption:
+      'An overview of GCC economic integration and practical considerations for UAE company formation.',
+    imageDescription:
+      'Guide to the GCC Unified Economic Agreement and its relationship to UAE company formation, business ownership, trade, customs, property rights and investment.',
+    imageTags: [
+      'The GCC Unified Economic Agreement',
+      'GCC Business Setup',
+      'UAE Company Formation',
+      'UAE Business Setup for GCC Nationals',
+      'GCC Nationals',
+    ],
+    metaTitle: 'The GCC Unified Economic Agreement and UAE Company Formation',
+    metaDescription:
+      'Understand how the GCC Unified Economic Agreement affects UAE company formation, business ownership, customs, trade, property rights and investment opportunities for GCC nationals.',
+    metaKeywords:
+      'GCC Unified Economic Agreement, UAE Company Formation, GCC Business Setup, UAE Business Setup for GCC Nationals, GCC Common Market, GCC Customs Union, Dubai Company Formation, GCC Investment Opportunities, Business Setup in UAE, GCC Economic Integration',
+    focusKeyword: 'The GCC Unified Economic Agreement',
+    tags: [
+      'dubai business registration',
+      'klay consultants',
+      'Open Bank Account UAE',
+      'UAE Company Formation',
+      'UAE Company Incorporation',
+      'UAE Trade License Requirements',
+      'The GCC Unified Economic Agreement',
+      'GCC Business Setup',
+      'UAE Business Registration',
+      'GCC Nationals',
+    ],
+    audience: 'GCC nationals and businesses considering investment or company formation in the UAE',
+  },
+  {
+    slug: 'pro-services-vs-diy-what-gcc-based-business-owners-should-know-before-setting-up-in-dubai',
+    title:
+      'PRO Services vs. DIY: What GCC-Based Business Owners Should Know Before Setting Up in Dubai',
+    excerpt:
+      'Compare handling Dubai company formation yourself with using PRO services, including documentation, licensing, visa procedures, costs and GCC-specific considerations.',
+    date: '10 Nov 2026',
+    category: 'Blog',
+    image: '/blog-img/PRO%20Services%20vs%20DIY%20in%20Dubai.png',
+    imageAlt: 'Comparison of PRO services and DIY business setup in Dubai',
+    imageTitle: 'PRO Services vs DIY in Dubai',
+    imageCaption:
+      'Compare self-managed company formation with professional administrative support in Dubai.',
+    imageDescription:
+      'Guide for GCC-based business owners comparing PRO services and DIY company formation, including licensing, documents, visas and government procedures in Dubai.',
+    imageTags: [
+      'PRO Services vs DIY Dubai',
+      'PRO services Dubai',
+      'DIY business setup Dubai',
+      'Dubai company formation',
+      'GCC entrepreneurs in Dubai',
+    ],
+    metaTitle:
+      'PRO Services vs. DIY: What GCC-Based Business Owners Should Know Before Setting Up in Dubai',
+    metaDescription:
+      'Compare PRO services vs DIY Dubai business setup. Discover costs, documentation, licensing, visa procedures and how GCC entrepreneurs can simplify company formation.',
+    metaKeywords:
+      'PRO Services vs DIY Dubai, PRO services Dubai, DIY business setup Dubai, Dubai company formation, UAE business setup for GCC nationals, Dubai government documentation services, UAE business registration, Dubai trade licence, UAE visa processing, Business setup consultants Dubai, GCC entrepreneurs in Dubai',
+    focusKeyword: 'PRO Services vs DIY Dubai',
+    tags: [
+      'PRO Services vs DIY Dubai',
+      'PRO services Dubai',
+      'DIY business setup Dubai',
+      'Dubai company formation',
+      'UAE business setup for GCC nationals',
+      'Dubai government documentation services',
+      'UAE business registration',
+      'Dubai trade licence',
+      'UAE visa processing',
+      'Business setup consultants Dubai',
+      'GCC entrepreneurs in Dubai',
+    ],
+    audience: 'GCC-based entrepreneurs and business owners considering company formation in Dubai',
+  },
+  {
+    slug: 'business-setup-in-uae-2026-guide',
+    title: 'How to Set Up a Business in the UAE: Complete 2026 Guide',
+    excerpt:
+      'Learn how to set up a UAE business in 2026, from choosing a Mainland or Free Zone structure to licensing, costs, visas, banking and tax.',
+    date: '10 Nov 2026',
+    category: 'Blog',
+    image: '/blog-img/UAE%20Business%20Setup%20Guide%202026.png',
+    imageAlt: 'Complete 2026 guide to setting up a business in the UAE',
+    imageTitle: 'UAE Business Setup Guide 2026',
+    imageCaption: 'Key steps for company formation and business setup in the UAE in 2026.',
+    imageDescription:
+      'An overview of UAE company formation, Mainland and Free Zone options, trade licences, setup costs, visas, banking and tax considerations.',
+    imageTags: [
+      'Business Setup in UAE',
+      'UAE Company Formation',
+      'Dubai Business Setup',
+      'UAE Business Registration',
+      'UAE Trade Licence',
+    ],
+    metaTitle: 'How to Set Up a Business in the UAE: Complete 2026 Guide',
+    metaDescription:
+      'Learn how to complete Business Setup in UAE in 2026. Explore company formation, Mainland vs Free Zone, trade licences, costs, visas, banking and tax requirements.',
+    metaKeywords:
+      'Business Setup in UAE, UAE Company Formation, Dubai Business Setup, UAE Business Registration, Company Formation Dubai, UAE Trade Licence, Mainland Company Setup UAE, Free Zone Company Formation, UAE Business Setup Cost, Start a Business in Dubai',
+    focusKeyword: 'Business Setup in UAE',
+    tags: [
+      'Business Setup in UAE',
+      'UAE Company Formation',
+      'Dubai Business Setup',
+      'UAE Business Registration',
+      'Company Formation Dubai',
+      'UAE Trade Licence',
+      'Mainland Company Setup UAE',
+      'Free Zone Company Formation',
+      'UAE Business Setup Cost',
+      'Start a Business in Dubai',
+    ],
+    audience: 'Entrepreneurs, investors and international businesses planning UAE company formation',
+  },
+  {
+    slug: 'uae-golden-visa-2026-eligibility-cost-application-guide',
+    title: 'UAE Golden Visa Guide: Eligibility, Costs & How to Apply in 2026',
+    excerpt:
+      'Explore UAE Golden Visa eligibility routes, investment considerations, application costs and the steps to apply in 2026.',
+    date: '10 Nov 2026',
+    category: 'Blog',
+    image: '/blog-img/UAE%20Golden%20Visa%20Guide%202026.png',
+    imageAlt: 'UAE Golden Visa guide for investors, entrepreneurs and professionals',
+    imageTitle: 'UAE Golden Visa Guide 2026',
+    imageCaption: 'A practical overview of UAE Golden Visa eligibility and application steps in 2026.',
+    imageDescription:
+      'Guide to UAE Golden Visa eligibility categories, costs, supporting documents and the application process for 2026.',
+    imageTags: [
+      'UAE Golden Visa',
+      'Golden Visa eligibility UAE',
+      'UAE residence visa',
+      'Golden Visa application',
+      'UAE investors and professionals',
+    ],
+    metaTitle: 'UAE Golden Visa Guide: Eligibility, Costs & How to Apply in 2026',
+    metaDescription:
+      'Explore UAE Golden Visa eligibility, costs, investment requirements and application process in 2026. Complete guide for investors, entrepreneurs and professionals.',
+    metaKeywords:
+      'UAE Golden Visa, Golden Visa eligibility UAE, UAE Golden Visa cost, Golden Visa application UAE, UAE investor visa, UAE entrepreneur visa, UAE skilled professional visa',
+    focusKeyword: 'UAE Golden Visa',
+    tags: [
+      'UAE Golden Visa',
+      'Golden Visa eligibility UAE',
+      'UAE residence visa',
+      'UAE investor visa',
+      'UAE entrepreneur visa',
+      'Dubai visa guide',
+      'UAE visa application',
+    ],
+    audience: 'Investors, entrepreneurs, professionals, students and families considering long-term UAE residence',
+  },
+  {
+    slug: 'wills-and-foundation-uae-complete-guide-for-expats-klay-counsultants',
+    title: 'Wills and Foundation UAE: Complete Guide for Expats',
+    excerpt:
+      'Explore UAE wills and foundations for expats, including succession planning, DIFC and ADGM options, asset holding and family wealth considerations.',
+    date: '10 Nov 2026',
+    category: 'Business Setup UAE / Estate Planning UAE',
+    image: '/blog-img/UAE%20Wills%20and%20Foundations%20Guide.png',
+    imageAlt: 'Guide to UAE wills and foundations for expats and families',
+    imageTitle: 'UAE Wills and Foundations Guide',
+    imageCaption: 'An overview of wills and foundations for UAE estate and succession planning.',
+    imageDescription:
+      'Guide to UAE will registration, foundation structures, asset protection considerations and family wealth succession planning for expats.',
+    imageTags: [
+      'UAE wills for expats',
+      'DIFC Will registration',
+      'UAE foundation setup',
+      'Estate planning UAE',
+      'UAE succession planning',
+    ],
+    metaTitle: 'Wills and Foundation UAE: Complete Guide for Expats | Klay Consultants',
+    metaDescription:
+      'Explore wills and foundation UAE options for expats. Learn about DIFC wills, asset protection, inheritance planning, foundations and family wealth succession.',
+    metaKeywords:
+      'wills and foundation UAE, UAE wills for expats, DIFC Will registration, UAE foundation setup, Estate planning UAE, Asset protection UAE, UAE inheritance planning, Family wealth management UAE, UAE succession planning, Foundation for business owners UAE',
+    focusKeyword: 'wills and foundation UAE',
+    tags: [
+      'UAE wills for expats',
+      'DIFC Will registration',
+      'UAE foundation setup',
+      'Estate planning UAE',
+      'Asset protection UAE',
+      'UAE inheritance planning',
+      'Family wealth management UAE',
+      'UAE succession planning',
+      'Foundation for business owners UAE',
+    ],
+    audience: 'UAE residents, expats, business owners and families planning succession',
+  },
+  {
+    slug: 'mainland-vs-free-zone-uae-business-setup-guide',
+    title: 'Mainland vs Free Zone UAE: Which Business Setup Is Best?',
+    excerpt:
+      'Compare Mainland vs Free Zone UAE business setup options, including company formation costs, ownership, licences, visas, taxation and operating requirements.',
+    date: '10 Nov 2026',
+    category: 'Business Setup UAE',
+    image: '/blog-img/UAE%20Business%20Setup%20Comparison%20Guide.png',
+    imageAlt: 'Guide comparing UAE Mainland and Free Zone business setup options',
+    imageTitle: 'UAE Business Setup Comparison Guide',
+    imageCaption: 'Compare Mainland and Free Zone structures before choosing a UAE business setup.',
+    imageDescription:
+      'Comparison of UAE Mainland and Free Zone company formation, including licensing, ownership, market access, visas, costs and tax considerations.',
+    imageTags: [
+      'UAE Mainland vs Free Zone',
+      'Dubai business setup',
+      'UAE company formation',
+      'UAE business structures',
+    ],
+    metaTitle: 'Mainland vs Free Zone UAE: Which Business Setup Is Best?',
+    metaDescription:
+      'Compare Mainland vs Free Zone UAE business setup options. Explore company formation costs, ownership, licences, visas, taxation and business requirements.',
+    metaKeywords:
+      'mainland vs free zone UAE, UAE Mainland vs Free Zone, Mainland company formation Dubai, UAE Free Zone company setup, Offshore company UAE, Dubai business setup, UAE company formation, Mainland trade licence, Free Zone business licence, UAE business structures',
+    focusKeyword: 'mainland vs free zone UAE',
+    tags: [
+      'UAE Mainland vs Free Zone',
+      'Mainland company formation Dubai',
+      'UAE Free Zone company setup',
+      'Offshore company UAE',
+      'Dubai business setup',
+      'UAE company formation',
+      'Mainland trade licence',
+      'Free Zone business licence',
+      'UAE business structures',
+    ],
+    audience: 'Entrepreneurs comparing UAE company jurisdictions and operating models',
+  },
+  {
+    slug: 'uae-business-setup-for-us-citizens-guide',
+    title: 'UAE Business Setup for US Citizens: Complete 2026 Guide',
+    excerpt:
+      'Explore UAE business setup for US citizens in 2026, including company formation, US tax considerations, licensing, visas, banking and setup costs.',
+    date: '10 Nov 2026',
+    category: 'Business Setup UAE',
+    image: '/blog-img/UAE%20Business%20Setup%20Guide%20for%20US%20Citizens.png',
+    imageAlt: 'Guide to UAE business setup for US citizens',
+    imageTitle: 'UAE Business Setup Guide for US Citizens',
+    imageCaption: 'A practical guide to setting up a UAE business as a US citizen.',
+    imageDescription:
+      'Overview of UAE company formation for US citizens, including licensing, US tax considerations, visas, corporate banking and setup costs.',
+    imageTags: [
+      'UAE business setup for US citizens',
+      'UAE company formation for Americans',
+      'US entrepreneurs in UAE',
+      'Dubai business setup',
+    ],
+    metaTitle: 'UAE Business Setup for US Citizens: Complete 2026 Guide | Klay',
+    metaDescription:
+      'Explore UAE business setup for US citizens in 2026. Learn about company formation, US tax obligations, licensing, visas, banking and setup costs.',
+    metaKeywords:
+      'UAE business setup for US citizens, UAE company formation for Americans, Dubai business setup for US citizens, US entrepreneurs in UAE, UAE Free Zone company formation, UAE Mainland business setup, US tax obligations for UAE companies, UAE corporate bank account, Business setup Dubai 2026',
+    focusKeyword: 'UAE business setup for US citizens',
+    tags: [
+      'UAE company formation for Americans',
+      'Dubai business setup for US citizens',
+      'US entrepreneurs in UAE',
+      'UAE Free Zone company formation',
+      'UAE Mainland business setup',
+      'US tax obligations for UAE companies',
+      'UAE corporate bank account',
+      'Business setup Dubai 2026',
+    ],
+    audience: 'US citizens and American businesses considering UAE company formation',
+  },
+  {
+    slug: 'uae-business-setup-for-gcc-nationals-complete-2026-guide-klay-consultants',
+    title: 'UAE Business Setup for GCC Nationals: Complete 2026 Guide',
+    excerpt:
+      'Explore UAE business setup for GCC nationals in 2026, including company formation, Mainland and Free Zone licences, banking and key requirements.',
+    date: '10 Nov 2026',
+    category: 'Business Setup UAE',
+    image: '/blog-img/UAE%20Business%20Setup%20Guide%20for%20GCC%20Nationals.png',
+    imageAlt: 'UAE business setup guide for GCC nationals',
+    imageTitle: 'UAE Business Setup Guide for GCC Nationals',
+    imageCaption: 'A guide to company formation options for GCC entrepreneurs in the UAE.',
+    imageDescription:
+      'Overview of UAE company formation for GCC nationals, including Mainland and Free Zone setup, licensing, banking and compliance considerations.',
+    imageTags: [
+      'UAE business setup for GCC nationals',
+      'Business setup in UAE for GCC citizens',
+      'Dubai Business Setup',
+      'UAE Company Formation',
+    ],
+    metaTitle: 'UAE Business Setup for GCC Nationals: Complete 2026 Guide | Klay Consultants',
+    metaDescription:
+      'Explore UAE business setup for GCC nationals in 2026. Learn about company formation, Mainland and Free Zone licences, banking, visas and requirements.',
+    metaKeywords:
+      'UAE business setup for GCC nationals, Business setup in UAE for GCC citizens, UAE company formation for GCC nationals, Dubai business setup, GCC entrepreneurs in UAE, UAE Mainland company formation, UAE Free Zone company setup, UAE corporate bank account, Business expansion in the GCC',
+    focusKeyword: 'UAE business setup for GCC nationals',
+    tags: [
+      'UAE business setup for GCC nationals',
+      'Business setup in UAE for GCC citizens',
+      'UAE company formation for GCC nationals',
+      'Dubai business setup',
+      'GCC entrepreneurs in UAE',
+      'UAE Mainland company formation',
+      'UAE Free Zone company setup',
+      'UAE corporate bank account',
+      'Business expansion in the GCC',
+    ],
+    audience: 'GCC citizens and businesses considering expansion into the UAE',
+  },
+  {
+    slug: 'uae-corporate-tax-and-vat-guide-2026',
+    title: 'UAE Corporate Tax and VAT Guide 2026',
+    excerpt:
+      'Understand UAE Corporate Tax and VAT in 2026. Learn about tax registration, Free Zone benefits, filing deadlines and business compliance requirements.',
+    date: '10 Nov 2026',
+    category: 'Business Setup UAE',
+    image: '/blog-img/UAE%20Tax%20Guide%202026%20Infographic.png',
+    imageAlt: 'UAE Corporate Tax and VAT guide infographic for 2026',
+    imageTitle: 'UAE Tax Guide 2026 Infographic',
+    imageCaption: 'A practical overview of UAE Corporate Tax and VAT compliance in 2026.',
+    imageDescription:
+      'Infographic guide to UAE Corporate Tax and VAT, including registration, filing and business compliance considerations.',
+    imageTags: [
+      'UAE Corporate Tax',
+      'UAE VAT Registration',
+      'Federal Tax Authority UAE',
+      'UAE Tax Compliance',
+    ],
+    metaTitle: 'UAE Corporate Tax and VAT Guide 2026 | Tax Registration for Businesses | Klay Consultants',
+    metaDescription:
+      'Understand UAE Corporate Tax and VAT in 2026. Learn about tax registration, Free Zone benefits, filing deadlines and business compliance requirements.',
+    metaKeywords:
+      'UAE Corporate Tax and VAT, UAE Corporate Tax Registration, UAE VAT Registration, Corporate Tax UAE 2026, VAT Rules UAE, UAE Tax Compliance, Free Zone Corporate Tax, Federal Tax Authority UAE, Business Tax Registration Dubai',
+    focusKeyword: 'UAE Corporate Tax and VAT',
+    tags: [
+      'UAE Corporate Tax Registration',
+      'UAE VAT Registration',
+      'Corporate Tax UAE 2026',
+      'VAT Rules UAE',
+      'UAE Tax Compliance',
+      'Free Zone Corporate Tax',
+      'Federal Tax Authority UAE',
+      'Business Tax Registration Dubai',
+    ],
+    audience: 'UAE business owners planning tax registration and ongoing compliance',
+  },
+  {
+    slug: 'open-business-bank-account-uae',
+    title: 'Open a Business Bank Account in UAE: Complete 2026 Guide',
+    excerpt:
+      'Learn how to open a business bank account in UAE in 2026, prepare company documents, navigate bank checks and improve your application readiness.',
+    date: '10 Nov 2026',
+    category: 'Business Setup UAE',
+    image: '/blog-img/UAE%20Business%20Banking%20Guide%20at%20Sunset.png',
+    imageAlt: 'UAE business banking guide at sunset',
+    imageTitle: 'UAE Business Banking Guide at Sunset',
+    imageCaption: 'A practical guide to opening a UAE business bank account.',
+    imageDescription:
+      'Guide to UAE corporate banking, application documents, bank approval procedures and compliance checks.',
+    imageTags: [
+      'UAE corporate bank account',
+      'Business bank account Dubai',
+      'UAE business banking',
+      'Dubai company bank account',
+    ],
+    metaTitle: 'Open a Business Bank Account in UAE | Complete 2026 Guide | Klay Consultants',
+    metaDescription:
+      'Learn how to open a business bank account in UAE in 2026. Explore required documents, bank approval procedures, compliance checks and expert tips.',
+    metaKeywords:
+      'Open a Business Bank Account in UAE, UAE corporate bank account, Business bank account Dubai, Open corporate bank account UAE, UAE business banking requirements, Corporate bank account documents, UAE business banking, Dubai company bank account',
+    focusKeyword: 'Open a Business Bank Account in UAE',
+    tags: [
+      'UAE corporate bank account',
+      'Business bank account Dubai',
+      'Open corporate bank account UAE',
+      'UAE business banking requirements',
+      'Corporate bank account documents',
+      'UAE business banking',
+      'Dubai company bank account',
+    ],
+    audience: 'UAE company owners and founders preparing a corporate bank application',
+  },
+  {
+    slug: 'uae-trade-license-types-explained-klay-consultants',
+    title: 'UAE Trade License Types Explained',
+    excerpt:
+      'Explore UAE trade license types, including commercial, professional, industrial and tourism licenses. Understand requirements and choose the right license.',
+    date: '10 Nov 2026',
+    category: 'Business Setup UAE',
+    image: '/blog-img/UAE%20Trade%20License%20Types%20Explained.png',
+    imageAlt: 'UAE trade license types including commercial, professional and industrial licenses.',
+    imageTitle: 'UAE Trade License Types Explained',
+    imageCaption: 'Complete guide to different UAE trade license categories and business requirements.',
+    imageDescription:
+      'Learn about commercial, professional, industrial and tourism trade licenses in the UAE and understand which license is suitable for your business.',
+    imageTags: [
+      'UAE trade license types',
+      'Dubai Business Setup',
+      'UAE Company Formation',
+      'UAE Trade License Requirements',
+    ],
+    metaTitle: 'UAE Trade License Types Explained | Klay Consultants',
+    metaDescription:
+      'Explore UAE trade license types, including commercial, professional, industrial and tourism licenses. Understand requirements and choose the right license.',
+    metaKeywords:
+      'UAE trade license types, UAE commercial license, UAE professional license, UAE industrial license, Dubai trade license, UAE business license requirements, Types of business licenses in UAE, Dubai company formation',
+    focusKeyword: 'UAE trade license types',
+    tags: [
+      'UAE trade license types',
+      'UAE commercial license',
+      'UAE professional license',
+      'UAE industrial license',
+      'Dubai trade license',
+      'UAE business license requirements',
+      'Types of business licenses in UAE',
+      'Dubai company formation',
+    ],
+    audience: 'Entrepreneurs comparing UAE business activities and licensing options',
+  },
+  {
+    slug: 'uae-company-setup-cost-breakdown-2026-klay-consultants',
+    title: 'UAE Company Setup Cost Breakdown 2026',
+    excerpt:
+      'Discover the cost of setting up a company in UAE in 2026. Explore licence fees, investor visas, office costs, taxes and hidden expenses.',
+    date: '10 Nov 2026',
+    category: 'Business Setup UAE',
+    image: '/blog-img/UAE%20Company%20Setup%20Cost%20Breakdown.png',
+    imageAlt: 'Cost of setting up a company in UAE in 2026',
+    imageTitle: 'UAE Company Setup Cost Breakdown 2026',
+    imageCaption: 'Complete breakdown of UAE company formation costs in 2026.',
+    imageDescription:
+      'Guide to UAE business setup expenses, including trade licence fees, investor visas, office rental, corporate tax and registration costs.',
+    imageTags: [
+      'UAE company setup cost',
+      'cost of setting up a company in UAE',
+      'Dubai business setup',
+      'UAE company formation',
+      'Klay Consultants',
+    ],
+    metaTitle: 'UAE Company Setup Cost Breakdown 2026 | Klay Consultants',
+    metaDescription:
+      'Discover the cost of setting up a company in UAE in 2026. Explore licence fees, investor visas, office costs, taxes and hidden expenses.',
+    metaKeywords:
+      'cost of setting up a company in UAE, UAE company setup cost 2026, Dubai company formation cost, UAE business setup fees, Free Zone company setup cost, Mainland company setup cost, UAE trade licence fees',
+    focusKeyword: 'cost of setting up a company in UAE',
+    tags: [
+      'UAE Company Formation',
+      'Dubai Business Setup',
+      'Klay Consultants',
+      'UAE Business Setup Cost',
+      'Company Formation Cost 2026',
+      'Dubai Company Setup',
+      'Business License UAE',
+      'Free Zone Company',
+      'Mainland Company Setup',
+    ],
+    audience: 'Entrepreneurs comparing UAE company formation options and costs',
+  },
+  {
+    slug: 'dubai-mainland-business-license-guide-klay-consultants',
+    title: 'Dubai Mainland Business License Guide',
+    excerpt:
+      'Learn how to obtain a Dubai mainland business license, including DET approval, company formation steps, costs, documents and visa requirements.',
+    date: '10 Nov 2026',
+    category: 'Business Setup UAE',
+    image: '/blog-img/Dubai%20Mainland%20Business%20License%20Guide%20(2).png',
+    imageAlt: 'Dubai mainland business license guide with Dubai cityscape',
+    imageTitle: 'Dubai Mainland Business License Guide',
+    metaTitle: 'Dubai Mainland Business License Guide | Klay Consultants',
+    metaDescription:
+      'Learn how to obtain a Dubai mainland business license, including DET approval, company formation steps, costs, documents and visa requirements.',
+    metaKeywords:
+      'Dubai mainland business license, Dubai mainland company formation, Dubai business licence, DET business license, Mainland company setup Dubai, Dubai trade license, Business setup in Dubai',
+    focusKeyword: 'Dubai mainland business license',
+    tags: [
+      'Dubai mainland business license',
+      'Dubai mainland company formation',
+      'Dubai business setup',
+      'DET license',
+      'UAE trade license',
+      'Mainland company Dubai',
+    ],
+    audience: 'Entrepreneurs and investors planning a Dubai mainland company',
+  },
+  {
     slug: 'uae-offshore-company-formation-rak-icc-vs-jafza-klay-consultants',
     title: 'UAE Offshore Company Formation: RAK ICC vs JAFZA',
     excerpt:
@@ -1445,328 +1934,6 @@ export const BLOG_PREVIEW = [
     metaDescription:
       'Why UAE founders need a shareholder agreement, including key clauses, exit rights, deadlock solutions, valuation methods, and dispute prevention.',
     metaKeywords: 'shareholder agreement UAE, UAE company formation, UAE founders, shareholder disputes, business partners UAE',
-    audience: 'Founders, co-founders and investors',
-  },
-  {
-    slug: 'can-foreigners-own-100-percent-of-a-uae-business',
-    title: 'Can Foreigners Own 100% of a UAE Business? Ownership Rules Explained',
-    excerpt:
-      'A practical guide to 100% foreign ownership in the UAE, covering Mainland and Free Zone rules, restricted activities, and how to avoid outdated sponsor arrangements.',
-    date: '6 Nov 2025',
-    category: 'Business Setup',
-    image: 'https://images.pexels.com/photos/3184435/pexels-photo-3184435.jpeg?auto=compress&cs=tinysrgb&w=940',
-    metaTitle: 'Can Foreigners Own 100% of a UAE Business? Ownership Rules Explained | Klay Consultants',
-    metaDescription:
-      'Can foreigners own 100% of a company in the UAE? How ownership rules work for Mainland and Free Zone companies, what is still restricted, and whether you need a local sponsor.',
-    metaKeywords: '100% foreign ownership UAE, UAE ownership rules, Mainland vs Free Zone ownership, UAE business setup',
-    audience: 'UK / EU / US / GCC founders',
-  },
-  {
-    slug: 'profitable-business-ideas-uae-2026',
-    title: 'Most Profitable Business Ideas to Start in the UAE in 2026',
-    excerpt:
-      'Explore trending UAE business ideas for 2026, from e-commerce and technology to wellness and consulting, with licensing routes and key risks to consider.',
-    date: '6 Nov 2026',
-    category: 'Business Ideas',
-    image: 'https://images.pexels.com/photos/3184435/pexels-photo-3184435.jpeg?auto=compress&cs=tinysrgb&w=940',
-    metaTitle: 'Most Profitable Business Ideas to Start in the UAE in 2026 | Klay Consultants',
-    metaDescription:
-      'Trending business ideas in the UAE for 2026, from e-commerce and tech to wellness and consulting, with the licence route and key risks for each.',
-    metaKeywords: 'profitable business ideas in UAE, business ideas UAE 2026, start a business in Dubai, UAE business setup',
-    audience: 'UK / EU / US / GCC aspiring founders',
-  },
-  {
-    slug: 'set-up-uae-company-remotely',
-    title: 'Can You Set Up a UAE Company Remotely? A Guide for Non-Residents',
-    excerpt:
-      'A practical guide to setting up a UAE company from abroad, including what can be done remotely, when you may need to visit, and how to prepare your documents.',
-    date: '6 Nov 2026',
-    category: 'Business Setup',
-    image: 'https://images.pexels.com/photos/3184435/pexels-photo-3184435.jpeg?auto=compress&cs=tinysrgb&w=940',
-    metaTitle: 'Can You Set Up a UAE Company Remotely? Non-Resident Guide | Klay Consultants',
-    metaDescription:
-      'Can you start a UAE company without moving there? What can be done remotely, what needs you in person, and how to prepare your documents.',
-    metaKeywords: 'set up UAE company remotely, remote UAE company setup, UAE company non-resident, start UAE company from abroad',
-    audience: 'Non-resident founders in the UK / EU / US / GCC',
-  },
-  {
-    slug: 'tech-startup-setup-uae',
-    title: 'Starting a Tech or AI Startup in the UAE: Licences, Free Zones and Funding',
-    excerpt:
-      'A guide to setting up a UAE tech or AI startup, covering licence options, startup-focused hubs, funding, visas and founder compliance.',
-    date: '6 Nov 2026',
-    category: 'Technology',
-    image: 'https://images.pexels.com/photos/3184435/pexels-photo-3184435.jpeg?auto=compress&cs=tinysrgb&w=940',
-    metaTitle: 'Starting a Tech or AI Startup in the UAE: Licences & Free Zones | Klay Consultants',
-    metaDescription:
-      'How to set up a tech or AI startup in the UAE: licence options, startup-focused free zones, funding routes, visas and compliance for founders.',
-    metaKeywords: 'tech startup setup UAE, AI startup UAE, UAE technology licence, UAE startup free zones, tech company setup Dubai',
-    audience: 'Tech and AI founders in the UK / EU / US / GCC',
-  },
-  {
-    slug: 'mainland-vs-freezone-2025',
-    title: 'Mainland vs Free Zone: Which UAE Setup Is Right for You in 2025?',
-    excerpt:
-      'A practical comparison of Mainland and Free Zone company setups, covering ownership, costs, visas, and market access to help you choose the right structure.',
-    date: '15 Oct 2025',
-    category: 'Business Setup',
-    image: 'https://images.pexels.com/photos/1488520/pexels-photo-1488520.jpeg?auto=compress&cs=tinysrgb&w=940',
-    metaTitle: 'Mainland vs Free Zone UAE: How to Choose | Klay Consultants',
-    metaDescription:
-      'Compare Mainland and Free Zone company setup in the UAE to understand ownership, cost, visas, market access and licence options before you decide.',
-    metaKeywords: 'Mainland vs Free Zone UAE, UAE business setup comparison, UAE LLC vs Free Zone, Mainland company setup',
-    audience: 'New founders and investors',
-  },
-  {
-    slug: 'golden-visa-eligible-categories',
-    title: 'Golden Visa UAE: A Complete Guide to Eligibility Categories',
-    excerpt:
-      'Everything you need to know about the UAE Golden Visa, from investors and entrepreneurs to skilled professionals and special talents.',
-    date: '8 Oct 2025',
-    category: 'Golden Visa',
-    image: 'https://images.pexels.com/photos/8061942/pexels-photo-8061942.jpeg?auto=compress&cs=tinysrgb&w=940',
-    metaTitle: 'UAE Golden Visa: Eligibility Categories | Klay Consultants',
-    metaDescription:
-      'Explore UAE Golden Visa categories including investors, entrepreneurs, skilled professionals and exceptional talents, plus what applicants need to prepare.',
-    metaKeywords: 'UAE Golden Visa, Golden Visa categories, UAE investor visa, entrepreneur visa UAE',
-    audience: 'Investors, professionals and founders',
-  },
-  {
-    slug: 'dubai-wills-for-non-muslims',
-    title: 'Dubai Wills for Non-Muslims: Protecting Your Family Assets',
-    excerpt:
-      'How DIFC Wills help non-Muslim residents in the UAE protect their assets and ensure their wishes are carried out.',
-    date: '1 Oct 2025',
-    category: 'Wills & Foundations',
-    image: 'https://images.pexels.com/photos/5668512/pexels-photo-5668512.jpeg?auto=compress&cs=tinysrgb&w=940',
-    metaTitle: 'Dubai Wills for Non-Muslims | Klay Consultants',
-    metaDescription:
-      'Learn how Dubai Wills can help non-Muslims protect family assets, control inheritance and plan estate matters in the UAE.',
-    metaKeywords: 'Dubai Wills, UAE estate planning, DIFC will, non-Muslim will in Dubai',
-    audience: 'Expats and families',
-  },
-  {
-    slug: 'uae-business-setup-costs-2025',
-    title: 'UAE Business Setup Costs in 2025: What Entrepreneurs Need to Budget For',
-    excerpt:
-      'A breakdown of the main setup costs in the UAE, from licensing and visas to office space, bank accounts and ongoing compliance.',
-    date: '28 Sep 2025',
-    category: 'Business Setup',
-    image: 'https://images.pexels.com/photos/3760067/pexels-photo-3760067.jpeg?auto=compress&cs=tinysrgb&w=940',
-    metaTitle: 'UAE Business Setup Costs: 2025 Guide | Klay Consultants',
-    metaDescription:
-      'Understand the primary costs of setting up a business in the UAE, including licences, visas, office requirements, banking and compliance.',
-    metaKeywords: 'UAE company formation cost, Dubai setup budget, business cost UAE, Mainland setup cost',
-    audience: 'Startups and SMEs',
-  },
-  {
-    slug: 'how-to-choose-uae-free-zone',
-    title: 'How to Choose the Right UAE Free Zone for Your Business',
-    excerpt:
-      'Compare the leading UAE Free Zones by activity, visa quota, cost and operational flexibility before choosing where to incorporate.',
-    date: '20 Sep 2025',
-    category: 'Free Zones',
-    image: 'https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=940',
-    metaTitle: 'Choose a UAE Free Zone for Your Business | Klay Consultants',
-    metaDescription:
-      'Choose the best UAE Free Zone for your business by comparing costs, licensing, visa quotas, activity rules and operational flexibility.',
-    metaKeywords: 'UAE Free Zone, choose Free Zone UAE, Free Zone company setup, business licensing UAE',
-    audience: 'Entrepreneurs and international founders',
-  },
-  {
-    slug: 'golden-visa-investor-requirements',
-    title: 'Golden Visa Investor Requirements: What You Need to Qualify',
-    excerpt:
-      'Learn how the UAE Golden Visa investment route works, what evidence is required and how to build a stronger application package.',
-    date: '12 Sep 2025',
-    category: 'Golden Visa',
-    image: 'https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=940',
-    metaTitle: 'Golden Visa Investor Requirements in the UAE | Klay Consultants',
-    metaDescription:
-      'Find out what the UAE Golden Visa investor route requires, how investment criteria are measured and which documents are typically needed.',
-    metaKeywords: 'Golden Visa investor requirements, UAE investor visa requirements, UAE residency by investment',
-    audience: 'Investors and family office clients',
-  },
-  {
-    slug: 'uae-corporate-tax-for-startups',
-    title: 'UAE Corporate Tax for Startups: What New Founders Need to Know',
-    excerpt:
-      'A straightforward guide to UAE corporate tax registration, reporting obligations and the practical compliance steps startups should plan for.',
-    date: '4 Sep 2025',
-    category: 'Tax & Compliance',
-    image: 'https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=940',
-    metaTitle: 'UAE Startup Corporate Tax Guide | Klay Consultants',
-    metaDescription:
-      'Learn the essentials of UAE corporate tax for startups, including registration, compliance obligations and the financial considerations new founders should plan for.',
-    metaKeywords: 'UAE corporate tax for startups, UAE tax registration, startup tax compliance, business tax UAE',
-    audience: 'Founders and finance leads',
-  },
-  {
-    slug: 'employee-visa-process-uae',
-    title: 'UAE Employee Visa Process: From Offer Letter to Emirates ID',
-    excerpt:
-      'A step-by-step look at the UAE work visa process, timelines and documentation needed for employers and employees alike.',
-    date: '25 Aug 2025',
-    category: 'Visa Services',
-    image: 'https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=940',
-    metaTitle: 'UAE Employee Visa Process | Klay Consultants',
-    metaDescription:
-      'Follow the UAE employee visa process from offer letter and sponsorship through medical checks, biometrics and Emirates ID registration.',
-    metaKeywords: 'UAE employee visa process, work visa UAE, Emirates ID UAE, visa sponsorship UAE',
-    audience: 'Employers and employees',
-  },
-  {
-    slug: 'uae-business-bank-account-guide',
-    title: 'Opening a UAE Business Bank Account: A Practical Guide',
-    excerpt:
-      'From KYC documentation to choosing the right bank, here is how founders can prepare for a smoother UAE corporate banking process.',
-    date: '18 Aug 2025',
-    category: 'Banking',
-    image: 'https://images.pexels.com/photos/3943727/pexels-photo-3943727.jpeg?auto=compress&cs=tinysrgb&w=940',
-    metaTitle: 'UAE Business Bank Account Guide | Klay Consultants',
-    metaDescription:
-      'Learn how to open a UAE business bank account with the right documentation, compliance preparation and bank selection strategy for your company.',
-    metaKeywords: 'UAE business bank account, corporate bank account UAE, UAE bank account opening, business banking UAE',
-    audience: 'Founders and finance teams',
-  },
-  {
-    slug: 'uae-company-formation-process',
-    title: 'The UAE Company Formation Process: What to Expect from Start to Finish',
-    excerpt:
-      'A clear overview of the UAE company formation journey, from activity selection and licence type to approvals, visa processing and banking readiness.',
-    date: '10 Aug 2025',
-    category: 'Business Setup',
-    image: 'https://images.pexels.com/photos/1427748/pexels-photo-1427748.jpeg?auto=compress&cs=tinysrgb&w=940',
-    metaTitle: 'UAE Company Formation Process Explained | Klay Consultants',
-    metaDescription:
-      'Understand the UAE company formation process step by step, from choosing the right structure to licensing, visa processing and opening a corporate bank account.',
-    metaKeywords: 'UAE company formation process, business registration UAE, company setup Dubai, trading licence UAE',
-    audience: 'New and relocating founders',
-  },
-  {
-    slug: 'mainland-vs-freezone-vs-offshore',
-    title: 'Mainland vs Free Zone vs Offshore: Which UAE Structure Fits Your Business?',
-    excerpt:
-      'Compare Mainland, Free Zone and Offshore structures to find the UAE jurisdiction that supports your business model, market access and ownership goals.',
-    date: '2 Aug 2025',
-    category: 'Jurisdiction',
-    image: 'https://images.pexels.com/photos/380769/pexels-photo-380769.jpeg?auto=compress&cs=tinysrgb&w=940',
-    metaTitle: 'Mainland vs Free Zone vs Offshore in the UAE | Klay Consultants',
-    metaDescription:
-      'Compare Mainland, Free Zone and Offshore company structures in the UAE to understand licensing, market access, ownership and operational differences.',
-    metaKeywords: 'Mainland vs Free Zone vs Offshore UAE, UAE business structure, offshore company UAE, company structure options',
-    audience: 'Founders evaluating jurisdiction',
-  },
-  {
-    slug: 'uae-business-license-types',
-    title: 'UAE Business License Types Explained: Which One Do You Need?',
-    excerpt:
-      'Learn how the different UAE business license categories work and how to match the right licence to your activity, business model and market goals.',
-    date: '24 Jul 2025',
-    category: 'Licensing',
-    image: 'https://images.pexels.com/photos/1595391/pexels-photo-1595391.jpeg?auto=compress&cs=tinysrgb&w=940',
-    metaTitle: 'UAE Business License Types Explained | Klay Consultants',
-    metaDescription:
-      'Explore the different UAE business license types and choose the correct one for your company activity, ownership model and market strategy.',
-    metaKeywords: 'UAE business licence types, trade license UAE, professional license UAE, commercial license UAE',
-    audience: 'Company founders and investors',
-  },
-  {
-    slug: 'free-zone-vs-mainland-visa-rules',
-    title: 'Free Zone vs Mainland Visa Rules in the UAE: What Changes for Your Team?',
-    excerpt:
-      'Understand how visa eligibility, employment rules and sponsor conditions differ between UAE Free Zones and Mainland company structures.',
-    date: '16 Jul 2025',
-    category: 'Visas',
-    image: 'https://images.pexels.com/photos/3184398/pexels-photo-3184398.jpeg?auto=compress&cs=tinysrgb&w=940',
-    metaTitle: 'Free Zone vs Mainland Visa Rules in the UAE | Klay Consultants',
-    metaDescription:
-      'Compare UAE Free Zone and Mainland visa rules to understand sponsorship, employee eligibility and the practical differences for your business.',
-    metaKeywords: 'UAE visa rules, Free Zone visa rules, Mainland visa UAE, business visa comparison',
-    audience: 'Teams and HR managers',
-  },
-  {
-    slug: 'offshore-company-uae-guide',
-    title: 'UAE Offshore Company Guide: When It Makes Sense and When It Does Not',
-    excerpt:
-      'Discover how UAE offshore companies are used for asset holding, international trade and structuring, and the limits of what they can do locally.',
-    date: '8 Jul 2025',
-    category: 'Offshore',
-    image: 'https://images.pexels.com/photos/3769021/pexels-photo-3769021.jpeg?auto=compress&cs=tinysrgb&w=940',
-    metaTitle: 'UAE Offshore Company Guide | Klay Consultants',
-    metaDescription:
-      'Understand when a UAE offshore company is the right structure for your international business, asset holding or holding company plans.',
-    metaKeywords: 'UAE offshore company, offshore company setup UAE, UAE holding company, international business structuring',
-    audience: 'Investors and international founders',
-  },
-  {
-    slug: 'uae-trademark-registration-process',
-    title: 'Trademark Registration in the UAE: How to Protect Your Brand',
-    excerpt:
-      'A practical overview of the UAE trademark registration journey, from search and filing to approval, publication and renewals.',
-    date: '1 Jul 2025',
-    category: 'IP & Branding',
-    image: 'https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=940',
-    metaTitle: 'UAE Trademark Registration Guide | Klay Consultants',
-    metaDescription:
-      'Learn how to register a trademark in the UAE, protect your brand and navigate the process with clarity from search to final registration.',
-    metaKeywords: 'UAE trademark registration, brand protection UAE, trademark filing UAE, IP registration Dubai',
-    audience: 'Brand owners and founders',
-  },
-  {
-    slug: 'uae-resident-visa-options',
-    title: 'UAE Resident Visa Options: Which Route Fits Your Situation?',
-    excerpt:
-      'Explore the main UAE resident visa pathways for founders, investors, employees and family members and how each route differs in practice.',
-    date: '20 Jun 2025',
-    category: 'Residency',
-    image: 'https://images.pexels.com/photos/2103099/pexels-photo-2103099.jpeg?auto=compress&cs=tinysrgb&w=940',
-    metaTitle: 'UAE Resident Visa Options Explained | Klay Consultants',
-    metaDescription:
-      'Compare the main UAE resident visa routes available to founders, investors, employees and family members and choose the right path for your circumstances.',
-    metaKeywords: 'UAE resident visa, Dubai visa options, investor visa UAE, family visa UAE',
-    audience: 'Expats and business owners',
-  },
-  {
-    slug: 'uae-vat-registration-guide',
-    title: 'UAE VAT Registration: A Practical Guide for Businesses',
-    excerpt:
-      'Learn when UAE businesses need to register for VAT, what records to prepare and how to manage ongoing filing responsibilities.',
-    date: '12 Jun 2025',
-    category: 'Tax & Compliance',
-    image: 'https://images.pexels.com/photos/6863183/pexels-photo-6863183.jpeg?auto=compress&cs=tinysrgb&w=940',
-    metaTitle: 'UAE VAT Registration Guide for Businesses | Klay Consultants',
-    metaDescription:
-      'Understand UAE VAT registration, the information businesses should prepare and the key filing and record-keeping responsibilities to plan for.',
-    metaKeywords: 'UAE VAT registration, VAT UAE business, UAE VAT filing, VAT compliance Dubai',
-    audience: 'UAE business owners and finance teams',
-  },
-  {
-    slug: 'uae-branch-office-setup',
-    title: 'Opening a Branch Office in the UAE: Key Steps and Considerations',
-    excerpt:
-      'Explore how an overseas company can establish a UAE branch, including licensing, documents, local representation and ongoing obligations.',
-    date: '4 Jun 2025',
-    category: 'Business Setup',
-    image: 'https://images.pexels.com/photos/325185/pexels-photo-325185.jpeg?auto=compress&cs=tinysrgb&w=940',
-    metaTitle: 'UAE Branch Office Setup | Klay Consultants',
-    metaDescription:
-      'Review the main requirements for opening a UAE branch office, from parent-company documents and approvals to licensing and local compliance.',
-    metaKeywords: 'UAE branch office setup, foreign company branch UAE, Dubai branch registration, UAE business expansion',
-    audience: 'International companies expanding to the UAE',
-  },
-  {
-    slug: 'uae-shareholder-agreement-guide',
-    title: 'Shareholder Agreements in the UAE: What Founders Should Consider',
-    excerpt:
-      'Understand how a shareholder agreement can clarify roles, decision-making, ownership transfers and dispute resolution between business partners.',
-    date: '27 May 2025',
-    category: 'Business Advisory',
-    image: 'https://images.pexels.com/photos/3184325/pexels-photo-3184325.jpeg?auto=compress&cs=tinysrgb&w=940',
-    metaTitle: 'UAE Shareholder Agreement Guide | Klay Consultants',
-    metaDescription:
-      'Learn what founders should consider in a UAE shareholder agreement, including governance, share transfers, responsibilities and dispute processes.',
-    metaKeywords: 'UAE shareholder agreement, shareholders agreement Dubai, UAE business partners, company governance UAE',
     audience: 'Founders, co-founders and investors',
   },
 ] as const;
