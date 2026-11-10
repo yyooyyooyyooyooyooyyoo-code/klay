@@ -54,6 +54,523 @@ type LongFormArticle = {
   relatedLinks: readonly { href: string; label: string }[];
 };
 
+const uaeCompanyFormationMistakesArticle: LongFormArticle = {
+  introduction:
+    'Company formation in the UAE involves decisions about business activities, jurisdiction, legal form, premises, banking and ongoing obligations. A choice that looks inexpensive or quick at the outset can create delays or extra work if it does not fit the real business model. Rules differ by emirate, Free Zone, activity and individual circumstances, so verify current requirements with the competent authority and qualified advisers before committing funds.',
+  sections: [
+    {
+      heading: '1. Choosing a Licence Before Defining the Business',
+      paragraphs: [
+        'A common mistake is selecting a package or licence category before clearly describing the products, services, customers and operating locations. Authorities approve specific activities, and regulated work may need additional permissions. A broad-sounding licence should not be assumed to cover every activity.',
+        'Write down how the business will earn revenue, who it will serve, where work will be performed and whether it will import, export, employ staff or handle regulated products. Match this scope to the authority’s activity list and confirm any restrictions before applying.',
+      ],
+    },
+    {
+      heading: '2. Selecting Mainland or Free Zone Based Only on Price',
+      paragraphs: [
+        'Comparing only the advertised first-year fee can lead to a structure that does not suit the company’s customers or operations. Mainland and Free Zone jurisdictions differ in licensing, premises, permitted activities, visa arrangements and how a company may conduct business in other parts of the UAE.',
+        'Compare the complete requirements and recurring costs for the exact activity. Consider customer location, contracts, supplier relationships, office needs, hiring plans, expansion and any available branch or dual-licence routes. Confirm the rules with the relevant authority rather than relying on generic claims.',
+      ],
+    },
+    {
+      heading: '3. Overlooking Ownership and Legal-Form Requirements',
+      paragraphs: [
+        'Foreign ownership is available for many UAE activities, but it should not be presumed identical across every activity, legal form and jurisdiction. Owners may also need to consider governance, manager authority, capital requirements and any sector-specific conditions.',
+        'Confirm eligibility and the required documents for each shareholder before filing. Where there are multiple owners, agree decision-making, transfer, funding and exit arrangements and make sure the constitutional documents accurately reflect the intended structure.',
+      ],
+    },
+    {
+      heading: '4. Underestimating Documents, Approvals and Timelines',
+      paragraphs: [
+        'Applications can be delayed by incomplete or inconsistent documents, name issues, missing signatures, attestations or external approvals. Overseas corporate shareholders may have additional document and legalisation requirements. The exact checklist depends on the authority and case.',
+        'Use the current authority checklist, confirm document format and validity, and identify any approval dependencies early. Do not book a firm launch date or make irreversible commitments based on an assumed standard processing time.',
+      ],
+    },
+    {
+      heading: '5. Treating a Licence as a Guaranteed Bank Account',
+      paragraphs: [
+        'Incorporation and bank onboarding are separate processes. Banks conduct independent due diligence and may assess the owners, source of funds, business model, expected transactions, counterparties and supporting contracts. A valid trade licence does not guarantee account approval or a specific timeline.',
+        'Prepare a clear business profile and consistent supporting evidence, including ownership information, source-of-funds records and realistic transaction expectations. Choose a company structure and activity that genuinely reflect how the business will operate.',
+      ],
+    },
+    {
+      heading: '6. Forgetting Tax Registration and Filing Obligations',
+      paragraphs: [
+        'Another costly mistake is assuming that incorporation, a Free Zone licence or a low initial turnover automatically removes all tax responsibilities. Corporate tax and VAT registration, returns, record keeping and payment obligations depend on applicable rules and the company’s circumstances.',
+        'Assess tax obligations early with a qualified tax adviser. Track relevant thresholds and deadlines, maintain suitable accounting records and confirm whether any tax relief or special treatment applies to the specific entity and income rather than assuming it does.',
+      ],
+    },
+    {
+      heading: '7. Budgeting Only for Formation Fees',
+      paragraphs: [
+        'A low setup quote may not include all authority charges, premises, immigration processing, external approvals or professional services. Costs continue after incorporation and can include renewals, accounting, insurance, tax compliance, staff and banking administration.',
+      ],
+      bulletList: [
+        'Licence, incorporation, activity and renewal charges.',
+        'Office, flexi-desk or other permitted premises and related registrations.',
+        'External approvals, document attestation, translation and professional fees.',
+        'Immigration, establishment, visa, medical and identity processing where applicable.',
+        'Accounting, tax registrations, returns, record keeping and audit needs where applicable.',
+        'Insurance, staffing, operational expenses and future amendments.',
+      ],
+    },
+    {
+      heading: '8. Misjudging Visa and Premises Needs',
+      paragraphs: [
+        'Visa eligibility and allocation are not necessarily identical across jurisdictions or licence packages. Requirements may depend on the authority, facility, immigration rules and the company’s status. Do not assume a particular office arrangement or licence guarantees a fixed visa quota.',
+        'Estimate staffing and residency needs realistically, and verify eligibility, facility requirements and current processes with the relevant authority before choosing a package.',
+      ],
+    },
+    {
+      heading: '9. Neglecting Renewals and Ongoing Compliance',
+      paragraphs: [
+        'Formation is the start of the company’s obligations, not the end. Licences and premises may need renewal, and the business may have ongoing tax, accounting, employment, immigration, beneficial ownership or sector-specific requirements.',
+        'Assign responsibility for each obligation, keep company and transaction records, monitor deadlines and update the authority when required details change. Requirements depend on the company and applicable rules, so get advice that is specific to the business.',
+      ],
+    },
+    {
+      heading: 'A Simple Pre-Formation Review',
+      bulletList: [
+        'Confirm the business model, activities, customers and operating locations.',
+        'Compare jurisdictions and legal forms against actual needs and total recurring costs.',
+        'Verify ownership, premises, approval, banking and visa requirements.',
+        'Prepare consistent shareholder documents and an evidence-based business profile.',
+        'Plan for corporate tax, VAT, accounting, renewals and other ongoing duties.',
+        'Keep written confirmation of material requirements and assumptions before committing.',
+      ],
+    },
+  ],
+  faqs: [
+    {
+      question: 'What is the most common UAE company formation mistake?',
+      answer:
+        'Choosing a licence or jurisdiction before defining the actual activities and operating model is a frequent source of mismatch. Start with the business requirements and confirm the authority’s rules for that exact activity.',
+    },
+    {
+      question: 'Does a UAE trade licence guarantee a business bank account?',
+      answer:
+        'No. Banks make independent onboarding decisions and conduct their own due diligence. A company should prepare clear ownership, source-of-funds and business-activity information.',
+    },
+    {
+      question: 'Is Free Zone setup always cheaper than Mainland setup?',
+      answer:
+        'Not necessarily. The total cost depends on the authority, activities, premises, approvals, visas, ongoing renewals and the company’s operating needs. Compare itemised first-year and recurring costs.',
+    },
+    {
+      question: 'Do UAE companies need corporate tax registration?',
+      answer:
+        'Corporate tax obligations depend on applicable UAE rules and the company’s circumstances. Companies should assess registration, filing, payment and record-keeping requirements with a qualified tax adviser.',
+    },
+    {
+      question: 'Can I choose a broad licence to cover future activities?',
+      answer:
+        'Only activities approved by the licensing authority are authorised. Confirm the exact activities needed and the process for adding new ones; do not assume a general licence covers unlisted work.',
+    },
+    {
+      question: 'How can I avoid unexpected company setup costs?',
+      answer:
+        'Request an itemised quotation for the chosen authority, activities and premises. Include renewals, approvals, visas, accounting, tax compliance, insurance and likely amendments in the budget.',
+    },
+    {
+      question: 'Can I rely on a standard setup timeline?',
+      answer:
+        'Timelines vary by authority, activity, document readiness and external approvals. Confirm current estimates for the specific application and avoid commitments that depend on an unverified completion date.',
+    },
+  ],
+  cta:
+    'A careful review before incorporation can help align licensing, company structure, banking preparation and compliance with your real business plan. Klay Consultants can help you understand the available UAE setup options and coordinate formation steps. Confirm legal, tax, banking and immigration requirements with the competent authorities and qualified professionals for your circumstances.',
+  disclaimer:
+    'This article is for general information only and is not legal, tax, immigration, banking or financial advice. Company formation, licensing, ownership, banking and compliance requirements vary by emirate, Free Zone, activity and applicant and may change. Verify current requirements, fees and timelines with the competent authorities and qualified advisers.',
+  relatedLinks: [
+    { href: '/blog/uae-company-incorporation-process-2026', label: 'UAE company incorporation process for 2026' },
+    { href: '/blog/free-zone-vs-mainland-uae-company-setup-which-is-better', label: 'Free Zone vs Mainland UAE company setup' },
+    { href: '/blog/uae-company-setup-cost-breakdown-2026-klay-consultants', label: 'UAE company setup cost breakdown' },
+  ],
+};
+
+const uaeCompanyIncorporationProcess2026Article: LongFormArticle = {
+  introduction:
+    'The UAE company incorporation process in 2026 starts with defining what the business will do and where it will operate. Those choices shape the legal form, licensing authority, approvals, premises, visa eligibility and ongoing obligations. Mainland and Free Zone routes each have different rules, and requirements can vary by emirate, authority and activity. Treat incorporation as a sequence of connected decisions rather than a licence-only transaction, and verify current requirements with the competent authority before making commitments.',
+  sections: [
+    {
+      heading: '1. Define the Business Activities',
+      paragraphs: [
+        'List the products or services the company will provide, how it will earn revenue and whether it will import, export, manufacture, employ specialists or serve customers inside the UAE. Authorities use activity descriptions and codes to determine which licence and approvals apply.',
+        'Check whether activities are restricted, regulated or require external approval. Add all activities needed for the planned business model at the outset; a licence should not be assumed to cover work outside its approved scope.',
+      ],
+    },
+    {
+      heading: '2. Choose Mainland or Free Zone',
+      paragraphs: [
+        'A Mainland company is generally licensed by the relevant emirate authority and may suit businesses that need a UAE onshore presence or particular local-market arrangements. A Free Zone company is licensed by its chosen zone and may offer a jurisdiction and package aligned to particular sectors or operating needs. Neither route is automatically best for every investor.',
+        'Compare the permitted activities, ownership and legal forms, premises rules, customer and supplier locations, branch or dual-licence options, visa allocation, renewal costs and practical ability to perform contracts. A Free Zone licence does not by itself mean unrestricted direct sales or operations in every part of the UAE.',
+      ],
+    },
+    {
+      heading: '3. Select the Legal Form and Ownership',
+      paragraphs: [
+        'The appropriate legal form depends on the activity, number and type of owners, authority rules and whether the business is an operating company, branch or another permitted entity. Confirm foreign ownership eligibility for the exact activity and jurisdiction rather than relying on general statements about ownership.',
+        'Agree shareholder roles, capital arrangements, management authority and decision-making before filing. Where there are multiple owners, have the constitutional documents and any shareholders’ agreement reviewed so that governance, transfers and exit arrangements are clear.',
+      ],
+    },
+    {
+      heading: '4. Reserve a Trade Name and Obtain Initial Approvals',
+      paragraphs: [
+        'Submit proposed trade names that meet the authority’s naming rules and are available for reservation. The authority may request initial information about the owners, manager, activity, legal form and proposed location before allowing the application to proceed.',
+        'Some activities require approval from another regulator or government body. Identify these dependencies early because they can affect the sequence, supporting documents and timeline.',
+      ],
+    },
+    {
+      heading: '5. Prepare Documents and Secure Premises',
+      paragraphs: [
+        'Commonly requested documents include identity and contact information for owners and managers, application forms and details of the proposed activity. Depending on the case, authorities may also request a business plan, resolutions, parent-company records, notarised or legalised documents, or evidence of address. Requirements differ, so use the authority’s current checklist.',
+        'Choose an office, flexi-desk or other permitted facility that satisfies the selected jurisdiction’s rules and the company’s actual needs. Confirm lease, registration, inspection and visa-related requirements before paying deposits or signing a long-term commitment.',
+      ],
+    },
+    {
+      heading: '6. Complete Registration and Obtain the Licence',
+      paragraphs: [
+        'Once the application, approvals and premises requirements are satisfied, complete the authority’s incorporation and licensing formalities. This may include signing constitutional documents, paying government and service fees, registering the company and receiving its licence and incorporation records.',
+        'Review every issued document for the correct legal name, activities, owners, manager and licence validity. Keep digital and physical copies accessible and note renewal dates and any conditions attached to the licence.',
+      ],
+      list: [
+        'Define the activity and identify any regulated or restricted work.',
+        'Select the jurisdiction, legal form and ownership structure.',
+        'Reserve a compliant trade name and obtain initial approvals.',
+        'Prepare owner and company documents and secure eligible premises.',
+        'Complete external approvals, registration formalities and fee payments.',
+        'Receive the licence and confirm its activities, conditions and renewal date.',
+      ],
+    },
+    {
+      heading: '7. Plan Banking, Visas and Tax Registration',
+      paragraphs: [
+        'Company incorporation and bank account approval are separate processes. Banks conduct their own due diligence and may request information on owners, source of funds, business activity, expected transactions, customers, suppliers and contracts. A licence does not guarantee account opening; prepare a coherent, well-supported application.',
+        'Visa eligibility and quota depend on the jurisdiction, facility, company status and applicable immigration rules. Confirm current requirements before promising a particular number of visas. Assess corporate tax, VAT and other registration or filing obligations based on the company’s activities, income and circumstances; incorporation does not automatically make a business exempt.',
+      ],
+    },
+    {
+      heading: '8. Budget for Setup and Ongoing Compliance',
+      paragraphs: [
+        'There is no single UAE incorporation price or standard timeline for every company. Obtain an itemised quotation for the chosen authority, activity and facility, and distinguish one-time formation costs from recurring expenses. Allow for variations in approvals and document preparation.',
+      ],
+      bulletList: [
+        'Name reservation, incorporation, licence issuance and activity fees.',
+        'Premises rent, registration, deposits and any required fit-out.',
+        'External approvals, document attestation, translation and professional support.',
+        'Immigration, establishment, visa, medical and identity processing where applicable.',
+        'Banking preparation, accounting, tax registrations and periodic filings.',
+        'Annual licence, premises, insurance and compliance renewals.',
+      ],
+    },
+    {
+      heading: 'A Practical Incorporation Checklist',
+      bulletList: [
+        'Write down the revenue model, customers, locations and planned activities.',
+        'Compare jurisdictions against actual operations, not just advertised setup prices.',
+        'Confirm ownership, activity, premises and external approval rules with the authority.',
+        'Prepare accurate shareholder and company documents before submission.',
+        'Budget for renewals, staffing, visas, banking and compliance as well as formation.',
+        'Set up accounting, record keeping and a calendar for licence and tax obligations.',
+      ],
+    },
+  ],
+  faqs: [
+    {
+      question: 'What is the first step in incorporating a UAE company?',
+      answer:
+        'Start by defining the business activities, customer locations and operating model. Those details help determine the suitable jurisdiction, legal form, licensing authority and approvals.',
+    },
+    {
+      question: 'Is Mainland or Free Zone company formation better?',
+      answer:
+        'It depends on the activity, customer and supplier locations, premises, visa needs, budget and intended operations. Compare the exact authority rules and total recurring costs before choosing.',
+    },
+    {
+      question: 'Can foreign investors own a UAE company?',
+      answer:
+        'Foreign ownership is available for many activities, but the applicable rules depend on the activity, jurisdiction and legal form. Confirm eligibility with the competent authority for the proposed business.',
+    },
+    {
+      question: 'How much does UAE company incorporation cost in 2026?',
+      answer:
+        'Costs vary with the authority, licence activities, premises, approvals, visas and required services. Request an itemised quotation that includes both first-year and renewal costs.',
+    },
+    {
+      question: 'Does a UAE trade licence guarantee a corporate bank account?',
+      answer:
+        'No. Banks make independent onboarding decisions and conduct their own due diligence. The company should be prepared to explain its ownership, source of funds, business model and expected transactions.',
+    },
+    {
+      question: 'Will a Free Zone company automatically receive a UAE residence visa?',
+      answer:
+        'Visa eligibility and allocation are subject to the relevant authority, facility, immigration requirements and current rules. Confirm the company’s eligibility and quota directly before relying on a specific number.',
+    },
+    {
+      question: 'What happens after the company is incorporated?',
+      answer:
+        'The company should maintain its licence and premises, meet applicable immigration and employment requirements, keep proper records and assess tax registration and filing obligations. Specific duties depend on its activities and circumstances.',
+    },
+  ],
+  cta:
+    'A well-planned incorporation aligns the company’s activities, jurisdiction, premises, banking and compliance needs before costs are committed. Klay Consultants can help you understand the UAE setup options and coordinate formation steps. Confirm activity-specific, banking, immigration and tax requirements with the relevant authorities and qualified professionals for your circumstances.',
+  disclaimer:
+    'This article is for general information only and is not legal, tax, immigration, banking or financial advice. UAE incorporation, licensing, ownership, visa, banking and compliance requirements vary by emirate, Free Zone, activity and applicant and may change. Verify current requirements, fees and timelines with the competent authorities and qualified advisers.',
+  relatedLinks: [
+    { href: '/blog/business-setup-in-uae-2026-guide', label: 'UAE business setup guide for 2026' },
+    { href: '/blog/free-zone-vs-mainland-uae-company-setup-which-is-better', label: 'Free Zone vs Mainland UAE company setup' },
+    { href: '/blog/uae-company-setup-cost-breakdown-2026-klay-consultants', label: 'UAE company setup cost breakdown' },
+  ],
+};
+
+const manufacturingUnitSetupUaeArticle: LongFormArticle = {
+  introduction:
+    'Setting up a manufacturing unit in the UAE involves more than company incorporation and an industrial licence. The project may require an appropriate industrial location, land-use and building approvals, environmental or civil-defence clearances, machinery and product approvals, customs arrangements and operational registrations. Requirements depend on the emirate, industrial zone, product, process and facility. Confirm the approvals and sequence with the competent authorities before purchasing equipment or signing long-term commitments.',
+  sections: [
+    {
+      heading: 'Define the Manufacturing Activity and Project Scope',
+      paragraphs: [
+        'Describe the products, production processes, raw materials, capacity, machinery, workforce, utilities, storage and distribution model. Identify whether the operation involves chemicals, food, pharmaceuticals, medical products, hazardous materials, emissions or other regulated areas, as these may trigger additional technical reviews and approvals.',
+        'Prepare a project brief and process flow before selecting a site. The proposed activity must match the industrial licence, permitted land use and facility specifications. A general trading or commercial licence should not be assumed to authorise manufacturing.',
+      ],
+    },
+    {
+      heading: 'Choose a UAE Industrial Location',
+      paragraphs: [
+        'Compare industrial zones and other permitted locations based on land or factory availability, permitted activities, utilities, transport links, ports, suppliers, labour access and expansion needs. Options and requirements vary between emirates, free zones and industrial areas.',
+        'Before signing a lease or land agreement, confirm that the plot or premises is approved for the exact industrial activity and that the facility can meet technical, environmental, fire-safety and utility requirements. Check construction, fit-out, inspection and renewal conditions in the relevant jurisdiction.',
+      ],
+    },
+    {
+      heading: 'Industrial Licence and Company Formation',
+      paragraphs: [
+        'The company structure and licensing authority depend on the proposed activity, ownership, location and operating model. An industrial licence may be issued by an economic department, a Free Zone or another competent authority. The application may require project details, shareholder documents, a business plan, facility information and external approvals.',
+        'Confirm the legal form, activity codes, trade name, ownership requirements, manager details and any sector-specific conditions. Do not start production or market regulated products until the required licences, approvals and registrations are in place.',
+      ],
+      list: [
+        'Define products, processes, capacity and associated activities.',
+        'Identify the competent licensing authority and suitable industrial locations.',
+        'Confirm legal form, ownership, industrial activity codes and initial approvals.',
+        'Secure an eligible site and prepare facility drawings or technical information if required.',
+        'Obtain building, environmental, civil-defence and other applicable clearances.',
+        'Complete inspections and obtain the industrial licence and required operational approvals.',
+      ],
+    },
+    {
+      heading: 'Factory, Building and Environmental Approvals',
+      paragraphs: [
+        'Factory projects may require planning, building permits, fit-out approvals, fire and life-safety review, environmental assessment, waste management arrangements and inspections. The applicable requirements depend on the process, facility and location; not every approval applies to every factory.',
+        'Engage qualified engineers and environmental or safety professionals where needed. Confirm authority requirements before construction or machinery installation, and retain approved plans, inspection reports, permits and maintenance records.',
+      ],
+    },
+    {
+      heading: 'Machinery Imports and Customs Planning',
+      paragraphs: [
+        'Imported machinery and production inputs require accurate product classification, shipping documents and compliance with customs and any product-specific technical requirements. Duties, exemptions or special procedures depend on the goods, origin, destination and applicable customs rules; do not assume that equipment is automatically duty-free because it is for manufacturing.',
+        'Check whether machinery needs conformity documents, inspection, installation approval or registration before use. Coordinate delivery dates with site readiness, customs clearance, utilities and commissioning to avoid storage costs or project delays.',
+      ],
+    },
+    {
+      heading: 'Product Standards and Quality Systems',
+      paragraphs: [
+        'Products may be subject to UAE or emirate-level standards, conformity assessment, labelling, registration or sector approvals before sale. Requirements vary significantly by product category. Confirm the applicable rules with the relevant regulator or standards authority before finalising packaging, production specifications or distribution agreements.',
+        'Establish quality controls, traceability, batch and supplier records, complaint handling and recall procedures appropriate to the product and applicable rules. Regulated sectors may require specific quality systems, qualified personnel or periodic audits.',
+      ],
+    },
+    {
+      heading: 'Costs to Budget For',
+      paragraphs: [
+        'Manufacturing unit costs are project-specific and extend beyond the company licence. Prepare an itemised capital and operating budget using current quotations and authority fees for the exact site, process and capacity.',
+      ],
+      bulletList: [
+        'Company formation, industrial licence, registration and external approval charges.',
+        'Land, factory lease or purchase, deposits, design, construction and fit-out.',
+        'Utility connections and capacity, including electricity, water, gas or cooling where relevant.',
+        'Machinery, shipping, customs clearance, installation and commissioning.',
+        'Environmental controls, waste handling, fire systems, safety equipment and inspections.',
+        'Staffing, visas, insurance, training, maintenance and operating supplies.',
+        'Product registration, quality systems, laboratory testing, accounting, tax and renewals.',
+      ],
+    },
+    {
+      heading: 'Staffing, Safety and Ongoing Compliance',
+      paragraphs: [
+        'Manufacturers need appropriate technical and operational staff and must meet applicable employment, immigration, workplace safety and insurance requirements. Identify training, protective equipment, emergency procedures and contractor controls required for the specific process and facility.',
+        'Maintain licence and permit renewals, inspection schedules, environmental and waste records, equipment maintenance, product traceability, accounting and tax filings. Allocate responsibility for each obligation and keep a calendar of due dates.',
+      ],
+    },
+    {
+      heading: 'Financing, Banking and Supply Chain',
+      paragraphs: [
+        'A manufacturing business may need significant working capital for machinery, inventory, payroll, shipping and customer credit. Build cash-flow scenarios that account for commissioning delays, import lead times, utility costs, maintenance and changes in demand.',
+        'Corporate banking approval is separate from licensing. Banks may review company ownership, source of funds, project contracts, suppliers, customers, expected transaction flows and facility evidence. Prepare a clear business plan and supporting documents, but do not assume that a licence guarantees an account or financing.',
+      ],
+    },
+    {
+      heading: 'Practical Readiness Checklist',
+      bulletList: [
+        'Confirm product demand, capacity assumptions and a realistic project budget.',
+        'Map every manufacturing and ancillary activity to the correct licence and approvals.',
+        'Verify site zoning, utilities, construction conditions and inspection sequence.',
+        'Check machinery import, customs, conformity and installation requirements.',
+        'Plan product standards, quality controls, safety and environmental management.',
+        'Allow for recruitment, visas, working capital, maintenance and insurance.',
+        'Confirm tax, accounting, record-keeping and renewal obligations before operations begin.',
+      ],
+    },
+  ],
+  faqs: [
+    {
+      question: 'What licence is needed for a manufacturing unit in the UAE?',
+      answer:
+        'A manufacturing operation generally needs an industrial licence or other authorisation appropriate to its activity and location. The competent authority and additional approvals depend on the product, process, emirate and industrial zone.',
+    },
+    {
+      question: 'Can I set up a factory anywhere in Dubai or the UAE?',
+      answer:
+        'No. The site must be permitted for the specific industrial activity and satisfy land-use, facility, safety, environmental and utility requirements. Verify the site with the relevant authority before committing.',
+    },
+    {
+      question: 'Do manufacturing units need environmental approval?',
+      answer:
+        'Some projects require environmental assessment, permits or operating controls depending on the process, emissions, waste and location. Confirm requirements with the competent environmental authority for the specific project.',
+    },
+    {
+      question: 'Are imported factory machines duty-free?',
+      answer:
+        'Not automatically. Customs treatment depends on the equipment, classification, origin, destination and applicable rules. Confirm duties, exemptions and documentation with customs or a qualified customs adviser.',
+    },
+    {
+      question: 'How much does a UAE manufacturing unit cost?',
+      answer:
+        'Costs vary with the site, production process, capacity, construction, machinery, utilities, approvals, staffing and working capital. Obtain a project-specific budget and itemised authority and supplier quotations.',
+    },
+    {
+      question: 'Does an industrial licence allow me to sell any product in the UAE?',
+      answer:
+        'No. The licence covers approved activities, and products may have separate standards, conformity, registration, labelling or sector-specific requirements. Confirm the applicable approvals before production or sale.',
+    },
+  ],
+  cta:
+    'A manufacturing project is most reliable when site, licence, technical approvals, machinery and operating plans are aligned from the start. Klay Consultants can help businesses understand company formation and licensing steps in the UAE. Confirm facility, environmental, customs and product requirements with the competent authorities and qualified technical advisers before investing.',
+  disclaimer:
+    'This article is for general information only and is not legal, engineering, environmental, customs, tax, investment or financial advice. Industrial licensing, zoning, construction, safety, environmental, customs and product requirements vary by emirate, authority, process and product and may change. Verify current requirements with the relevant authorities and qualified professionals.',
+  relatedLinks: [
+    { href: '/blog/uae-trade-license-types-explained-klay-consultants', label: 'UAE trade licence types explained' },
+    { href: '/blog/business-setup-in-uae-2026-guide', label: 'How to set up a business in the UAE in 2026' },
+    { href: '/blog/uae-company-setup-cost-breakdown-2026-klay-consultants', label: 'UAE company setup cost breakdown' },
+  ],
+};
+
+const uaeHnwStructuringArticle: LongFormArticle = {
+  introduction:
+    'Wealth structuring for high-net-worth individuals and families with UAE interests may involve coordinating asset ownership, business holdings, liquidity, succession wishes and residence plans across more than one country. No single company, trust or foundation is suitable for everyone. The right approach depends on the assets, family, tax residence, goals and laws in each relevant jurisdiction. A structure should have a clear lawful purpose, appropriate governance and ongoing administration—not be treated as a guarantee of tax savings or immunity from claims.',
+  sections: [
+    {
+      heading: 'Start with Objectives and an Asset Map',
+      paragraphs: [
+        'Before selecting a structure, identify what the plan needs to achieve: business continuity, family governance, orderly succession, consolidated ownership, investment administration or philanthropy. Separate these objectives so that each can be addressed with an appropriate legal and administrative tool.',
+        'Prepare an inventory of assets and liabilities, including location, legal owner, approximate value, financing, co-owners and any restrictions on transfer. Include UAE and overseas property, company shares, bank and investment accounts, intellectual property and existing trusts or foundations.',
+      ],
+    },
+    {
+      heading: 'UAE Holding Companies',
+      paragraphs: [
+        'A holding company can own shares or other assets and centralise aspects of governance, depending on its jurisdiction, legal form and constitutional documents. It may help organise a group, but it does not automatically simplify every transfer, eliminate tax, protect assets from creditors or replace the operating licences of businesses conducting regulated activities.',
+        'Assess incorporation and annual costs, ownership rules, substance, accounting, tax treatment, banking, reporting, succession and how the company will interact with operating entities and asset registries. Obtain advice in each jurisdiction where the company, owners or assets have a relevant connection.',
+      ],
+    },
+    {
+      heading: 'UAE Foundations and Family Governance',
+      paragraphs: [
+        'A foundation is a separate legal entity established under a particular jurisdiction’s framework and governing documents. Depending on the applicable law, it may hold and administer assets under a council or other governance arrangement and may be considered for family wealth or succession planning.',
+        'DIFC, ADGM and other jurisdictions have their own rules, eligibility, governance, filing, cost and administration requirements. Compare those rules with the family’s purpose and assets. A foundation is not simply a substitute for a will, and its treatment in other countries must be assessed separately.',
+      ],
+    },
+    {
+      heading: 'Asset Protection: Understand the Limits',
+      paragraphs: [
+        'A holding structure or foundation does not automatically make assets immune from creditors, legal claims, tax authorities, family claims or insolvency proceedings. Transfers can be challenged under applicable law, and factors such as timing, solvency, control, purpose and disclosure may matter.',
+        'Asset planning should be lawful, transparent and established for a genuine purpose. Do not transfer assets to frustrate existing or anticipated claims or to conceal ownership. Obtain independent legal and tax advice before restructuring or transferring assets, especially if disputes, creditor concerns or reporting obligations exist.',
+      ],
+    },
+    {
+      heading: 'Succession Planning and Family Wealth',
+      paragraphs: [
+        'Succession planning can involve wills, company constitutional documents, shareholder agreements, powers of attorney, insurance and appropriate ownership structures. These tools serve different purposes and should work together. A will may address distribution and appointments within its scope, while a company’s governing documents determine how ownership and management rights operate.',
+        'For families with assets in several countries, local rules and registration systems can affect how an instrument is recognised and applied. Review existing documents for conflicts, confirm their jurisdictional scope and coordinate advice across countries. Consider governance, decision-making, liquidity for heirs and continuity of family businesses.',
+      ],
+    },
+    {
+      heading: 'Residency, Tax and Cross-Border Reporting',
+      paragraphs: [
+        'UAE residence status and tax residence are separate questions. A residence visa, company or foundation does not by itself determine an individual’s tax residence or end obligations in another country. Corporate residence, permanent establishment, controlled foreign company rules, transfer pricing, inheritance or gift taxes and reporting can be relevant depending on the jurisdictions and facts.',
+        'Before moving, forming a structure or changing ownership, obtain coordinated advice in the UAE and each country where the individual, entity, beneficiaries or assets have a connection. Confirm any tax registrations, filings, beneficial ownership records and ongoing reporting obligations.',
+      ],
+    },
+    {
+      heading: 'Family Offices and Ongoing Administration',
+      paragraphs: [
+        'A family office is an organisational approach to coordinating some combination of investment oversight, reporting, governance, philanthropy and family administration. The right model depends on the family’s scale, needs, regulatory perimeter and available internal or external expertise.',
+        'Establish clear mandates, decision rights, conflicts procedures, record keeping, data security and service-provider oversight. Where investment or other regulated services are involved, determine whether authorisation or specialist advice is required before activities begin.',
+      ],
+    },
+    {
+      heading: 'Questions to Ask Before Choosing a Structure',
+      list: [
+        'What specific problem is the structure intended to solve, and what are its limitations?',
+        'Which assets will be included, who legally owns them and where are they located?',
+        'What laws, taxes, reporting and creditor or family rights may apply in each relevant country?',
+        'Who will control and administer the structure, and what succession or governance rules apply?',
+        'What are the setup, annual administration, audit, filing and professional-advice costs?',
+        'How will the structure interact with existing wills, companies, trusts, financing and contracts?',
+        'What events would justify a review, amendment or orderly wind-down?',
+      ],
+    },
+  ],
+  faqs: [
+    {
+      question: 'What does wealth structuring in the UAE involve?',
+      answer:
+        'It can involve reviewing asset ownership, companies, foundations, succession documents, governance, residence and cross-border tax or reporting obligations. The appropriate scope depends on the individual or family’s goals and circumstances.',
+    },
+    {
+      question: 'Does a UAE foundation protect assets from all claims?',
+      answer:
+        'No. A foundation does not provide blanket immunity from creditors, legal claims, tax authorities or family rights. Its effect depends on applicable laws, facts, timing, governance and the nature of any claim.',
+    },
+    {
+      question: 'Should I use a holding company or a foundation?',
+      answer:
+        'They are different tools with different purposes, rules and costs. The choice depends on what assets are involved, desired governance, succession goals and tax and legal treatment in all relevant jurisdictions.',
+    },
+    {
+      question: 'Does UAE residency automatically make me a UAE tax resident?',
+      answer:
+        'Not necessarily. Tax residence is determined under applicable rules and facts; a visa alone does not settle every UAE or foreign tax-residence question.',
+    },
+    {
+      question: 'Can I put all my international assets into one UAE structure?',
+      answer:
+        'Not always. Asset transfers may be restricted or trigger legal, tax, financing, regulatory or registration consequences in the asset’s jurisdiction. Review each asset and country before transferring ownership.',
+    },
+    {
+      question: 'How often should a wealth structure be reviewed?',
+      answer:
+        'Review it when family circumstances, assets, residence, business ownership, laws or objectives materially change, and periodically to confirm ongoing administration and compliance.',
+    },
+  ],
+  cta:
+    'A suitable wealth plan begins with clear objectives and a complete picture of the family’s assets and obligations. Klay Consultants can help explain UAE company and foundation setup processes, while qualified legal and tax advisers should assess ownership, asset protection, succession and cross-border consequences before any structure is created or assets are transferred.',
+  disclaimer:
+    'This article is for general information only and is not legal, tax, investment, estate-planning or financial advice. Asset protection, foundations, holding companies, residency and succession outcomes depend on current laws and individual facts in every relevant jurisdiction. Obtain independent professional advice before structuring or transferring assets.',
+  relatedLinks: [
+    { href: '/blog/wills-and-foundation-uae-complete-guide-for-expats-klay-counsultants', label: 'UAE wills and foundations guide for expats' },
+    { href: '/blog/uae-corporate-tax-vs-eu-corporate-tax-a-side-by-side-comparison-for-european-founders', label: 'UAE Corporate Tax vs EU Corporate Tax comparison' },
+    { href: '/blog/uk-uae-double-tax-treaty', label: 'UK UAE Double Tax Treaty guide' },
+  ],
+};
+
 const dubaiBusinessMarketSelectiveArticle: LongFormArticle = {
   introduction:
     'Dubai continues to attract companies, customers and investors, but being present in a growing market does not by itself ensure commercial success. Buyers and capital providers assess whether a business has a credible offer, capable leadership, reliable operations and a clear understanding of its risks. “More selective” is best understood as a practical business challenge: organisations need to demonstrate value and readiness rather than rely on market momentum or broad promotional claims.',
@@ -1142,7 +1659,7 @@ const ukUaeDoubleTaxTreatyArticle: LongFormArticle = {
   relatedLinks: [
     { href: '/blog/uae-corporate-tax-vs-eu-corporate-tax-a-side-by-side-comparison-for-european-founders', label: 'UAE Corporate Tax vs EU Corporate Tax comparison' },
     { href: '/blog/free-zone-or-mainland-for-uk-entrepreneurs', label: 'Free Zone or Mainland for UK entrepreneurs' },
-    { href: '/blog/uae-corporate-tax-and-vat-guide-2026', label: 'UAE Corporate Tax and VAT guide' },
+    { href: '/blog/uae-corporate-tax-registration-guide', label: 'UAE Corporate Tax and VAT guide' },
   ],
 };
 
@@ -1557,7 +2074,7 @@ const settingUpDubaiCompanyFromEuropeArticle: LongFormArticle = {
     'This article is for general information only and is not legal, tax, immigration, accounting or financial advice. UAE licensing and tax rules, EU member-state laws, treaty interpretations and banking requirements vary and may change. Obtain qualified advice in each relevant jurisdiction and verify current requirements with the competent authorities.',
   relatedLinks: [
     { href: '/blog/uae-corporate-tax-vs-eu-corporate-tax-a-side-by-side-comparison-for-european-founders', label: 'UAE Corporate Tax vs EU Corporate Tax comparison' },
-    { href: '/blog/uae-corporate-tax-and-vat-guide-2026', label: 'UAE Corporate Tax and VAT guide' },
+    { href: '/blog/uae-corporate-tax-registration-guide', label: 'UAE Corporate Tax and VAT guide' },
     { href: '/blog/business-setup-in-uae-2026-guide', label: 'How to set up a business in the UAE in 2026' },
   ],
 };
@@ -1671,7 +2188,7 @@ const uaeVsEuCorporateTaxArticle: LongFormArticle = {
   disclaimer:
     'This article is for general information only and is not tax, legal, accounting or investment advice. UAE tax legislation and the rules of EU member states may change, and tax outcomes depend on individual facts and cross-border arrangements. Obtain current advice from qualified tax professionals in every relevant jurisdiction and verify applicable requirements with the competent authorities.',
   relatedLinks: [
-    { href: '/blog/uae-corporate-tax-and-vat-guide-2026', label: 'UAE Corporate Tax and VAT guide' },
+    { href: '/blog/uae-corporate-tax-registration-guide', label: 'UAE Corporate Tax and VAT guide' },
     { href: '/blog/uae-business-setup-for-us-citizens-guide', label: 'UAE business setup guide for international founders' },
     { href: '/blog/business-setup-in-uae-2026-guide', label: 'How to set up a business in the UAE in 2026' },
   ],
@@ -2655,6 +3172,160 @@ const uaeWillsAndFoundationsGuideArticle: LongFormArticle = {
   ],
 };
 
+const inheritancePlanningUaeExpatsArticle: LongFormArticle = {
+  ...uaeWillsAndFoundationsGuideArticle,
+  introduction:
+    'Inheritance planning in the UAE can help expats clarify how family, property and business interests may be managed if they die or lose capacity. A practical plan may involve a will, registry selection, coordinated company documents and, in some circumstances, a trust or foundation. The right approach depends on the family, asset locations, ownership and relevant laws in every jurisdiction. No single document automatically covers every asset or prevents disputes, so obtain qualified UAE and cross-border legal and tax advice before relying on a plan.',
+  sections: [
+    {
+      heading: 'Start with Family, Property and Business Interests',
+      paragraphs: [
+        'Create an inventory of UAE and overseas assets, including property, bank and investment accounts, company shares, insurance and jointly owned assets. Record each asset’s legal owner, location, approximate value and any financing or contractual restrictions. Consider who may need support, who should administer affairs and how business operations would continue if an owner could no longer act.',
+        'This review helps identify whether a UAE will, another jurisdiction’s will, company governance documents or a more structured wealth-planning arrangement should be discussed with qualified advisers.',
+      ],
+      bulletList: [
+        'List family members, dependants, intended beneficiaries and potential guardians where relevant.',
+        'Map property, financial accounts and business interests by jurisdiction and legal ownership.',
+        'Review existing wills, trusts, foundations, shareholder agreements and powers of attorney.',
+        'Identify business continuity, management and decision-making arrangements.',
+      ],
+    },
+    ...uaeWillsAndFoundationsGuideArticle.sections,
+  ],
+  relatedLinks: [
+    { href: '/blog/wills-and-foundation-uae-complete-guide-for-expats-klay-counsultants', label: 'UAE wills and foundations guide for expats' },
+    { href: '/blog/difc-wills-vs-abu-dhabi-wills-registry-which-should-you-choose-klay-consultants', label: 'DIFC and Abu Dhabi wills registry comparison' },
+    { href: '/blog/including-business-shares-in-your-uae-will-klay-consultants', label: 'Including business shares in a UAE will' },
+  ],
+};
+
+const freeZoneVsMainlandUaeSetupArticle: LongFormArticle = {
+  introduction:
+    'Choosing between Free Zone and Mainland UAE company setup is a decision about how the business will be licensed and operate—not just which formation package has the lowest starting price. The right option depends on activities, customers, facilities, staffing, banking and compliance needs. Rules and costs differ between authorities and can change, so compare specific jurisdictions and confirm requirements before committing.',
+  sections: [
+    {
+      heading: 'Free Zone vs Mainland: Key Differences',
+      paragraphs: [
+        'A Mainland company is licensed by the relevant emirate authority for approved activities. A Free Zone company is licensed by a specific Free Zone authority under that zone’s rules. Both can be suitable operating businesses, but they are not interchangeable for every activity or sales model.',
+        'The phrase “Free Zone vs Mainland” can hide important differences between individual Free Zones, emirates and activities. Compare the authority and licence you would actually use, not broad generalisations about either structure.',
+      ],
+      table: {
+        headers: ['Factor', 'Mainland company', 'Free Zone company'],
+        rows: [
+          ['Licensing authority', 'Relevant emirate or Mainland licensing authority.', 'The authority of the chosen Free Zone.'],
+          ['Activity scope', 'Activities must be approved; regulated sectors may need additional approvals.', 'Activities must be available under the zone’s licence and rules.'],
+          ['Customer access', 'Often considered for direct local operations; conditions depend on activity.', 'Confirm requirements for direct sales, services or distribution outside the zone.'],
+          ['Facilities', 'Premises and address requirements vary by activity and authority.', 'Facility choices and conditions vary by zone and licence package.'],
+          ['Visa capacity', 'Depends on authority, premises, activity and immigration rules.', 'Depends on zone, facility, package and current immigration requirements.'],
+          ['Tax', 'Subject to applicable UAE tax legislation and the company’s facts.', 'Free Zone status alone does not guarantee a particular tax result.'],
+        ],
+      },
+    },
+    {
+      heading: 'Start with Activities and Customer Location',
+      paragraphs: [
+        'List the products and services the company will actually provide. Identify customer types and locations, where work will be performed, whether goods will be imported or stored, and whether contracts require a specific licence or registration. These details help determine which authorities and legal forms are available.',
+        'Do not assume that a general licence label covers every planned activity. Some sectors require external approvals, professional qualifications or inspections. Confirm activity codes and any restrictions before signing a lease or marketing the service.',
+      ],
+    },
+    {
+      heading: 'Compare Total Setup and Renewal Costs',
+      paragraphs: [
+        'There is no universal cost comparison. The total depends on the authority, legal form, activity, facility, approvals, visas and services included. Request an itemised quotation for the first year and expected renewals, and compare equivalent requirements across options.',
+      ],
+      bulletList: [
+        'Name reservation, incorporation, registration and licence charges.',
+        'Office, desk, warehouse or facility costs, including deposits and administration.',
+        'External approvals, professional permits, document attestation or translation.',
+        'Immigration or establishment file, visa, medical and Emirates ID costs.',
+        'Accounting, audit, Corporate Tax, VAT and compliance support.',
+        'Renewals, amendments and the cost of changing activities or facilities later.',
+      ],
+    },
+    {
+      heading: 'Banking and Financial Readiness',
+      paragraphs: [
+        'Neither a Mainland nor a Free Zone licence guarantees a corporate bank account. Banks independently assess the company, owners, activity, source of funds, expected transactions, counterparties and supporting documents.',
+        'Before choosing a structure, prepare a clear explanation of the business model and expected account use. Ask banks about their onboarding requirements, but understand that policies vary and approval is not assured by a particular jurisdiction or package.',
+      ],
+    },
+    {
+      heading: 'Corporate Tax and Ongoing Compliance',
+      paragraphs: [
+        'UAE Corporate Tax and VAT obligations depend on applicable law and the company’s circumstances. A Free Zone company does not automatically qualify for a tax exemption or preferential rate; any available treatment is conditional and should be assessed against current rules.',
+        'Plan for record-keeping, registration, returns, payments and any applicable audit or reporting duties from the start. The company’s licence jurisdiction does not replace tax analysis of its income, activities and transactions.',
+      ],
+    },
+    {
+      heading: 'Visas, Staffing and Operational Flexibility',
+      paragraphs: [
+        'A business licence does not itself issue a residence visa. Visa eligibility and allocation depend on the authority, facility, activity and immigration requirements. If founders or employees need UAE residence, confirm capacity, timing and costs before selecting a package.',
+        'Operational flexibility also includes the ability to add activities, change premises, hire staff, contract with target customers and expand into new markets. Compare the procedures and fees for expected changes, not just the initial setup.',
+      ],
+    },
+    {
+      heading: 'A Decision Framework',
+      list: [
+        'Define activities, customer segments, delivery locations and the expected sales model.',
+        'Identify the relevant Mainland authority and Free Zones that permit those activities.',
+        'Confirm facility, visa, ownership and external approval requirements for each option.',
+        'Compare itemised first-year and renewal costs on a like-for-like basis.',
+        'Assess banking preparation, tax compliance and record-keeping needs.',
+        'Check the process and cost for future amendments, hiring and operational expansion.',
+        'Verify the final choice with the competent authority and qualified legal or tax advisers where needed.',
+      ],
+    },
+    {
+      heading: 'Which Setup Is Better?',
+      paragraphs: [
+        'Mainland may be a better fit for a business whose approved activity and operating model require direct local-market operations. A Free Zone may be a better fit when the company’s activities, facilities and customers align with a particular zone’s rules and services. Neither conclusion applies universally.',
+        'Choose the structure that authorises the real business, supports its customer and staffing needs, and makes sense over the full operating lifecycle. Do not select solely on the lowest advertised price, a claimed tax advantage or an assumption that all Free Zones work the same way.',
+      ],
+    },
+  ],
+  faqs: [
+    {
+      question: 'Is Free Zone or Mainland company setup better in the UAE?',
+      answer:
+        'It depends on the business activities, customer locations, operating model, facilities, visas, costs and compliance requirements. Compare the specific authorities and licences relevant to your business.',
+    },
+    {
+      question: 'Can a Free Zone company do business with Mainland customers?',
+      answer:
+        'The rules depend on the activity, transaction and applicable jurisdiction. Confirm the permitted sales and service model with the relevant Free Zone and Mainland authorities before operating.',
+    },
+    {
+      question: 'Is Free Zone company setup always cheaper?',
+      answer:
+        'No. Costs vary by authority, activity, facility, visa allocation, approvals and renewals. Compare itemised total costs for equivalent operating needs.',
+    },
+    {
+      question: 'Does a Free Zone company automatically get a lower tax rate?',
+      answer:
+        'No. Free Zone status alone does not guarantee a particular tax result. Any preferential treatment depends on meeting applicable legal conditions and compliance requirements.',
+    },
+    {
+      question: 'Will either setup guarantee a UAE corporate bank account?',
+      answer:
+        'No. Banks make independent onboarding decisions and conduct their own due diligence. A company licence does not guarantee account approval.',
+    },
+    {
+      question: 'Can I change from Free Zone to Mainland later?',
+      answer:
+        'The available route depends on the authorities and company circumstances. A change may involve amendments, approvals or a new entity, and contracts, employees, visas and banking arrangements may not transfer automatically.',
+    },
+  ],
+  cta:
+    'The right UAE company setup starts with your activities and how you plan to operate. Klay Consultants can help compare relevant Mainland and Free Zone options and understand the formation process. Confirm current licensing, tax, banking and visa requirements with the competent authorities and qualified advisers before proceeding.',
+  disclaimer:
+    'This article is for general information only and is not legal, tax, banking, immigration or financial advice. Licensing rules, fees, tax treatment, visa conditions and market access vary by activity and authority and may change. Verify current requirements with the relevant UAE authorities and qualified advisers.',
+  relatedLinks: [
+    { href: '/blog/mainland-vs-free-zone-uae-business-setup-guide', label: 'Mainland vs Free Zone UAE: business setup guide' },
+    { href: '/blog/business-setup-in-uae-2026-guide', label: 'How to set up a business in the UAE in 2026' },
+    { href: '/blog/uae-company-setup-cost-breakdown-2026-klay-consultants', label: 'UAE company setup cost breakdown' },
+  ],
+};
+
 const mainlandVsFreeZoneUaeGuideArticle: LongFormArticle = {
   introduction:
     'Choosing between a Mainland and Free Zone company is one of the first decisions in UAE business setup. Each structure is licensed under a different authority and comes with its own activity list, operating rules, facilities, fees and compliance steps. There is no single best option for every founder: the right fit depends on what you will do, where your customers are and how the company needs to operate. This guide compares the key considerations and briefly explains where an Offshore structure differs.',
@@ -3005,7 +3676,7 @@ const uaeBusinessSetupForUsCitizensArticle: LongFormArticle = {
     'This article is for general informational purposes only and is not legal, tax, immigration, banking or financial advice. US tax consequences depend on citizenship, residency, entity classification, ownership and individual circumstances. UAE licensing and tax rules, reporting requirements, fees and deadlines can change. Consult qualified US international tax and UAE tax professionals and confirm current requirements with the relevant authorities before acting.',
   relatedLinks: [
     { href: '/blog/uae-company-setup-cost-breakdown-2026-klay-consultants', label: 'UAE company setup cost breakdown' },
-    { href: '/blog/uae-corporate-tax-and-vat-guide-2026', label: 'UAE Corporate Tax and VAT guide' },
+    { href: '/blog/uae-corporate-tax-registration-guide', label: 'UAE Corporate Tax and VAT guide' },
     { href: '/blog/open-business-bank-account-uae', label: 'Open a UAE business bank account' },
     { href: '/blog/uae-trade-license-types-explained-klay-consultants', label: 'UAE trade license types explained' },
   ],
@@ -3538,6 +4209,41 @@ const openBusinessBankAccountUaeArticle: LongFormArticle = {
     { href: '/blog/uae-business-bank-account-guide', label: 'UAE business bank account guide' },
     { href: '/blog/uae-company-setup-cost-breakdown-2026-klay-consultants', label: 'UAE company setup cost breakdown' },
     { href: '/blog/uae-company-formation-process', label: 'UAE company formation process' },
+  ],
+};
+
+const openBankAccountUaeWhyBankingTakesLongerArticle: LongFormArticle = {
+  ...openBusinessBankAccountUaeArticle,
+  introduction:
+    'Getting a UAE trade licence and opening a UAE company bank account are separate processes. Licensing authorities assess whether a proposed company can be registered for specified activities, while a bank independently reviews the owners, business model, source of funds and expected transactions before deciding whether to provide an account. That difference is why banking can take longer than obtaining the licence. This guide explains the checks that may extend the process and how to prepare a clear, consistent application.',
+  sections: [
+    {
+      heading: 'Why Bank Approval Takes Longer Than a Trade Licence',
+      paragraphs: [
+        'A trade licence confirms that a company is registered to carry out specified activities under the relevant authority. It is not a bank approval and does not establish that the bank has verified the company’s beneficial owners, funding sources, customers, suppliers or planned transactions.',
+        'Banks carry out their own customer due diligence and risk assessment under their policies and applicable compliance obligations. The scope of review varies by institution and account type, so there is no universal processing time or guaranteed outcome.',
+      ],
+      bulletList: [
+        'The bank needs to identify shareholders, ultimate beneficial owners, directors and authorised signatories.',
+        'The business model, licence activities and expected account use must be clear and consistent.',
+        'The bank may verify source of funds, source of wealth, customers, suppliers and transaction routes.',
+        'Non-resident owners, complex ownership structures or cross-border transactions may require additional evidence.',
+        'Missing documents or follow-up questions can pause the review until the bank has enough information.',
+      ],
+    },
+    {
+      heading: 'Licensing and Banking Follow Different Review Paths',
+      paragraphs: [
+        'Company formation usually focuses on registration requirements, name and activity approvals, legal documents and any facility or authority conditions. Bank account opening adds a separate assessment of the people behind the company, commercial rationale, financial flows and the institution’s risk appetite.',
+        'A Free Zone or Mainland licence alone does not determine whether an application will be accepted. A bank may assess the specific activity, ownership, operating footprint and expected transactions, then request additional information or decline an application under its own criteria.',
+      ],
+    },
+    ...openBusinessBankAccountUaeArticle.sections,
+  ],
+  relatedLinks: [
+    { href: '/blog/open-business-bank-account-uae', label: 'UAE business bank account opening guide' },
+    { href: '/blog/uae-company-formation-guide-2026-complete-step-by-step-setup-strategy', label: 'UAE company formation guide for 2026' },
+    { href: '/blog/uae-company-setup-cost-breakdown-2026-klay-consultants', label: 'UAE company setup cost breakdown' },
   ],
 };
 
@@ -7127,6 +7833,317 @@ const difcVsAbuDhabiWillsArticle: LongFormArticle = {
   ],
 };
 
+const difcAdgmAdjdWillRegistrationArticle: LongFormArticle = {
+  introduction:
+    'Choosing the right will-registration route in the UAE can feel confusing. The DIFC Wills Service, ADGM Wills Registration and Abu Dhabi Judicial Department (ADJD) Will Registration operate through different legal and administrative frameworks. Their eligibility conditions, documentation requirements, registration procedures and post-registration processes may differ. Your religion and eligibility, asset locations, family arrangements, asset types and preferred legal framework all matter. This guide compares the three routes and highlights questions to discuss with a qualified UAE succession lawyer.',
+  sections: [
+    {
+      heading: 'Why Expats Need a UAE-Specific Will Strategy',
+      paragraphs: [
+        'A will prepared in another country may not automatically provide a straightforward route for dealing with property, bank accounts, company shares or other assets held in the UAE. Recognition, translation, authentication and local procedures may need to be considered.',
+        'A UAE-specific will strategy can help communicate wishes about UAE-based assets, appoint executors, address guardianship arrangements where permitted, plan for company shares and coordinate UAE assets with overseas arrangements. A registered will is important, but it does not automatically resolve issues involving jointly owned assets, company ownership, overseas property or succession procedures.',
+      ],
+      bulletList: [
+        'Distribution of UAE-based property and financial assets.',
+        'Appointment of executors to administer the estate.',
+        'Guardianship arrangements for minor children, where applicable.',
+        'Succession of company shares and business interests.',
+        'Coordination between UAE assets and overseas assets.',
+      ],
+    },
+    {
+      heading: 'Understanding the Three UAE Will Registration Options',
+      subsections: [
+        {
+          heading: '1. DIFC Wills Service',
+          paragraphs: [
+            'The DIFC Courts Wills Service provides a registration framework for eligible non-Muslims who want to record instructions for the distribution of UAE assets and, where applicable, the appointment of guardians for minor children. The service is administered through the DIFC Courts Wills and Probate Registry.',
+            'DIFC Courts list categories including Full, Guardianship, Property, Business Owners, Financial Assets and Digital Assets Wills. Each type has its own scope and conditions. For example, the published descriptions include limits for the Property Will, Business Owners Will and Financial Assets Will. Check the current registry rules before selecting a type.',
+            'The published eligibility information states that an applicant must be non-Muslim, at least 18 years old, and own qualifying UAE assets and/or have minor children residing with them in the UAE. The DIFC Courts state that UAE residency is not required for an eligible person. Guardianship provisions have additional requirements, including rules that can depend on where children reside.',
+          ],
+          bulletList: [
+            'May suit eligible non-Muslims who want to consider its dedicated will categories.',
+            'Can address specified UAE assets depending on the will type and registry rules.',
+            'Guardianship options are subject to applicable eligibility and residence conditions.',
+          ],
+        },
+        {
+          heading: '2. ADGM Wills Registration',
+          paragraphs: [
+            'The ADGM Courts Notary Public and Wills Office provides a route for notarising non-Muslim wills within Abu Dhabi’s legal and judicial framework. Its templates address estate disposition, guardianship of minor children, or both.',
+            'ADGM’s published guidance describes eligibility for non-Muslim individuals aged 21 or older who own UAE assets. The required will and supporting documents should be prepared carefully. Official guidance specifies a bilingual Arabic and English document certified by a UAE Ministry of Justice-licensed legal translator.',
+            'ADGM guidance states that its Notary Public can notarise wills relating to assets in the UAE, including outside Abu Dhabi, and assets outside the UAE. Probate for overseas assets must be obtained in the jurisdiction where those assets are located. ADGM’s Notary Public and Wills Office does not itself provide probate; applications must be submitted through the relevant ADJD Wills and Probate Office.',
+          ],
+          bulletList: [
+            'May suit eligible individuals who want to use ADGM’s wills notarisation framework.',
+            'Document translation and appointment requirements should be confirmed before applying.',
+            'Understand the separate probate route and how it relates to the location of assets.',
+          ],
+        },
+        {
+          heading: '3. Abu Dhabi Judicial Department Will Registration',
+          paragraphs: [
+            'ADJD provides a will-registration route through its civil wills and judicial services. Its published information states that non-UAE citizens may register a civil will regardless of religion; do not assume that the same eligibility applies to DIFC or ADGM.',
+            'The general process may include submitting an application and documents, departmental review, payment of the applicable fee, booking an appointment and completing certification or notarisation subject to approval. ADJD publishes forms in Arabic and English and states in its FAQ that funds and property outside the UAE may be included. Overseas assets may still require local recognition or probate in the country where they are held.',
+            'ADJD service information has listed regular and special will registration fees. Fees and conditions can change, so confirm the current schedule directly with the department before applying.',
+          ],
+          bulletList: [
+            'May suit people who prefer the Abu Dhabi civil wills registration route.',
+            'Confirm current eligibility, document and application requirements with ADJD.',
+            'Consider how the relevant judicial and probate process applies to your estate.',
+          ],
+        },
+      ],
+    },
+    {
+      heading: 'DIFC vs ADGM vs ADJD: Key Differences',
+      paragraphs: [
+        'This is a high-level comparison, not a substitute for checking current rules against your circumstances. Published requirements, fees and procedures may change.',
+      ],
+      table: {
+        headers: ['Comparison', 'DIFC Wills Service', 'ADGM Wills Registration', 'Abu Dhabi Judicial Department'],
+        rows: [
+          ['Main authority', 'DIFC Courts Wills and Probate Registry', 'ADGM Courts Notary Public and Wills Office', 'Abu Dhabi Judicial Department'],
+          ['Published eligibility', 'Non-Muslim, 18+, qualifying UAE assets and/or qualifying minor children', 'Non-Muslim, 21+ and UAE assets, according to published guidance', 'Civil wills route; published information states non-UAE citizens may register regardless of religion'],
+          ['Will options', 'Full, Guardianship, Property, Business Owners, Financial Assets and Digital Assets', 'Estate disposition, guardianship, or both', 'Civil will registration through ADJD'],
+          ['Language and documents', 'Requirements depend on will type and registry rules', 'Bilingual Arabic and English will certified by a UAE-licensed legal translator, according to guidance', 'Arabic and English forms; additional translation or authentication may be required'],
+          ['Assets', 'UAE asset categories depend on will type and rules', 'Guidance allows UAE and overseas assets; overseas probate remains local', 'FAQ states that overseas funds and property may be included'],
+          ['Guardianship', 'Specific provisions subject to registry rules', 'Guardianship-only and combined options are available subject to rules', 'Check the applicable civil wills process'],
+          ['Probate', 'DIFC Courts Wills and Probate Registry handles matters under its framework', 'ADGM Notary Public and Wills Office does not provide probate; applications go to the relevant ADJD office', 'Handled through the relevant ADJD process'],
+        ],
+      },
+    },
+    {
+      heading: 'Eligibility: Which Will Registration Route Can You Use?',
+      paragraphs: [
+        'Eligibility is one of the first things to confirm. A service may appear suitable based on assets or location but have specific requirements relating to religion, age, residency or will type. Confirm the latest official criteria before preparing documents or paying fees.',
+      ],
+      subsections: [
+        {
+          heading: 'DIFC Eligibility',
+          paragraphs: [
+            'The DIFC Courts’ published FAQ states that an applicant must be non-Muslim and must never have been Muslim, be at least 18 years old, and own UAE assets and/or have minor children residing with them in the UAE. The courts also state that UAE residency is not required for an eligible person. Guardianship provisions have additional requirements, including distinctions based on where the children reside.',
+          ],
+        },
+        {
+          heading: 'ADGM Eligibility',
+          paragraphs: [
+            'ADGM’s published wills guidance describes the service as available to non-Muslim individuals aged 21 or older who own UAE assets. Review the official requirements before preparing the will, including required personal and beneficiary details, executor appointments and estate distribution instructions.',
+          ],
+        },
+        {
+          heading: 'ADJD Eligibility',
+          paragraphs: [
+            'ADJD provides a civil wills registration route. Its published information states that non-UAE citizens may register a will regardless of religion. This is a material distinction, but it does not mean all three services have the same eligibility rules or legal effects.',
+          ],
+        },
+      ],
+    },
+    {
+      heading: 'Will Registration Process: What Should You Expect?',
+      paragraphs: [
+        'Each service has its own procedures, but preparing a will generally involves the following planning stages:',
+      ],
+      list: [
+        'Identify assets and liabilities, including property, bank accounts, investments, company shares, insurance, digital assets and overseas holdings. Record each asset’s location, legal owner and supporting documents.',
+        'Decide who should receive assets and consider dependants, alternative beneficiaries and clear distribution instructions.',
+        'Choose an executor who is willing and able to manage practical responsibilities, and consider a substitute executor.',
+        'Consider guardianship for minor children separately from asset distribution. Check the chosen route’s rules and do not assume a nomination guarantees an appointment in every circumstance.',
+        'Compare eligibility, asset locations, will types, legal framework, fees, translation requirements and probate arrangements.',
+        'Prepare and review the document against registry requirements, company documents and existing estate-planning arrangements.',
+        'Submit the application and complete the selected authority’s current document, payment, translation, identity verification and appointment requirements.',
+        'Keep the registered will and supporting records accessible, and review the plan after major family, asset, business or residence changes.',
+      ],
+    },
+    {
+      heading: 'Which Option May Suit Your Assets and Circumstances?',
+      subsections: [
+        {
+          heading: 'Dubai-Based Assets',
+          paragraphs: [
+            'DIFC may be one option to investigate for eligible non-Muslims with Dubai assets who want to consider its dedicated will types and wills and probate framework. Asset location alone should not decide the route. Consider personal or joint ownership, company-held assets, will type, guardianship, assets elsewhere and consistency with your wider succession plan.',
+          ],
+        },
+        {
+          heading: 'Abu Dhabi-Based Assets',
+          paragraphs: [
+            'For Abu Dhabi assets, both ADGM and ADJD may be relevant routes to investigate. ADGM provides a wills notarisation framework; ADJD provides a civil wills registration route. A key distinction is that ADGM’s Notary Public and Wills Office does not provide probate, and its guidance directs probate applications to the relevant ADJD office.',
+          ],
+        },
+        {
+          heading: 'Assets in Multiple Emirates or Overseas',
+          paragraphs: [
+            'Plan around the complete estate rather than one asset. Identify where each asset is legally located, who owns it, whether it is jointly or company held, which will can cover it and which authority may be involved in probate or enforcement. A UAE will that mentions overseas assets does not guarantee automatic recognition or administration in the country where those assets are located.',
+          ],
+        },
+      ],
+    },
+    {
+      heading: 'Why a Will May Not Be Enough on Its Own',
+      paragraphs: [
+        'A registered will is an important part of inheritance planning, but complex estates may also involve multiple companies, investment portfolios, property holdings and beneficiaries living in different countries. Additional structures should be considered only after reviewing their legal, tax, governance and reporting consequences.',
+      ],
+      subsections: [
+        {
+          heading: 'Trust Formation in the UAE',
+          paragraphs: [
+            'A trust may hold and manage assets for beneficiaries under defined terms. Depending on the applicable framework, it may support long-term asset management, structured distributions, management for younger family members and continuity of administration. Its legal structure, tax treatment and reporting duties should be assessed by qualified advisers.',
+          ],
+          bulletList: [
+            'Long-term asset management and family wealth succession.',
+            'Structured distributions to beneficiaries.',
+            'Coordination with existing ownership and estate arrangements.',
+          ],
+        },
+        {
+          heading: 'Foundation Formation in the UAE',
+          paragraphs: [
+            'A foundation is a separate legal structure that may hold and manage assets for specified purposes or beneficiaries. Depending on jurisdiction and design, it may support family wealth governance, succession planning or holding company ownership. It does not automatically protect every asset from claims or liabilities.',
+          ],
+        },
+        {
+          heading: 'Holding Companies and Family Wealth Planning',
+          paragraphs: [
+            'A holding company may organise ownership of subsidiaries, investments or business interests. Families with substantial or diversified assets may also consider broader wealth governance or family-office arrangements. These structures are not substitutes for a will and should be coordinated with it, company documents and applicable law.',
+          ],
+        },
+      ],
+    },
+    {
+      heading: 'Estate Planning for Business Owners in the UAE',
+      paragraphs: [
+        'A business may depend on its founder, shareholders or a small management team. Without a clear succession arrangement, the company may face uncertainty over share ownership, management authority, decision-making and the interests of other shareholders.',
+      ],
+      bulletList: [
+        'Check who legally owns the shares and whether constitutional documents contain transfer restrictions or pre-emption rights.',
+        'Identify who can manage the business if an owner is unavailable and document key responsibilities.',
+        'Review shareholder agreements for death, incapacity, transfers, buyouts and dispute provisions.',
+        'Assess whether a holding structure is suitable for the actual legal, commercial and tax circumstances.',
+        'Coordinate the will, company documents, shareholder agreements and any trust or foundation so they do not conflict.',
+      ],
+    },
+    {
+      heading: 'Common Mistakes to Avoid When Registering a UAE Will',
+      bulletList: [
+        'Choosing a service without confirming its current eligibility rules.',
+        'Focusing only on the location of one asset instead of reviewing the complete estate.',
+        'Assuming an overseas will automatically resolves UAE succession procedures.',
+        'Using incorrect ownership details or incomplete asset descriptions.',
+        'Forgetting guardianship planning for minor children.',
+        'Ignoring company shares, shareholder agreements and management continuity.',
+        'Choosing an executor without considering their ability and willingness to act.',
+        'Failing to review the will after marriage, divorce, a birth, relocation, a new property purchase or a business change.',
+        'Assuming registration guarantees a particular legal or probate outcome.',
+      ],
+    },
+    {
+      heading: 'Practical Decision Framework: Which Will Should You Choose?',
+      subsections: [
+        {
+          heading: 'Consider the DIFC Wills Service if',
+          paragraphs: ['You have confirmed that its current rules match your circumstances.'],
+          bulletList: [
+            'You meet its published non-Muslim eligibility conditions and age requirement.',
+            'You own qualifying UAE assets or have qualifying minor children.',
+            'You want to consider its dedicated will categories and understand its probate framework.',
+          ],
+        },
+        {
+          heading: 'Consider ADGM Wills Registration if',
+          paragraphs: ['You have reviewed the notarisation and probate requirements.'],
+          bulletList: [
+            'You meet its published eligibility conditions.',
+            'You can meet its bilingual document and supporting evidence requirements.',
+            'You understand that probate is handled through the relevant ADJD process, not the ADGM Notary Public and Wills Office.',
+          ],
+        },
+        {
+          heading: 'Consider Abu Dhabi Judicial Department if',
+          paragraphs: ['Its current civil wills process is appropriate for your situation.'],
+          bulletList: [
+            'You want to use the Abu Dhabi civil wills registration route.',
+            'You have checked its published eligibility, application requirements and current fees.',
+            'You have reviewed how the process applies to your assets, beneficiaries and intended arrangements.',
+          ],
+        },
+      ],
+    },
+  ],
+  faqs: [
+    {
+      question: 'What is the difference between DIFC Wills Service and ADGM Wills Registration?',
+      answer:
+        'DIFC operates through the DIFC Courts Wills and Probate Registry and offers several will categories for eligible applicants. ADGM provides a notarisation route through its Notary Public and Wills Office. Their eligibility, documents and probate arrangements differ.',
+    },
+    {
+      question: 'Is Abu Dhabi Judicial Department will registration available to expatriates?',
+      answer:
+        'ADJD publishes a civil wills registration service and states that non-UAE citizens may register regardless of religion. Confirm current eligibility and documentation directly with ADJD.',
+    },
+    {
+      question: 'Can I register a DIFC Will if I do not live in the UAE?',
+      answer:
+        'The DIFC Courts state that UAE residency is not required for an eligible person. The applicant must still meet the current conditions, including the applicable non-Muslim and asset or guardianship requirements.',
+    },
+    {
+      question: 'Does ADGM provide probate services?',
+      answer:
+        'ADGM’s published guidance states that its Notary Public and Wills Office does not provide probate. Probate applications must be registered with the relevant ADJD Wills and Probate Office.',
+    },
+    {
+      question: 'Can ADGM register a will covering assets outside Abu Dhabi?',
+      answer:
+        'ADGM’s published guidance states that its Notary Public can notarise wills relating to assets elsewhere in the UAE and outside the UAE. Probate for overseas assets must still be obtained in the jurisdiction where those assets are located.',
+    },
+    {
+      question: 'Can I include Dubai property in an Abu Dhabi will?',
+      answer:
+        'ADJD and ADGM publish guidance that may allow wills to address assets outside Abu Dhabi. The legal effect and administration of a will over property in another emirate should be confirmed with a qualified lawyer.',
+    },
+    {
+      question: 'Can I include overseas assets in a UAE will?',
+      answer:
+        'Some routes allow overseas assets to be included, but inclusion does not guarantee automatic recognition or administration in another country. Local succession law and probate procedures may apply.',
+    },
+    {
+      question: 'Can I appoint a guardian for my minor children through a UAE will?',
+      answer:
+        'DIFC and ADGM provide guardianship options subject to their rules. Check the selected route’s requirements, the children’s residence and the proposed guardian’s eligibility.',
+    },
+    {
+      question: 'How much does UAE will registration cost?',
+      answer:
+        'Costs depend on the authority, will type, applicants, drafting, translation and supporting documents. Each authority has its own fee schedule; confirm current charges directly before applying.',
+    },
+    {
+      question: 'Do I need a lawyer to register a UAE will?',
+      answer:
+        'Requirements differ by route and will type. Qualified legal advice is strongly advisable for estates involving multiple or overseas assets, business interests, complex family arrangements or guardianship.',
+    },
+    {
+      question: 'Can I change my will after registration?',
+      answer:
+        'A will may generally be reviewed and updated through the applicable process when circumstances change. Check the relevant authority’s amendment or revocation procedure rather than preparing a new document without advice.',
+    },
+    {
+      question: 'Should I register more than one UAE will?',
+      answer:
+        'Multiple wills can create conflicts if their scope or revocation clauses are inconsistent. Obtain legal advice before registering more than one and coordinate any UAE and overseas documents.',
+    },
+  ],
+  cta:
+    'Choosing a will-registration route is one part of a wider estate and business plan. Klay Consultants can help business owners understand how company formation and ownership structures fit into their wider UAE arrangements. Will drafting, legal interpretation and probate representation should be handled by appropriately qualified legal professionals.',
+  disclaimer:
+    'This article is for general informational purposes only and does not constitute legal, financial or tax advice. UAE wills, inheritance and probate requirements, eligibility, fees and procedures may change and depend on individual circumstances. Confirm current information with the relevant authority and consult a qualified UAE succession lawyer before making a decision.',
+  relatedLinks: [
+    { href: '/blog/inheritance-planning-uae-expats', label: 'Inheritance Planning UAE' },
+    { href: '/blog/uae-company-formation-guide-2026-complete-step-by-step-setup-strategy', label: 'UAE Company Formation' },
+    { href: '/blog/free-zone-vs-mainland-uae-the-only-decision-framework-you-need-before-setting-up-your-business', label: 'Free Zone vs Mainland UAE' },
+    { href: '/blog/golden-visa-uae-2026-complete-guide-for-investors-entrepreneurs', label: 'Golden Visa UAE' },
+    { href: '/blog/open-bank-account-uae-company-why-banking-takes-longer-than-the-license', label: 'Open a UAE Company Bank Account' },
+  ],
+};
+
 const nonMuslimWillRegistrationArticle: LongFormArticle = {
   introduction:
     'A practical guide to registering a non-Muslim will in the UAE, including documents required, registration steps, appointments, costs and timelines. Deciding to register a will in UAE is an important step for expats who own property, bank accounts, business interests or other assets in the country. For UK, US and GCC expats, however, deciding to make a will is often easier than understanding the actual registration process. What documents do you need? Which registry should you use? Do you need a lawyer? How long does registration take? And what happens after your will has been registered? This guide explains how to register a will in UAE from the initial planning stage through to final registration, helping you understand what to prepare before starting the process.',
@@ -9435,7 +10452,17 @@ export default function BlogArticlePage() {
   const { slug = '' } = useParams<{ slug: string }>();
   const article = BLOG_PREVIEW.find((post) => post.slug === slug);
   const longFormArticle =
-    slug === 'uae-tourist-bank-account-explained-dubai-banking-guide'
+    slug === 'uae-company-formation-mistakes-entrepreneurs-must-avoid'
+      ? uaeCompanyFormationMistakesArticle
+      : slug === 'uae-company-incorporation-process-2026'
+      ? uaeCompanyIncorporationProcess2026Article
+      : slug === 'uae-company-formation-guide-2026-complete-step-by-step-setup-strategy'
+      ? uaeCompanyIncorporationProcess2026Article
+      : slug === 'manufacturing-unit-setup-in-uae'
+      ? manufacturingUnitSetupUaeArticle
+      : slug === 'uae-structuring-for-high-net-worth-individuals'
+      ? uaeHnwStructuringArticle
+      : slug === 'uae-tourist-bank-account-explained-dubai-banking-guide'
       ? uaeTouristBankAccountDubaiGuideArticle
       : slug === 'why-dubai-business-market-is-becoming-more-selective'
       ? dubaiBusinessMarketSelectiveArticle
@@ -9473,18 +10500,28 @@ export default function BlogArticlePage() {
       ? businessSetupInUae2026GuideArticle
       : slug === 'uae-golden-visa-2026-eligibility-cost-application-guide'
       ? uaeGoldenVisaGuideArticle
+      : slug === 'golden-visa-uae-2026-complete-guide-for-investors-entrepreneurs'
+      ? uaeGoldenVisaGuideArticle
       : slug === 'wills-and-foundation-uae-complete-guide-for-expats-klay-counsultants'
       ? uaeWillsAndFoundationsGuideArticle
+      : slug === 'inheritance-planning-uae-expats'
+      ? inheritancePlanningUaeExpatsArticle
+      : slug === 'free-zone-vs-mainland-uae-company-setup-which-is-better'
+      ? freeZoneVsMainlandUaeSetupArticle
+      : slug === 'free-zone-vs-mainland-uae-the-only-decision-framework-you-need-before-setting-up-your-business'
+      ? freeZoneVsMainlandUaeSetupArticle
       : slug === 'mainland-vs-free-zone-uae-business-setup-guide'
       ? mainlandVsFreeZoneUaeGuideArticle
       : slug === 'uae-business-setup-for-us-citizens-guide'
       ? uaeBusinessSetupForUsCitizensArticle
       : slug === 'uae-business-setup-for-gcc-nationals-complete-2026-guide-klay-consultants'
       ? uaeBusinessSetupForGccNationalsArticle
-      : slug === 'uae-corporate-tax-and-vat-guide-2026'
+      : slug === 'uae-corporate-tax-registration-guide'
       ? uaeCorporateTaxAndVatGuideArticle
       : slug === 'open-business-bank-account-uae'
       ? openBusinessBankAccountUaeArticle
+      : slug === 'open-bank-account-uae-company-why-banking-takes-longer-than-the-license'
+      ? openBankAccountUaeWhyBankingTakesLongerArticle
       : slug === 'uae-trade-license-types-explained-klay-consultants'
       ? uaeTradeLicenseTypesArticle
       : slug === 'uae-company-setup-cost-breakdown-2026-klay-consultants'
@@ -9525,6 +10562,8 @@ export default function BlogArticlePage() {
                                       ? nonMuslimWillRegistrationArticle
                                       : slug === 'difc-wills-vs-abu-dhabi-wills-registry-which-should-you-choose-klay-consultants'
                                         ? difcVsAbuDhabiWillsArticle
+                                        : slug === 'difc-adgm-adjd-will-registration-comparison'
+                                          ? difcAdgmAdjdWillRegistrationArticle
                                         : slug === 'what-happens-if-you-die-without-a-will-in-the-uae'
                                           ? dyingWithoutUaeWillArticle
                                           : slug === 'uae-import-export-license-how-to-start-a-trading-business'
