@@ -829,6 +829,132 @@ export const FAQS = {
 
 export const BLOG_PREVIEW = [
   {
+    slug: 'uae-corporate-tax-vs-eu-corporate-tax-a-side-by-side-comparison-for-european-founders',
+    title: 'UAE Corporate Tax vs EU Corporate Tax: A Side-by-Side Comparison for European Founders',
+    excerpt:
+      'Compare UAE Corporate Tax with the varied corporate tax systems across EU member states, including VAT, Free Zone rules, substance, dividends and compliance.',
+    date: '10 Nov 2026',
+    category: 'Blog',
+    image: '/blog-img/UAE%20vs%20EU%20Corporate%20Tax%20Comparison.png',
+    imageAlt: 'Comparison guide to UAE and EU corporate tax considerations',
+    imageTitle: 'UAE vs EU Corporate Tax Comparison',
+    imageCaption:
+      'A high-level comparison of UAE corporate tax and European tax considerations for founders.',
+    imageDescription:
+      'Guide comparing UAE Corporate Tax and EU member-state tax considerations, including rates, VAT, Free Zone requirements, business substance, dividends and compliance.',
+    imageTags: [
+      'UAE Corporate Tax vs EU Corporate Tax',
+      'EU Corporate Tax Rates',
+      'UAE Tax Benefits for European Entrepreneurs',
+      'UAE VAT vs EU VAT',
+      'European Business Expansion Dubai',
+    ],
+    metaTitle:
+      'UAE Corporate Tax vs EU Corporate Tax: A Side-by-Side Comparison for European Founders',
+    metaDescription:
+      'Compare UAE Corporate Tax vs EU Corporate Tax for European founders. Explore tax rates, VAT, Free Zone benefits, business substance, dividends and compliance.',
+    metaKeywords:
+      'UAE Corporate Tax vs EU Corporate Tax, UAE Corporate Tax, EU Corporate Tax Rates, UAE Tax Benefits for European Entrepreneurs, UAE vs Europe Business Tax, Dubai Corporate Tax, UAE Free Zone Tax Benefits, UAE VAT vs EU VAT, European Business Expansion Dubai, UAE Tax Residency, UAE Company Formation',
+    focusKeyword: 'UAE Corporate Tax vs EU Corporate Tax',
+    tags: [
+      'UAE Corporate Tax',
+      'EU Corporate Tax Rates',
+      'UAE Tax Benefits for European Entrepreneurs',
+      'UAE vs Europe Business Tax',
+      'Dubai Corporate Tax',
+      'UAE Free Zone Tax Benefits',
+      'UAE VAT vs EU VAT',
+      'European Business Expansion Dubai',
+      'UAE Tax Residency',
+      'UAE Company Formation',
+    ],
+    audience: 'European founders comparing UAE and EU tax and company formation considerations',
+  },
+  {
+    slug: 'uae-golden-visa-for-eu-nationals-investment-routes-costs-application-process',
+    title: 'UAE Golden Visa for EU Nationals: Investment Routes, Costs & Application Process',
+    excerpt:
+      'Explore UAE Golden Visa routes for EU nationals, including investment options, eligibility, costs, documents, applications and renewals.',
+    date: '10 Nov 2026',
+    category: 'Blog',
+    image: '/blog-img/UAE%20Golden%20Visa%20Routes%20for%20EU%20Nationals.png',
+    imageAlt: 'UAE Golden Visa routes and application guide for EU nationals',
+    imageTitle: 'UAE Golden Visa Routes for EU Nationals',
+    imageCaption:
+      'An overview of UAE Golden Visa eligibility routes and application considerations for European nationals.',
+    imageDescription:
+      'Guide for EU nationals to UAE Golden Visa eligibility, property and business investment routes, application costs, documents and renewal procedures.',
+    imageTags: [
+      'UAE Golden Visa for EU Nationals',
+      'UAE Golden Visa for Europeans',
+      'Dubai Golden Visa for EU Citizens',
+      'UAE Residency by Investment',
+      'UAE Long-Term Residency',
+    ],
+    metaTitle: 'UAE Golden Visa for EU Nationals: Investment Routes, Costs & Application Process',
+    metaDescription:
+      'Discover UAE Golden Visa for EU Nationals, including property investment, business ownership, eligibility requirements, application costs, documents and renewal procedures.',
+    metaKeywords:
+      'UAE Golden Visa for EU Nationals, UAE Golden Visa for Europeans, Dubai Golden Visa for EU Citizens, UAE Residency by Investment, UAE Golden Visa Requirements, Dubai Property Investment, UAE Investor Visa, UAE Business Residency, Golden Visa Application Process, UAE Long-Term Residency, UAE Golden Visa Costs',
+    focusKeyword: 'UAE Golden Visa for EU Nationals',
+    tags: [
+      'UAE Golden Visa for EU Nationals',
+      'UAE Golden Visa for Europeans',
+      'Dubai Golden Visa for EU Citizens',
+      'UAE Residency by Investment',
+      'UAE Golden Visa Requirements',
+      'Dubai Property Investment',
+      'UAE Investor Visa',
+      'UAE Business Residency',
+      'Golden Visa Application Process',
+      'UAE Long-Term Residency',
+      'UAE Golden Visa Costs',
+    ],
+    audience: 'EU nationals considering UAE residence through investment, business or professional eligibility routes',
+  },
+  {
+    slug: 'expanding-from-saudi-arabia-or-qatar-to-the-uae',
+    title: 'Expanding from Saudi Arabia or Qatar to the UAE',
+    excerpt:
+      'Explore UAE expansion options for Saudi and Qatari businesses, including branches vs subsidiaries, licensing, banking, staffing and cross-border planning.',
+    date: '10 Nov 2026',
+    category: 'Blog',
+    image: '/blog-img/UAE%20Expansion_%20Dubai%20Business%20Guide.png',
+    imageAlt: 'Guide to expanding a Saudi or Qatari business into the UAE',
+    imageTitle: 'UAE Expansion: Dubai Business Guide',
+    imageCaption:
+      'Key considerations when expanding a business from Saudi Arabia or Qatar into the UAE.',
+    imageDescription:
+      'Guide to UAE business expansion from Saudi Arabia or Qatar, covering company formation, branches, subsidiaries, banking, licensing and staffing.',
+    imageTags: [
+      'Expanding from Saudi Arabia to UAE',
+      'Qatar Business Expansion UAE',
+      'UAE Company Formation',
+      'GCC Business Expansion',
+      'Saudi Companies in UAE',
+    ],
+    metaTitle: 'Expanding from Saudi Arabia or Qatar to the UAE',
+    metaDescription:
+      'Expanding from Saudi Arabia or Qatar to the UAE? Explore company formation, branches vs subsidiaries, banking, licensing, staffing and business expansion in Dubai.',
+    metaKeywords:
+      'Expanding from Saudi Arabia, Expanding from Saudi Arabia to UAE, Saudi Business Setup in Dubai, Qatar Business Expansion UAE, UAE Company Formation, GCC Business Expansion, Dubai Business Setup, UAE Branch Registration, UAE Subsidiary Formation, GCC Entrepreneurs, Saudi Companies in UAE',
+    focusKeyword: 'Expanding from Saudi Arabia',
+    tags: [
+      'dubai business registration',
+      'klay consultants',
+      'Open Bank Account UAE',
+      'UAE Company Formation',
+      'UAE Company Incorporation',
+      'UAE Trade License Requirements',
+      'Expanding from Saudi Arabia',
+      'Saudi Business Setup in Dubai',
+      'Qatar Business Expansion UAE',
+      'GCC Business Expansion',
+      'Saudi Companies in UAE',
+    ],
+    audience: 'Saudi and Qatari companies, GCC entrepreneurs and regional business owners planning UAE expansion',
+  },
+  {
     slug: 'the-gcc-unified-economic-agreement-and-uae-company-formation-what-gcc-nationals-should-know-before-starting-a-business',
     title: 'The GCC Unified Economic Agreement and UAE Company Formation',
     excerpt:

@@ -54,6 +54,392 @@ type LongFormArticle = {
   relatedLinks: readonly { href: string; label: string }[];
 };
 
+const uaeVsEuCorporateTaxArticle: LongFormArticle = {
+  introduction:
+    'Comparing UAE Corporate Tax with “EU Corporate Tax” is not a simple rate comparison: the EU does not have one harmonised corporate income tax rate, and member states set their own tax systems within EU rules. A founder’s effective position also depends on where a company is managed, where it has operations and staff, the nature of its income, applicable treaties and anti-avoidance rules. This guide compares broad considerations for UAE and European business planning; it is not a substitute for advice in the specific countries involved.',
+  sections: [
+    {
+      heading: 'There Is No Single EU Corporate Tax Rate',
+      paragraphs: [
+        'EU member states have different corporate income tax rates, tax bases, incentives, filing rules and local surcharges. Rates and rules can change, and the headline statutory rate does not show the full effective tax burden. A founder comparing a UAE company with an EU company should identify the relevant member state and review its current national and local rules.',
+        'Cross-border groups may also need to consider EU directives, domestic implementation, tax treaties, transfer pricing and anti-abuse rules. The outcome depends on the entities, owners, transactions and actual business activities involved.',
+      ],
+    },
+    {
+      heading: 'UAE Corporate Tax: General Framework',
+      paragraphs: [
+        'The UAE has a federal Corporate Tax regime. The applicable tax treatment depends on the taxable person, taxable income, relevant thresholds and statutory conditions. Companies should confirm their registration, tax period, filing and payment obligations with the Federal Tax Authority and a qualified UAE tax adviser.',
+        'A UAE company’s incorporation location does not by itself determine that no tax is due. A Free Zone person must satisfy the applicable conditions to access any preferential treatment, and qualifying and non-qualifying income rules can be detailed. Review the company’s activities, counterparties, substance, records and transactions under current law.',
+      ],
+    },
+    {
+      heading: 'High-Level Comparison',
+      table: {
+        headers: ['Topic', 'UAE', 'EU member states'],
+        rows: [
+          ['Corporate income tax', 'Federal regime with rules and rates set by UAE law; apply the current provisions to the company’s facts.', 'No single EU-wide rate; each member state sets its corporate tax system within applicable EU and international rules.'],
+          ['Free Zone or incentive treatment', 'Any preferential treatment depends on meeting statutory conditions and the nature of income and activities.', 'Incentives vary by country and may be subject to domestic, EU State aid and international rules.'],
+          ['VAT / consumption tax', 'UAE VAT rules apply to taxable supplies, subject to registration, place-of-supply and other provisions.', 'EU VAT framework is implemented through national laws; rates and administration vary by member state.'],
+          ['Substance and management', 'Licensing, records and tax rules may require genuine operations and evidence appropriate to the business.', 'Domestic residence, permanent establishment and anti-abuse rules can examine management, operations and economic activity.'],
+          ['Dividends and cross-border flows', 'Treatment depends on the recipient, source, applicable UAE rules and any treaty or foreign law.', 'Withholding and relief rules differ by country and may be affected by EU law and tax treaties.'],
+          ['Compliance', 'Registration, returns, records and payment obligations depend on the person and applicable tax rules.', 'National filings, accounts, VAT and reporting duties differ across member states.'],
+        ],
+      },
+    },
+    {
+      heading: 'UAE VAT vs EU VAT',
+      paragraphs: [
+        'The UAE and EU both operate VAT systems, but their rates, registration thresholds, exemptions, place-of-supply rules, invoicing requirements and filing procedures differ. Within the EU, VAT is governed by a shared framework implemented through each member state’s legislation, so businesses may face multiple registrations and reporting processes when operating across borders.',
+        'A UAE company selling to EU customers may still have EU VAT obligations depending on the goods or services, customer type, place of supply, imports, storage and sales channel. Incorporating in the UAE does not remove obligations triggered by activities in another country.',
+      ],
+    },
+    {
+      heading: 'Free Zone Tax Treatment: Conditions Matter',
+      paragraphs: [
+        'Free Zone status is not a blanket corporate tax exemption. A Free Zone company must assess whether it qualifies for any applicable preferential regime and whether it meets conditions relating to income, activities, substance, transfer pricing, audited accounts or other requirements. These conditions should be checked against current UAE legislation and guidance.',
+        'Do not choose a Free Zone solely on an assumed tax outcome. Evaluate the business licence, customers, permitted operations, staff and premises alongside tax eligibility and the cost of ongoing compliance.',
+      ],
+    },
+    {
+      heading: 'Business Substance, Tax Residence and Management',
+      paragraphs: [
+        'Tax residence is not always determined solely by where a company is incorporated. Management and control, the location of decision-makers, personnel, facilities, customers and operations may be relevant under the laws of the UAE and the European country concerned. An arrangement that lacks genuine commercial substance can attract scrutiny and may not deliver the expected tax result.',
+        'Founders who relocate should separately analyse their personal tax residence, exit or departure rules, wealth reporting and social security position in their home country. A UAE residence visa or UAE company registration does not automatically end tax obligations elsewhere.',
+      ],
+    },
+    {
+      heading: 'Dividends, Related Parties and Cross-Border Groups',
+      paragraphs: [
+        'Payments between a UAE company and European shareholders or group entities can raise questions about withholding tax, treaty access, beneficial ownership, transfer pricing, deductibility and reporting. The rules depend on the countries and entities involved, the legal and economic substance of the arrangements and applicable domestic law.',
+        'Document intercompany services, loans, intellectual property and cost sharing on an arm’s-length basis where required. Before paying dividends or moving functions and assets, obtain coordinated advice in the UAE and each relevant EU member state.',
+      ],
+    },
+    {
+      heading: 'How European Founders Should Compare Setups',
+      list: [
+        'Identify the countries where founders are resident, the business is managed and customers or employees are located.',
+        'Model the actual operating structure, including premises, staff, contracts, goods flows and service delivery.',
+        'Compare tax bases and effective outcomes, not only headline rates or advertised incentives.',
+        'Check UAE Corporate Tax, Free Zone conditions, VAT, transfer pricing and record-keeping requirements.',
+        'Review EU member-state corporate tax, VAT, withholding, permanent establishment and exit or residence rules.',
+        'Obtain written, coordinated advice before incorporating, relocating management or transferring intellectual property and contracts.',
+      ],
+    },
+  ],
+  faqs: [
+    {
+      question: 'Does the EU have one corporate tax rate?',
+      answer:
+        'No. EU member states set their own corporate tax rates and rules within applicable EU and international frameworks. The relevant country and company facts must be assessed.',
+    },
+    {
+      question: 'Is UAE Corporate Tax always lower than EU corporate tax?',
+      answer:
+        'There is no universal comparison. Rates, taxable bases, incentives, compliance costs and cross-border obligations vary. Compare the actual effective position in the UAE and the specific EU member state with qualified advisers.',
+    },
+    {
+      question: 'Are UAE Free Zone companies exempt from Corporate Tax?',
+      answer:
+        'Not automatically. Preferential treatment depends on meeting applicable legal conditions, including rules on income and activities. Free Zone status alone does not ensure a particular tax result.',
+    },
+    {
+      question: 'Can a UAE company owe VAT in an EU country?',
+      answer:
+        'It may, depending on the goods or services, customer location, place-of-supply rules, imports, inventory and sales arrangements. Incorporation in the UAE does not by itself prevent an EU VAT obligation.',
+    },
+    {
+      question: 'Does opening a UAE company make me a UAE tax resident?',
+      answer:
+        'Not necessarily. Personal and corporate tax residence depend on applicable legal tests and facts, which may include residence, management and operations. A visa or incorporation alone does not settle every tax-residence question.',
+    },
+    {
+      question: 'Can I move my EU business to Dubai to avoid tax?',
+      answer:
+        'A change in incorporation or address does not automatically end tax obligations in the original country. Management, operations, permanent establishment, exit rules and anti-avoidance provisions may remain relevant. Get advice in each affected jurisdiction before restructuring.',
+    },
+  ],
+  cta:
+    'For European founders, the right comparison starts with the actual countries, people, customers and operations involved—not just headline rates. Klay Consultants can help with UAE company formation planning, while qualified tax advisers in the UAE and relevant EU member states should assess tax residence, corporate tax, VAT and cross-border obligations before decisions are made.',
+  disclaimer:
+    'This article is for general information only and is not tax, legal, accounting or investment advice. UAE tax legislation and the rules of EU member states may change, and tax outcomes depend on individual facts and cross-border arrangements. Obtain current advice from qualified tax professionals in every relevant jurisdiction and verify applicable requirements with the competent authorities.',
+  relatedLinks: [
+    { href: '/blog/uae-corporate-tax-and-vat-guide-2026', label: 'UAE Corporate Tax and VAT guide' },
+    { href: '/blog/uae-business-setup-for-us-citizens-guide', label: 'UAE business setup guide for international founders' },
+    { href: '/blog/business-setup-in-uae-2026-guide', label: 'How to set up a business in the UAE in 2026' },
+  ],
+};
+
+const uaeGoldenVisaForEuNationalsArticle: LongFormArticle = {
+  introduction:
+    'EU citizenship does not create a separate UAE Golden Visa category or guarantee approval. EU nationals may apply through the same eligible routes available to other applicants, provided they meet the requirements for a qualifying investment, professional, entrepreneur, talent, academic or other category. This guide outlines common routes, supporting evidence, costs to plan for and renewal considerations. Check current thresholds and procedures with the competent UAE authority before making an investment or submitting an application.',
+  sections: [
+    {
+      heading: 'Does EU Nationality Affect Golden Visa Eligibility?',
+      paragraphs: [
+        'The UAE Golden Visa is based on qualifying categories and evidence, not EU nationality alone. An EU passport may be relevant to identity and travel documentation, but applicants must still satisfy the current criteria for the specific route and complete the required nomination, approval or residence procedures.',
+        'Requirements can vary by category, emirate and responsible authority. Confirm the latest rules directly with the relevant federal or local authority; do not rely on an assumed nationality-based exemption, a past application outcome or an investment amount quoted without its conditions.',
+      ],
+    },
+    {
+      heading: 'Common UAE Golden Visa Routes',
+      paragraphs: [
+        'Potential routes may include eligible real estate or public investments, entrepreneurs with qualifying projects, skilled professionals and specialists, scientists and researchers, exceptional talent, and outstanding students or graduates. The available evidence and approval process differ for each route.',
+      ],
+      table: {
+        headers: ['Route', 'Examples of evidence to verify'],
+        rows: [
+          ['Real estate investor', 'Current property value and ownership criteria, title or registration documents, and any financing conditions.'],
+          ['Public investor', 'Qualifying deposit, fund or company investment evidence and any required confirmation from the relevant institution.'],
+          ['Entrepreneur or business owner', 'Project or company records, investment or revenue evidence, and any required recommendation or approval.'],
+          ['Skilled professional or specialist', 'Employment, occupation, qualification, salary or professional licensing evidence where applicable.'],
+          ['Academic, research or exceptional talent', 'Recognised credentials, achievements, institutional records or recommendations required for the category.'],
+        ],
+      },
+    },
+    {
+      heading: 'Property Investment: Confirm the Exact Criteria',
+      paragraphs: [
+        'Property investment is one possible route, but buying property in Dubai or another emirate does not automatically qualify an applicant for a Golden Visa. The applicable rules may address minimum value, ownership, property type, financing, title registration and how jointly owned property is assessed.',
+        'Before signing a purchase or financing agreement with the visa as a key objective, verify the current eligibility criteria and accepted evidence with the relevant authority and property registrar. Consider transaction costs, ongoing service charges, financing obligations and market risk separately from visa eligibility.',
+      ],
+    },
+    {
+      heading: 'Business Ownership and Entrepreneur Routes',
+      paragraphs: [
+        'A UAE company, investment or project may support an entrepreneur or investor application only if it meets the current requirements for the relevant category. A trade licence or shareholding by itself should not be assumed to provide Golden Visa eligibility.',
+        'Applicants may need to show qualifying investment, project viability, revenue, approvals or a nomination from a recognised authority. Confirm the accepted company form, ownership evidence, activity and approval channel before relying on a business route.',
+      ],
+    },
+    {
+      heading: 'Documents EU Applicants May Need',
+      paragraphs: [
+        'The checklist is category-specific. Prepare the documents requested by the authority and ensure that names, dates, ownership details and qualifications are consistent across records. Foreign-issued documents may need translation, attestation or other verification under the current process.',
+      ],
+      bulletList: [
+        'Valid passport and recent photographs.',
+        'Evidence for the selected route, such as property, investment, business, employment, academic or professional records.',
+        'Any required nomination, recommendation, licence, equivalency or approval.',
+        'Current UAE entry or residence details if applying from within the country.',
+        'Medical fitness and Emirates ID steps, where required for issuance.',
+        'Supporting records for eligible family members if you plan to sponsor dependants.',
+      ],
+    },
+    {
+      heading: 'Application Process',
+      list: [
+        'Select the route that fits your circumstances and verify its current criteria with the responsible authority.',
+        'Collect route-specific evidence and confirm whether foreign documents require translation or authentication.',
+        'Submit a nomination or eligibility request first if the category requires it.',
+        'Apply through the designated federal or emirate-level channel and respond to document requests.',
+        'Complete required medical, biometrics and Emirates ID procedures.',
+        'Review the issued permit, family sponsorship details and renewal requirements, and retain evidence of continuing eligibility.',
+      ],
+      paragraphs: [
+        'The order and responsible service channel depend on category and emirate. An initial nomination or entry permit is not the final residence visa; follow the authority’s instructions through each stage.',
+      ],
+    },
+    {
+      heading: 'UAE Golden Visa Costs',
+      paragraphs: [
+        'There is no single Golden Visa fee for all EU applicants. Costs depend on the route, authority, application location, permit duration and number of family members. Government charges can change, so request a current itemised quotation before applying.',
+      ],
+      bulletList: [
+        'Application, issuance and residence processing charges.',
+        'Medical fitness and Emirates ID fees where applicable.',
+        'Document translation, attestation, verification or professional licensing expenses.',
+        'Service provider charges if you choose administrative assistance.',
+        'The qualifying investment or property purchase amount, which is separate from visa processing fees.',
+        'Additional fees for family members or related applications.',
+      ],
+    },
+    {
+      heading: 'Renewal and Ongoing Considerations',
+      paragraphs: [
+        'A Golden Visa may be renewable if the holder continues to satisfy the applicable category rules and completes the renewal process. Keep relevant investment, employment, business or qualification evidence up to date and verify renewal requirements and timing with the authority before the permit expires.',
+        'Residence status does not by itself determine tax residence or eliminate tax, reporting, licensing or employment obligations in the UAE or an EU member state. Seek qualified cross-border tax advice based on your personal and business circumstances.',
+      ],
+    },
+    {
+      heading: 'Common Mistakes to Avoid',
+      bulletList: [
+        'Assuming EU citizenship alone qualifies for long-term UAE residence.',
+        'Committing to a property or business investment before verifying the current eligibility conditions.',
+        'Relying on old fee or threshold information without checking the responsible authority’s current rules.',
+        'Submitting incomplete, inconsistent or improperly authenticated documents.',
+        'Treating a nomination or preliminary approval as the final issued residence permit.',
+        'Assuming a residence visa automatically resolves cross-border tax or business compliance questions.',
+      ],
+    },
+  ],
+  faqs: [
+    {
+      question: 'Can EU citizens apply for a UAE Golden Visa?',
+      answer:
+        'Yes, EU nationals may apply if they qualify under an available Golden Visa category. Nationality alone does not guarantee eligibility or approval.',
+    },
+    {
+      question: 'Is there a special Golden Visa route only for EU nationals?',
+      answer:
+        'There is not a separate route simply because someone is an EU citizen. Applicants generally need to qualify under one of the applicable investment, professional, entrepreneur, talent or other categories.',
+    },
+    {
+      question: 'Does buying a Dubai property guarantee a Golden Visa?',
+      answer:
+        'No. The property and ownership must meet the current criteria for the relevant investor route. Verify value, title, financing and documentation requirements before purchasing.',
+    },
+    {
+      question: 'How much does a UAE Golden Visa cost for a European applicant?',
+      answer:
+        'Costs vary by route, authority, processing location and dependants. Government application fees are separate from investment amounts, medical and Emirates ID charges, document costs and optional service fees. Confirm current charges before applying.',
+    },
+    {
+      question: 'Can I include my family in my Golden Visa application?',
+      answer:
+        'Eligible holders may be able to sponsor family members under current immigration rules. Confirm the permitted dependants, supporting documents and applicable fees with the relevant authority.',
+    },
+    {
+      question: 'Does a UAE Golden Visa make me a UAE tax resident?',
+      answer:
+        'A residence visa alone does not automatically settle tax residence. Tax treatment depends on the applicable rules and your individual circumstances in the UAE and other relevant countries. Obtain qualified tax advice.',
+    },
+  ],
+  cta:
+    'For EU nationals, the first step is to identify the Golden Visa category that matches the actual investment, professional or business profile and confirm the current evidence requirements. Klay Consultants can help organise the application process and supporting documents. Verify eligibility, fees and investment conditions with the competent UAE authority before committing funds.',
+  disclaimer:
+    'This article is for general information only and is not immigration, legal, tax, investment or financial advice. Golden Visa categories, thresholds, fees, documents, benefits and renewal procedures may change and vary by authority and applicant circumstances. Verify current requirements with ICP, the relevant emirate authority and qualified professional advisers.',
+  relatedLinks: [
+    { href: '/blog/uae-golden-visa-2026-eligibility-cost-application-guide', label: 'UAE Golden Visa eligibility, costs and application guide' },
+    { href: '/blog/expanding-from-saudi-arabia-or-qatar-to-the-uae', label: 'Expanding a GCC business to the UAE' },
+    { href: '/blog/business-setup-in-uae-2026-guide', label: 'How to set up a business in the UAE in 2026' },
+  ],
+};
+
+const expandingFromSaudiOrQatarToUaeArticle: LongFormArticle = {
+  introduction:
+    'Expanding from Saudi Arabia or Qatar into the UAE can give a business access to a wider customer base, logistics networks and regional commercial opportunities. The right setup depends on what the company will do in the UAE, whether it needs a separate local entity or a registered branch, where it will operate and how the parent business will manage people, contracts and funds across borders. A UAE presence does not automatically inherit the parent company’s home-country permissions: confirm the licensing, corporate, tax and employment rules that apply to the proposed model.',
+  sections: [
+    {
+      heading: 'Start with the UAE Expansion Model',
+      paragraphs: [
+        'Define the commercial purpose of the expansion before selecting a structure. Consider whether the business needs a sales office, local contracting entity, operating subsidiary, branch of the foreign company, distribution arrangement, warehouse or regulated presence. Clarify expected customers, activities, staffing, premises and revenue flows.',
+        'A company may be able to operate through a UAE subsidiary or, where the relevant authority permits, register a branch of the Saudi or Qatari parent. The available options, liability position, documentation and approvals depend on the activity, legal form and jurisdiction. A representative or liaison office may have a narrower scope and should not be assumed to conduct revenue-generating activity.',
+      ],
+    },
+    {
+      heading: 'Branch vs Subsidiary: Which Is Appropriate?',
+      table: {
+        headers: ['Consideration', 'UAE branch', 'UAE subsidiary'],
+        rows: [
+          ['Legal relationship', 'An extension of the foreign parent, registered to conduct permitted UAE activities.', 'A separate UAE-incorporated legal entity owned by its shareholder or shareholders.'],
+          ['Parent company connection', 'The parent remains directly connected to branch obligations, subject to applicable law and documents.', 'The subsidiary has its own legal personality, governance and records; parent obligations may still arise under guarantees or other arrangements.'],
+          ['Permitted activities', 'Must be approved and aligned with the parent’s business and UAE authority requirements.', 'Activities are set out in the subsidiary’s licence and approved company documents.'],
+          ['Documentation', 'Often requires parent resolutions, constitutional records, licences and other authenticated documents.', 'Requires incorporation and shareholder documentation under the chosen UAE jurisdiction.'],
+          ['Management and operations', 'Can be managed as part of the parent’s regional operations, subject to local requirements.', 'Has its own UAE governance, accounts and operational arrangements.'],
+        ],
+      },
+      paragraphs: [
+        'Neither option is universally preferable. Compare regulatory eligibility, liability, contracting needs, ownership, internal approvals, accounting, tax treatment, and future investment or exit plans with qualified advisers in both jurisdictions.',
+      ],
+    },
+    {
+      heading: 'Choose a UAE Jurisdiction and Licensing Authority',
+      paragraphs: [
+        'A Mainland setup may suit companies seeking direct operations in the relevant emirate’s local market or activities licensed by its economic department. A Free Zone may suit a business whose activities, facilities and operating model fit that zone’s rules. Each emirate and Free Zone has its own requirements, fees, activity lists, premises options and visa arrangements.',
+        'Confirm that the chosen licence covers the actual services or products, client location and contracting model. A licence issued in Saudi Arabia or Qatar does not by itself authorise the company to carry on every activity in the UAE. Regulated sectors may require additional approvals or local registrations.',
+      ],
+    },
+    {
+      heading: 'Documents and Parent Company Approvals',
+      paragraphs: [
+        'A branch application commonly requires corporate documents from the parent, such as a certificate of incorporation, commercial registration or trade licence, constitutional documents, board or shareholder resolutions, and details of authorised representatives. A subsidiary application instead requires the formation documents and ownership information requested by the selected UAE authority.',
+        'Documents issued abroad may need to be notarised, authenticated, attested, translated or verified in a specified manner before they can be used in the UAE. Requirements vary by issuing country, document type and authority. Confirm the current checklist before arranging formalities, and align the proposed UAE activity and name with the parent’s approvals.',
+      ],
+      bulletList: [
+        'Parent company registration, licence and constitutional documents.',
+        'Board or shareholder resolutions approving the UAE expansion and appointing authorised signatories.',
+        'Passport and contact details for owners, directors, managers and authorised representatives.',
+        'A description of proposed UAE activities, customers, premises and operating model.',
+        'Financial or bank reference documents where requested by the licensing authority or bank.',
+        'Translations and attestations required for foreign-issued documents.',
+      ],
+    },
+    {
+      heading: 'Banking and Cross-Border Finance',
+      paragraphs: [
+        'Opening a UAE corporate bank account is a separate due diligence process and is not guaranteed by obtaining a licence. Banks may review the ownership structure, parent and subsidiary records, source of funds, expected transaction volumes, counterparties, contracts and business rationale for the UAE presence.',
+        'Prepare a consistent group structure chart and explain how funds, invoices, intercompany services, loans or dividends will move between the parent and UAE operation. Obtain tax and legal advice on intercompany agreements, transfer pricing, foreign exchange, withholding or reporting obligations that may apply across the relevant countries.',
+      ],
+    },
+    {
+      heading: 'Staffing, Visas and Local Operations',
+      paragraphs: [
+        'A UAE licence does not automatically provide residence visas or work permissions. Visa allocation and employment procedures depend on the licensing jurisdiction, facilities, immigration rules and the individual’s circumstances. If the expansion includes transferring staff from Saudi Arabia or Qatar, confirm the applicable UAE work authorisation and residence process before scheduling a start date.',
+        'Plan for employment contracts, payroll, insurance, workplace obligations, onboarding and any applicable Emiratisation or other workforce requirements. A short-term business visit should not be treated as permission to work; check the correct entry and work status for each person.',
+      ],
+    },
+    {
+      heading: 'Tax, Accounting and Group Compliance',
+      paragraphs: [
+        'A UAE branch or subsidiary can have different accounting, tax registration, filing and reporting implications. Assess UAE Corporate Tax, VAT and any other obligations based on the legal structure, activities, revenue, transactions and current law. A Free Zone registration does not automatically guarantee a particular tax result.',
+        'Also assess home-country and cross-border consequences in Saudi Arabia or Qatar, including group reporting, related-party arrangements, permanent establishment exposure, tax residence and documentation. Coordinate advice across the jurisdictions rather than treating UAE registration as a standalone decision.',
+      ],
+    },
+    {
+      heading: 'Expansion Checklist',
+      list: [
+        'Define the target market, activities, customers and operating presence required in the UAE.',
+        'Compare branch, subsidiary and other permitted structures with legal and tax advisers in both countries.',
+        'Select the UAE jurisdiction, confirm activity codes and obtain any external regulatory approvals.',
+        'Approve the expansion through the parent company’s governance process and prepare required records.',
+        'Complete document authentication, translation and UAE licensing or registration procedures.',
+        'Prepare a bank application pack, group structure chart and explanation of expected transactions.',
+        'Arrange premises, staffing, immigration, employment, accounting and tax compliance before operations begin.',
+      ],
+    },
+  ],
+  faqs: [
+    {
+      question: 'Can a Saudi or Qatari company operate in the UAE using only its home-country licence?',
+      answer:
+        'A home-country licence does not automatically authorise every activity in the UAE. Depending on the business model and activity, local licensing, registration or other approvals may be required. Confirm with the competent UAE authority before operating.',
+    },
+    {
+      question: 'Should we open a UAE branch or form a subsidiary?',
+      answer:
+        'It depends on the activity, authority requirements, liability, parent-company governance, customer contracts, tax position and future plans. Compare both options with legal and tax advisers familiar with the relevant countries.',
+    },
+    {
+      question: 'Do branch documents from Saudi Arabia or Qatar need attestation?',
+      answer:
+        'Foreign-issued corporate documents may need authentication, attestation, translation or verification for use in the UAE. Requirements vary by document, issuing country and authority, so confirm the current checklist before processing them.',
+    },
+    {
+      question: 'Will the UAE company licence guarantee a corporate bank account?',
+      answer:
+        'No. Banks conduct independent due diligence and decide whether to onboard a business. They may request parent company records, ownership information, contracts, source-of-funds evidence and expected transaction details.',
+    },
+    {
+      question: 'Can we transfer employees from Saudi Arabia or Qatar to the UAE?',
+      answer:
+        'Staff must meet the applicable UAE work authorisation, immigration and employment requirements. Confirm the correct process and status for each employee before they begin working in the UAE.',
+    },
+    {
+      question: 'Does setting up in a UAE Free Zone automatically exempt the business from tax?',
+      answer:
+        'No. Free Zone status alone does not ensure a particular tax outcome. Tax obligations and any available treatment depend on current law and the company’s facts; obtain qualified advice.',
+    },
+  ],
+  cta:
+    'A successful regional expansion starts with matching the UAE structure to the business model and group strategy. Klay Consultants can help Saudi and Qatari businesses understand UAE formation and licensing steps, while specialist legal and tax advisers can assess cross-border implications. Confirm current requirements with the relevant authority before committing to a structure or starting UAE operations.',
+  disclaimer:
+    'This article is for general information only and is not legal, tax, immigration, banking or investment advice. UAE and home-country company, licensing, employment, tax and document formalities vary by activity, jurisdiction and circumstances and may change. Obtain qualified advice in each relevant country and confirm requirements with the competent authorities.',
+  relatedLinks: [
+    { href: '/blog/business-setup-in-uae-2026-guide', label: 'How to set up a business in the UAE in 2026' },
+    { href: '/blog/mainland-vs-free-zone-uae-business-setup-guide', label: 'Mainland vs Free Zone UAE business setup' },
+    { href: '/blog/uae-business-setup-for-gcc-nationals-complete-2026-guide-klay-consultants', label: 'UAE business setup guide for GCC nationals' },
+  ],
+};
+
 const gccUnifiedEconomicAgreementArticle: LongFormArticle = {
   introduction:
     'The GCC Unified Economic Agreement provides a regional framework for economic cooperation among Gulf Cooperation Council states. For GCC nationals considering a UAE business, that framework is relevant context for cross-border trade, investment and economic activity, but it does not replace the UAE rules that govern company formation, licensing, regulated activities, immigration, tax or property registration. The practical result depends on the right or activity involved, implementing rules and the competent UAE authority. This guide outlines the main considerations to verify before investing or starting a business.',
@@ -7541,7 +7927,13 @@ export default function BlogArticlePage() {
   const { slug = '' } = useParams<{ slug: string }>();
   const article = BLOG_PREVIEW.find((post) => post.slug === slug);
   const longFormArticle =
-    slug === 'the-gcc-unified-economic-agreement-and-uae-company-formation-what-gcc-nationals-should-know-before-starting-a-business'
+    slug === 'uae-corporate-tax-vs-eu-corporate-tax-a-side-by-side-comparison-for-european-founders'
+      ? uaeVsEuCorporateTaxArticle
+      : slug === 'uae-golden-visa-for-eu-nationals-investment-routes-costs-application-process'
+      ? uaeGoldenVisaForEuNationalsArticle
+      : slug === 'expanding-from-saudi-arabia-or-qatar-to-the-uae'
+      ? expandingFromSaudiOrQatarToUaeArticle
+      : slug === 'the-gcc-unified-economic-agreement-and-uae-company-formation-what-gcc-nationals-should-know-before-starting-a-business'
       ? gccUnifiedEconomicAgreementArticle
       : slug === 'pro-services-vs-diy-what-gcc-based-business-owners-should-know-before-setting-up-in-dubai'
       ? proServicesVsDiyDubaiArticle
