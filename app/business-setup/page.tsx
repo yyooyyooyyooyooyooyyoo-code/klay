@@ -1,5 +1,6 @@
 'use client';
 
+import { FilloutStandardEmbed } from '@fillout/react';
 import { motion, useReducedMotion } from 'framer-motion';
 import {
   ArrowUpRight,
@@ -12,7 +13,6 @@ import {
   Phone,
 } from 'lucide-react';
 import type { ReactNode } from 'react';
-import { BusinessSetupEnquiryForm } from '@/components/sections/BusinessSetupEnquiryForm';
 import { BusinessSetupProcess } from '@/components/sections/BusinessSetupProcess';
 import { Link } from '@/components/ui/link';
 import { COMPANY, IMAGES } from '@/lib/data';
@@ -245,9 +245,15 @@ export default function BusinessSetupPage() {
           </div>
 
           <figure className="relative m-0 overflow-hidden rounded-[1.35rem] border border-[#E5E9E2] bg-[#EDFBE2]">
-            <img
-              src="/services-dubai-sunset.jpg"
-              alt="Dubai skyline and contemporary UAE architecture at sunset"
+            <video
+              src="/videos/KLAY-VID-compressed.mp4"
+              poster="/services-dubai-sunset.jpg"
+              autoPlay
+              muted
+              loop
+              playsInline
+              preload="metadata"
+              aria-label="Dubai business and city video"
               className="aspect-[4/3] w-full object-cover xl:aspect-[1.28/1]"
             />
             <figcaption className="absolute bottom-4 left-4 rounded-xl border border-white/30 bg-[#0C2D48]/75 px-4 py-3 text-white">
@@ -526,7 +532,17 @@ export default function BusinessSetupPage() {
                 className="mt-5 h-36 w-full rounded-xl object-cover"
               />
             </div>
-            <BusinessSetupEnquiryForm />
+            <div className="min-w-0 overflow-hidden rounded-2xl border border-[#E5E9E2] bg-white p-5 sm:p-7">
+              <p className="mb-2 text-[10px] font-semibold uppercase tracking-[0.2em] text-[#426B3C]">
+                Your next step
+              </p>
+              <h3 className="mb-5 font-serif text-2xl font-medium text-[#151515] sm:text-3xl">
+                Send Us a Message
+              </h3>
+              <div className="w-full min-w-0 overflow-hidden [&_iframe]:block [&_iframe]:max-w-full [&_iframe]:border-0 [&_iframe]:w-full">
+                <FilloutStandardEmbed filloutId="tGKUNBZM4wus" dynamicResize />
+              </div>
+            </div>
           </div>
         </div>
       </AnimatedSection>

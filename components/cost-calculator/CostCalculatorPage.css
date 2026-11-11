@@ -14,6 +14,7 @@
   color: var(--cost-text);
   background: #fff;
   overflow: hidden;
+  position: relative;
 }
 
 .cost-page * {
@@ -32,45 +33,7 @@
   margin-top: 0;
 }
 
-.cost-page .cost-navbar {
-  min-height: 68px;
-  padding: 0 5%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 25px;
-  background: #fff;
-  position: sticky;
-  top: 0;
-  z-index: 100;
-  border-bottom: 1px solid var(--cost-border);
-}
-
-.cost-page .cost-logo {
-  color: var(--cost-green);
-  text-decoration: none;
-  font-weight: 800;
-  white-space: nowrap;
-}
-
-.cost-page .cost-nav-links {
-  display: flex;
-  gap: 28px;
-}
-
-.cost-page .cost-nav-links a {
-  color: #333;
-  text-decoration: none;
-  font-size: 13px;
-  font-weight: 600;
-}
-
-.cost-page .cost-nav-links a:hover {
-  color: var(--cost-green);
-}
-
-.cost-page .nav-cta,.cost-page 
-.primary-btn {
+.cost-page .primary-btn {
   background: var(--cost-green);
   color: #fff;
   border: 0;
@@ -82,13 +45,7 @@
   transition: .25s ease;
 }
 
-.cost-page .nav-cta {
-  white-space: nowrap;
-  font-size: 13px;
-}
-
-.cost-page .primary-btn:hover,.cost-page 
-.nav-cta:hover {
+.cost-page .primary-btn:hover {
   background: var(--cost-green-dark);
   transform: translateY(-2px);
 }
@@ -104,13 +61,54 @@
 }
 
 .cost-page .cost-hero {
-  background: linear-gradient(120deg, #f4f9f1, #edfbe2);
-  padding: 75px 0 65px;
+  position: relative;
+  isolation: isolate;
+  display: flex;
+  align-items: center;
+  min-height: min(900px, 100svh);
+  padding: 110px 0 64px;
+  color: #fff;
+  background: #0c2d48;
+}
+
+.cost-page .cost-hero::before {
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  background:
+    linear-gradient(90deg, rgba(9, 37, 59, .9) 0%, rgba(12, 45, 72, .72) 48%, rgba(12, 45, 72, .42) 100%),
+    linear-gradient(0deg, rgba(9, 37, 59, .3), rgba(9, 37, 59, .3));
+  content: "";
+}
+
+.cost-page .cost-hero-video {
+  position: absolute;
+  z-index: -2;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 45%;
+}
+
+.cost-page .hero-overlay {
+  width: 100%;
+}
+
+.cost-page .cost-hero .cost-container {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(420px, .92fr);
+  align-items: center;
+  gap: clamp(36px, 6vw, 88px);
+}
+
+.cost-page .cost-hero-grid {
+  display: contents;
 }
 
 .cost-page .hero-heading {
-  max-width: 580px;
-  margin-bottom: 35px;
+  max-width: 610px;
+  margin: 0;
 }
 
 .cost-page .eyebrow {
@@ -122,19 +120,70 @@
   margin-bottom: 12px;
 }
 
+.cost-page .cost-hero .eyebrow {
+  color: #e8c37a;
+}
+
 .cost-page .hero-heading h1 {
-  font-size: clamp(36px, 5vw, 58px);
+  max-width: 650px;
+  color: #fff;
+  font-size: clamp(42px, 5.2vw, 70px);
   line-height: 1.08;
-  letter-spacing: -2px;
-  margin-bottom: 17px;
+  letter-spacing: -2.5px;
+  margin-bottom: 22px;
+}
+
+.cost-page .hero-heading h1 span {
+  display: block;
+  color: #e8c37a;
 }
 
 .cost-page .hero-heading p {
-  max-width: 490px;
-  color: #4b5563;
+  max-width: 560px;
+  color: rgba(255,255,255,.88);
   line-height: 1.7;
-  font-size: 15px;
-  margin-top: 18px;
+  font-size: 16px;
+  margin: 0;
+}
+
+.cost-page .hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 25px;
+}
+
+.cost-page .hero-action-primary,
+.cost-page .hero-action-secondary {
+  display: inline-flex;
+  min-height: 46px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 0 20px;
+  border: 1px solid rgba(255,255,255,.65);
+  border-radius: 999px;
+  color: #102b42;
+  background: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: background .2s ease, transform .2s ease;
+}
+
+.cost-page .hero-action-secondary {
+  color: #fff;
+  background: rgba(255,255,255,.14);
+  backdrop-filter: blur(8px);
+}
+
+.cost-page .hero-action-primary:hover,
+.cost-page .hero-action-secondary:hover {
+  transform: translateY(-2px);
+}
+
+.cost-page .hero-action-secondary:hover {
+  background: rgba(255,255,255,.24);
 }
 
 .cost-page .payment-badges {
@@ -171,194 +220,43 @@
 }
 
 .cost-page .hero-benefits span {
-  color: #344054;
+  color: rgba(255,255,255,.9);
 }
 
 .cost-page .calculator-layout {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr);
-  align-items: start;
-  gap: 22px;
+  width: 100%;
   scroll-margin-top: 100px;
 }
 
-.cost-page .calculator-card,
-.cost-page .quote-form {
-  background: rgba(255,255,255,.96);
-  border: 1px solid var(--cost-border);
-  border-radius: 17px;
-  padding: 28px;
-  box-shadow: 0 12px 35px rgba(20,40,70,.08);
+.cost-page .calculator-card {
+  background: rgba(236, 245, 249, .2);
+  border: 1px solid rgba(255,255,255,.32);
+  border-radius: 24px;
+  padding: 22px;
+  box-shadow: 0 20px 55px rgba(2, 20, 35, .22);
+  backdrop-filter: blur(14px);
 }
 
 .cost-page .calculator-card h2 {
-  font-size: 20px;
-  margin-bottom: 22px;
+  color: #fff;
+  font-size: clamp(22px, 2.2vw, 30px);
+  line-height: 1.2;
+  margin-bottom: 16px;
 }
 
-.cost-page .step-indicator {
-  display: flex;
-  justify-content: space-between;
-  gap: 8px;
-  margin-bottom: 30px;
-  border-bottom: 1px solid var(--cost-border);
-  padding-bottom: 17px;
-}
-
-.cost-page .step-indicator button {
-  display: flex;
-  align-items: center;
-  gap: 7px;
-  border: 0;
-  background: transparent;
-  font-family: inherit;
-  font-size: 11px;
-  color: #667085;
-  cursor: pointer;
-}
-
-.cost-page .step-indicator button span {
-  background: #edf0f4;
-  color: #475467;
-  border-radius: 50%;
-  height: 25px;
-  width: 25px;
-  display: grid;
-  place-items: center;
-  font-weight: 700;
-}
-
-.cost-page .step-indicator button.active {
-  color: var(--cost-green);
-  font-weight: 800;
-}
-
-.cost-page .step-indicator button.active span {
-  color: white;
-  background: var(--cost-green);
-}
-
-.cost-page .calculator-fields {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
-}
-
-.cost-page .calculator-fields label {
-  font-size: 13px;
-  font-weight: 700;
-  display: flex;
-  flex-direction: column;
-  gap: 9px;
-}
-
-.cost-page .calculator-fields .field-title {
-  display: block;
-  margin-bottom: 9px;
-  font-size: 13px;
-  font-weight: 700;
-}
-
-.cost-page .calculator-fields select,.cost-page 
-.quote-form input,.cost-page 
-.quote-form select {
+.cost-page .calculator-form-embed {
   width: 100%;
-  min-height: 46px;
-  border: 1px solid #dfe4ec;
-  border-radius: 9px;
-  background: #fff;
-  padding: 0 13px;
-  font: inherit;
-  font-size: 13px;
-  outline: none;
-}
-
-.cost-page .calculator-fields select:focus,.cost-page 
-.quote-form input:focus,.cost-page 
-.quote-form select:focus {
-  border-color: var(--cost-green);
-  box-shadow: 0 0 0 3px rgba(8,117,232,.1);
-}
-
-.cost-page .full-field {
-  grid-column: 1 / -1;
-}
-
-.cost-page .activity-options {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-}
-
-.cost-page .activity-options button {
-  padding: 9px 12px;
-  background: #f7f9fc;
-  border: 1px solid #e4e9f0;
-  border-radius: 8px;
-  font: inherit;
-  font-size: 12px;
-  cursor: pointer;
-}
-
-.cost-page .activity-options button.selected {
-  color: var(--cost-green);
-  background: #edfbe2;
-  border-color: var(--cost-green);
-}
-
-.cost-page .number-control {
-  min-height: 45px;
-  display: flex;
-  align-items: center;
-  width: fit-content;
-  border: 1px solid #e1e6ed;
-  border-radius: 9px;
+  min-width: 0;
   overflow: hidden;
+  border-radius: 14px;
+  background: #fff;
 }
 
-.cost-page .number-control button {
-  width: 42px;
-  height: 43px;
-  border: 0;
-  background: #f8fafc;
-  cursor: pointer;
-  font-size: 20px;
-}
-
-.cost-page .number-control strong {
-  min-width: 42px;
-  text-align: center;
-}
-
-.cost-page .calculator-actions {
-  display: flex;
-  gap: 12px;
-  margin-top: 25px;
-}
-
-.cost-page .next-btn {
-  flex: 1;
-}
-
-.cost-page .back-btn {
-  padding: 12px 22px;
-  border: 1px solid var(--cost-border);
-  border-radius: 40px;
-  background: white;
-  cursor: pointer;
-}
-
-.cost-page .calculator-review {
-  background: #f8fafc;
-  padding: 20px;
-  border-radius: 12px;
-  font-size: 14px;
-}
-
-.cost-page .field-note {
-  color: var(--cost-muted);
-  font-size: 13px;
-  grid-column: 1/-1;
+.cost-page .calculator-disclaimer {
+  margin: 12px 2px 0;
+  color: rgba(255,255,255,.82);
+  font-size: 11px;
+  line-height: 1.55;
 }
 
 .cost-page .cost-section {
@@ -756,83 +654,10 @@
   margin-bottom: 25px;
 }
 
-.cost-page .cost-footer {
-  padding: 25px 0;
-  background: #111827;
-  color: white;
-}
-
-.cost-page .footer-content {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.cost-page .footer-content a {
-  color: white;
-  text-decoration: none;
-  font-weight: 700;
-}
-
-.cost-page .footer-content p {
-  margin: 0;
-  color: #aeb8c7;
-  font-size: 12px;
-}
-
-.cost-page .quote-section {
-  padding: 70px 0;
-  background: #f4f9f1;
-}
-
-.cost-page .quote-grid {
-  display: grid;
-  grid-template-columns: .8fr 1.2fr;
-  align-items: center;
-  gap: 55px;
-}
-
-.cost-page .quote-grid h2 {
-  font-size: 34px;
-}
-
-.cost-page .quote-grid p {
-  color: var(--cost-muted);
-  line-height: 1.7;
-}
-
-.cost-page .quote-form {
-  display: grid;
-  gap: 14px;
-}
-
-.cost-page .quote-form .primary-btn {
-  display: inline-flex;
-  width: fit-content;
-  align-items: center;
-  text-decoration: none;
-}
-
-.cost-page .consent {
-  display: flex;
-  gap: 9px;
-  font-size: 12px;
-  color: var(--cost-muted);
-}
-
-.cost-page .consent input {
-  width: auto;
-  min-height: auto;
-}
-
-.cost-page .quote-message {
-  font-size: 13px;
-  color: var(--cost-green);
-}
-
 @media (max-width: 1000px) {
-  .cost-page .cost-nav-links {
-    gap: 12px;
+  .cost-page .cost-hero .cost-container {
+    grid-template-columns: minmax(0, 1fr) minmax(360px, .95fr);
+    gap: 32px;
   }
 
   .cost-page .coverage-grid {
@@ -841,21 +666,15 @@
 }
 
 @media (max-width: 760px) {
-  .cost-page .cost-navbar {
-    min-height: 60px;
-  }
-
-  .cost-page .cost-nav-links {
-    display: none;
-  }
-
-  .cost-page .nav-cta {
-    padding: 10px 14px;
-    font-size: 11px;
-  }
-
   .cost-page .cost-hero {
-    padding: 45px 0;
+    min-height: 0;
+    padding: 92px 0 42px;
+    background-position: center, center, 58% center;
+  }
+
+  .cost-page .cost-hero .cost-container {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 28px;
   }
 
   .cost-page .hero-heading h1 {
@@ -867,32 +686,14 @@
   }
 
   .cost-page .calculator-card {
-    padding: 20px;
-  }
-
-  .cost-page .step-indicator {
-    overflow-x: auto;
-    justify-content: flex-start;
-  }
-
-  .cost-page .step-indicator button {
-    white-space: nowrap;
-  }
-
-  .cost-page .calculator-fields {
-    grid-template-columns: 1fr;
-  }
-
-  .cost-page .full-field {
-    grid-column: auto;
+    padding: 18px;
   }
 
   .cost-page .process-grid,.cost-page 
   .info-grid,.cost-page 
   .split-section,.cost-page 
   .payment-plan,.cost-page 
-  .faq-layout,.cost-page 
-  .quote-grid {
+  .faq-layout {
     grid-template-columns: 1fr;
   }
 
@@ -931,15 +732,6 @@
     gap: 25px;
   }
 
-  .cost-page .footer-content {
-    flex-direction: column;
-    gap: 12px;
-    text-align: center;
-  }
-
-  .cost-page .quote-grid {
-    gap: 25px;
-  }
 }
 
 @media (max-width: 420px) {
@@ -949,6 +741,15 @@
 
   .cost-page .hero-heading h1 {
     font-size: 33px;
+  }
+
+  .cost-page .hero-actions {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .cost-page .hero-actions a {
+    width: 100%;
   }
 
   .cost-page .coverage-grid {

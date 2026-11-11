@@ -157,13 +157,27 @@ export default function AboutPage() {
             <ScrollReveal delay={index * 80} className="relative mx-auto w-full max-w-[520px]">
               <div className="absolute -inset-3 rounded-[2.3rem] bg-gradient-to-br from-[#EDFBE2]/70 via-white/30 to-gold-400/10" />
               <div className="relative aspect-[4/5] max-h-[650px] overflow-hidden rounded-[2rem] border border-white/80 bg-[#EDFBE2]/45 shadow-[0_18px_48px_rgba(12,45,72,0.1)]">
-                <ResilientImage
-                  src={section.image}
-                  fallbackSrc={section.fallback}
-                  alt={section.alt}
-                  sizes="(max-width: 1024px) 100vw, 48vw"
-                  className="object-cover"
-                />
+                {index === 0 ? (
+                  <video
+                    className="absolute inset-0 h-full w-full object-cover"
+                    src="/videos/KLAY-VID-compressed.mp4"
+                    poster="/services-dubai-sunset.jpg"
+                    autoPlay
+                    muted
+                    loop
+                    playsInline
+                    preload="metadata"
+                    aria-hidden="true"
+                  />
+                ) : (
+                  <ResilientImage
+                    src={section.image}
+                    fallbackSrc={section.fallback}
+                    alt={section.alt}
+                    sizes="(max-width: 1024px) 100vw, 48vw"
+                    className="object-cover"
+                  />
+                )}
                 <div className="absolute inset-0 bg-gradient-to-t from-navy-900/25 via-transparent to-white/5" />
               </div>
               <div className="absolute -bottom-4 -right-3 h-16 w-16 rounded-2xl border border-gold-500/20 bg-[#EDFBE2]/70 shadow-sm backdrop-blur-xl sm:-right-5 sm:h-20 sm:w-20" />

@@ -1,5 +1,6 @@
 
 import React, { useState } from "react";
+import { FilloutStandardEmbed } from "@fillout/react";
 import "./CostCalculatorPage.css";
 
 const faqs = [
@@ -71,16 +72,6 @@ function SectionButton({ children = "Calculate Now", onClick }) {
 }
 
 export default function CostCalculatorPage() {
-  const [step, setStep] = useState(1);
-  const [license, setLicense] = useState("regular");
-  const [duration, setDuration] = useState("oneYear");
-  const [activities, setActivities] = useState([]);
-  const [shareholders, setShareholders] = useState(1);
-  const [visas, setVisas] = useState(0);
-  const [employmentVisas, setEmploymentVisas] = useState(false);
-  const [dependentVisas, setDependentVisas] = useState(false);
-  const [office, setOffice] = useState("none");
-  const [addons, setAddons] = useState("none");
   const [openFaq, setOpenFaq] = useState(0);
 
   const scrollToCalculator = () => {
@@ -90,247 +81,66 @@ export default function CostCalculatorPage() {
     });
   };
 
-  const scrollToQuote = () => {
-    document.getElementById("quote-form")?.scrollIntoView({
-      behavior: "smooth",
-      block: "center",
-    });
-  };
-
-  const toggleActivity = (activity) => {
-    setActivities((prev) =>
-      prev.includes(activity)
-        ? prev.filter((item) => item !== activity)
-        : [...prev, activity]
-    );
-  };
-
   return (
     <div className="cost-page">
 
-      {/* NAVIGATION */}
-      <nav className="cost-navbar">
-        <a href="/" className="cost-logo">Business Setup in UAE</a>
-
-        <div className="cost-nav-links">
-          <a href="/">Home</a>
-          <a href="#calculator">Cost Calculator</a>
-          <a href="#how-it-works">How It Works</a>
-          <a href="#faq">FAQs</a>
-        </div>
-
-        <button className="nav-cta" onClick={scrollToCalculator}>
-          Free Cost Calculator
-        </button>
-      </nav>
-
       {/* HERO */}
       <section className="cost-hero">
+        <video
+          className="cost-hero-video"
+          src="/videos/KLAY-VID-compressed.mp4"
+          poster="/services-dubai-sunset.jpg"
+          autoPlay
+          muted
+          loop
+          playsInline
+          preload="metadata"
+          aria-hidden="true"
+        />
         <div className="hero-overlay">
           <div className="cost-container">
-
-            <div className="hero-heading">
-              <span className="eyebrow">DUBAI BUSINESS SETUP</span>
-              <h1>Calculate Your Dubai<br />Trade License Cost Now</h1>
-              <PaymentBadges />
-              <p>
-                Configure your business setup and review the cost categories
-                that need confirmation. No unverified package prices are shown.
-              </p>
-
-              <div className="hero-benefits">
-                <span>✦ Setup Planning</span>
-                <span>▤ Itemised Cost Categories</span>
-                <span>✓ Business Setup Guidance</span>
-              </div>
-            </div>
-
-            {/* CALCULATOR */}
-            <div className="calculator-layout" id="calculator">
-
-              <div className="calculator-card">
-                <h2>Configure Your Business Setup</h2>
-
-                <div className="step-indicator">
-                  {["Licence", "Visas & Office", "Add-ons", "Estimate"].map(
-                    (item, index) => (
-                      <button
-                        key={item}
-                        className={step === index + 1 ? "active" : ""}
-                        onClick={() => setStep(index + 1)}
-                      >
-                        <span>{index + 1}</span>{item}
-                      </button>
-                    )
-                  )}
+            <div className="cost-hero-grid">
+              <div className="hero-heading">
+                <span className="eyebrow">BUSINESS SETUP CONSULTANTS IN DUBAI</span>
+                <h1>
+                  Plan Your Setup,
+                  <span> Understand Your Costs</span>
+                </h1>
+                <p>
+                  Explore the options for your UAE business setup and review the
+                  cost categories that need confirmation. No unverified package
+                  prices are presented as quotes.
+                </p>
+                <div className="hero-actions">
+                  <a className="hero-action-primary" href="/contact-us/">
+                    Book a Consultation <span aria-hidden="true">→</span>
+                  </a>
+                  <a className="hero-action-secondary" href="/services/">
+                    Explore Our Services
+                  </a>
                 </div>
+                <div className="hero-benefits">
+                  <span>✓ Setup planning</span>
+                  <span>✓ Transparent cost categories</span>
+                  <span>✓ Business setup guidance</span>
+                </div>
+              </div>
 
-                {step === 1 && (
-                  <div className="calculator-fields">
-                    <label>
-                      Licence Type *
-                      <select value={license} onChange={(e) => setLicense(e.target.value)}>
-                        <option value="regular">Regular Licence</option>
-                        <option value="flexi">Flexi Licence</option>
-                      </select>
-                    </label>
-
-                    <label>
-                      Licence Duration *
-                      <select value={duration} onChange={(e) => setDuration(e.target.value)}>
-                        <option value="oneYear">1 Year</option>
-                        <option value="twoYears">2 Years</option>
-                        <option value="threeYears">3 Years</option>
-                      </select>
-                    </label>
-
-                    <div className="full-field" role="group" aria-labelledby="business-activities-label">
-                      <span className="field-title" id="business-activities-label">Business Activities *</span>
-                      <div className="activity-options">
-                        {["Consultancy", "Trading", "E-commerce", "Technology", "Marketing", "Services"].map(
-                          (activity) => (
-                            <button
-                              type="button"
-                              key={activity}
-                              className={activities.includes(activity) ? "selected" : ""}
-                              aria-pressed={activities.includes(activity)}
-                              onClick={() => toggleActivity(activity)}
-                            >
-                              {activities.includes(activity) ? "✓ " : "+ "}
-                              {activity}
-                            </button>
-                          )
-                        )}
-                      </div>
-                    </div>
-
-                    <div>
-                      <span className="field-title">Number of Shareholders</span>
-                      <div className="number-control">
-                        <button type="button" aria-label="Decrease shareholders" onClick={() => setShareholders(Math.max(1, shareholders - 1))}>−</button>
-                        <strong>{shareholders}</strong>
-                        <button type="button" aria-label="Increase shareholders" onClick={() => setShareholders(shareholders + 1)}>+</button>
-                      </div>
-                    </div>
-
-                    <label>
-                      Office / Desk Requirement
-                      <select value={office} onChange={(e) => setOffice(e.target.value)}>
-                        <option value="none">Select an option</option>
-                        <option value="flexi">Flexi Desk</option>
-                        <option value="office">Physical Office</option>
-                      </select>
-                    </label>
+              <div className="calculator-layout" id="calculator">
+                <div className="calculator-card">
+                  <span className="eyebrow">GET YOUR ESTIMATE</span>
+                  <h2>Configure Your Business Setup</h2>
+                  <div className="calculator-form-embed">
+                    <FilloutStandardEmbed filloutId="1nqKwwpPkQus" dynamicResize />
                   </div>
-                )}
-
-                {step === 2 && (
-                  <div className="calculator-fields">
-                    <div>
-                      <span className="field-title">Investor Visas</span>
-                      <div className="number-control">
-                        <button type="button" aria-label="Decrease investor visas" onClick={() => setVisas(Math.max(0, visas - 1))}>−</button>
-                        <strong>{visas}</strong>
-                        <button type="button" aria-label="Increase investor visas" onClick={() => setVisas(visas + 1)}>+</button>
-                      </div>
-                    </div>
-
-                    <label>
-                      Employment Visas
-                      <select
-                        value={employmentVisas ? "required" : "none"}
-                        onChange={(event) => setEmploymentVisas(event.target.value === "required")}
-                      >
-                        <option value="none">Not selected</option>
-                        <option value="required">Required</option>
-                      </select>
-                    </label>
-
-                    <label>
-                      Dependent Visas
-                      <select
-                        value={dependentVisas ? "required" : "none"}
-                        onChange={(event) => setDependentVisas(event.target.value === "required")}
-                      >
-                        <option value="none">Not selected</option>
-                        <option value="required">Required</option>
-                      </select>
-                    </label>
-                  </div>
-                )}
-
-                {step === 3 && (
-                  <div className="calculator-fields">
-                    <label className="full-field">
-                      Additional Services
-                      <select value={addons} onChange={(e) => setAddons(e.target.value)}>
-                        <option value="none">No additional services</option>
-                        <option value="support">Additional setup support</option>
-                      </select>
-                    </label>
-                    <p className="field-note">
-                      Additional government approvals and third-party charges
-                      should be confirmed separately.
-                    </p>
-                  </div>
-                )}
-
-                {step === 4 && (
-                  <div className="calculator-review">
-                    <h3>Review Your Business Setup</h3>
-                    <p>Licence: {license}</p>
-                    <p>Duration: {duration}</p>
-                    <p>Activities: {activities.join(", ") || "Not selected"}</p>
-                    <p>Shareholders: {shareholders}</p>
-                    <p>Investor visas: {visas}</p>
-                    <p>Employment visas: {employmentVisas ? "Required" : "Not selected"}</p>
-                    <p>Dependent visas: {dependentVisas ? "Required" : "Not selected"}</p>
-                    <p>Office: {office}</p>
-                    <p>Additional services: {addons}</p>
-                  </div>
-                )}
-
-                <div className="calculator-actions">
-                  {step > 1 && (
-                    <button className="back-btn" onClick={() => setStep(step - 1)}>
-                      Back
-                    </button>
-                  )}
-
-                  {step < 4 ? (
-                    <button className="primary-btn next-btn" onClick={() => setStep(step + 1)}>
-                      Next: {step === 1 ? "Visas & Office" : step === 2 ? "Add-ons" : "Estimate"} →
-                    </button>
-                  ) : (
-                    <button className="primary-btn next-btn" onClick={scrollToQuote}>
-                      Request a Verified Quote →
-                    </button>
-                  )}
+                  <p className="calculator-disclaimer">
+                    Final costs depend on your selected activities, licence requirements
+                    and applicable government fees.
+                  </p>
                 </div>
               </div>
 
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* QUOTE FORM */}
-      <section className="quote-section" id="quote-form">
-        <div className="cost-container quote-grid">
-          <div>
-            <span className="eyebrow">NEXT STEP</span>
-            <h2>Get Your Personalised Setup Quote</h2>
-            <p>Share your details so your requirements can be reviewed.</p>
-          </div>
-
-          <div className="quote-form">
-            <p>
-              The calculator does not collect or transmit your personal details.
-              Contact our team to confirm your configuration and receive a verified quote.
-            </p>
-            <a className="primary-btn" href="/contact-us/#contact-form">
-              Contact the Klay team <span>→</span>
-            </a>
           </div>
         </div>
       </section>
@@ -538,13 +348,6 @@ export default function CostCalculatorPage() {
         </div>
       </section>
 
-      {/* FOOTER */}
-      <footer className="cost-footer">
-        <div className="cost-container footer-content">
-          <a href="/">Business Setup in UAE</a>
-          <p>© {new Date().getFullYear()} All rights reserved.</p>
-        </div>
-      </footer>
     </div>
   );
 }

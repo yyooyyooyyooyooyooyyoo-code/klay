@@ -73,7 +73,7 @@ export function SiteRoutes() {
       <PageMetadata />
       <ScrollToTop />
       {!isBusinessSetupPage && !isCostCalculatorPage && <SiteBackground />}
-      {!isCostCalculatorPage && <Header />}
+      <Header />
       <main className="flex-1">
         <Suspense fallback={null}>
           <Routes>
@@ -97,7 +97,7 @@ export function SiteRoutes() {
         </Suspense>
       </main>
       {!isBusinessSetupPage && <FloatingContactWidget />}
-      {!isCostCalculatorPage && <Footer />}
+      <Footer />
     </>
   );
 }
