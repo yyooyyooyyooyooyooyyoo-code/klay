@@ -17,8 +17,9 @@ import {
   HOMEPAGE_SETUP_FACTORS,
   IMAGES,
 } from '@/lib/data';
+import { ROUTES } from '@/src/config/routes';
 
-const contactUrl = '/contact';
+const contactUrl = ROUTES.contact;
 const calculatorUrl = '#cost-estimate';
 
 export default function Home() {
@@ -56,14 +57,14 @@ export default function Home() {
               </p>
               <div className="mt-8 flex flex-col gap-3 sm:flex-row">
                 <LiquidButton
-                  href="/contact"
+                  href={ROUTES.contact}
                   size="lg"
                   icon={<ArrowRight className="h-5 w-5" />}
                 >
                   Book a Consultation
                 </LiquidButton>
                 <LiquidButton
-                  href="/services"
+                  href={ROUTES.services}
                   variant="outline-gold"
                   size="lg"
                 >

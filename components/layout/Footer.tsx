@@ -3,8 +3,7 @@ import { Link } from '@/components/ui/link';
 import { Image } from '@/components/ui/image';
 import { COMPANY, NAV_LINKS } from '@/lib/data';
 import { CONTACT_CHANNELS } from '@/lib/contact';
-
-const whatsappHref = `https://wa.me/${CONTACT_CHANNELS.whatsapp.replace(/\D/g, '')}`;
+import { ROUTES } from '@/src/config/routes';
 
 export function Footer() {
   return (
@@ -25,7 +24,7 @@ export function Footer() {
             {COMPANY.tagline}. Our team is here to help you take the next step.
           </p>
           <Link
-            href="/contact"
+            href={ROUTES.contact}
             className="mt-5 inline-flex min-h-10 items-center gap-2 rounded-sm border border-gray-300 bg-white px-4 text-sm font-medium text-gray-900 hover:bg-gray-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-3 focus-visible:outline-gray-900"
           >
             Contact our team
@@ -86,7 +85,7 @@ export function Footer() {
               <Instagram className="h-4 w-4" aria-hidden="true" />
             </a>
             <a
-              href={whatsappHref}
+              href={CONTACT_CHANNELS.whatsappUrl}
               target="_blank"
               rel="noreferrer"
               aria-label="Contact Klay Consultants on WhatsApp"
@@ -104,8 +103,8 @@ export function Footer() {
       <div className="mx-auto flex w-full max-w-[1440px] flex-col gap-4 border-t border-gray-200 px-6 py-5 text-xs text-gray-500 sm:px-8 md:flex-row md:items-center md:justify-between lg:px-12">
         <p>© {new Date().getFullYear()} {COMPANY.name}. All rights reserved.</p>
         <nav aria-label="Legal links" className="flex gap-5">
-          <Link href="/privacy" className="hover:text-gray-950">Privacy Policy</Link>
-          <Link href="/terms" className="hover:text-gray-950">Terms of Service</Link>
+          <Link href={ROUTES.privacy} className="hover:text-gray-950">Privacy Policy</Link>
+          <Link href={ROUTES.terms} className="hover:text-gray-950">Terms of Service</Link>
         </nav>
       </div>
     </footer>

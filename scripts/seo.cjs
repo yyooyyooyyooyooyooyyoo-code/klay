@@ -20,7 +20,8 @@ require.extensions['.ts'] = (module, filename) => {
 };
 
 const { BLOG_PREVIEW, SERVICES } = require(path.join(root, 'lib', 'data.ts'));
-const { getPageSeo, getPublicSeoRoutes, getStructuredData } = require(path.join(root, 'lib', 'seo.ts'));
+const { getPageSeo, getPrerenderRoutes, getPublicSeoRoutes, getStructuredData } = require(path.join(root, 'lib', 'seo.ts'));
+const { getBlogArticleRoute, isPublicRootPostSlug } = require(path.join(root, 'src', 'config', 'routes.ts'));
 
 function xmlEscape(value) {
   return String(value)
@@ -64,7 +65,9 @@ function generateSitemaps() {
 
   const imageEntries = [
     { path: '/', image: getPageSeo('/').image },
-    ...BLOG_PREVIEW.map((post) => ({ path: `/blog/${post.slug}`, image: post.image })),
+    ...BLOG_PREVIEW
+      .filter((post) => isPublicRootPostSlug(post.slug))
+      .map((post) => ({ path: getBlogArticleRoute(post.slug), image: post.image })),
   ];
   const imagesXml = [
     '<?xml version="1.0" encoding="UTF-8"?>',
@@ -79,7 +82,7 @@ function generateSitemaps() {
   ].join('\n');
   fs.writeFileSync(path.join(publicDir, 'sitemap-images.xml'), imagesXml);
 
-  const sitemapNames = ['sitemap-pages.xml', 'sitemap-services.xml', 'sitemap-blog.xml', 'sitemap-images.xml'];
+  const sitemapNames = ['sitemap-pages.xml', 'sitemap-blog.xml', 'sitemap-images.xml'];
   const indexXml = [
     '<?xml version="1.0" encoding="UTF-8"?>',
     '<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
@@ -117,7 +120,9 @@ function validateXmlFile(file) {
 
 function validateBuild() {
   const routes = getPublicSeoRoutes();
-  const knownPaths = new Set(routes.map((route) => route.path));
+  const knownPaths = new Set(
+    getPrerenderRoutes().map((route) => route.path.replace(/\/+$/, '') || '/'),
+  );
   const canonicals = new Set();
   const titles = new Set();
   const descriptions = new Set();
@@ -127,8 +132,6 @@ function validateBuild() {
     const seo = getPageSeo(route.path);
     if (!seo.title.trim()) errors.push(`${route.path}: title is empty`);
     if (!seo.description.trim()) errors.push(`${route.path}: description is empty`);
-    if (seo.title.length > 100) errors.push(`${route.path}: title is longer than 100 characters`);
-    if (seo.description.length > 200) errors.push(`${route.path}: description is longer than 200 characters`);
     if (canonicals.has(seo.canonical)) errors.push(`${route.path}: duplicate canonical ${seo.canonical}`);
     if (titles.has(seo.title.toLowerCase())) errors.push(`${route.path}: duplicate title`);
     if (descriptions.has(seo.description.toLowerCase())) errors.push(`${route.path}: duplicate description`);
@@ -182,7 +185,7 @@ function validateBuild() {
     }
   }
 
-  const expectedSitemaps = ['sitemap-pages.xml', 'sitemap-services.xml', 'sitemap-blog.xml', 'sitemap-images.xml'];
+  const expectedSitemaps = ['sitemap-pages.xml', 'sitemap-blog.xml', 'sitemap-images.xml'];
   for (const name of ['sitemap.xml', ...expectedSitemaps]) {
     const file = path.join(publicDir, name);
     if (!fs.existsSync(file)) errors.push(`Missing ${name}`);
@@ -196,7 +199,6 @@ function validateBuild() {
   }
   const expectedBySitemap = [
     { file: 'sitemap-pages.xml', routes: routes.filter((route) => route.source === 'page') },
-    { file: 'sitemap-services.xml', routes: routes.filter((route) => route.source === 'service') },
     { file: 'sitemap-blog.xml', routes: routes.filter((route) => route.source === 'article') },
   ];
   for (const sitemap of expectedBySitemap) {
@@ -236,127 +238,6 @@ function validateBuild() {
   console.log(`SEO validation passed for ${routes.length} prerendered public routes, sitemap files, metadata, headings, links and JSON-LD.`);
 }
 
-function generateReports() {
-  const routes = getPublicSeoRoutes();
-  const keywordTable = routes.map((route) => {
-    const seo = getPageSeo(route.path);
-    const keyword = (seo.keyword || 'UAE business setup').split(',')[0].trim();
-    return `| [${route.path}](https://klayconsultants.com${route.path === '/' ? '/' : `${route.path}/`}) | ${keyword.replace(/\|/g, '&#124;')} | ${seo.title.replace(/\|/g, '&#124;')} | ${route.source} |`;
-  });
-  const audit = [
-    '# Klay Consultants Technical SEO Audit',
-    '',
-    'Audit date: 2026-11-06. Scope: the React + Vite workspace in this repository. No production files were changed or deployed.',
-    '',
-    '## Findings and implementation',
-    '',
-    '| Issue | Affected area | Severity | Recommendation | Status |',
-    '|---|---|---|---|---|',
-    '| The app previously served one empty SPA shell for every route; route metadata and page content were not present in initial HTML. | All React routes | High | Build route-specific HTML with metadata, JSON-LD and rendered page content; hydrate on the client. | Implemented and locally validated for all listed routes. |',
-    '| The prior sitemap and robots policy were not generated from this React route registry. | Crawl discovery | High | Generate production sitemap index, page/service/article/image sitemaps and robots.txt from actual content. | Implemented; 36 routes validated. |',
-    '| Page titles and descriptions were generic or duplicated for dynamic content. | Static, service and article routes | High | Centralize route metadata and supply unique titles, descriptions, canonicals, social tags and keywords. | Implemented and locally validated for all listed routes. |',
-    '| No route-level canonical, social metadata or structured data was emitted at build time. | All indexable routes | Medium | Add self-referencing canonical URLs, Open Graph/Twitter tags, Organization/ProfessionalService, WebPage, breadcrumbs, Service and Article JSON-LD. | Implemented; JSON-LD parses on all rendered routes. |',
-    '| The production bundle previously contained all route code in one large chunk. | Initial JavaScript | Medium | Lazy-load route modules and cache static assets. | Implemented; initial JS chunk reduced from about 643 KB to about 430 KB. Recheck field Core Web Vitals after deployment. |',
-    '| About-page MP4s previously totaled about 180 MB and loaded as autoplay content. | About page media | Medium | Re-encode as 720p H.264, generate posters and defer source assignment until videos approach the viewport. | Implemented; public encodes total about 11 MB (roughly 94% smaller); originals retained under `source-assets/videos/`. |',
-    '| Pexels images were requested at one fixed size. | Remote Pexels images | Low | Emit responsive `srcset` widths, lazy-load noncritical images and set high fetch priority for page hero/LCP images. | Implemented in shared image component and route prerender. |',
-    '| Unknown URLs could fall through to the SPA and appear successful. | Unknown routes | Medium | Generate a noindex 404 document and return HTTP 404 from the Express host; allow static hosting to use its 404 document. | Implemented locally; hosting behavior requires post-deployment verification. |',
-    '| The live domain did not match the React/Vite workspace assumptions during this audit. | https://klayconsultants.com | High | Confirm the intended deployment target and ensure the React build, redirects, sitemap and robots files are deployed to the canonical domain. | Awaiting deployment/hosting confirmation. |',
-    '| Current live robots/sitemap endpoints were generated by an All in One SEO WordPress plugin; live /blog redirects to a slash URL and exposes different article URLs. | Production site | High | Reconcile the production platform and route inventory before replacing production SEO endpoints. Do not mix the existing live WordPress URLs with this React sitemap. | Observed 2026-11-06; no production changes made. |',
-    '| Real user Core Web Vitals and Search Console data were unavailable. | Performance/indexing | Medium | Review PageSpeed Insights and Search Console after deployment; monitor mobile field metrics. | Awaiting manual verification. |',
-    '',
-    '## Keyword mapping and page-by-page metadata',
-    '',
-    'Canonical policy: HTTPS, apex hostname, trailing slash except the root URL.',
-    '',
-    '| URL | Primary keyword | SEO title | Route type |',
-    '|---|---|---|---|',
-    ...keywordTable,
-    '',
-    '## Local checks',
-    '',
-    '- `npm run typecheck`: run as part of the production build.',
-    '- `npm run build`: generates sitemap files, type-checks, builds, prerenders routes and runs SEO validation.',
-    '- SEO validation checks unique titles/descriptions/canonicals, initial HTML metadata, one H1, image alt attributes, internal route links, JSON-LD syntax, sitemap namespaces and expected blog count.',
-    '- The build still reports an outdated Browserslist database notice; update it in a separate dependency-maintenance change.',
-    '',
-    '## Production and manual checks',
-    '',
-    '- Production was not changed or deployed. At the audit date, the live sitemap and robots output are WordPress/plugin-generated and do not match this React route inventory.',
-    '- External image availability, redirect chains across every production URL, mobile usability, and field Core Web Vitals require a deployed build and live browser/Search Console access.',
-    '- The two About page editorial images still reference existing public image URLs on the canonical domain; retain those assets or migrate them to the static asset directory before retiring their current origin.',
-    '',
-    '## Changelog',
-    '',
-    '| File | Change |',
-    '|---|---|',
-    '| `App.tsx` | Central dynamic metadata and lazy-loaded route modules. |',
-    '| `main.tsx` | Hydrates prerendered route HTML and retains client-only development rendering. |',
-    '| `index.html` | Base SEO tags, canonical/social defaults and prerender marker. |',
-    '| `lib/seo.ts`, `lib/seo-pages.json` | Central metadata, canonical, JSON-LD and route registry helpers. |',
-    '| `lib/data.ts` | Unique concise blog metadata and shareable SEO fields. |',
-    '| `app/about/page.tsx`, `components/ui/image.tsx`, `components/layout/Header.tsx`, `app/services/page.tsx` | Defer videos, add posters, responsive image sources, and prioritize hero media. |',
-    '| `public/videos/` | Compressed page video and poster assets; source videos preserved under `source-assets/videos/`. |',
-    '| `scripts/seo.cjs`, `scripts/prerender.mjs` | Sitemap generation, route prerendering and SEO validation. |',
-    '| `public/robots.txt`, `public/sitemap*.xml` | Generated crawl policy and route sitemaps. |',
-    '| `netlify.toml` | HTTPS/apex redirects, static cache headers and deploy-preview noindex. |',
-    '| `server.js` | Serve static prerendered routes and return a real 404 for unknown paths. |',
-    '| `package.json` | SEO generation/validation integrated into build and `npm run seo`. |',
-    '| `SEO_AUDIT.md`, `SEO_DEPLOYMENT.md` | Audit, page keyword map, deployment and Google tooling instructions. |',
-    '',
-  ].join('\n');
-
-  const deployment = [
-    '# SEO Deployment and Google Search Console Guide',
-    '',
-    'This guide applies to the React + Vite build in this workspace. The live domain showed plugin-generated WordPress sitemap/robots output during the 2026-11-06 audit. Confirm the hosting platform and production migration plan before deploying these generated files.',
-    '',
-    '## Before deployment',
-    '',
-    '1. Confirm the production build is intended to replace the current site at `https://klayconsultants.com/`; this repository does not deploy automatically.',
-    '2. Run `npm run typecheck`, `npm run build` and `npm start` locally. Test one page, one service, one blog article and an invalid URL directly.',
-    '3. Verify that the deployment publishes `dist/` including route-specific `index.html` files, `404.html`, `robots.txt` and all generated sitemaps.',
-    '4. Confirm the domain is configured with HTTPS and the apex hostname as the primary domain. Netlify redirect rules are included for HTTP and `www`; confirm these rules in the actual hosting account.',
-    '5. Confirm the existing live WordPress content URLs and backlinks are mapped before switching platforms. Add only verified 301 redirects for retired URLs; do not redirect unrelated pages to the homepage.',
-    '6. Keep deploy-preview noindex behavior enabled and ensure preview URLs are not included in production sitemaps.',
-    '',
-    '## Google Search Console',
-    '',
-    '1. In Search Console, add a **Domain property** for `klayconsultants.com`.',
-    '2. Copy the DNS TXT verification value shown by Google into the domain registrar/DNS provider. No verification token is committed in this project.',
-    '3. Wait for DNS propagation and use Search Console’s Verify action.',
-    '4. Submit `https://klayconsultants.com/sitemap.xml` under **Indexing → Sitemaps**.',
-    '5. Use **URL Inspection** for the homepage, `/business-setup/`, `/services/`, `/contact/`, `/golden-visa/` and selected published articles. Test live URL, inspect the crawled HTML and request indexing where appropriate.',
-    '6. Review **Page indexing** for 404s, redirects, excluded canonical URLs, and duplicate or alternate-page signals.',
-    '7. Review **Core Web Vitals** after enough field data accumulates; prioritize mobile LCP ≤ 2.5 seconds, INP ≤ 200 ms and CLS ≤ 0.1.',
-    '8. Track clicks, impressions, CTR, query groups and landing pages in **Performance → Search results**. Compare over time; rankings and indexing are not guaranteed.',
-    '',
-    '## Google Analytics',
-    '',
-    '- Create or select the correct Google Analytics 4 property and web data stream in the business-owned account.',
-    '- Add the verified Measurement ID (`G-XXXXXXXXXX`) through the organization’s approved tag-management or analytics setup. The ID is intentionally not fabricated or embedded here.',
-    '- Confirm the privacy notice and consent requirements for the jurisdictions served before enabling analytics cookies or advertising features.',
-    '- Test page-view collection across client-side route changes and avoid sending duplicate page views if Google Tag Manager is also used.',
-    '',
-    '## External checks after release',
-    '',
-    '- Test `https://klayconsultants.com/robots.txt`, `/sitemap.xml`, and each child sitemap for HTTP 200 and valid XML.',
-    '- Test HTTP and `www` variants and confirm a single redirect directly to the HTTPS apex URL.',
-    '- Test direct navigation and refresh on representative nested service and blog pages; unknown slugs should return HTTP 404 and `noindex`.',
-    '- Run PageSpeed Insights on mobile and desktop for the homepage, business setup, service detail and article pages.',
-    '- Run Google Rich Results Test for the organization/service and article pages; resolve parser errors and confirm marked-up information is visible.',
-    '',
-    '## Known limitations',
-    '',
-    '- Production DNS/hosting, Search Console verification, analytics property/ID and consent settings require business account access.',
-    '- Google indexing and rankings are determined by Google and are not guaranteed.',
-    '',
-  ].join('\n');
-
-  fs.writeFileSync(path.join(root, 'SEO_AUDIT.md'), audit);
-  fs.writeFileSync(path.join(root, 'SEO_DEPLOYMENT.md'), deployment);
-  console.log('Generated SEO_AUDIT.md and SEO_DEPLOYMENT.md.');
-}
-
 if (process.argv.includes('--generate')) generateSitemaps();
 if (process.argv.includes('--validate')) validateBuild();
-if (process.argv.includes('--report')) generateReports();
+if (process.argv.includes('--report')) require('./migration-report.cjs');

@@ -2,6 +2,7 @@ import { Calendar, ArrowRight } from 'lucide-react';
 import { GlassCard } from '@/components/ui/glass-card';
 import { Link } from '@/components/ui/link';
 import { Image } from '@/components/ui/image';
+import { getBlogArticleRoute } from '@/src/config/routes';
 
 interface BlogCardProps {
   title: string;
@@ -16,7 +17,7 @@ interface BlogCardProps {
 
 export function BlogCard({ title, excerpt, date, image, imageAlt, imageTitle, slug, category }: BlogCardProps) {
   return (
-    <Link href={`/blog/${slug}`} className="block h-full">
+    <Link href={getBlogArticleRoute(slug)} className="block h-full">
       <GlassCard className="p-0 h-full flex flex-col overflow-hidden group">
         <div className="relative aspect-video overflow-hidden bg-white/70">
           {image ? (

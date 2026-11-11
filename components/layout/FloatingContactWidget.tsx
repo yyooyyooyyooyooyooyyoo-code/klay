@@ -49,11 +49,10 @@ export function FloatingContactWidget() {
     }
 
     if (isValidWhatsAppNumber(CONTACT_CHANNELS.whatsapp)) {
-      const number = CONTACT_CHANNELS.whatsapp.replace(/\D/g, '');
       available.push({
         kind: 'whatsapp',
         label: 'WhatsApp',
-        href: `https://wa.me/${number}?text=${encodeURIComponent(whatsappMessage)}`,
+        href: `${CONTACT_CHANNELS.whatsappUrl}&text=${encodeURIComponent(whatsappMessage)}`,
         icon: <WhatsAppIcon />,
       });
     }

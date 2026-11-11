@@ -1,5 +1,11 @@
-import { BLOG_PREVIEW, COMPANY, IMAGES, SERVICES } from './data';
+import { BLOG_PREVIEW, COMPANY, SERVICES } from './data';
 import pageSeo from './seo-pages.json';
+import {
+  canonicalizeInternalRoute,
+  getBlogArticleRoute,
+  isPublicRootPostSlug,
+  ROUTES,
+} from '../src/config/routes';
 
 export const SITE_ORIGIN = 'https://klayconsultants.com';
 
@@ -10,6 +16,7 @@ export interface PageSeo {
   canonical: string;
   image: string;
   type: 'website' | 'article';
+  openGraphTitle?: string;
   noindex?: boolean;
 }
 
@@ -40,20 +47,29 @@ const serviceSeo: Record<string, { title: string; description: string; keyword: 
   },
 };
 
-const defaultImage = IMAGES.heroSkyline;
+const defaultImage = `${SITE_ORIGIN}/wp-content/uploads/2026/03/klay-logo-1-2.png`;
 
 function normalizedPath(pathname: string): string {
-  const path = pathname.split(/[?#]/, 1)[0].replace(/\/+$/, '');
+  const path = canonicalizeInternalRoute(pathname.split(/[?#]/, 1)[0]).replace(/\/+$/, '');
   return path || '/';
 }
 
 function canonicalFor(path: string): string {
-  return `${SITE_ORIGIN}${path === '/' ? '/' : `${path}/`}`;
+  const canonicalPath = canonicalizeInternalRoute(path);
+  return `${SITE_ORIGIN}${canonicalPath === '/' ? '/' : canonicalPath}`;
 }
 
 function fromRecord(
   path: string,
-  metadata: { title: string; description: string; keyword?: string; image?: string; type?: 'website' | 'article' },
+  metadata: {
+    title: string;
+    description: string;
+    keyword?: string;
+    image?: string;
+    type?: 'website' | 'article';
+    openGraphTitle?: string;
+    noindex?: boolean;
+  },
 ): PageSeo {
   return {
     title: metadata.title,
@@ -66,26 +82,35 @@ function fromRecord(
         : metadata.image
       : defaultImage,
     type: metadata.type ?? 'website',
+    openGraphTitle: metadata.openGraphTitle,
+    noindex: metadata.noindex,
   };
 }
 
 export function getPageSeo(pathname: string): PageSeo {
   const path = normalizedPath(pathname);
-  const staticMetadata = (pageSeo as Record<string, { title: string; description: string; keyword: string }>)[path];
+  const staticMetadata = (pageSeo as Record<string, {
+    title: string;
+    description: string;
+    keyword?: string;
+    openGraphTitle?: string;
+  }>)[path];
   if (staticMetadata) return fromRecord(path, staticMetadata);
 
   const blogPrefix = '/blog/';
-  if (path.startsWith(blogPrefix)) {
-    const article = BLOG_PREVIEW.find((post) => `${blogPrefix}${post.slug}` === path);
-    if (article) {
-      return fromRecord(path, {
-        title: article.metaTitle,
-        description: article.metaDescription,
-        keyword: 'focusKeyword' in article ? article.focusKeyword : article.metaKeywords,
-        image: article.image,
-        type: 'article',
-      });
-    }
+  const articleSlug = path.startsWith(blogPrefix) ? path.slice(blogPrefix.length) : path.slice(1);
+  const article = BLOG_PREVIEW.find((post) => (
+    post.slug === articleSlug && (path.startsWith(blogPrefix) || isPublicRootPostSlug(post.slug))
+  ));
+  if (article) {
+    return fromRecord(path, {
+      title: article.metaTitle,
+      description: article.metaDescription,
+      keyword: 'focusKeyword' in article ? article.focusKeyword : article.metaKeywords,
+      image: article.image,
+      type: 'article',
+      noindex: !isPublicRootPostSlug(article.slug),
+    });
   }
 
   const servicePrefix = '/services/';
@@ -97,7 +122,7 @@ export function getPageSeo(pathname: string): PageSeo {
         description: `${service.short} Get practical guidance from Klay Consultants in Dubai.`,
         keyword: service.title,
       };
-      return fromRecord(path, metadata);
+      return fromRecord(path, { ...metadata, noindex: true });
     }
   }
 
@@ -119,13 +144,14 @@ export interface PublicSeoRoute {
 }
 
 const staticRoutes: PublicSeoRoute[] = [
-  { path: '/', source: 'page', lastmodSource: 'app/page.tsx' },
-  { path: '/about', source: 'page', lastmodSource: 'app/about/page.tsx' },
-  { path: '/services', source: 'page', lastmodSource: 'app/services/page.tsx' },
-  { path: '/business-setup', source: 'page', lastmodSource: 'app/business-setup/page.tsx' },
-  { path: '/blog', source: 'page', lastmodSource: 'app/blog/page.tsx' },
-  { path: '/contact', source: 'page', lastmodSource: 'app/contact/page.tsx' },
-  { path: '/golden-visa', source: 'page', lastmodSource: 'app/golden-visa/page.tsx' },
+  { path: ROUTES.home, source: 'page', lastmodSource: 'app/page.tsx' },
+  { path: ROUTES.about, source: 'page', lastmodSource: 'app/about/page.tsx' },
+  { path: ROUTES.services, source: 'page', lastmodSource: 'app/services/page.tsx' },
+  { path: ROUTES.businessSetup, source: 'page', lastmodSource: 'app/business-setup/page.tsx' },
+  { path: ROUTES.blog, source: 'page', lastmodSource: 'app/blog/page.tsx' },
+  { path: ROUTES.costCalculator, source: 'page', lastmodSource: 'components/cost-calculator/CostCalculatorPage.jsx' },
+  { path: ROUTES.contact, source: 'page', lastmodSource: 'app/contact/page.tsx' },
+  { path: ROUTES.goldenVisa, source: 'page', lastmodSource: 'app/golden-visa/page.tsx' },
   { path: '/privacy', source: 'page', lastmodSource: 'app/privacy/page.tsx' },
   { path: '/terms', source: 'page', lastmodSource: 'app/terms/page.tsx' },
 ];
@@ -133,16 +159,32 @@ const staticRoutes: PublicSeoRoute[] = [
 export function getPublicSeoRoutes(): PublicSeoRoute[] {
   return [
     ...staticRoutes,
-    ...SERVICES.map((service) => ({
-      path: `/services/${service.slug}`,
-      source: 'service',
-      lastmodSource: 'lib/data.ts',
-    })),
-    ...BLOG_PREVIEW.map((article) => ({
-      path: `/blog/${article.slug}`,
+    ...BLOG_PREVIEW.filter((article) => isPublicRootPostSlug(article.slug)).map((article) => ({
+      path: getBlogArticleRoute(article.slug),
       source: 'article',
       lastmodSource: 'lib/data.ts',
     })),
+  ];
+}
+
+export function getPrerenderRoutes(): PublicSeoRoute[] {
+  const publicRoutes = getPublicSeoRoutes();
+  const publicPaths = new Set(publicRoutes.map((route) => route.path));
+  const localOnlyArticles = BLOG_PREVIEW.filter((article) => !isPublicRootPostSlug(article.slug)).map((article) => ({
+    path: getBlogArticleRoute(article.slug),
+    source: 'article',
+    lastmodSource: 'lib/data.ts',
+  }));
+  const unverifiedServices = SERVICES.map((service) => ({
+    path: `/services/${service.slug}`,
+    source: 'service',
+    lastmodSource: 'lib/data.ts',
+  }));
+
+  return [
+    ...publicRoutes,
+    ...unverifiedServices,
+    ...localOnlyArticles.filter((route) => !publicPaths.has(route.path)),
   ];
 }
 
@@ -196,8 +238,14 @@ export function getStructuredData(pathname: string): object {
   ];
 
   if (path !== '/') {
-    const crumbs = [{ name: 'Home', item: `${SITE_ORIGIN}/` }];
-    if (path.startsWith('/blog/')) crumbs.push({ name: 'Blog', item: `${SITE_ORIGIN}/blog/` });
+      const crumbs = [{ name: 'Home', item: `${SITE_ORIGIN}/` }];
+      const articleSlug = path.startsWith('/blog/') ? path.slice('/blog/'.length) : path.slice(1);
+      const isArticlePath = BLOG_PREVIEW.some((post) => (
+        post.slug === articleSlug && (path.startsWith('/blog/') || isPublicRootPostSlug(post.slug))
+      ));
+      if (isArticlePath) {
+        crumbs.push({ name: 'Blog', item: `${SITE_ORIGIN}${ROUTES.blog}` });
+      }
     else if (path.startsWith('/services/')) crumbs.push({ name: 'Services', item: `${SITE_ORIGIN}/services/` });
     crumbs.push({ name: seo.title.split('|')[0].trim(), item: seo.canonical });
     graph.push({
@@ -211,7 +259,10 @@ export function getStructuredData(pathname: string): object {
     });
   }
 
-  const article = BLOG_PREVIEW.find((post) => `/blog/${post.slug}` === path);
+  const articleSlug = path.startsWith('/blog/') ? path.slice('/blog/'.length) : path.slice(1);
+  const article = BLOG_PREVIEW.find((post) => (
+    post.slug === articleSlug && (path.startsWith('/blog/') || isPublicRootPostSlug(post.slug))
+  ));
   if (article) {
     const datePublished = new Date(article.date);
     const articleImage =
@@ -271,7 +322,7 @@ export function applyPageSeo(pathname: string): void {
   setMeta('meta[name="description"]', 'name', 'description', seo.description);
   setMeta('meta[name="robots"]', 'name', 'robots', seo.noindex ? 'noindex,follow' : 'index,follow');
   if (seo.keyword) setMeta('meta[name="keywords"]', 'name', 'keywords', seo.keyword);
-  setMeta('meta[property="og:title"]', 'property', 'og:title', seo.title);
+  setMeta('meta[property="og:title"]', 'property', 'og:title', seo.openGraphTitle ?? seo.title);
   setMeta('meta[property="og:description"]', 'property', 'og:description', seo.description);
   setMeta('meta[property="og:url"]', 'property', 'og:url', seo.canonical);
   setMeta('meta[property="og:type"]', 'property', 'og:type', seo.type);

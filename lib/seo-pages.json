@@ -1,37 +1,43 @@
 {
   "/": {
-    "title": "Business Setup Consultants in Dubai | Klay Consultants",
-    "description": "Start your business in Dubai with Klay Consultants. Explore UAE company formation, Mainland, Free Zone, licensing and business setup guidance.",
+    "title": "Business Setup in Dubai, UAE | Klay Consultants",
+    "description": "Set up your business in Dubai with Klay Consultants. Get expert help with company formation, Mainland and Free Zone licences, visas, and compliance.",
+    "openGraphTitle": "klayconsultants",
     "keyword": "Business Setup Consultants in Dubai"
   },
   "/about": {
-    "title": "Business Setup Consultants in the UAE | About Klay Consultants",
-    "description": "Meet Klay Consultants, UAE business setup consultants guiding entrepreneurs and companies through structuring, incorporation and compliance.",
+    "title": "About Klay Consultants | UAE Business Advisors",
+    "description": "About Klay Consultants | UAE Business Advisors Description: Learn about Klay Consultants and our approach to UAE company formation, business structuring, licensing, and ongoing business support.",
     "keyword": "Business Setup Consultants UAE"
   },
   "/services": {
-    "title": "UAE Business Setup Services | Klay Consultants",
-    "description": "Explore UAE business setup services, company formation, licensing, visa support and corporate advisory from Klay Consultants.",
+    "title": "UAE Business Setup Services",
+    "description": "Title: UAE Business Setup Services | Klay Consultants Description: Explore UAE business setup services, including Mainland and Free Zone company formation, trade licences, visas, banking support, and compliance.",
     "keyword": "UAE Business Setup Services"
   },
-  "/business-setup": {
-    "title": "UAE Business Setup & Company Formation | Klay Consultants",
-    "description": "Explore UAE business setup options with Klay Consultants. Get guidance on Mainland, Free Zone and Offshore company formation and licensing.",
+  "/bussines-setup-page": {
+    "title": "Bussines Setup page - klayconsultants",
+    "description": "Business Setup UAE COMPANY FORMATION Start Your UAE Business With Clarity & Confidence Turning a business idea into a company starts with the right decisions. From choosing your business activity and company structure to completing registration and licensing, every step should align with your business goals. Whether you plan to launch a new venture, expand",
     "keyword": "UAE Business Setup"
   },
   "/blog": {
-    "title": "UAE Business Setup Insights & Guides | Klay Consultants",
-    "description": "Practical guides on UAE company formation, business setup, visas, banking and compliance from Klay Consultants.",
+    "title": "Blog - klayconsultants",
+    "description": "Blogs Shareholder Agreement UAE: Why It Matters Why UAE founders need a shareholder agreement, including key clauses,...Read More info@klayconsultants.comOctober 17, 2026 The UAE Court System & Dispute Resolution Understand UAE dispute resolution for business owners, including onshore courts,...Read More info@klayconsultants.comOctober 17, 2026 Convert Free Zone to Mainland UAE Convert a Free Zone company to Mainland",
     "keyword": "UAE business setup guides"
   },
-  "/contact": {
-    "title": "Contact Business Setup Consultants in Dubai | Klay Consultants",
-    "description": "Contact Klay Consultants in Business Bay, Dubai for guidance on UAE company formation, business setup, licensing and residency options.",
+  "/contact-us": {
+    "title": "Contact Klay Consultants | Dubai Business Setup",
+    "description": "Title: Contact Klay Consultants | Dubai Business Setup Description: Contact Klay Consultants for guidance on Dubai company formation, Mainland and Free Zone setup, trade licences, visas, and business services.",
     "keyword": "Contact Business Setup Consultants Dubai"
   },
+  "/cost-calculator": {
+    "title": "Dubai Trade Licence Cost Calculator | Klay Consultants",
+    "description": "Plan your Dubai business setup by reviewing licence, activity, visa and office cost categories. Request a verified quote from Klay Consultants.",
+    "keyword": "Dubai trade licence cost calculator"
+  },
   "/golden-visa": {
-    "title": "UAE Golden Visa Guidance | Klay Consultants",
-    "description": "Explore UAE Golden Visa categories, eligibility considerations and application guidance with Klay Consultants.",
+    "title": "UAE Golden Visa Consultants | Klay Consultants",
+    "description": "Get expert guidance from UAE Golden Visa consultants. Check eligibility, understand requirements, and apply with confidence. Book your consultation today.",
     "keyword": "UAE Golden Visa"
   },
   "/privacy": {

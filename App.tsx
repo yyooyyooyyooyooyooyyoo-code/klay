@@ -6,6 +6,13 @@ import { FloatingContactWidget } from '@/components/layout/FloatingContactWidget
 import { Header } from '@/components/layout/Header';
 import { SiteBackground } from '@/components/layout/SiteBackground';
 import { applyPageSeo } from '@/lib/seo';
+import { ROUTES } from '@/src/config/routes';
+
+declare global {
+  interface Window {
+    gtag: (...args: unknown[]) => void;
+  }
+}
 
 const HomePage = lazy(() => import('@/app/page'));
 const AboutPage = lazy(() => import('@/app/about/page'));
@@ -13,6 +20,7 @@ const BlogPage = lazy(() => import('@/app/blog/page'));
 const BlogArticlePage = lazy(() => import('@/app/blog/[slug]/page'));
 const BusinessSetupPage = lazy(() => import('@/app/business-setup/page'));
 const ContactPage = lazy(() => import('@/app/contact/page'));
+const CostCalculatorPage = lazy(() => import('@/components/cost-calculator/CostCalculatorPage.jsx'));
 const GoldenVisaPage = lazy(() => import('@/app/golden-visa/page'));
 const PrivacyPage = lazy(() => import('@/app/privacy/page'));
 const ServiceDetailPage = lazy(() => import('@/app/services/[slug]/page'));
@@ -20,11 +28,16 @@ const ServicesPage = lazy(() => import('@/app/services/page'));
 const TermsPage = lazy(() => import('@/app/terms/page'));
 
 function PageMetadata() {
-  const { pathname } = useLocation();
+  const { pathname, search } = useLocation();
 
   useEffect(() => {
     applyPageSeo(pathname);
-  }, [pathname]);
+    window.gtag('event', 'page_view', {
+      page_title: document.title,
+      page_location: window.location.href,
+      page_path: `${pathname}${search}`,
+    });
+  }, [pathname, search]);
 
   return null;
 }
@@ -48,34 +61,43 @@ function ScrollToTop() {
 
 export function SiteRoutes() {
   const { pathname } = useLocation();
-  const isBusinessSetupPage = pathname === '/business-setup';
+  const normalizedPathname = pathname.replace(/\/+$/, '');
+  const isBusinessSetupPage =
+    normalizedPathname === ROUTES.businessSetup.replace(/\/+$/, '') ||
+    normalizedPathname === '/business-setup';
+  const isCostCalculatorPage =
+    normalizedPathname === ROUTES.costCalculator.replace(/\/+$/, '');
 
   return (
     <>
       <PageMetadata />
       <ScrollToTop />
-      {!isBusinessSetupPage && <SiteBackground />}
-      <Header />
+      {!isBusinessSetupPage && !isCostCalculatorPage && <SiteBackground />}
+      {!isCostCalculatorPage && <Header />}
       <main className="flex-1">
         <Suspense fallback={null}>
           <Routes>
-            <Route path="/" element={<HomePage />} />
-            <Route path="/about" element={<AboutPage />} />
-            <Route path="/blog" element={<BlogPage />} />
+            <Route path={ROUTES.home} element={<HomePage />} />
+            <Route path={ROUTES.about} element={<AboutPage />} />
+            <Route path={ROUTES.blog} element={<BlogPage />} />
             <Route path="/blog/:slug" element={<BlogArticlePage />} />
+            <Route path={ROUTES.businessSetup} element={<BusinessSetupPage />} />
             <Route path="/business-setup" element={<BusinessSetupPage />} />
+            <Route path="/:slug" element={<BlogArticlePage />} />
+            <Route path={ROUTES.contact} element={<ContactPage />} />
             <Route path="/contact" element={<ContactPage />} />
-            <Route path="/golden-visa" element={<GoldenVisaPage />} />
-            <Route path="/privacy" element={<PrivacyPage />} />
-            <Route path="/services" element={<ServicesPage />} />
+            <Route path={ROUTES.costCalculator} element={<CostCalculatorPage />} />
+            <Route path={ROUTES.goldenVisa} element={<GoldenVisaPage />} />
+            <Route path={ROUTES.privacy} element={<PrivacyPage />} />
+            <Route path={ROUTES.services} element={<ServicesPage />} />
             <Route path="/services/:slug" element={<ServiceDetailPage />} />
-            <Route path="/terms" element={<TermsPage />} />
+            <Route path={ROUTES.terms} element={<TermsPage />} />
             <Route path="*" element={<NotFoundPage />} />
           </Routes>
         </Suspense>
       </main>
       {!isBusinessSetupPage && <FloatingContactWidget />}
-      <Footer />
+      {!isCostCalculatorPage && <Footer />}
     </>
   );
 }

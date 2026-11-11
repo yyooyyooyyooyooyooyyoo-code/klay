@@ -60,8 +60,8 @@ function renderMarkup(element) {
 
 try {
   const { SiteApp } = await vite.ssrLoadModule('/App.tsx');
-  const { getPageSeo, getPublicSeoRoutes, getStructuredData } = await vite.ssrLoadModule('/lib/seo.ts');
-  const routes = getPublicSeoRoutes();
+  const { getPageSeo, getPrerenderRoutes, getStructuredData } = await vite.ssrLoadModule('/lib/seo.ts');
+  const routes = getPrerenderRoutes();
   const baseHtml = await fs.readFile(path.join(distDir, 'index.html'), 'utf8');
 
   for (const route of routes) {
@@ -93,7 +93,11 @@ try {
     html = replaceMeta(html, 'name="robots"', `<meta name="robots" content="${seo.noindex ? 'noindex,follow' : 'index,follow'}" />`);
     html = replaceMeta(html, 'name="keywords"', `<meta name="keywords" content="${escapeHtml(seo.keyword)}" />`);
     html = replaceMeta(html, 'property="og:type"', `<meta property="og:type" content="${seo.type}" />`);
-    html = replaceMeta(html, 'property="og:title"', `<meta property="og:title" content="${escapeHtml(seo.title)}" />`);
+    html = replaceMeta(
+      html,
+      'property="og:title"',
+      `<meta property="og:title" content="${escapeHtml(seo.openGraphTitle ?? seo.title)}" />`,
+    );
     html = replaceMeta(html, 'property="og:description"', `<meta property="og:description" content="${escapeHtml(seo.description)}" />`);
     html = replaceMeta(html, 'property="og:url"', `<meta property="og:url" content="${escapeHtml(seo.canonical)}" />`);
     html = replaceMeta(html, 'property="og:image"', `<meta property="og:image" content="${escapeHtml(seo.image)}" />`);

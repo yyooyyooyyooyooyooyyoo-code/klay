@@ -5,6 +5,7 @@ import { CALCULATOR_OPTIONS } from '@/lib/data';
 import { Calculator, ArrowRight } from 'lucide-react';
 import { GlassPanel } from '@/components/ui/glass-card';
 import { LiquidButton } from '@/components/ui/liquid-button';
+import { ROUTES } from '@/src/config/routes';
 import { useNavigate } from 'react-router-dom';
 
 export function SetupCalculator() {
@@ -98,7 +99,7 @@ export function SetupCalculator() {
           <p className="text-xs text-black mb-4">
             This is an indicative estimate only. Final costs depend on specific license, activity, and government fees. Contact us for a tailored quote.
           </p>
-          <LiquidButton variant="navy" size="sm" className="w-full" icon={<ArrowRight className="w-4 h-4" />} onClick={() => navigate('/contact')}>
+          <LiquidButton variant="navy" size="sm" className="w-full" icon={<ArrowRight className="w-4 h-4" />} onClick={() => navigate(ROUTES.contact)}>
             Get a Detailed Quote
           </LiquidButton>
         </div>

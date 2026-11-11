@@ -1,6 +1,9 @@
 import { BlogCard } from '@/components/ui/blog-card';
 import { ScrollReveal } from '@/components/ui/scroll-reveal';
 import { BLOG_PREVIEW } from '@/lib/data';
+import { isPublicRootPostSlug } from '@/src/config/routes';
+
+const publishedArticles = BLOG_PREVIEW.filter((post) => isPublicRootPostSlug(post.slug));
 
 export default function BlogPage() {
   return (
@@ -18,7 +21,7 @@ export default function BlogPage() {
           </p>
         </ScrollReveal>
         <div className="grid items-stretch gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {BLOG_PREVIEW.map((post, index) => (
+          {publishedArticles.map((post, index) => (
             <ScrollReveal key={post.slug} delay={index * 70} className="h-full">
               <BlogCard {...post} />
             </ScrollReveal>

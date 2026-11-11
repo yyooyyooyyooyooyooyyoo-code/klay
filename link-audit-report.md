@@ -1,0 +1,149 @@
+# Internal Link and Clickable Element Audit
+
+Generated: 2026-11-11
+
+This report inspects links and buttons in the generated prerendered HTML. It verifies local route/file targets against the build output; it does not make live HTTP requests to external destinations, test client-side click handlers, or submit forms.
+
+## Summary
+
+- Prerendered pages inspected: 87.
+- Anchor occurrences inspected: 3132.
+- Internal links to generated routes verified: 2525.
+- Broken internal links or fragments: 0.
+- External links requiring live verification: 243.
+- Telephone/email action links: 364; destination formatting is not proof of successful contact.
+- Button elements found in initial HTML: 314; runtime behavior is not verified by this static audit.
+
+## Clickable destinations
+
+| Link text | Example rendered page(s) | Destination | Status | Occurrences |
+|---|---|---|---|---:|
+| (no text) | /, /about/, /services/, and 83 more | / | verified prerendered route | 172 |
+| Home | /, /about/, /services/, and 84 more | / | verified prerendered route | 173 |
+| H o m e H o m e | /, /about/, /services/, and 83 more | / | verified prerendered route | 86 |
+| Business Setup in UAE | /cost-calculator/ | / | verified prerendered route | 2 |
+| ONE CLICK SETUP COST | / | /#cost-estimate | verified prerendered route | 1 |
+| About | /, /about/, /services/, and 83 more | /about/ | verified prerendered route | 172 |
+| A b o u t A b o u t | /, /about/, /services/, and 83 more | /about/ | verified prerendered route | 86 |
+| Blog 11 Nov 2026 AML Compliance in the UAE: What Every Business Must Know Understand AML compliance in the UAE, including KYC, customer due diligence, risk assessments, suspicious transaction reporting and business obligations. Read More | /blog/ | /aml-compliance-in-the-uae-what-every-business-must-know/ | verified prerendered route | 1 |
+| Blog | /, /about/, /services/, and 83 more | /blog/ | verified prerendered route | 172 |
+| B l o g B l o g | /, /about/, /services/, and 83 more | /blog/ | verified prerendered route | 86 |
+| All articles | /why-dubai-business-market-is-becoming-more-selective/, /the-real-cost-of-cheap-business-setup-in-dubai/, /why-trust-is-becoming-the-most-valuable-currency-in-dubai-business/, and 67 more | /blog/ | verified prerendered route | 70 |
+| Business Setup | /, /about/, /services/, and 83 more | /bussines-setup-page/ | verified prerendered route | 172 |
+| B u s i n e s s S e t u p B u s i n e s s S e t u p | /, /about/, /services/, and 83 more | /bussines-setup-page/ | verified prerendered route | 86 |
+| Contact Us | /, /about/, /services/, and 83 more | /contact-us/ | verified prerendered route | 86 |
+| C o n t a c t C o n t a c t | /, /about/, /services/, and 83 more | /contact-us/ | verified prerendered route | 86 |
+| Book a Consultation | / | /contact-us/ | verified prerendered route | 1 |
+| Book | / | /contact-us/ | verified prerendered route | 5 |
+| Book a meeting | / | /contact-us/ | verified prerendered route | 1 |
+| Book Now | / | /contact-us/ | verified prerendered route | 6 |
+| Contact our team | /, /about/, /services/, and 83 more | /contact-us/ | verified prerendered route | 86 |
+| Contact | /, /about/, /services/, and 83 more | /contact-us/ | verified prerendered route | 86 |
+| Book a Meeting | /about/, /services/ | /contact-us/ | verified prerendered route | 2 |
+| Corporate Advisory Get guidance tailored to your business goals. | /services/ | /contact-us/ | verified prerendered route | 1 |
+| Book a Meet | /services/ | /contact-us/ | verified prerendered route | 13 |
+| Discuss Your Eligibility | /golden-visa/ | /contact-us/ | verified prerendered route | 2 |
+| Speak to Our Advisory Team | /golden-visa/ | /contact-us/ | verified prerendered route | 1 |
+| Discuss Your Property Eligibility | /golden-visa/ | /contact-us/ | verified prerendered route | 1 |
+| Contact Our Team | /golden-visa/, /shareholder-agreement-uae-why-it-matters/, /difc-and-adgm-will-registration-a-modern-estate-planning-solution-for-expats-in-the-uae/, and 12 more | /contact-us/ | verified prerendered route | 16 |
+| Book a free consultation. | /why-dubai-business-market-is-becoming-more-selective/, /the-real-cost-of-cheap-business-setup-in-dubai/, /why-trust-is-becoming-the-most-valuable-currency-in-dubai-business/, and 60 more | /contact-us/ | verified prerendered route | 63 |
+| Contact Klay Consultants | /uae-import-export-license-how-to-start-a-trading-business/, /updating-revoking-and-amending-your-uae-will-klay-consultants/, /estate-planning-for-blended-families-and-unmarried-couples-in-the-uae-klay-consultants/, and 4 more | /contact-us/ | verified prerendered route | 7 |
+| Contact the Klay team → | /cost-calculator/ | /contact-us/#contact-form | verified prerendered route | 1 |
+| Company Restructuring 7 Nov 2026 Convert Free Zone to Mainland UAE Convert a Free Zone company to Mainland UAE or vice versa. Explore the process, costs, business options, and key considerations before making the move. Read More | /blog/ | /convert-free-zone-to-mainland-uae/ | verified prerendered route | 1 |
+| Moving between Free Zone and Mainland | /restructuring-your-uae-company-when-and-how-to-change-structure/ | /convert-free-zone-to-mainland-uae/ | verified prerendered route | 1 |
+| Blog 11 Nov 2026 DIFC and ADGM Will Registration: A Modern Estate Planning Solution for Expats in the UAE Compare DIFC and ADGM will registration in the UAE. Explore eligibility, asset coverage, guardianship, probate and estate planning options for expats. Read More | /blog/ | /difc-and-adgm-will-registration-a-modern-estate-planning-solution-for-expats-in-the-uae/ | verified prerendered route | 1 |
+| Blog 8 Nov 2026 DIFC Wills vs Abu Dhabi Wills Registry: Which Should You Choose? Compare DIFC Wills vs Abu Dhabi Wills Registry, including eligibility, UAE asset coverage, registration procedures, fees and suitability for expats. Read More | /blog/ | /difc-wills-vs-abu-dhabi-wills-registry-which-should-you-choose-klay-consultants/ | verified prerendered route | 1 |
+| DIFC and Abu Dhabi wills registry comparison | /blog/wills-and-foundation-uae-complete-guide-for-expats-klay-counsultants/, /blog/inheritance-planning-uae-expats/ | /difc-wills-vs-abu-dhabi-wills-registry-which-should-you-choose-klay-consultants/ | verified prerendered route | 2 |
+| Blog 11 Nov 2026 ESR Filing in the UAE: Rules, Requirements & Latest Updates Understand ESR filing in the UAE, relevant activities, historical reporting obligations and the 2024 changes to Economic Substance Regulations. Read More | /blog/ | /esr-filing-in-the-uae-understanding-economic-substance-regulations/ | verified prerendered route | 1 |
+| Blog 8 Nov 2026 Estate Planning for Blended Families and Unmarried Couples in the UAE &#124; Klay Consultants Explore estate planning for blended families and unmarried couples in the UAE. Understand wills, beneficiaries, guardianship, stepchildren and inheritance considerations. Read More | /blog/ | /estate-planning-for-blended-families-and-unmarried-couples-in-the-uae-klay-consultants/ | verified prerendered route | 1 |
+| UAE estate planning for modern families | /guardianship-for-minor-children-in-a-uae-will-klay-consultants/ | /estate-planning-for-blended-families-and-unmarried-couples-in-the-uae-klay-consultants/ | verified prerendered route | 1 |
+| UAE estate planning for blended families | /blog/wills-and-foundation-uae-complete-guide-for-expats-klay-counsultants/ | /estate-planning-for-blended-families-and-unmarried-couples-in-the-uae-klay-consultants/ | verified prerendered route | 1 |
+| GOLDEN VISA GOLDEN VISA | /, /about/, /services/, and 83 more | /golden-visa/ | verified prerendered route | 86 |
+| G o l d e n V i s a G o l d e n V i s a | /, /about/, /services/, and 83 more | /golden-visa/ | verified prerendered route | 86 |
+| Our Services Dubai Business Visa Acquire your Dubai business visa to set up and conduct business, conferences, and explore networking opportunities in Dubai with ease. Learn more | / | /golden-visa/ | verified prerendered route | 1 |
+| Our Services Golden Visa Get long-term residency as an Indian expat that gives the ability to live, work and access various services in Dubai, UAE. Learn more | / | /golden-visa/ | verified prerendered route | 1 |
+| Golden Visa | /, /about/, /services/, and 83 more | /golden-visa/ | verified prerendered route | 86 |
+| UAE Golden Visa services | /uae-dependent-visa-sponsorship-family-visa-guide-klay-consultants/ | /golden-visa/ | verified prerendered route | 1 |
+| Blog 8 Nov 2026 Guardianship for Minor Children in a UAE Will: What Expat Parents Need to Know Learn how a guardianship UAE will helps expat parents nominate guardians for minor children, plan international relocation and protect their family’s future. Read More | /blog/ | /guardianship-for-minor-children-in-a-uae-will-klay-consultants/ | verified prerendered route | 1 |
+| Guardianship for minor children in a UAE will | /what-happens-if-you-die-without-a-will-in-the-uae/, /difc-wills-vs-abu-dhabi-wills-registry-which-should-you-choose-klay-consultants/, /how-to-register-a-non-muslim-will-in-the-uae-step-by-step-klay-consultants/ | /guardianship-for-minor-children-in-a-uae-will-klay-consultants/ | verified prerendered route | 3 |
+| Blog 11 Nov 2026 UAE Business Setup Compliance: Incorporation, Banking & AML Discover how UAE incorporation, corporate banking, AML compliance and historical ESR obligations connect. Learn how to structure your business correctly. Read More | /blog/ | /how-incorporation-banking-aml-and-esr-work-together-in-the-uae/ | verified prerendered route | 1 |
+| Blog 8 Nov 2026 How to Register a Non-Muslim Will in the UAE: Step-by-Step Learn how to register a non-Muslim will in the UAE, including DIFC and ADJD registries, required documents, registration steps, costs and timelines. Read More | /blog/ | /how-to-register-a-non-muslim-will-in-the-uae-step-by-step-klay-consultants/ | verified prerendered route | 1 |
+| How to register a non-Muslim will in the UAE | /what-happens-if-you-die-without-a-will-in-the-uae/, /difc-wills-vs-abu-dhabi-wills-registry-which-should-you-choose-klay-consultants/ | /how-to-register-a-non-muslim-will-in-the-uae-step-by-step-klay-consultants/ | verified prerendered route | 2 |
+| Blog 8 Nov 2026 How to Transfer a Corporate Bank Account in UAE Learn about corporate bank account UAE transfers during restructuring, including required documents, bank approvals, fund transfers, account closure and compliance procedures. Read More | /blog/ | /how-to-transfer-a-corporate-bank-account-in-uae/ | verified prerendered route | 1 |
+| Blog 8 Nov 2026 Including Business Shares in Your UAE Will: Protecting Company Ownership Learn how to include business shares in a UAE will, protect company ownership, plan succession, coordinate shareholder agreements and support business continuity. Read More | /blog/ | /including-business-shares-in-your-uae-will-klay-consultants/ | verified prerendered route | 1 |
+| Including business shares in your UAE will | /difc-wills-vs-abu-dhabi-wills-registry-which-should-you-choose-klay-consultants/, /how-to-register-a-non-muslim-will-in-the-uae-step-by-step-klay-consultants/ | /including-business-shares-in-your-uae-will-klay-consultants/ | verified prerendered route | 2 |
+| Including business shares in a UAE will | /blog/wills-and-foundation-uae-complete-guide-for-expats-klay-counsultants/, /blog/inheritance-planning-uae-expats/ | /including-business-shares-in-your-uae-will-klay-consultants/ | verified prerendered route | 2 |
+| Blog 11 Nov 2026 Inheritance and Succession Planning in the UAE: Why Expats Must Plan Early Learn why inheritance and succession planning in the UAE matters for expats. Explore wills, DIFC, ADGM, asset protection and business succession. Read More | /blog/ | /inheritance-and-succession-planning-in-the-uae-why-expats-must-plan-early/ | verified prerendered route | 1 |
+| Blog 8 Nov 2026 Legal Heir Certificate UAE: Will & Probate Guide Understand the legal heir certificate UAE process, required documents, inheritance laws, registered wills and probate procedures for families and beneficiaries. Read More | /blog/ | /legal-heir-certificate-uae-will-probate-guide/ | verified prerendered route | 1 |
+| UAE legal heir certificate and probate guide | /what-happens-if-you-die-without-a-will-in-the-uae/, /guardianship-for-minor-children-in-a-uae-will-klay-consultants/, /power-of-attorney-in-the-uae-a-guide-for-business-owners-expats-klay-consultants/, and 3 more | /legal-heir-certificate-uae-will-probate-guide/ | verified prerendered route | 6 |
+| Blog 8 Nov 2026 Open Personal Bank Account UAE: New Resident Guide Learn how to open a personal bank account in the UAE as a new resident, including eligibility, required documents, banking options, minimum balances, and application steps. Read More | /blog/ | /open-personal-bank-account-uae/ | verified prerendered route | 1 |
+| Opening a personal bank account in the UAE | /tourist-bank-accounts-in-the-uae/, /blog/uae-tourist-bank-account-explained-dubai-banking-guide/ | /open-personal-bank-account-uae/ | verified prerendered route | 2 |
+| Blog 8 Nov 2026 Power of Attorney in the UAE: A Guide for Business Owners & Expats Understand Power of Attorney requirements in the UAE, including types, notarisation, documents, business authorisations and how expats can appoint representatives. Read More | /blog/ | /power-of-attorney-in-the-uae-a-guide-for-business-owners-expats-klay-consultants/ | verified prerendered route | 1 |
+| Privacy Policy | /, /about/, /services/, and 83 more | /privacy/ | verified prerendered route | 86 |
+| Blog 8 Nov 2026 Restructuring Your UAE Company: When and How to Change Structure Explore UAE company restructuring options, including changing legal structure, shareholders, jurisdiction, holding companies, costs and regulatory requirements. Read More | /blog/ | /restructuring-your-uae-company-when-and-how-to-change-structure/ | verified prerendered route | 1 |
+| Services | /, /about/, /services/, and 83 more | /services/ | verified prerendered route | 172 |
+| S e r v i c e s S e r v i c e s | /, /about/, /services/, and 83 more | /services/ | verified prerendered route | 86 |
+| Explore Our Services | /, /about/ | /services/ | verified prerendered route | 2 |
+| Our Services Corporate Taxes and VAT We can provide expert insights on UAE tax laws, accounting, VAT compliance, corporate tax filing, and tax advisory services. Learn more | / | /services/ | verified prerendered route | 1 |
+| Explore Services | /services/ | /services/#packages | verified prerendered route | 1 |
+| Back to packages | /services/ | /services/#packages | verified prerendered route | 1 |
+| Free Zone Solutions Find the right jurisdiction for your plans. | /services/ | /services/free-zone-company-setup/ | verified prerendered route | 1 |
+| 02 BUSINESS SETUP Free Zone Discover Free Zone formation options based on your business activity, licensing needs, chosen authority and operational requirements. EXPLORE THIS STRUCTURE | /bussines-setup-page/ | /services/free-zone-company-setup/ | verified prerendered route | 1 |
+| 01 Free Zone Company Formation A flexible route for eligible businesses seeking a UAE presence through a free zone authority. Explore licensing options for consulting, professional services, trading and other permitted activities. IDEAL FOR Entrepreneurs, startups and international founders. EXPLORE SERVICE | /bussines-setup-page/ | /services/free-zone-company-setup/ | verified prerendered route | 1 |
+| Our Services UAE Business Formation Set up your company in Dubai, UAE with experts who can handle approvals and paperwork and help guide you through any red tape. Learn more | / | /services/mainland-company-setup/ | verified prerendered route | 1 |
+| Our Services Trade Licensing Secure your trade license with our expert trade licensing services to conduct business in Dubai. Learn more | / | /services/mainland-company-setup/ | verified prerendered route | 1 |
+| Company Formation Build your UAE business on the right foundation. | /services/ | /services/mainland-company-setup/ | verified prerendered route | 1 |
+| 01 BUSINESS SETUP Mainland Explore Mainland company formation for businesses seeking to operate across the UAE market, subject to the applicable licence, activity and regulatory rules. EXPLORE THIS STRUCTURE | /bussines-setup-page/ | /services/mainland-company-setup/ | verified prerendered route | 1 |
+| 02 Mainland Company Formation Establish a company under the relevant mainland licensing framework, with options based on your business activity and operating requirements. IDEAL FOR Businesses targeting UAE customers, local operations and wider commercial opportunities. EXPLORE SERVICE | /bussines-setup-page/ | /services/mainland-company-setup/ | verified prerendered route | 1 |
+| Mainland company setup in Dubai | /blog/uae-company-setup-cost-breakdown-2026-klay-consultants/, /blog/dubai-mainland-business-license-guide-klay-consultants/ | /services/mainland-company-setup/ | verified prerendered route | 2 |
+| 03 BUSINESS SETUP Offshore Understand offshore company structures and their potential suitability for international business purposes, subject to jurisdictional restrictions. EXPLORE THIS STRUCTURE | /bussines-setup-page/ | /services/offshore-company-setup/ | verified prerendered route | 1 |
+| 03 Offshore Company Formation Explore suitable offshore structures for eligible international business purposes, including certain holding arrangements. IDEAL FOR Business owners seeking specific international structuring solutions. EXPLORE SERVICE | /bussines-setup-page/ | /services/offshore-company-setup/ | verified prerendered route | 1 |
+| UAE offshore company setup services | /blog/uae-offshore-company-formation-rak-icc-vs-jafza-klay-consultants/ | /services/offshore-company-setup/ | verified prerendered route | 1 |
+| Our Services PRO Services for Entrepreneurs Let our experts interface with government authorities and help you navigate renewals and regulations. Learn more | / | /services/pro-services/ | verified prerendered route | 1 |
+| Business Partners 7 Nov 2026 Shareholder Agreement UAE: Why It Matters Why UAE founders need a shareholder agreement, including key clauses, exit rights, deadlock solutions, valuation methods, and dispute prevention. Read More | /blog/ | /shareholder-agreement-uae-why-it-matters/ | verified prerendered route | 1 |
+| Shareholder Agreement UAE: Why It Matters | /the-uae-court-system-dispute-resolution/, /blog/adding-removing-transferring-shareholders-uae-company/ | /shareholder-agreement-uae-why-it-matters/ | verified prerendered route | 2 |
+| Terms of Service | /, /about/, /services/, and 83 more | /terms/ | verified prerendered route | 86 |
+| Blog 10 Nov 2026 The Real Cost Of Cheap Business Setup In Dubai Understand what low-cost Dubai business setup packages include and where licensing, banking, compliance or restructuring costs may arise. Read More | /blog/ | /the-real-cost-of-cheap-business-setup-in-dubai/ | verified prerendered route | 1 |
+| Business Law UAE 7 Nov 2026 The UAE Court System & Dispute Resolution: What Business Owners Should Know Understand UAE dispute resolution for business owners, including onshore courts, DIFC and ADGM Courts, arbitration, and choosing the right forum. Read More | /blog/ | /the-uae-court-system-dispute-resolution/ | verified prerendered route | 1 |
+| Blog 10 Nov 2026 Tourist Bank Accounts in the UAE: What Visitors Need to Know Before Applying Learn how visitor and non-resident banking options work in the UAE, including eligibility, documents, account limitations, fees and alternatives. Read More | /blog/ | /tourist-bank-accounts-in-the-uae/ | verified prerendered route | 1 |
+| Tourist bank accounts in the UAE: visitor guide | /blog/uae-tourist-bank-account-explained-dubai-banking-guide/ | /tourist-bank-accounts-in-the-uae/ | verified prerendered route | 1 |
+| Blog 8 Nov 2026 Adding, Removing or Transferring Shareholders in a UAE Company Learn how to transfer shareholders in a UAE company, including adding or removing owners, share transfer agreements, required documents, approvals and costs. Read More | /blog/ | /transfer-shareholders-uae-company/ | verified prerendered route | 1 |
+| Transferring shareholders in a UAE company | /including-business-shares-in-your-uae-will-klay-consultants/, /restructuring-your-uae-company-when-and-how-to-change-structure/ | /transfer-shareholders-uae-company/ | verified prerendered route | 2 |
+| Shareholder transfers in a UAE company | /how-to-transfer-a-corporate-bank-account-in-uae/ | /transfer-shareholders-uae-company/ | verified prerendered route | 1 |
+| Blog 11 Nov 2026 UAE Business Bank Account Opening: Why Structure Matters Before You Apply Learn why company structure matters for UAE business bank account opening. Explore Mainland and Free Zone options, KYC, AML checks and approval requirements. Read More | /blog/ | /uae-business-bank-account-opening-why-structure-matters-before-you-apply/ | verified prerendered route | 1 |
+| Family Visas 8 Nov 2026 UAE Dependent Visa Sponsorship: Family Visa Guide &#124; Klay Consultants Learn about UAE dependent visa sponsorship, including eligibility, required documents, application steps, costs, and family residency requirements. Read More | /blog/ | /uae-dependent-visa-sponsorship-family-visa-guide-klay-consultants/ | verified prerendered route | 1 |
+| Blog 8 Nov 2026 UAE Import Export License: How to Start a Trading Business Learn how to get an import export license in the UAE, including customs registration, costs, documentation, product approvals and jurisdiction options. Read More | /blog/ | /uae-import-export-license-how-to-start-a-trading-business/ | verified prerendered route | 1 |
+| Blog 11 Nov 2026 UAE Is Not a Tax Haven Anymore — It’s a Tax Strategy Hub Discover why the UAE is now a tax strategy hub. Explore 2026 Corporate Tax rules, Free Zone benefits, holding companies and international tax planning. Read More | /blog/ | /uae-is-not-a-tax-haven-anymore-its-a-tax-strategy-hub/ | verified prerendered route | 1 |
+| Blog 8 Nov 2026 UAE Will vs Home Country Will: Do Expats Need Both? &#124; Klay Consultants UAE will vs home country will explained for expats. Learn how to coordinate wills, protect international assets and avoid conflicting inheritance instructions. Read More | /blog/ | /uae-will-vs-home-country-will-do-expats-need-both-klay-consultants/ | verified prerendered route | 1 |
+| UAE will vs home country will for expats | /how-to-register-a-non-muslim-will-in-the-uae-step-by-step-klay-consultants/, /guardianship-for-minor-children-in-a-uae-will-klay-consultants/, /including-business-shares-in-your-uae-will-klay-consultants/, and 1 more | /uae-will-vs-home-country-will-do-expats-need-both-klay-consultants/ | verified prerendered route | 4 |
+| UAE will vs home-country will for expats | /blog/wills-and-foundation-uae-complete-guide-for-expats-klay-counsultants/ | /uae-will-vs-home-country-will-do-expats-need-both-klay-consultants/ | verified prerendered route | 1 |
+| Blog 8 Nov 2026 Updating, Revoking and Amending Your UAE Will &#124; Klay Consultants Learn when and how to update UAE will documents, amend provisions or revoke an existing will after marriage, divorce, property purchases or business changes. Read More | /blog/ | /updating-revoking-and-amending-your-uae-will-klay-consultants/ | verified prerendered route | 1 |
+| Updating or revoking a UAE will | /power-of-attorney-in-the-uae-a-guide-for-business-owners-expats-klay-consultants/, /uae-will-vs-home-country-will-do-expats-need-both-klay-consultants/ | /updating-revoking-and-amending-your-uae-will-klay-consultants/ | verified prerendered route | 2 |
+| Blog 8 Nov 2026 What Happens If You Die Without a Will in the UAE? Discover what happens if you die without a will in the UAE. Learn how inheritance laws affect expats, bank accounts, property, business shares and guardianship. Read More | /blog/ | /what-happens-if-you-die-without-a-will-in-the-uae/ | verified prerendered route | 1 |
+| Blog 10 Nov 2026 Why Dubai Business Market Is Becoming More Selective Explore how changing investor and customer expectations are raising the importance of credibility, compliance, positioning and sustainable growth in Dubai. Read More | /blog/ | /why-dubai-business-market-is-becoming-more-selective/ | verified prerendered route | 1 |
+| Blog 10 Nov 2026 Why Trust Is Becoming The Most Valuable Currency In Dubai Business Discover how credibility, transparency, compliance and strong relationships can help Dubai businesses build trust and support sustainable growth. Read More | /blog/ | /why-trust-is-becoming-the-most-valuable-currency-in-dubai-business/ | verified prerendered route | 1 |
+| Why trust matters in Dubai business | /why-dubai-business-market-is-becoming-more-selective/ | /why-trust-is-becoming-the-most-valuable-currency-in-dubai-business/ | verified prerendered route | 1 |
+| Cost Calculator | /cost-calculator/ | #calculator | verified prerendered route | 1 |
+| Learn More → | /cost-calculator/ | #calculator | verified prerendered route | 3 |
+| Let's Talk ↗ | /contact-us/ | #contact-form | verified prerendered route | 1 |
+| FAQs | /cost-calculator/ | #faq | verified prerendered route | 1 |
+| How It Works | /cost-calculator/ | #how-it-works | verified prerendered route | 1 |
+| (no text) | /, /about/, /services/, and 83 more | https://api.whatsapp.com/send?phone=971562292260 | external - live destination unverified | 86 |
+| Get Directions | /contact-us/ | https://www.google.com/maps/search/?api=1&amp;query=THE%20EXCHANGE%20TOWER%20Business%20Bay%20Dubai | external - live destination unverified | 1 |
+| (no text) | /, /about/, /services/, and 83 more | https://www.instagram.com/klayconsultants/ | external - live destination unverified | 86 |
+| Follow us on Instagram | /why-dubai-business-market-is-becoming-more-selective/, /the-real-cost-of-cheap-business-setup-in-dubai/, /why-trust-is-becoming-the-most-valuable-currency-in-dubai-business/, and 67 more | https://www.instagram.com/klayconsultants/ | external - live destination unverified | 70 |
+| info@klayconsultants.com | /, /about/, /services/, and 83 more | mailto:info@klayconsultants.com | contact action - destination unverified | 89 |
+| ✉ EMAIL US info@klayconsultants.com | /contact-us/ | mailto:info@klayconsultants.com | contact action - destination unverified | 1 |
+| (no text) | /, /about/, /services/, and 83 more | tel:+971562292260 | contact action - destination unverified | 86 |
+| C a l l U s C a l l U s | /, /about/, /services/, and 83 more | tel:+971562292260 | contact action - destination unverified | 86 |
+| +971 56 229 2260 | /, /about/, /services/, and 83 more | tel:+971562292260 | contact action - destination unverified | 87 |
+| ☎ CALL US +971 56 229 2260 | /contact-us/ | tel:+971562292260 | contact action - destination unverified | 1 |
+| Call +971 56 229 2260 | /shareholder-agreement-uae-why-it-matters/, /difc-and-adgm-will-registration-a-modern-estate-planning-solution-for-expats-in-the-uae/, /inheritance-and-succession-planning-in-the-uae-why-expats-must-plan-early/, and 11 more | tel:+971562292260 | contact action - destination unverified | 14 |
+
+## Broken internal links
+
+| # | Source page | Destination | Link text | Reason |
+|---:|---|---|---|---|
+| - | - | - | None detected | - |
+
+Unsupported URL schemes: 0. External destinations and form submissions are intentionally marked unverified, not reported as working based solely on markup.

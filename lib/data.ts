@@ -22,6 +22,7 @@ import {
   TrendingUp,
   WalletCards,
 } from 'lucide-react';
+import { ROUTES } from '../src/config/routes';
 
 export const SERVICES = [
   {
@@ -253,13 +254,13 @@ export const SERVICES = [
 ] as const;
 
 export const NAV_LINKS = [
-  { label: 'Home', href: '/' },
-  { label: 'About', href: '/about' },
-  { label: 'Services', href: '/services' },
-  { label: 'Golden Visa', href: '/golden-visa' },
-  { label: 'Business Setup', href: '/business-setup' },
-  { label: 'Blog', href: '/blog' },
-  { label: 'Contact', href: '/contact' },
+  { label: 'Home', href: ROUTES.home },
+  { label: 'About', href: ROUTES.about },
+  { label: 'Services', href: ROUTES.services },
+  { label: 'Golden Visa', href: ROUTES.goldenVisa },
+  { label: 'Business Setup', href: ROUTES.businessSetup },
+  { label: 'Blog', href: ROUTES.blog },
+  { label: 'Contact', href: ROUTES.contact },
 ];
 
 export const COMPANY = {
@@ -3055,5 +3056,250 @@ export const BLOG_PREVIEW = [
       'Why UAE founders need a shareholder agreement, including key clauses, exit rights, deadlock solutions, valuation methods, and dispute prevention.',
     metaKeywords: 'shareholder agreement UAE, UAE company formation, UAE founders, shareholder disputes, business partners UAE',
     audience: 'Founders, co-founders and investors',
+  },
+  {
+    slug: 'difc-and-adgm-will-registration-a-modern-estate-planning-solution-for-expats-in-the-uae',
+    title: 'DIFC and ADGM Will Registration: A Modern Estate Planning Solution for Expats in the UAE',
+    excerpt:
+      'Compare DIFC and ADGM will registration in the UAE. Explore eligibility, asset coverage, guardianship, probate and estate planning options for expats.',
+    date: '11 Nov 2026',
+    category: 'Blog',
+    image: '/blog-img/UAE%20Expat%20Will%20Registration%20Guide.png',
+    imageAlt: 'UAE expat will registration and estate planning guide',
+    imageTitle: 'UAE Expat Will Registration Guide',
+    imageCaption: 'Compare DIFC and ADGM will registration options for expats in the UAE.',
+    imageDescription:
+      'A guide to DIFC and ADGM will registration, UAE estate planning, asset coverage, guardianship and probate for expatriates.',
+    imageTags: [
+      'DIFC and ADGM Will Registration',
+      'UAE Will Registration',
+      'Estate Planning UAE',
+      'Inheritance Planning UAE',
+      'Expat Wills UAE',
+    ],
+    metaTitle: 'DIFC and ADGM Will Registration: UAE Guide for Expats',
+    metaDescription:
+      'Compare DIFC and ADGM will registration in the UAE. Explore eligibility, asset coverage, guardianship, probate and estate planning options for expats.',
+    metaKeywords:
+      'DIFC and ADGM Will Registration, DIFC Wills Service, ADGM Wills Registration, UAE will registration, Estate planning UAE, Inheritance planning UAE, Non-Muslim wills UAE, Expat wills UAE, Will registration Dubai, Will registration Abu Dhabi, UAE succession planning, Asset protection UAE, UAE probate process, Trust formation UAE, Foundation formation UAE, Holding company structure UAE',
+    focusKeyword: 'DIFC and ADGM Will Registration',
+    tags: [
+      'Business Consultancy',
+      'Business Setup in Dubai',
+      'Business Setup in UAE',
+      'Klay Consultants',
+      'DIFC Wills Service',
+      'ADGM Wills Registration',
+      'UAE Will Registration',
+      'Estate Planning UAE',
+      'Inheritance Planning UAE',
+      'Expat Wills UAE',
+      'UAE Succession Planning',
+    ],
+    audience: 'Expats and families comparing UAE will registration and estate planning options',
+  },
+  {
+    slug: 'inheritance-and-succession-planning-in-the-uae-why-expats-must-plan-early',
+    title: 'Inheritance and Succession Planning in the UAE: Why Expats Must Plan Early',
+    excerpt:
+      'Learn why inheritance and succession planning in the UAE matters for expats. Explore wills, DIFC, ADGM, asset protection and business succession.',
+    date: '11 Nov 2026',
+    category: 'Blog',
+    image: '/blog-img/UAE%20Estate%20Planning%20at%20Sunrise%20(1).png',
+    imageAlt: 'Sunrise over the UAE, illustrating inheritance and succession planning for expats',
+    imageTitle: 'UAE Estate Planning at Sunrise',
+    imageCaption: 'Plan inheritance, succession and family wealth arrangements early in the UAE.',
+    imageDescription:
+      'Guide to inheritance and succession planning in the UAE, including wills, DIFC, ADGM, asset protection and business succession for expats.',
+    imageTags: [
+      'Inheritance and Succession Planning in the UAE',
+      'Inheritance Planning UAE',
+      'Succession Planning UAE',
+      'Estate Planning UAE',
+      'Asset Protection UAE',
+    ],
+    metaTitle: 'Inheritance & Succession Planning in the UAE: Expat Guide',
+    metaDescription:
+      'Learn why inheritance and succession planning in the UAE matters for expats. Explore wills, DIFC, ADGM, asset protection and business succession.',
+    metaKeywords:
+      'Inheritance and Succession Planning in the UAE, Inheritance planning UAE, Succession planning UAE, Estate planning UAE, UAE will registration, Will registration Dubai, DIFC Wills Service, ADGM Wills Registration, Abu Dhabi Judicial Department will registration, Non-Muslim wills UAE, Asset protection UAE, Trust formation UAE, Foundation formation UAE, Holding company structure UAE, Family office UAE, Business succession planning UAE',
+    focusKeyword: 'Inheritance and Succession Planning in the UAE',
+    tags: [
+      'Business Consultancy',
+      'Business Setup in Dubai',
+      'Business Setup in UAE',
+      'Klay Consultants',
+      'Inheritance Planning UAE',
+      'Succession Planning UAE',
+      'Estate Planning UAE',
+      'UAE Will Registration',
+      'DIFC Wills Service',
+      'ADGM Wills Registration',
+      'Asset Protection UAE',
+    ],
+    audience: 'Expats, investors and business owners planning UAE inheritance and succession',
+  },
+  {
+    slug: 'aml-compliance-in-the-uae-what-every-business-must-know',
+    title: 'AML Compliance in the UAE: What Every Business Must Know',
+    excerpt:
+      'Understand AML compliance in the UAE, including KYC, customer due diligence, risk assessments, suspicious transaction reporting and business obligations.',
+    date: '11 Nov 2026',
+    category: 'Blog',
+    image: '/blog-img/UAE%20AML%20Compliance%20Essentials.png',
+    imageAlt: 'UAE AML compliance guide for businesses',
+    imageTitle: 'UAE AML Compliance Essentials',
+    imageCaption: 'Understand the AML controls that may apply to businesses operating in the UAE.',
+    imageDescription:
+      'A guide to UAE AML compliance, KYC, customer due diligence, risk assessments, reporting and business obligations.',
+    imageTags: [
+      'AML compliance UAE',
+      'KYC compliance UAE',
+      'Customer due diligence UAE',
+      'UAE AML regulations',
+      'Business compliance UAE',
+    ],
+    metaTitle: 'AML Compliance in the UAE: Business Requirements Guide',
+    metaDescription:
+      'Understand AML compliance in the UAE, including KYC, customer due diligence, risk assessments, suspicious transaction reporting and business obligations.',
+    metaKeywords:
+      'AML compliance UAE, Anti money laundering UAE, AML requirements UAE, KYC compliance UAE, Customer due diligence UAE, Regulatory compliance UAE, Business compliance UAE, UAE AML regulations 2026, AML risk assessment UAE, Suspicious transaction reporting UAE, goAML registration UAE, DNFBP compliance UAE, Free Zone AML rules, Mainland compliance UAE, Beneficial ownership UAE',
+    focusKeyword: 'AML compliance UAE',
+    tags: [
+      'Business Consultancy',
+      'Business Setup in Dubai',
+      'Business Setup in UAE',
+      'Klay Consultants',
+      'AML Compliance UAE',
+      'Anti Money Laundering UAE',
+      'KYC Compliance UAE',
+      'UAE Regulatory Compliance',
+      'Business Compliance UAE',
+      'Free Zone AML Rules',
+      'Retail Business Setup',
+    ],
+    audience: 'UAE business owners reviewing AML obligations and compliance requirements',
+  },
+  {
+    slug: 'uae-business-bank-account-opening-why-structure-matters-before-you-apply',
+    title: 'UAE Business Bank Account Opening: Why Structure Matters Before You Apply',
+    excerpt:
+      'Learn why company structure matters for UAE business bank account opening. Explore Mainland and Free Zone options, KYC, AML checks and approval requirements.',
+    date: '11 Nov 2026',
+    category: 'Blog',
+    image: '/blog-img/UAE%20Business%20Banking%20Readiness%20in%20Dubai.png',
+    imageAlt: 'UAE business banking readiness and company structure guide',
+    imageTitle: 'UAE Business Banking Readiness in Dubai',
+    imageCaption: 'Plan company structure and documentation before applying for UAE corporate banking.',
+    imageDescription:
+      'A guide to UAE business bank account opening, company structure, Mainland and Free Zone options, KYC and banking readiness.',
+    imageTags: [
+      'UAE business bank account opening',
+      'Corporate bank account UAE',
+      'UAE corporate banking',
+      'Banking compliance UAE',
+      'KYC compliance UAE',
+    ],
+    metaTitle: 'UAE Business Bank Account Opening: Why Structure Matters',
+    metaDescription:
+      'Learn why company structure matters for UAE business bank account opening. Explore Mainland and Free Zone options, KYC, AML checks and approval requirements.',
+    metaKeywords:
+      'UAE business bank account opening, Corporate bank account UAE, Company bank account approval UAE, Business banking UAE, Mainland bank account UAE, Free Zone bank account UAE, Offshore bank account UAE, Banking compliance UAE, UAE company formation, UAE corporate banking requirements, Business account opening documents UAE, KYC compliance UAE, AML compliance UAE, UAE business setup, Source of funds UAE',
+    focusKeyword: 'UAE business bank account opening',
+    tags: [
+      'Business Consultancy',
+      'Business Setup in Dubai',
+      'Business Setup in UAE',
+      'Klay Consultants',
+      'UAE Business Bank Account Opening',
+      'Corporate Bank Account UAE',
+      'UAE Corporate Banking',
+      'Banking Compliance UAE',
+      'AML Compliance UAE',
+      'KYC Compliance UAE',
+      'Retail Business Setup',
+    ],
+    audience: 'Entrepreneurs planning to open a UAE corporate bank account',
+  },
+  {
+    slug: 'esr-filing-in-the-uae-understanding-economic-substance-regulations',
+    title: 'ESR Filing in the UAE: Rules, Requirements & Latest Updates',
+    excerpt:
+      'Understand ESR filing in the UAE, relevant activities, historical reporting obligations and the 2024 changes to Economic Substance Regulations.',
+    date: '11 Nov 2026',
+    category: 'Blog',
+    image: '/blog-img/UAE%20ESR%20Compliance%20in%20Dubai.png',
+    imageAlt: 'ESR compliance and Economic Substance Regulations guide for UAE businesses',
+    imageTitle: 'UAE ESR Compliance in Dubai',
+    imageCaption: 'Understand historical ESR filing obligations and the reporting changes introduced in 2024.',
+    imageDescription:
+      'A guide to UAE ESR filing, Economic Substance Regulations, historical reporting obligations and the 2024 changes.',
+    imageTags: [
+      'ESR filing UAE',
+      'Economic Substance Regulations UAE',
+      'ESR compliance UAE',
+      'UAE regulatory compliance',
+      'Relevant Activities UAE',
+    ],
+    metaTitle: 'ESR Filing in the UAE: Rules, Requirements & Latest Updates',
+    metaDescription:
+      'Understand ESR filing in the UAE, relevant activities, historical reporting obligations and the 2024 changes to Economic Substance Regulations.',
+    metaKeywords:
+      'ESR filing UAE, Economic Substance Regulations UAE, ESR compliance UAE, ESR notification UAE, UAE ESR reporting requirements, Historical ESR filing UAE, UAE regulatory compliance, Mainland ESR requirements, Free Zone ESR requirements, Relevant Activities UAE, Economic Substance Report, Cabinet Decision No. 98 of 2024, UAE business compliance',
+    focusKeyword: 'ESR filing UAE',
+    tags: [
+      'Business Consultancy',
+      'Business Setup in Dubai',
+      'Business Setup in UAE',
+      'Klay Consultants',
+      'ESR Filing UAE',
+      'Economic Substance Regulations UAE',
+      'UAE Regulatory Compliance',
+      'ESR Compliance',
+      'Free Zone Business Setup',
+      'Mainland Business Setup',
+    ],
+    audience: 'UAE business owners reviewing historical ESR obligations and current compliance requirements',
+  },
+  {
+    slug: 'how-incorporation-banking-aml-and-esr-work-together-in-the-uae',
+    title: 'UAE Business Setup Compliance: Incorporation, Banking & AML',
+    excerpt:
+      'Discover how UAE incorporation, corporate banking, AML compliance and historical ESR obligations connect. Learn how to structure your business correctly.',
+    date: '11 Nov 2026',
+    category: 'Blog',
+    image: '/blog-img/UAE%20Business%20Compliance%20Blueprint.png',
+    imageAlt: 'UAE business setup compliance blueprint for incorporation, banking and AML',
+    imageTitle: 'UAE Business Compliance Blueprint',
+    imageCaption: 'See how incorporation, corporate banking, AML and historical ESR obligations fit together.',
+    imageDescription:
+      'A practical guide to UAE business setup compliance, company incorporation, banking, AML and historical ESR obligations.',
+    imageTags: [
+      'UAE business setup compliance',
+      'Company incorporation UAE',
+      'AML compliance UAE',
+      'Corporate banking UAE',
+      'UAE regulatory compliance',
+    ],
+    metaTitle: 'UAE Business Setup Compliance: Incorporation, Banking & AML',
+    metaDescription:
+      'Discover how UAE incorporation, corporate banking, AML compliance and historical ESR obligations connect. Learn how to structure your business correctly.',
+    metaKeywords:
+      'UAE business setup compliance, Company incorporation UAE, AML and ESR UAE, Business banking UAE, Corporate compliance UAE, UAE company formation, UAE regulatory compliance, Mainland Free Zone Offshore comparison, UAE AML requirements, Corporate bank account UAE, UAE business licensing, UBO compliance UAE, Historical ESR compliance UAE',
+    focusKeyword: 'UAE business setup compliance',
+    tags: [
+      'Business Consultancy',
+      'Business Setup in Dubai',
+      'Business Setup in UAE',
+      'Klay Consultants',
+      'UAE Business Setup Compliance',
+      'Company Incorporation UAE',
+      'AML Compliance UAE',
+      'Corporate Banking UAE',
+      'UAE Regulatory Compliance',
+      'Free Zone Business Setup',
+      'Mainland Business Setup',
+    ],
+    audience: 'Entrepreneurs planning UAE company incorporation, banking and compliance',
   },
 ] as const;

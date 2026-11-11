@@ -8,17 +8,18 @@ import { Image } from '@/components/ui/image';
 import { Link } from '@/components/ui/link';
 import { LiquidNavbar, type LiquidNavItem } from '@/components/layout/LiquidNavbar';
 import { MobileMenu, type MobileMenuItem } from '@/components/layout/MobileMenu';
+import { ROUTES } from '@/src/config/routes';
 
 const DESKTOP_NAV_LINKS = NAV_LINKS
-  .filter((link) => link.href !== '/golden-visa')
-  .map((link) => (link.href === '/contact' ? { ...link, label: 'Contact Us' } : link));
+  .filter((link) => link.href !== ROUTES.goldenVisa)
+  .map((link) => (link.href === ROUTES.contact ? { ...link, label: 'Contact Us' } : link));
 
 const SEARCH_LINKS = [
-  { label: 'Home', href: '/' },
-  { label: 'About Klay Consultants', href: '/about' },
-  { label: 'Business services', href: '/services' },
-  { label: 'Business Setup', href: '/business-setup' },
-  { label: 'Contact our team', href: '/contact' },
+  { label: 'Home', href: ROUTES.home },
+  { label: 'About Klay Consultants', href: ROUTES.about },
+  { label: 'Business services', href: ROUTES.services },
+  { label: 'Business Setup', href: ROUTES.businessSetup },
+  { label: 'Contact our team', href: ROUTES.contact },
 ];
 
 export function Header() {
@@ -33,9 +34,11 @@ export function Header() {
     [searchTerm]
   );
   const activeIndex = useMemo(
-    () => DESKTOP_NAV_LINKS.findIndex((link) => (
-      link.href === '/' ? pathname === '/' : pathname.startsWith(link.href)
-    )),
+    () => DESKTOP_NAV_LINKS.findIndex((link) => {
+      const currentPath = pathname.replace(/\/+$/, '') || '/';
+      const linkPath = link.href.replace(/\/+$/, '') || '/';
+      return linkPath === '/' ? currentPath === '/' : currentPath === linkPath || currentPath.startsWith(`${linkPath}/`);
+    }),
     [pathname]
   );
   const liquidItems: LiquidNavItem[] = useMemo(
@@ -162,7 +165,7 @@ export function Header() {
           </div>
 
           <Link
-            href="/golden-visa"
+            href={ROUTES.goldenVisa}
             aria-label="Explore the UAE Golden Visa"
             aria-current={pathname.startsWith('/golden-visa') ? 'page' : undefined}
             className="header-visa-card hidden md:block"

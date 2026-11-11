@@ -3,11 +3,19 @@ import { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { BLOG_PREVIEW } from '@/lib/data';
 import { CONTACT_CHANNELS } from '@/lib/contact';
+import difcAdgmArticleMarkdown from '@/content/blog/difc-and-adgm-will-registration.md?raw';
+import inheritanceSuccessionArticleMarkdown from '@/content/blog/inheritance-and-succession-planning-in-the-uae.md?raw';
+import amlComplianceArticleMarkdown from '@/content/blog/aml-compliance-in-the-uae.md?raw';
+import businessBankingArticleMarkdown from '@/content/blog/uae-business-bank-account-opening.md?raw';
+import esrFilingArticleMarkdown from '@/content/blog/esr-filing-in-the-uae.md?raw';
+import incorporationBankingAmlEsrArticleMarkdown from '@/content/blog/uae-business-setup-compliance.md?raw';
+import { MarkdownArticleContent } from '@/components/blog/MarkdownArticleContent';
 import { PageCTA } from '@/components/sections/MarketingPages';
 import { GlassCard } from '@/components/ui/glass-card';
 import { Link } from '@/components/ui/link';
 import { Image } from '@/components/ui/image';
 import { NotFoundPage } from '@/components/NotFoundPage';
+import { isPublicRootPostSlug, USER_PROVIDED_POST_SLUGS } from '@/src/config/routes';
 
 const articleNotes: Record<string, string[]> = {
   'adding-removing-transferring-shareholders-uae-company': [
@@ -10536,6 +10544,19 @@ const powerOfAttorneyUaeArticle: LongFormArticle = {
 export default function BlogArticlePage() {
   const { slug = '' } = useParams<{ slug: string }>();
   const article = BLOG_PREVIEW.find((post) => post.slug === slug);
+  const markdownArticle = slug === USER_PROVIDED_POST_SLUGS[0]
+    ? difcAdgmArticleMarkdown
+    : slug === USER_PROVIDED_POST_SLUGS[1]
+      ? inheritanceSuccessionArticleMarkdown
+      : slug === USER_PROVIDED_POST_SLUGS[2]
+        ? amlComplianceArticleMarkdown
+        : slug === USER_PROVIDED_POST_SLUGS[3]
+          ? businessBankingArticleMarkdown
+          : slug === USER_PROVIDED_POST_SLUGS[4]
+            ? esrFilingArticleMarkdown
+            : slug === USER_PROVIDED_POST_SLUGS[5]
+              ? incorporationBankingAmlEsrArticleMarkdown
+              : undefined;
   const longFormArticle =
     slug === 'uae-company-formation-mistakes-entrepreneurs-must-avoid'
       ? uaeCompanyFormationMistakesArticle
@@ -10724,7 +10745,9 @@ export default function BlogArticlePage() {
             </div>
           )}
           <GlassCard className="mt-4 p-6 sm:p-10">
-            {longFormArticle ? (
+            {markdownArticle ? (
+              <MarkdownArticleContent markdown={markdownArticle} />
+            ) : longFormArticle ? (
                 <div className="space-y-6 text-black">
                   <p className="text-lg leading-relaxed">{longFormArticle.introduction}</p>
                   {longFormArticle.sections.map((section) => (
@@ -10819,7 +10842,9 @@ export default function BlogArticlePage() {
                         .filter(
                           (relatedLink) =>
                             !relatedLink.href.startsWith('/blog/') ||
-                            BLOG_PREVIEW.some((post) => relatedLink.href === `/blog/${post.slug}`),
+                            BLOG_PREVIEW.some((post) => (
+                              isPublicRootPostSlug(post.slug) && relatedLink.href === `/blog/${post.slug}`
+                            )),
                         )
                         .map((relatedLink) => (
                         <li key={relatedLink.href}>
