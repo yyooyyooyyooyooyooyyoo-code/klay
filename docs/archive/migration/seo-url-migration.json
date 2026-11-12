@@ -1,0 +1,790 @@
+{
+  "generatedAt": "2026-11-11",
+  "wordpressOrigin": "https://klayconsultants.com",
+  "evidence": {
+    "publishedPagesFromWordPressRestApi": 10,
+    "pagesInWordPressSitemap": 4,
+    "postsInWordPressSitemap": 44,
+    "categoriesInWordPressSitemap": 2,
+    "tagsInWordPressSitemap": 48,
+    "totalWordPressSitemapUrls": 98
+  },
+  "mappings": [
+    {
+      "type": "page",
+      "wordpressUrl": "https://klayconsultants.com/",
+      "reactPath": "/",
+      "inWordPressSitemap": true,
+      "status": "route implemented"
+    },
+    {
+      "type": "page",
+      "wordpressUrl": "https://klayconsultants.com/bussines-setup-page/",
+      "reactPath": "/bussines-setup-page/",
+      "inWordPressSitemap": true,
+      "status": "route implemented"
+    },
+    {
+      "type": "page",
+      "wordpressUrl": "https://klayconsultants.com/blog/",
+      "reactPath": "/blog/",
+      "inWordPressSitemap": true,
+      "status": "route implemented"
+    },
+    {
+      "type": "page",
+      "wordpressUrl": "https://klayconsultants.com/services/",
+      "reactPath": "/services/",
+      "inWordPressSitemap": true,
+      "status": "route implemented"
+    },
+    {
+      "type": "page",
+      "wordpressUrl": "https://klayconsultants.com/thank-you/",
+      "reactPath": "/thank-you/",
+      "inWordPressSitemap": false,
+      "status": "route not implemented"
+    },
+    {
+      "type": "page",
+      "wordpressUrl": "https://klayconsultants.com/customer-cabinet/",
+      "reactPath": "/customer-cabinet/",
+      "inWordPressSitemap": false,
+      "status": "route not implemented"
+    },
+    {
+      "type": "page",
+      "wordpressUrl": "https://klayconsultants.com/golden-visa/",
+      "reactPath": "/golden-visa/",
+      "inWordPressSitemap": false,
+      "status": "route implemented"
+    },
+    {
+      "type": "page",
+      "wordpressUrl": "https://klayconsultants.com/about/",
+      "reactPath": "/about/",
+      "inWordPressSitemap": false,
+      "status": "route implemented"
+    },
+    {
+      "type": "page",
+      "wordpressUrl": "https://klayconsultants.com/cost-calculator/",
+      "reactPath": "/cost-calculator/",
+      "inWordPressSitemap": false,
+      "status": "route implemented"
+    },
+    {
+      "type": "page",
+      "wordpressUrl": "https://klayconsultants.com/contact-us/",
+      "reactPath": "/contact-us/",
+      "inWordPressSitemap": false,
+      "status": "route implemented"
+    },
+    {
+      "type": "post",
+      "wordpressUrl": "https://klayconsultants.com/uae-is-not-a-tax-haven-anymore-its-a-tax-strategy-hub/",
+      "reactPath": "/uae-is-not-a-tax-haven-anymore-its-a-tax-strategy-hub/",
+      "inWordPressSitemap": true,
+      "status": "matching slug and local content exist; source content and metadata unverified"
+    },
+    {
+      "type": "post",
+      "wordpressUrl": "https://klayconsultants.com/shareholder-agreement-uae-why-it-matters/",
+      "reactPath": "/shareholder-agreement-uae-why-it-matters/",
+      "inWordPressSitemap": true,
+      "status": "matching slug and local content exist; source content and metadata unverified"
+    },
+    {
+      "type": "post",
+      "wordpressUrl": "https://klayconsultants.com/the-uae-court-system-dispute-resolution/",
+      "reactPath": "/the-uae-court-system-dispute-resolution/",
+      "inWordPressSitemap": true,
+      "status": "matching slug and local content exist; source content and metadata unverified"
+    },
+    {
+      "type": "post",
+      "wordpressUrl": "https://klayconsultants.com/convert-free-zone-to-mainland-uae/",
+      "reactPath": "/convert-free-zone-to-mainland-uae/",
+      "inWordPressSitemap": true,
+      "status": "matching slug and local content exist; source content and metadata unverified"
+    },
+    {
+      "type": "post",
+      "wordpressUrl": "https://klayconsultants.com/end-of-service-gratuity-uae-calculation-guide-klay-consultants/",
+      "reactPath": "/end-of-service-gratuity-uae-calculation-guide-klay-consultants/",
+      "inWordPressSitemap": true,
+      "status": "matching slug and local content exist; source content and metadata unverified"
+    },
+    {
+      "type": "post",
+      "wordpressUrl": "https://klayconsultants.com/uae-dependent-visa-sponsorship-family-visa-guide-klay-consultants/",
+      "reactPath": "/uae-dependent-visa-sponsorship-family-visa-guide-klay-consultants/",
+      "inWordPressSitemap": true,
+      "status": "matching slug and local content exist; source content and metadata unverified"
+    },
+    {
+      "type": "post",
+      "wordpressUrl": "https://klayconsultants.com/transfer-shareholders-uae-company/",
+      "reactPath": "/transfer-shareholders-uae-company/",
+      "inWordPressSitemap": true,
+      "status": "matching slug and local content exist; source content and metadata unverified"
+    },
+    {
+      "type": "post",
+      "wordpressUrl": "https://klayconsultants.com/open-personal-bank-account-uae/",
+      "reactPath": "/open-personal-bank-account-uae/",
+      "inWordPressSitemap": true,
+      "status": "matching slug and local content exist; source content and metadata unverified"
+    },
+    {
+      "type": "post",
+      "wordpressUrl": "https://klayconsultants.com/how-to-transfer-a-corporate-bank-account-in-uae/",
+      "reactPath": "/how-to-transfer-a-corporate-bank-account-in-uae/",
+      "inWordPressSitemap": true,
+      "status": "matching slug and local content exist; source content and metadata unverified"
+    },
+    {
+      "type": "post",
+      "wordpressUrl": "https://klayconsultants.com/legal-heir-certificate-uae-will-probate-guide/",
+      "reactPath": "/legal-heir-certificate-uae-will-probate-guide/",
+      "inWordPressSitemap": true,
+      "status": "matching slug and local content exist; source content and metadata unverified"
+    },
+    {
+      "type": "post",
+      "wordpressUrl": "https://klayconsultants.com/restructuring-your-uae-company-when-and-how-to-change-structure/",
+      "reactPath": "/restructuring-your-uae-company-when-and-how-to-change-structure/",
+      "inWordPressSitemap": true,
+      "status": "matching slug and local content exist; source content and metadata unverified"
+    },
+    {
+      "type": "post",
+      "wordpressUrl": "https://klayconsultants.com/estate-planning-for-blended-families-and-unmarried-couples-in-the-uae-klay-consultants/",
+      "reactPath": "/estate-planning-for-blended-families-and-unmarried-couples-in-the-uae-klay-consultants/",
+      "inWordPressSitemap": true,
+      "status": "matching slug and local content exist; source content and metadata unverified"
+    },
+    {
+      "type": "post",
+      "wordpressUrl": "https://klayconsultants.com/updating-revoking-and-amending-your-uae-will-klay-consultants/",
+      "reactPath": "/updating-revoking-and-amending-your-uae-will-klay-consultants/",
+      "inWordPressSitemap": true,
+      "status": "matching slug and local content exist; source content and metadata unverified"
+    },
+    {
+      "type": "post",
+      "wordpressUrl": "https://klayconsultants.com/uae-will-vs-home-country-will-do-expats-need-both-klay-consultants/",
+      "reactPath": "/uae-will-vs-home-country-will-do-expats-need-both-klay-consultants/",
+      "inWordPressSitemap": true,
+      "status": "matching slug and local content exist; source content and metadata unverified"
+    },
+    {
+      "type": "post",
+      "wordpressUrl": "https://klayconsultants.com/power-of-attorney-in-the-uae-a-guide-for-business-owners-expats-klay-consultants/",
+      "reactPath": "/power-of-attorney-in-the-uae-a-guide-for-business-owners-expats-klay-consultants/",
+      "inWordPressSitemap": true,
+      "status": "matching slug and local content exist; source content and metadata unverified"
+    },
+    {
+      "type": "post",
+      "wordpressUrl": "https://klayconsultants.com/including-business-shares-in-your-uae-will-klay-consultants/",
+      "reactPath": "/including-business-shares-in-your-uae-will-klay-consultants/",
+      "inWordPressSitemap": true,
+      "status": "matching slug and local content exist; source content and metadata unverified"
+    },
+    {
+      "type": "post",
+      "wordpressUrl": "https://klayconsultants.com/guardianship-for-minor-children-in-a-uae-will-klay-consultants/",
+      "reactPath": "/guardianship-for-minor-children-in-a-uae-will-klay-consultants/",
+      "inWordPressSitemap": true,
+      "status": "matching slug and local content exist; source content and metadata unverified"
+    },
+    {
+      "type": "post",
+      "wordpressUrl": "https://klayconsultants.com/how-to-register-a-non-muslim-will-in-the-uae-step-by-step-klay-consultants/",
+      "reactPath": "/how-to-register-a-non-muslim-will-in-the-uae-step-by-step-klay-consultants/",
+      "inWordPressSitemap": true,
+      "status": "matching slug and local content exist; source content and metadata unverified"
+    },
+    {
+      "type": "post",
+      "wordpressUrl": "https://klayconsultants.com/difc-wills-vs-abu-dhabi-wills-registry-which-should-you-choose-klay-consultants/",
+      "reactPath": "/difc-wills-vs-abu-dhabi-wills-registry-which-should-you-choose-klay-consultants/",
+      "inWordPressSitemap": true,
+      "status": "matching slug and local content exist; source content and metadata unverified"
+    },
+    {
+      "type": "post",
+      "wordpressUrl": "https://klayconsultants.com/what-happens-if-you-die-without-a-will-in-the-uae/",
+      "reactPath": "/what-happens-if-you-die-without-a-will-in-the-uae/",
+      "inWordPressSitemap": true,
+      "status": "matching slug and local content exist; source content and metadata unverified"
+    },
+    {
+      "type": "post",
+      "wordpressUrl": "https://klayconsultants.com/tourist-bank-accounts-in-the-uae/",
+      "reactPath": "/tourist-bank-accounts-in-the-uae/",
+      "inWordPressSitemap": true,
+      "status": "matching slug and local content exist; source content and metadata unverified"
+    },
+    {
+      "type": "post",
+      "wordpressUrl": "https://klayconsultants.com/fast-company-incorporation-in-4-days-the-smart-way-to-launch-your-business/",
+      "reactPath": "/fast-company-incorporation-in-4-days-the-smart-way-to-launch-your-business/",
+      "inWordPressSitemap": true,
+      "status": "missing local content"
+    },
+    {
+      "type": "post",
+      "wordpressUrl": "https://klayconsultants.com/why-dubai-business-market-is-becoming-more-selective/",
+      "reactPath": "/why-dubai-business-market-is-becoming-more-selective/",
+      "inWordPressSitemap": true,
+      "status": "matching slug and local content exist; source content and metadata unverified"
+    },
+    {
+      "type": "post",
+      "wordpressUrl": "https://klayconsultants.com/the-real-cost-of-cheap-business-setup-in-dubai/",
+      "reactPath": "/the-real-cost-of-cheap-business-setup-in-dubai/",
+      "inWordPressSitemap": true,
+      "status": "matching slug and local content exist; source content and metadata unverified"
+    },
+    {
+      "type": "post",
+      "wordpressUrl": "https://klayconsultants.com/why-trust-is-becoming-the-most-valuable-currency-in-dubai-business/",
+      "reactPath": "/why-trust-is-becoming-the-most-valuable-currency-in-dubai-business/",
+      "inWordPressSitemap": true,
+      "status": "matching slug and local content exist; source content and metadata unverified"
+    },
+    {
+      "type": "post",
+      "wordpressUrl": "https://klayconsultants.com/company-incorporation-services-with-legal-structuring-why-it-matters-for-long-term-business-growth/",
+      "reactPath": "/company-incorporation-services-with-legal-structuring-why-it-matters-for-long-term-business-growth/",
+      "inWordPressSitemap": true,
+      "status": "missing local content"
+    },
+    {
+      "type": "post",
+      "wordpressUrl": "https://klayconsultants.com/elementor-5407/",
+      "reactPath": "/elementor-5407/",
+      "inWordPressSitemap": true,
+      "status": "missing local content"
+    },
+    {
+      "type": "post",
+      "wordpressUrl": "https://klayconsultants.com/how-incorporation-banking-aml-and-esr-work-together-in-the-uae/",
+      "reactPath": "/how-incorporation-banking-aml-and-esr-work-together-in-the-uae/",
+      "inWordPressSitemap": true,
+      "status": "matching slug and local content exist; source content and metadata unverified"
+    },
+    {
+      "type": "post",
+      "wordpressUrl": "https://klayconsultants.com/uae-import-export-license-how-to-start-a-trading-business/",
+      "reactPath": "/uae-import-export-license-how-to-start-a-trading-business/",
+      "inWordPressSitemap": true,
+      "status": "matching slug and local content exist; source content and metadata unverified"
+    },
+    {
+      "type": "post",
+      "wordpressUrl": "https://klayconsultants.com/opening-a-restaurant-or-cafe-in-the-uae-guide/",
+      "reactPath": "/opening-a-restaurant-or-cafe-in-the-uae-guide/",
+      "inWordPressSitemap": true,
+      "status": "matching slug and local content exist; source content and metadata unverified"
+    },
+    {
+      "type": "post",
+      "wordpressUrl": "https://klayconsultants.com/elementor-5791/",
+      "reactPath": "/elementor-5791/",
+      "inWordPressSitemap": true,
+      "status": "missing local content"
+    },
+    {
+      "type": "post",
+      "wordpressUrl": "https://klayconsultants.com/uae-investor-visa-vs-partner-visa-a-complete-guide/",
+      "reactPath": "/uae-investor-visa-vs-partner-visa-a-complete-guide/",
+      "inWordPressSitemap": true,
+      "status": "missing local content"
+    },
+    {
+      "type": "post",
+      "wordpressUrl": "https://klayconsultants.com/how-to-open-a-branch-of-a-foreign-company-in-the-uae-klay-consultants-2/",
+      "reactPath": "/how-to-open-a-branch-of-a-foreign-company-in-the-uae-klay-consultants-2/",
+      "inWordPressSitemap": true,
+      "status": "missing local content"
+    },
+    {
+      "type": "post",
+      "wordpressUrl": "https://klayconsultants.com/uae-real-estate-investment-for-foreigners-complete-guide-klay-consultants/",
+      "reactPath": "/uae-real-estate-investment-for-foreigners-complete-guide-klay-consultants/",
+      "inWordPressSitemap": true,
+      "status": "missing local content"
+    },
+    {
+      "type": "post",
+      "wordpressUrl": "https://klayconsultants.com/uae-holding-company-setup-complete-guide-klay-consultants/",
+      "reactPath": "/uae-holding-company-setup-complete-guide-klay-consultants/",
+      "inWordPressSitemap": true,
+      "status": "missing local content"
+    },
+    {
+      "type": "post",
+      "wordpressUrl": "https://klayconsultants.com/uae-freelance-visa-freelance-license-guide-2026-klay-consultants-2/",
+      "reactPath": "/uae-freelance-visa-freelance-license-guide-2026-klay-consultants-2/",
+      "inWordPressSitemap": true,
+      "status": "missing local content"
+    },
+    {
+      "type": "post",
+      "wordpressUrl": "https://klayconsultants.com/trademark-registration-uae-complete-guide-costs-process-klay-consultants/",
+      "reactPath": "/trademark-registration-uae-complete-guide-costs-process-klay-consultants/",
+      "inWordPressSitemap": true,
+      "status": "matching slug and local content exist; source content and metadata unverified"
+    },
+    {
+      "type": "post",
+      "wordpressUrl": "https://klayconsultants.com/uae-aml-kyc-compliance-for-businesses-complete-guide-klay-consultants/",
+      "reactPath": "/uae-aml-kyc-compliance-for-businesses-complete-guide-klay-consultants/",
+      "inWordPressSitemap": true,
+      "status": "matching slug and local content exist; source content and metadata unverified"
+    },
+    {
+      "type": "post",
+      "wordpressUrl": "https://klayconsultants.com/opening-a-restaurant-or-cafe-in-the-u-a-e-licensing-approvals-klay-consultants/",
+      "reactPath": "/opening-a-restaurant-or-cafe-in-the-u-a-e-licensing-approvals-klay-consultants/",
+      "inWordPressSitemap": true,
+      "status": "missing local content"
+    },
+    {
+      "type": "post",
+      "wordpressUrl": "https://klayconsultants.com/uae-investor-visa-vs-partner-visa-what-business-owners-need-to-know/",
+      "reactPath": "/uae-investor-visa-vs-partner-visa-what-business-owners-need-to-know/",
+      "inWordPressSitemap": true,
+      "status": "missing local content"
+    },
+    {
+      "type": "post",
+      "wordpressUrl": "https://klayconsultants.com/how-to-open-a-branch-of-a-foreign-company-in-the-uae-klay-consultants/",
+      "reactPath": "/how-to-open-a-branch-of-a-foreign-company-in-the-uae-klay-consultants/",
+      "inWordPressSitemap": true,
+      "status": "missing local content"
+    },
+    {
+      "type": "post",
+      "wordpressUrl": "https://klayconsultants.com/buying-property-in-the-uae-as-a-foreign-investor-guide-klay-consultants/",
+      "reactPath": "/buying-property-in-the-uae-as-a-foreign-investor-guide-klay-consultants/",
+      "inWordPressSitemap": true,
+      "status": "matching slug and local content exist; source content and metadata unverified"
+    },
+    {
+      "type": "post",
+      "wordpressUrl": "https://klayconsultants.com/setting-up-a-holding-company-in-the-uae-complete-guide-klay-consultants/",
+      "reactPath": "/setting-up-a-holding-company-in-the-uae-complete-guide-klay-consultants/",
+      "inWordPressSitemap": true,
+      "status": "matching slug and local content exist; source content and metadata unverified"
+    },
+    {
+      "type": "post",
+      "wordpressUrl": "https://klayconsultants.com/uae-freelance-visa-freelance-license-guide-2026-klay-consultants/",
+      "reactPath": "/uae-freelance-visa-freelance-license-guide-2026-klay-consultants/",
+      "inWordPressSitemap": true,
+      "status": "matching slug and local content exist; source content and metadata unverified"
+    },
+    {
+      "type": "user-provided-post",
+      "wordpressUrl": null,
+      "proposedUrl": "https://klayconsultants.com/difc-and-adgm-will-registration-a-modern-estate-planning-solution-for-expats-in-the-uae/",
+      "reactPath": "/difc-and-adgm-will-registration-a-modern-estate-planning-solution-for-expats-in-the-uae/",
+      "inWordPressSitemap": false,
+      "status": "user-provided article; route and sitemap enabled; WordPress publication not verified"
+    },
+    {
+      "type": "user-provided-post",
+      "wordpressUrl": null,
+      "proposedUrl": "https://klayconsultants.com/inheritance-and-succession-planning-in-the-uae-why-expats-must-plan-early/",
+      "reactPath": "/inheritance-and-succession-planning-in-the-uae-why-expats-must-plan-early/",
+      "inWordPressSitemap": false,
+      "status": "user-provided article; route and sitemap enabled; WordPress publication not verified"
+    },
+    {
+      "type": "user-provided-post",
+      "wordpressUrl": null,
+      "proposedUrl": "https://klayconsultants.com/aml-compliance-in-the-uae-what-every-business-must-know/",
+      "reactPath": "/aml-compliance-in-the-uae-what-every-business-must-know/",
+      "inWordPressSitemap": false,
+      "status": "user-provided article; route and sitemap enabled; WordPress publication not verified"
+    },
+    {
+      "type": "user-provided-post",
+      "wordpressUrl": null,
+      "proposedUrl": "https://klayconsultants.com/uae-business-bank-account-opening-why-structure-matters-before-you-apply/",
+      "reactPath": "/uae-business-bank-account-opening-why-structure-matters-before-you-apply/",
+      "inWordPressSitemap": false,
+      "status": "user-provided article; route and sitemap enabled; WordPress publication not verified"
+    },
+    {
+      "type": "user-provided-post",
+      "wordpressUrl": null,
+      "proposedUrl": "https://klayconsultants.com/esr-filing-in-the-uae-understanding-economic-substance-regulations/",
+      "reactPath": "/esr-filing-in-the-uae-understanding-economic-substance-regulations/",
+      "inWordPressSitemap": false,
+      "status": "user-provided article; route and sitemap enabled; WordPress publication not verified"
+    },
+    {
+      "type": "user-provided-post",
+      "wordpressUrl": null,
+      "proposedUrl": "https://klayconsultants.com/how-incorporation-banking-aml-and-esr-work-together-in-the-uae/",
+      "reactPath": "/how-incorporation-banking-aml-and-esr-work-together-in-the-uae/",
+      "inWordPressSitemap": false,
+      "status": "user-provided article; route and sitemap enabled; WordPress publication not verified"
+    },
+    {
+      "type": "category",
+      "wordpressUrl": "https://klayconsultants.com/category/uncategorized/",
+      "reactPath": "/category/uncategorized/",
+      "inWordPressSitemap": true,
+      "status": "route not implemented"
+    },
+    {
+      "type": "category",
+      "wordpressUrl": "https://klayconsultants.com/category/blog/",
+      "reactPath": "/category/blog/",
+      "inWordPressSitemap": true,
+      "status": "route not implemented"
+    },
+    {
+      "type": "tag",
+      "wordpressUrl": "https://klayconsultants.com/tag/uae-will-registration/",
+      "reactPath": "/tag/uae-will-registration/",
+      "inWordPressSitemap": true,
+      "status": "route not implemented"
+    },
+    {
+      "type": "tag",
+      "wordpressUrl": "https://klayconsultants.com/tag/klay-consultants/",
+      "reactPath": "/tag/klay-consultants/",
+      "inWordPressSitemap": true,
+      "status": "route not implemented"
+    },
+    {
+      "type": "tag",
+      "wordpressUrl": "https://klayconsultants.com/tag/inheritance-planning-uae/",
+      "reactPath": "/tag/inheritance-planning-uae/",
+      "inWordPressSitemap": true,
+      "status": "route not implemented"
+    },
+    {
+      "type": "tag",
+      "wordpressUrl": "https://klayconsultants.com/tag/estate-planning-uae/",
+      "reactPath": "/tag/estate-planning-uae/",
+      "inWordPressSitemap": true,
+      "status": "route not implemented"
+    },
+    {
+      "type": "tag",
+      "wordpressUrl": "https://klayconsultants.com/tag/dubai-business-registration/",
+      "reactPath": "/tag/dubai-business-registration/",
+      "inWordPressSitemap": true,
+      "status": "route not implemented"
+    },
+    {
+      "type": "tag",
+      "wordpressUrl": "https://klayconsultants.com/tag/uae-company-incorporation-guide/",
+      "reactPath": "/tag/uae-company-incorporation-guide/",
+      "inWordPressSitemap": true,
+      "status": "route not implemented"
+    },
+    {
+      "type": "tag",
+      "wordpressUrl": "https://klayconsultants.com/tag/uae-trade-license-requirements/",
+      "reactPath": "/tag/uae-trade-license-requirements/",
+      "inWordPressSitemap": true,
+      "status": "route not implemented"
+    },
+    {
+      "type": "tag",
+      "wordpressUrl": "https://klayconsultants.com/tag/dubai-business-setup/",
+      "reactPath": "/tag/dubai-business-setup/",
+      "inWordPressSitemap": true,
+      "status": "route not implemented"
+    },
+    {
+      "type": "tag",
+      "wordpressUrl": "https://klayconsultants.com/tag/free-zone-vs-mainland-uae/",
+      "reactPath": "/tag/free-zone-vs-mainland-uae/",
+      "inWordPressSitemap": true,
+      "status": "route not implemented"
+    },
+    {
+      "type": "tag",
+      "wordpressUrl": "https://klayconsultants.com/tag/open-bank-account-uae-company/",
+      "reactPath": "/tag/open-bank-account-uae-company/",
+      "inWordPressSitemap": true,
+      "status": "route not implemented"
+    },
+    {
+      "type": "tag",
+      "wordpressUrl": "https://klayconsultants.com/tag/uae-company-formation/",
+      "reactPath": "/tag/uae-company-formation/",
+      "inWordPressSitemap": true,
+      "status": "route not implemented"
+    },
+    {
+      "type": "tag",
+      "wordpressUrl": "https://klayconsultants.com/tag/aml-compliance-uae/",
+      "reactPath": "/tag/aml-compliance-uae/",
+      "inWordPressSitemap": true,
+      "status": "route not implemented"
+    },
+    {
+      "type": "tag",
+      "wordpressUrl": "https://klayconsultants.com/tag/trademark-registration-uae/",
+      "reactPath": "/tag/trademark-registration-uae/",
+      "inWordPressSitemap": true,
+      "status": "route not implemented"
+    },
+    {
+      "type": "tag",
+      "wordpressUrl": "https://klayconsultants.com/tag/uae-trademark/",
+      "reactPath": "/tag/uae-trademark/",
+      "inWordPressSitemap": true,
+      "status": "route not implemented"
+    },
+    {
+      "type": "tag",
+      "wordpressUrl": "https://klayconsultants.com/tag/trademark-protection-uae/",
+      "reactPath": "/tag/trademark-protection-uae/",
+      "inWordPressSitemap": true,
+      "status": "route not implemented"
+    },
+    {
+      "type": "tag",
+      "wordpressUrl": "https://klayconsultants.com/tag/freelance-visa-uae/",
+      "reactPath": "/tag/freelance-visa-uae/",
+      "inWordPressSitemap": true,
+      "status": "route not implemented"
+    },
+    {
+      "type": "tag",
+      "wordpressUrl": "https://klayconsultants.com/tag/uae-freelance-license/",
+      "reactPath": "/tag/uae-freelance-license/",
+      "inWordPressSitemap": true,
+      "status": "route not implemented"
+    },
+    {
+      "type": "tag",
+      "wordpressUrl": "https://klayconsultants.com/tag/uae-real-estate-investment/",
+      "reactPath": "/tag/uae-real-estate-investment/",
+      "inWordPressSitemap": true,
+      "status": "route not implemented"
+    },
+    {
+      "type": "tag",
+      "wordpressUrl": "https://klayconsultants.com/tag/uae-real-estate-investment-for-foreigners/",
+      "reactPath": "/tag/uae-real-estate-investment-for-foreigners/",
+      "inWordPressSitemap": true,
+      "status": "route not implemented"
+    },
+    {
+      "type": "tag",
+      "wordpressUrl": "https://klayconsultants.com/tag/dubai-property-investment/",
+      "reactPath": "/tag/dubai-property-investment/",
+      "inWordPressSitemap": true,
+      "status": "route not implemented"
+    },
+    {
+      "type": "tag",
+      "wordpressUrl": "https://klayconsultants.com/tag/uae-freehold-property/",
+      "reactPath": "/tag/uae-freehold-property/",
+      "inWordPressSitemap": true,
+      "status": "route not implemented"
+    },
+    {
+      "type": "tag",
+      "wordpressUrl": "https://klayconsultants.com/tag/foreign-company-branch-uae/",
+      "reactPath": "/tag/foreign-company-branch-uae/",
+      "inWordPressSitemap": true,
+      "status": "route not implemented"
+    },
+    {
+      "type": "tag",
+      "wordpressUrl": "https://klayconsultants.com/tag/uae-branch-office/",
+      "reactPath": "/tag/uae-branch-office/",
+      "inWordPressSitemap": true,
+      "status": "route not implemented"
+    },
+    {
+      "type": "tag",
+      "wordpressUrl": "https://klayconsultants.com/tag/branch-office-uae/",
+      "reactPath": "/tag/branch-office-uae/",
+      "inWordPressSitemap": true,
+      "status": "route not implemented"
+    },
+    {
+      "type": "tag",
+      "wordpressUrl": "https://klayconsultants.com/tag/uae-business-owners-choosing-a-residency-route/",
+      "reactPath": "/tag/uae-business-owners-choosing-a-residency-route/",
+      "inWordPressSitemap": true,
+      "status": "route not implemented"
+    },
+    {
+      "type": "tag",
+      "wordpressUrl": "https://klayconsultants.com/tag/uae-freelance-visa-freelance-license-guide-2026-klay-consultants/",
+      "reactPath": "/tag/uae-freelance-visa-freelance-license-guide-2026-klay-consultants/",
+      "inWordPressSitemap": true,
+      "status": "route not implemented"
+    },
+    {
+      "type": "tag",
+      "wordpressUrl": "https://klayconsultants.com/tag/open-a-branch-of-a-foreign-company/",
+      "reactPath": "/tag/open-a-branch-of-a-foreign-company/",
+      "inWordPressSitemap": true,
+      "status": "route not implemented"
+    },
+    {
+      "type": "tag",
+      "wordpressUrl": "https://klayconsultants.com/tag/fb-business-setup-uae/",
+      "reactPath": "/tag/fb-business-setup-uae/",
+      "inWordPressSitemap": true,
+      "status": "route not implemented"
+    },
+    {
+      "type": "tag",
+      "wordpressUrl": "https://klayconsultants.com/tag/uae-will/",
+      "reactPath": "/tag/uae-will/",
+      "inWordPressSitemap": true,
+      "status": "route not implemented"
+    },
+    {
+      "type": "tag",
+      "wordpressUrl": "https://klayconsultants.com/tag/difc-wills/",
+      "reactPath": "/tag/difc-wills/",
+      "inWordPressSitemap": true,
+      "status": "route not implemented"
+    },
+    {
+      "type": "tag",
+      "wordpressUrl": "https://klayconsultants.com/tag/uae-inheritance-law/",
+      "reactPath": "/tag/uae-inheritance-law/",
+      "inWordPressSitemap": true,
+      "status": "route not implemented"
+    },
+    {
+      "type": "tag",
+      "wordpressUrl": "https://klayconsultants.com/tag/business-succession-uae/",
+      "reactPath": "/tag/business-succession-uae/",
+      "inWordPressSitemap": true,
+      "status": "route not implemented"
+    },
+    {
+      "type": "tag",
+      "wordpressUrl": "https://klayconsultants.com/tag/wills-for-expats/",
+      "reactPath": "/tag/wills-for-expats/",
+      "inWordPressSitemap": true,
+      "status": "route not implemented"
+    },
+    {
+      "type": "tag",
+      "wordpressUrl": "https://klayconsultants.com/tag/uae-legal-services/",
+      "reactPath": "/tag/uae-legal-services/",
+      "inWordPressSitemap": true,
+      "status": "route not implemented"
+    },
+    {
+      "type": "tag",
+      "wordpressUrl": "https://klayconsultants.com/tag/guardianship-uae/",
+      "reactPath": "/tag/guardianship-uae/",
+      "inWordPressSitemap": true,
+      "status": "route not implemented"
+    },
+    {
+      "type": "tag",
+      "wordpressUrl": "https://klayconsultants.com/tag/abu-dhabi-wills/",
+      "reactPath": "/tag/abu-dhabi-wills/",
+      "inWordPressSitemap": true,
+      "status": "route not implemented"
+    },
+    {
+      "type": "tag",
+      "wordpressUrl": "https://klayconsultants.com/tag/uae-wills/",
+      "reactPath": "/tag/uae-wills/",
+      "inWordPressSitemap": true,
+      "status": "route not implemented"
+    },
+    {
+      "type": "tag",
+      "wordpressUrl": "https://klayconsultants.com/tag/dubai-expats/",
+      "reactPath": "/tag/dubai-expats/",
+      "inWordPressSitemap": true,
+      "status": "route not implemented"
+    },
+    {
+      "type": "tag",
+      "wordpressUrl": "https://klayconsultants.com/tag/adjd-wills-registry/",
+      "reactPath": "/tag/adjd-wills-registry/",
+      "inWordPressSitemap": true,
+      "status": "route not implemented"
+    },
+    {
+      "type": "tag",
+      "wordpressUrl": "https://klayconsultants.com/tag/uae-estate-planning/",
+      "reactPath": "/tag/uae-estate-planning/",
+      "inWordPressSitemap": true,
+      "status": "route not implemented"
+    },
+    {
+      "type": "tag",
+      "wordpressUrl": "https://klayconsultants.com/tag/difc-wills-service-centre/",
+      "reactPath": "/tag/difc-wills-service-centre/",
+      "inWordPressSitemap": true,
+      "status": "route not implemented"
+    },
+    {
+      "type": "tag",
+      "wordpressUrl": "https://klayconsultants.com/tag/abu-dhabi-expats/",
+      "reactPath": "/tag/abu-dhabi-expats/",
+      "inWordPressSitemap": true,
+      "status": "route not implemented"
+    },
+    {
+      "type": "tag",
+      "wordpressUrl": "https://klayconsultants.com/tag/non-muslim-will-uae/",
+      "reactPath": "/tag/non-muslim-will-uae/",
+      "inWordPressSitemap": true,
+      "status": "route not implemented"
+    },
+    {
+      "type": "tag",
+      "wordpressUrl": "https://klayconsultants.com/tag/register-a-will-in-uae/",
+      "reactPath": "/tag/register-a-will-in-uae/",
+      "inWordPressSitemap": true,
+      "status": "route not implemented"
+    },
+    {
+      "type": "tag",
+      "wordpressUrl": "https://klayconsultants.com/tag/business-owners-will/",
+      "reactPath": "/tag/business-owners-will/",
+      "inWordPressSitemap": true,
+      "status": "route not implemented"
+    },
+    {
+      "type": "tag",
+      "wordpressUrl": "https://klayconsultants.com/tag/adjd-wills/",
+      "reactPath": "/tag/adjd-wills/",
+      "inWordPressSitemap": true,
+      "status": "route not implemented"
+    },
+    {
+      "type": "tag",
+      "wordpressUrl": "https://klayconsultants.com/tag/guardianship-will/",
+      "reactPath": "/tag/guardianship-will/",
+      "inWordPressSitemap": true,
+      "status": "route not implemented"
+    },
+    {
+      "type": "tag",
+      "wordpressUrl": "https://klayconsultants.com/tag/minor-children-uae/",
+      "reactPath": "/tag/minor-children-uae/",
+      "inWordPressSitemap": true,
+      "status": "route not implemented"
+    }
+  ]
+}

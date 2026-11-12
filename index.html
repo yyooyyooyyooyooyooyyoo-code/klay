@@ -3,46 +3,64 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Business Setup Consultants in Dubai | Klay Consultants</title>
     <meta name="description" content="Start your business in Dubai with Klay Consultants. Explore UAE company formation, Mainland, Free Zone, licensing and business setup guidance." />
     <meta name="robots" content="index,follow" />
     <meta name="keywords" content="Business Setup Consultants in Dubai" />
     <link rel="canonical" href="https://klayconsultants.com/" />
-    <script>
-      (function (w, d, s, l, i) {
-        w[l] = w[l] || [];
-        w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
-        var firstScript = d.getElementsByTagName(s)[0];
-        var script = d.createElement(s);
-        var layer = l !== 'dataLayer' ? '&l=' + l : '';
-        script.async = true;
-        script.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + layer;
-        firstScript.parentNode.insertBefore(script, firstScript);
-      })(window, document, 'script', 'dataLayer', 'GTM-MHNJGSWX');
-    </script>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NS77XMTC7B"></script>
+    <link rel="preload" href="/fonts/plus-jakarta-sans-v12-latin.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/outfit-v15-latin.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preconnect" href="https://embed.fillout.com" />
+    <link rel="dns-prefetch" href="https://forms.fillout.com" />
+    <link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48" />
+    <link rel="icon" href="/favicon-48.png" type="image/png" sizes="48x48" />
+    <link rel="icon" href="/icon-192.png" type="image/png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta name="theme-color" content="#0C2D48" />
     <script>
       window.dataLayer = window.dataLayer || [];
-      window.gtag = function () { window.dataLayer.push(arguments); };
+      window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };
       window.gtag('js', new Date());
-      window.gtag('config', 'G-NS77XMTC7B', { send_page_view: false });
+      (function () {
+        var loadDelay = 4000;
+        var triggerOnce = false;
+        var loadGtm = function () {
+          if (triggerOnce) return;
+          triggerOnce = true;
+          (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+            var firstScript = d.getElementsByTagName(s)[0];
+            var script = d.createElement(s);
+            var layer = l !== 'dataLayer' ? '&l=' + l : '';
+            script.async = true;
+            script.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + layer;
+            firstScript.parentNode.insertBefore(script, firstScript);
+          })(window, document, 'script', 'dataLayer', 'GTM-MHNJGSWX');
+        };
+
+        var onUserInteraction = function () {
+          loadGtm();
+        };
+
+        setTimeout(loadGtm, loadDelay);
+        ['pointerdown', 'touchstart', 'keydown', 'scroll', 'mousemove'].forEach(function (eventName) {
+          document.addEventListener(eventName, onUserInteraction, { once: true, passive: true });
+        });
+      })();
     </script>
+    <meta property="og:site_name" content="Klay Consultants" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Business Setup Consultants in Dubai | Klay Consultants" />
     <meta property="og:description" content="Start your business in Dubai with Klay Consultants. Explore UAE company formation, Mainland, Free Zone, licensing and business setup guidance." />
     <meta property="og:url" content="https://klayconsultants.com/" />
-    <meta property="og:image" content="https://images.pexels.com/photos/29470840/pexels-photo-29470840.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1920" />
+    <meta property="og:image" content="https://klayconsultants.com/images/og-default.jpg" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Business Setup Consultants in Dubai | Klay Consultants" />
     <meta name="twitter:description" content="Start your business in Dubai with Klay Consultants. Explore UAE company formation, Mainland, Free Zone, licensing and business setup guidance." />
-    <meta name="twitter:image" content="https://images.pexels.com/photos/29470840/pexels-photo-29470840.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1920" />
+    <meta name="twitter:image" content="https://klayconsultants.com/images/og-default.jpg" />
     <script id="seo-jsonld" type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Klay Consultants","url":"https://klayconsultants.com/"}</script>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <title>Business Setup Consultants in Dubai | Klay Consultants</title>
   </head>
   <body>
     <noscript>
@@ -54,7 +72,16 @@
         title="Google Tag Manager"
       ></iframe>
     </noscript>
+    <noscript>
+      <iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-MHNJGSWX"
+        height="0"
+        width="0"
+        style="display:none;visibility:hidden"
+        title="Google Tag Manager"
+      ></iframe>
+    </noscript>
     <div id="root" data-prerendered="false"></div>
-    <script type="module" src="/main.tsx"></script>
+    <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

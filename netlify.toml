@@ -1,6 +1,12 @@
+# Netlify is a PREVIEW / showcase only. Production is Hostinger (static dist/ upload, configured by the
+# generated dist/.htaccess): see docs/DEPLOY-HOSTINGER.md. Every Netlify response is noindex (below).
+
 [build]
 command = "npm run build"
 publish = "dist"
+
+# Host canonicalization, only used if the domain were ever pointed at Netlify (which would also need the
+# X-Robots-Tag below removed). On Hostinger, dist/.htaccess does this.
 
 [[redirects]]
 from = "http://www.klayconsultants.com/*"
@@ -20,20 +26,93 @@ to = "https://klayconsultants.com/:splat"
 status = 301
 force = true
 
+# Headers. Keep in sync with SECURITY_HEADERS and cacheControlFor() in server.js.
+#
+# Netlify can apply every rule that matches a path, and it may join same-name values with commas.
+# So each header name is set by only ONE rule per path: "/*" sets security headers only, and the
+# path-specific rules below set Cache-Control only. HTML pages (pretty URLs such as /blog/) get
+# Netlify's default "Cache-Control: public, max-age=0, must-revalidate", which is the policy we want.
+#
+# No enforcing Content-Security-Policy yet: GTM, the Fillout/zite.com form iframes (Cloudflare
+# Turnstile) and images.pexels.com need a tested allow-list first (start Report-Only).
+# X-Robots-Tag: this Netlify site (production, deploy-preview and branch-deploy contexts alike; headers
+# in this file are global) must never be indexed. The Hostinger .htaccess does NOT send it.
+[[headers]]
+for = "/*"
+  [headers.values]
+  X-Robots-Tag = "noindex, nofollow"
+  Strict-Transport-Security = "max-age=31536000; includeSubDomains"
+  X-Content-Type-Options = "nosniff"
+  Referrer-Policy = "strict-origin-when-cross-origin"
+  Permissions-Policy = "accelerometer=(), camera=(), display-capture=(), geolocation=(), gyroscope=(), hid=(), idle-detection=(), magnetometer=(), microphone=(), midi=(), payment=(), serial=(), usb=(), xr-spatial-tracking=()"
+  X-Frame-Options = "SAMEORIGIN"
+
+# Vite output: content-hashed file names, safe to cache forever.
 [[headers]]
 for = "/assets/*"
   [headers.values]
   Cache-Control = "public, max-age=31536000, immutable"
-  X-Content-Type-Options = "nosniff"
+
+# Unhashed media: 30 days.
+[[headers]]
+for = "/images/*"
+  [headers.values]
+  Cache-Control = "public, max-age=2592000"
 
 [[headers]]
 for = "/videos/*"
   [headers.values]
   Cache-Control = "public, max-age=2592000"
-  X-Content-Type-Options = "nosniff"
 
-[context.deploy-preview]
-  [[context.deploy-preview.headers]]
-  for = "/*"
-    [context.deploy-preview.headers.values]
-    X-Robots-Tag = "noindex, nofollow"
+[[headers]]
+for = "/fonts/*"
+  [headers.values]
+  Cache-Control = "public, max-age=2592000"
+
+# Favicons and web app manifest: stable URLs, 1 day.
+[[headers]]
+for = "/favicon.ico"
+  [headers.values]
+  Cache-Control = "public, max-age=86400"
+
+[[headers]]
+for = "/favicon-48.png"
+  [headers.values]
+  Cache-Control = "public, max-age=86400"
+
+[[headers]]
+for = "/apple-touch-icon.png"
+  [headers.values]
+  Cache-Control = "public, max-age=86400"
+
+[[headers]]
+for = "/icon-*"
+  [headers.values]
+  Cache-Control = "public, max-age=86400"
+
+[[headers]]
+for = "/site.webmanifest"
+  [headers.values]
+  Cache-Control = "public, max-age=86400"
+
+# Crawl files change with each content update: 1 hour.
+# (_redirects and _headers are read by Netlify as config and are not served, so they need no rule here.)
+[[headers]]
+for = "/sitemap.xml"
+  [headers.values]
+  Cache-Control = "public, max-age=3600"
+
+[[headers]]
+for = "/sitemap-*"
+  [headers.values]
+  Cache-Control = "public, max-age=3600"
+
+[[headers]]
+for = "/robots.txt"
+  [headers.values]
+  Cache-Control = "public, max-age=3600"
+
+[[headers]]
+for = "/llms.txt"
+  [headers.values]
+  Cache-Control = "public, max-age=3600"

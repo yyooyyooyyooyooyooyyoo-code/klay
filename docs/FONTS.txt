@@ -1,0 +1,26 @@
+Self-hosted web fonts
+=====================
+
+Files in public/fonts/ (WOFF2, variable weight axis, one file per family per subset):
+
+  outfit-v15-latin.woff2                 Outfit, weights 600-800, latin subset
+  outfit-v15-latin-ext.woff2             Outfit, weights 600-800, latin-ext subset
+  plus-jakarta-sans-v12-latin.woff2      Plus Jakarta Sans, weights 400-700, latin subset
+  plus-jakarta-sans-v12-latin-ext.woff2  Plus Jakarta Sans, weights 400-700, latin-ext subset
+
+Source: Google Fonts (fonts.gstatic.com), downloaded 2026-11-11 from the CSS served for
+  https://fonts.googleapis.com/css2?family=Outfit:wght@600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap
+The "v15" / "v12" in the file names is the Google Fonts version of each family, so a future
+update gets a new URL (safe to cache these files long-term).
+
+The @font-face rules that use these files (font-display: swap, unicode-range per subset) are in
+src/styles/globals.css. The latin files are preloaded in index.html; the latin-ext files are only
+downloaded by browsers when a page actually contains latin-ext characters.
+
+Licence: both families are licensed under the SIL Open Font License, Version 1.1
+(https://openfontlicense.org/open-font-license-official-text/).
+  Outfit - Copyright 2021 The Outfit Project Authors (https://github.com/Outfitio/Outfit-Fonts)
+  Plus Jakarta Sans - Copyright 2020 The Plus Jakarta Sans Project Authors
+    (https://github.com/tokotype/PlusJakartaSans)
+The OFL permits use, bundling and redistribution with software (including websites); the fonts
+must not be sold on their own.

@@ -3,10 +3,8 @@ import type { Config } from 'tailwindcss';
 const config: Config = {
   darkMode: ['class'],
   content: [
-    './pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './components/**/*.{js,ts,jsx,tsx,mdx}',
-    './app/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/**/*.{js,ts,jsx,tsx,mdx}',
+    './index.html',
+    './src/**/*.{js,ts,jsx,tsx,md}',
   ],
   theme: {
     extend: {
@@ -101,6 +99,17 @@ const config: Config = {
       },
       backdropBlur: {
         glass: '20px',
+      },
+      // Tailwind 3.3 has no spacing-based min-h-* utilities (added in 3.4).
+      // These match the 3.4 spacing scale so existing classes (min-h-11 = 44px
+      // tap targets, etc.) generate real CSS.
+      minHeight: {
+        10: '2.5rem',
+        11: '2.75rem',
+        12: '3rem',
+        52: '13rem',
+        64: '16rem',
+        72: '18rem',
       },
       keyframes: {
         'accordion-down': {

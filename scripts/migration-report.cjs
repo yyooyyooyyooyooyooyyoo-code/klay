@@ -3,7 +3,8 @@ const path = require('node:path');
 const ts = require('typescript');
 
 const root = path.resolve(__dirname, '..');
-const distDir = path.join(root, 'dist');
+const distDir = process.env.DIST_DIR ? path.resolve(root, process.env.DIST_DIR) : path.join(root, 'dist');
+const reportDir = path.join(root, 'docs', 'migration');
 const siteOrigin = 'https://klayconsultants.com';
 
 require.extensions['.ts'] = (module, filename) => {
@@ -19,8 +20,8 @@ require.extensions['.ts'] = (module, filename) => {
   module._compile(output, filename);
 };
 
-const { BLOG_PREVIEW } = require(path.join(root, 'lib', 'data.ts'));
-const { getPrerenderRoutes, getPublicSeoRoutes, SITE_ORIGIN } = require(path.join(root, 'lib', 'seo.ts'));
+const { BLOG_POSTS: BLOG_PREVIEW } = require(path.join(root, 'src', 'content', 'blog', 'posts.ts'));
+const { getPrerenderRoutes, getPublicSeoRoutes, SITE_ORIGIN } = require(path.join(root, 'src', 'lib', 'seo.ts'));
 const {
   WORDPRESS_CATEGORY_SLUGS,
   WORDPRESS_PAGE_ROUTES,
@@ -32,7 +33,7 @@ const {
   getBlogArticleRoute,
   getWordPressCategoryRoute,
   getWordPressTagRoute,
-} = require(path.join(root, 'src', 'config', 'routes.ts'));
+} = require(path.join(root, 'src', 'lib', 'routes.ts'));
 
 const localPostSlugs = new Set(BLOG_PREVIEW.map((post) => post.slug));
 const publicPagePaths = new Set(
@@ -155,7 +156,12 @@ function inspectLinks() {
       }
 
       if (target.hash && status === 'verified prerendered route') {
-        const fragment = decodeURIComponent(target.hash.slice(1));
+        let fragment = target.hash.slice(1);
+        try {
+          fragment = decodeURIComponent(fragment);
+        } catch {
+          // keep the raw fragment
+        }
         const fragmentPattern = new RegExp(`(?:id|name)="${fragment.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}"`);
         if (!fragmentPattern.test(validationPage || html)) {
           status = 'broken fragment';
@@ -251,9 +257,15 @@ function writeReports() {
   const userProvidedArticleLabel = userProvidedArticleCount === 1 ? 'article is' : 'articles are';
   const sourceSitemapCovered = WORDPRESS_SITEMAP_PAGE_ROUTES.length + implementedPosts;
   const sourceSitemapTotal = inventory.evidence.totalWordPressSitemapUrls;
+  const wordpressPostSlugs = new Set(WORDPRESS_POST_SLUGS);
+  const userProvidedSlugs = new Set(USER_PROVIDED_POST_SLUGS);
+  const reactOnlyArticles = BLOG_PREVIEW.filter((post) => !wordpressPostSlugs.has(post.slug) && !userProvidedSlugs.has(post.slug)).length;
+  const pageCount = WORDPRESS_PAGE_ROUTES.length;
+  const postCount = WORDPRESS_POST_SLUGS.length;
 
+  fs.mkdirSync(reportDir, { recursive: true });
   fs.writeFileSync(
-    path.join(root, 'seo-url-migration.json'),
+    path.join(reportDir, 'seo-url-migration.json'),
     `${JSON.stringify(inventory, null, 2)}\n`,
     'utf8',
   );
@@ -266,18 +278,18 @@ function writeReports() {
     '## Scope and evidence',
     '',
     '- URL inventory is based on the public WordPress REST API and sitemap snapshot reviewed during this migration.',
-    '- The published WordPress page inventory contains 10 pages; its sitemap includes 4 page URLs, 44 post URLs, 2 category URLs and 48 tag URLs (98 sitemap URLs total).',
+    `- The published WordPress page inventory contains ${pageCount} pages; its sitemap includes ${WORDPRESS_SITEMAP_PAGE_ROUTES.length} page URLs, ${postCount} post URLs, ${WORDPRESS_CATEGORY_SLUGS.length} category URLs and ${WORDPRESS_TAG_SLUGS.length} tag URLs (${sourceSitemapTotal} sitemap URLs total).`,
     '- A matching React route or slug is not evidence that the original WordPress article body, images, schema or metadata were preserved.',
     '- No WPGraphQL integration is present in this repository; the public `/graphql` endpoint returned 404 during the source audit. The public REST API was reachable, but is not yet a configured content source for this app.',
     '',
     '## Route coverage',
     '',
-    `- Published WordPress pages with a React route: ${implementedPages}/10; routes still missing: ${missingPages}.`,
-    `- Sitemap posts with a matching local slug and local article data: ${implementedPosts}/44; matching content and metadata have not been compared against WordPress.`,
-    `- Sitemap posts without local article data: ${missingPosts}/44.`,
-    `- Category and tag archive routes not implemented: ${missingTaxonomyUrls} (2 categories, 48 tags).`,
+    `- Published WordPress pages with a React route: ${implementedPages}/${pageCount}; routes still missing: ${missingPages}.`,
+    `- Sitemap posts with a matching local slug and local article data: ${implementedPosts}/${postCount}; matching content and metadata have not been compared against WordPress.`,
+    `- Sitemap posts without local article data: ${missingPosts}/${postCount}.`,
+    `- Category and tag archive routes not implemented: ${missingTaxonomyUrls} (${WORDPRESS_CATEGORY_SLUGS.length} categories, ${WORDPRESS_TAG_SLUGS.length} tags).`,
     `- WordPress sitemap URLs represented by a route or matching post slug: ${sourceSitemapCovered}/${sourceSitemapTotal}; ${sourceSitemapTotal - sourceSitemapCovered} source sitemap URLs remain uncovered.`,
-    `- ${BLOG_PREVIEW.length - implementedPosts - USER_PROVIDED_POST_SLUGS.length} local article entries are not in the captured WordPress post sitemap; they are excluded from the public sitemap and marked noindex.`,
+    `- ${reactOnlyArticles} local article entries are not in the captured WordPress post sitemap or the user-provided list; they are new React articles, indexable and listed in the blog sitemap.`,
     `- ${userProvidedArticleCount} user-provided ${userProvidedArticleLabel} included in the React sitemap but not verified as published in the captured WordPress sitemap.`,
     '- User-provided articles use their supplied bodies, SEO metadata, images and proposed root-level slugs; WordPress publication status is unverified.',
     '- The migration inventory, including each verified source URL and implementation status, is in `seo-url-migration.json`.',
@@ -295,10 +307,10 @@ function writeReports() {
     '- The audited Google Tag Manager container `GTM-MHNJGSWX` and Google Analytics 4 measurement ID `G-NS77XMTC7B` are configured. SPA page-view collection is enabled; Ads/Meta tag firing and conversion events remain unverified after migration.',
     '- The contact and lead-form user journeys have not been verified end to end. In particular, `BusinessSetupEnquiryForm` does not currently submit a lead.',
     '- Production route behavior, 301 redirects, form submissions, cookie/consent behavior, Search Console and post-release analytics require verification on the deployed host.',
-    '- The React project does not have a CMS/API endpoint configured for retrieving the 20 missing article bodies or comparing the 24 local article entries with their WordPress source.',
+    `- The React project does not have a CMS/API endpoint configured for retrieving the ${missingPosts} missing article bodies or comparing the ${implementedPosts} matching local article entries with their WordPress source.`,
     '',
   ].join('\n');
-  fs.writeFileSync(path.join(root, 'seo-migration-report.md'), seoReport, 'utf8');
+  fs.writeFileSync(path.join(reportDir, 'seo-migration-report.md'), seoReport, 'utf8');
 
   const brokenLinkRows = linkAudit.brokenLinks.map((item, index) => (
     `| ${index + 1} | ${escapeTable(item.from)} | ${escapeTable(item.href)} | ${escapeTable(item.label)} | ${escapeTable(item.reason)} |`
@@ -341,7 +353,7 @@ function writeReports() {
     `Unsupported URL schemes: ${linkAudit.unsupportedLinks}. External destinations and form submissions are intentionally marked unverified, not reported as working based solely on markup.`,
     '',
   ].join('\n');
-  fs.writeFileSync(path.join(root, 'link-audit-report.md'), linkReport, 'utf8');
+  fs.writeFileSync(path.join(reportDir, 'link-audit-report.md'), linkReport, 'utf8');
 
   const checklist = [
     '# WordPress to React Migration Checklist',
@@ -354,7 +366,7 @@ function writeReports() {
     '- [x] Preserve verified core-page paths, titles, descriptions and canonical origin in the React site.',
     '- [x] Route matching WordPress post slugs at their root-level URLs.',
     '- [x] Add user-provided articles at their proposed root-level URLs and include them in the React blog and sitemap.',
-    '- [x] Exclude local-only articles from the public sitemap and apply noindex to those article routes.',
+    '- [x] Index every local article and include it in the blog sitemap (decision 2026-11-11).',
     '- [x] Generate route-specific prerendered HTML and validate metadata, canonical tags, JSON-LD, sitemap entries and local links during the build.',
     '- [x] Configure the captured GTM container and GA4 ID with SPA page-view tracking.',
     '',
@@ -373,10 +385,10 @@ function writeReports() {
     '',
     '## Release status',
     '',
-    'Migration is not ready for production cutover while source content, taxonomy routes, three published pages, form submission behavior and production tracking remain unresolved.',
+    `Migration is not ready for production cutover while source content, taxonomy routes, ${missingPages} published page${missingPages === 1 ? '' : 's'} without a route, form submission behavior and production tracking remain unresolved.`,
     '',
   ].join('\n');
-  fs.writeFileSync(path.join(root, 'migration-checklist.md'), checklist, 'utf8');
+  fs.writeFileSync(path.join(reportDir, 'migration-checklist.md'), checklist, 'utf8');
 
   if (linkAudit.brokenLinks.length) {
     throw new Error(`Migration reports generated, but ${linkAudit.brokenLinks.length} broken internal links were found; see link-audit-report.md.`);
